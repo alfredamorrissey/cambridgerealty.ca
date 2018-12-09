@@ -1,0 +1,646 @@
+[2018-01-12 1:38:14.337507] [info] Entering index: 
+[2018-01-12 1:38:14.337677] [info] -->action: 
+[2018-01-12 1:38:14.337718] [info] -->suite_id: 
+[2018-01-12 1:38:14.337754] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-01-12 2:12:10.282721] [info] Entering index: 
+[2018-01-12 2:12:10.282890] [info] -->action: 
+[2018-01-12 2:12:10.282932] [info] -->suite_id: 
+[2018-01-12 2:12:10.282967] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-01-12 2:21:34.900743] [info] Entering index: 
+[2018-01-12 2:21:34.900933] [info] -->action: floor_plan
+[2018-01-12 2:21:34.900975] [info] -->suite_id: B-2
+[2018-01-12 2:21:34.973413] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE code='B-2'
+[2018-01-12 2:21:34.973560] [info] 1 rows returned.
+[2018-01-12 2:21:34.973625] [info] beanGallery->dxHashToClass
+    gallery_id: '11'
+    code: 'B-2'
+    description: 'Floor Plan B-2'
+[2018-01-12 2:21:34.973854] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [11]
+code [B-2]
+description [Floor Plan B-2]
+exists [1]
+
+[2018-01-12 2:21:34.985184] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='11'
+[2018-01-12 2:21:34.985300] [info] 1 rows returned.
+[2018-01-12 2:21:34.985340] [info] Results: 1
+[2018-01-12 2:21:34.985385] [info] beanGallery->dxHashToClass
+    gallery_id: '11'
+    code: 'B-2'
+    description: 'Floor Plan B-2'
+[2018-01-12 2:21:34.985516] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [11]
+code [B-2]
+description [Floor Plan B-2]
+exists [1]
+
+[2018-01-12 2:21:34.985565] [info] -->gallery_id: 11
+[2018-01-12 2:21:34.985605] [info] __doLoadPhotos
+[2018-01-12 2:21:34.985640] [info] -->this: 1
+[2018-01-12 2:21:34.985672] [info] -->gallery: 1
+[2018-01-12 2:21:35.010593] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 11 and gp.photo_id = p.photo_id
+[2018-01-12 2:21:35.010756] [info] 4 rows returned.
+[2018-01-12 2:21:35.010807] [info] Results: 4
+[2018-01-12 2:21:35.010891] [info] 182
+[2018-01-12 2:21:35.010931] [info] 183
+[2018-01-12 2:21:35.010963] [info] 184
+[2018-01-12 2:21:35.011007] [info] 185
+[2018-01-12 2:21:35.011042] [info] images/imggal/B-2/thumb/1.jpg
+[2018-01-12 2:21:35.011075] [info] images/imggal/B-2/thumb/2.jpg
+[2018-01-12 2:21:35.011106] [info] images/imggal/B-2/thumb/3.jpg
+[2018-01-12 2:21:35.011138] [info] images/imggal/B-2/thumb/4.jpg
+[2018-01-12 2:21:35.011172] [info] images/imggal/B-2/med/1.jpg
+[2018-01-12 2:21:35.011204] [info] images/imggal/B-2/med/2.jpg
+[2018-01-12 2:21:35.011235] [info] images/imggal/B-2/med/3.jpg
+[2018-01-12 2:21:35.011267] [info] images/imggal/B-2/med/4.jpg
+[2018-01-12 2:21:35.011301] [info] images/imggal/B-2/full/1.jpg
+[2018-01-12 2:21:35.011332] [info] images/imggal/B-2/full/2.jpg
+[2018-01-12 2:21:35.011364] [info] images/imggal/B-2/full/3.jpg
+[2018-01-12 2:21:35.011396] [info] images/imggal/B-2/full/4.jpg
+[2018-01-12 2:21:35.011437] [info] -->num_photos: 4
+[2018-01-12 2:21:35.023752] [info] i: 
+[2018-01-12 2:21:35.023824] [info] thumbs[i]: images/imggal/B-2/thumb/1.jpg
+[2018-01-12 2:21:35.023861] [info] meds[i]: images/imggal/B-2/med/1.jpg
+[2018-01-12 2:21:35.023896] [info] fulls[i]: images/imggal/B-2/full/1.jpg
+[2018-01-12 2:21:35.023942] [info] i: 
+[2018-01-12 2:21:35.023987] [info] thumbs[i]: images/imggal/B-2/thumb/2.jpg
+[2018-01-12 2:21:35.024023] [info] meds[i]: images/imggal/B-2/med/2.jpg
+[2018-01-12 2:21:35.024061] [info] fulls[i]: images/imggal/B-2/full/2.jpg
+[2018-01-12 2:21:35.024100] [info] i: 
+[2018-01-12 2:21:35.024133] [info] thumbs[i]: images/imggal/B-2/thumb/3.jpg
+[2018-01-12 2:21:35.024168] [info] meds[i]: images/imggal/B-2/med/3.jpg
+[2018-01-12 2:21:35.024199] [info] fulls[i]: images/imggal/B-2/full/3.jpg
+[2018-01-12 2:21:35.024236] [info] i: 
+[2018-01-12 2:21:35.024271] [info] thumbs[i]: images/imggal/B-2/thumb/4.jpg
+[2018-01-12 2:21:35.024303] [info] meds[i]: images/imggal/B-2/med/4.jpg
+[2018-01-12 2:21:35.024337] [info] fulls[i]: images/imggal/B-2/full/4.jpg
+[2018-01-12 2:21:35.058202] [info] __getPhotoPath: 0 fulls images/imggal/B-2/full/1.jpg
+[2018-01-12 2:21:35.058315] [info] __getPhotoPath: 0 meds images/imggal/B-2/med/1.jpg
+[2018-01-12 2:21:35.058360] [info] __getPhotoPath: 0 fulls images/imggal/B-2/full/1.jpg
+[2018-01-12 2:56:56.473529] [info] Entering index: 
+[2018-01-12 2:56:56.473678] [info] -->action: 
+[2018-01-12 2:56:56.473721] [info] -->suite_id: 
+[2018-01-12 2:56:56.473764] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-01-12 3:08:49.149693] [info] Entering index: 
+[2018-01-12 3:08:49.149889] [info] -->action: house
+[2018-01-12 3:08:49.149934] [info] -->suite_id: 
+[2018-01-12 3:08:49.214685] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id='14'
+[2018-01-12 3:08:49.214837] [info] 1 rows returned.
+[2018-01-12 3:08:49.214879] [info] Results: 1
+[2018-01-12 3:08:49.214950] [info] beanHouse->dxHashToClass
+    house_id: '14'
+    house_num: '21'
+    street: 'Trafford Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1X6'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom single family home, 2.5 bathrooms, master bedroom featuring a sitting area and an ensuite bathroom, 5 appliances, eat-in kitchen, dining room, living room, fireplace, finished rec room in the basement, storage, yard, garage. $1,390.00 plus utilities.
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+     
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2018-01-12 3:08:49.215361] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [14]
+house_num [21]
+street [Trafford Lane]
+city [Ottawa]
+prov [ON]
+postal_code [K2J 1X6]
+bedrooms [3]
+bathrooms [2]
+powder_rooms [1]
+description [$500.00 MOVE-IN BONUS !!
+
+IMMEDIATE AVAILABILITY
+
+Call 613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom single family home, 2.5 bathrooms, master bedroom featuring a sitting area and an ensuite bathroom, 5 appliances, eat-in kitchen, dining room, living room, fireplace, finished rec room in the basement, storage, yard, garage. $1,390.00 plus utilities.
+
+This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+ 
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [DETACHED]
+exists [1]
+
+[2018-01-12 3:08:49.275648] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=14
+[2018-01-12 3:08:49.275789] [info] 1 rows returned.
+[2018-01-12 3:08:49.278105] [info] Gallery exists 117
+[2018-01-12 3:08:49.287698] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='117'
+[2018-01-12 3:08:49.287833] [info] 1 rows returned.
+[2018-01-12 3:08:49.287873] [info] Results: 1
+[2018-01-12 3:08:49.287925] [info] beanGallery->dxHashToClass
+    gallery_id: '117'
+    code: '21TraffordLane'
+    description: '21 Trafford Lane'
+[2018-01-12 3:08:49.288078] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [117]
+code [21TraffordLane]
+description [21 Trafford Lane]
+exists [1]
+
+[2018-01-12 3:08:49.288132] [info] gallery: 1
+[2018-01-12 3:08:49.288177] [info] __doLoadPhotos
+[2018-01-12 3:08:49.288214] [info] -->this: 1
+[2018-01-12 3:08:49.288252] [info] -->gallery: 1
+[2018-01-12 3:08:49.296267] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 117 and gp.photo_id = p.photo_id
+[2018-01-12 3:08:49.296401] [info] 8 rows returned.
+[2018-01-12 3:08:49.296442] [info] Results: 8
+[2018-01-12 3:08:49.296542] [info] 251
+[2018-01-12 3:08:49.296582] [info] 252
+[2018-01-12 3:08:49.296617] [info] 253
+[2018-01-12 3:08:49.296659] [info] 254
+[2018-01-12 3:08:49.296694] [info] 255
+[2018-01-12 3:08:49.296729] [info] 256
+[2018-01-12 3:08:49.296762] [info] 257
+[2018-01-12 3:08:49.296796] [info] 258
+[2018-01-12 3:08:49.296832] [info] images/imggal/21TraffordLane/thumb/1.jpg
+[2018-01-12 3:08:49.296865] [info] images/imggal/21TraffordLane/thumb/2.jpg
+[2018-01-12 3:08:49.296900] [info] images/imggal/21TraffordLane/thumb/3.jpg
+[2018-01-12 3:08:49.296933] [info] images/imggal/21TraffordLane/thumb/4.jpg
+[2018-01-12 3:08:49.296967] [info] images/imggal/21TraffordLane/thumb/5.jpg
+[2018-01-12 3:08:49.297003] [info] images/imggal/21TraffordLane/thumb/6.jpg
+[2018-01-12 3:08:49.297036] [info] images/imggal/21TraffordLane/thumb/7.jpg
+[2018-01-12 3:08:49.297079] [info] images/imggal/21TraffordLane/thumb/8.jpg
+[2018-01-12 3:08:49.297116] [info] images/imggal/21TraffordLane/med/1.jpg
+[2018-01-12 3:08:49.297152] [info] images/imggal/21TraffordLane/med/2.jpg
+[2018-01-12 3:08:49.297184] [info] images/imggal/21TraffordLane/med/3.jpg
+[2018-01-12 3:08:49.297219] [info] images/imggal/21TraffordLane/med/4.jpg
+[2018-01-12 3:08:49.297252] [info] images/imggal/21TraffordLane/med/5.jpg
+[2018-01-12 3:08:49.297286] [info] images/imggal/21TraffordLane/med/6.jpg
+[2018-01-12 3:08:49.297319] [info] images/imggal/21TraffordLane/med/7.jpg
+[2018-01-12 3:08:49.297353] [info] images/imggal/21TraffordLane/med/8.jpg
+[2018-01-12 3:08:49.297389] [info] images/imggal/21TraffordLane/full/1.jpg
+[2018-01-12 3:08:49.297422] [info] images/imggal/21TraffordLane/full/2.jpg
+[2018-01-12 3:08:49.297456] [info] images/imggal/21TraffordLane/full/3.jpg
+[2018-01-12 3:08:49.297489] [info] images/imggal/21TraffordLane/full/4.jpg
+[2018-01-12 3:08:49.297523] [info] images/imggal/21TraffordLane/full/5.jpg
+[2018-01-12 3:08:49.297557] [info] images/imggal/21TraffordLane/full/6.jpg
+[2018-01-12 3:08:49.297590] [info] images/imggal/21TraffordLane/full/7.jpg
+[2018-01-12 3:08:49.297625] [info] images/imggal/21TraffordLane/full/8.jpg
+[2018-01-12 3:08:49.297669] [info] -->num_photos: 8
+[2018-01-12 3:08:49.308242] [info] i: 
+[2018-01-12 3:08:49.308351] [info] thumbs[i]: images/imggal/21TraffordLane/thumb/1.jpg
+[2018-01-12 3:08:49.308387] [info] meds[i]: images/imggal/21TraffordLane/med/1.jpg
+[2018-01-12 3:08:49.308423] [info] fulls[i]: images/imggal/21TraffordLane/full/1.jpg
+[2018-01-12 3:08:49.308464] [info] i: 
+[2018-01-12 3:08:49.308500] [info] thumbs[i]: images/imggal/21TraffordLane/thumb/2.jpg
+[2018-01-12 3:08:49.308533] [info] meds[i]: images/imggal/21TraffordLane/med/2.jpg
+[2018-01-12 3:08:49.308568] [info] fulls[i]: images/imggal/21TraffordLane/full/2.jpg
+[2018-01-12 3:08:49.308605] [info] i: 
+[2018-01-12 3:08:49.308640] [info] thumbs[i]: images/imggal/21TraffordLane/thumb/3.jpg
+[2018-01-12 3:08:49.308676] [info] meds[i]: images/imggal/21TraffordLane/med/3.jpg
+[2018-01-12 3:08:49.308710] [info] fulls[i]: images/imggal/21TraffordLane/full/3.jpg
+[2018-01-12 3:08:49.308748] [info] i: 
+[2018-01-12 3:08:49.308783] [info] thumbs[i]: images/imggal/21TraffordLane/thumb/4.jpg
+[2018-01-12 3:08:49.308816] [info] meds[i]: images/imggal/21TraffordLane/med/4.jpg
+[2018-01-12 3:08:49.308851] [info] fulls[i]: images/imggal/21TraffordLane/full/4.jpg
+[2018-01-12 3:08:49.308887] [info] i: 
+[2018-01-12 3:08:49.308923] [info] thumbs[i]: images/imggal/21TraffordLane/thumb/5.jpg
+[2018-01-12 3:08:49.308958] [info] meds[i]: images/imggal/21TraffordLane/med/5.jpg
+[2018-01-12 3:08:49.308991] [info] fulls[i]: images/imggal/21TraffordLane/full/5.jpg
+[2018-01-12 3:08:49.309030] [info] i: 
+[2018-01-12 3:08:49.309072] [info] thumbs[i]: images/imggal/21TraffordLane/thumb/6.jpg
+[2018-01-12 3:08:49.309108] [info] meds[i]: images/imggal/21TraffordLane/med/6.jpg
+[2018-01-12 3:08:49.309144] [info] fulls[i]: images/imggal/21TraffordLane/full/6.jpg
+[2018-01-12 3:08:49.309181] [info] i: 
+[2018-01-12 3:08:49.309216] [info] thumbs[i]: images/imggal/21TraffordLane/thumb/7.jpg
+[2018-01-12 3:08:49.309252] [info] meds[i]: images/imggal/21TraffordLane/med/7.jpg
+[2018-01-12 3:08:49.309286] [info] fulls[i]: images/imggal/21TraffordLane/full/7.jpg
+[2018-01-12 3:08:49.309331] [info] i: 
+[2018-01-12 3:08:49.309367] [info] thumbs[i]: images/imggal/21TraffordLane/thumb/8.jpg
+[2018-01-12 3:08:49.309401] [info] meds[i]: images/imggal/21TraffordLane/med/8.jpg
+[2018-01-12 3:08:49.309436] [info] fulls[i]: images/imggal/21TraffordLane/full/8.jpg
+[2018-01-12 3:08:49.331975] [info] __getPhotoPath: 0 fulls images/imggal/21TraffordLane/full/1.jpg
+[2018-01-12 3:08:49.332106] [info] __getPhotoPath: 0 meds images/imggal/21TraffordLane/med/1.jpg
+[2018-01-12 3:08:49.332150] [info] __getPhotoPath: 0 fulls images/imggal/21TraffordLane/full/1.jpg
+[2018-01-12 3:08:49.332290] [info] classGoogleMap->embedMap()
+[2018-01-12 3:08:49.332335] [info] -->addressString: 21%2BTrafford+Lane%2C%2BOttawa%2C%2BON
+[2018-01-12 3:08:49.332371] [info] -->html: <iframe width="475" height="450" frameborder="0" style="border:0"src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAQKAYk9-AYG33EHPFWyOEAGwbZaNZ_ULA&q=21%2BTrafford+Lane%2C%2BOttawa%2C%2BON&attribution_source=Google+Maps+Embed+API&attribution_ios_deep_link_id=comgooglemaps://?daddr=21%2BTrafford+Lane%2C%2BOttawa%2C%2BON" allowfullscreen></iframe>
+[2018-01-12 3:15:24.975297] [info] Entering index: 
+[2018-01-12 3:15:24.975461] [info] -->action: homes
+[2018-01-12 3:15:24.975503] [info] -->suite_id: 
+[2018-01-12 3:15:24.975541] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-01-12 3:15:25.095444] [info] Running query: select * from senatorapts.House h, senatorapts.HouseAvailable a where h.house_id = a.house_id  and h.deleted != 1 order by a.year, a.month
+[2018-01-12 3:15:25.095563] [info] 0 rows returned.
+[2018-01-12 7:04:07.523819] [info] Entering index: 
+[2018-01-12 7:04:07.523993] [info] -->action: 
+[2018-01-12 7:04:07.524034] [info] -->suite_id: 
+[2018-01-12 7:04:07.524069] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-01-12 10:49:40.817645] [info] Entering index: 
+[2018-01-12 10:49:40.817833] [info] -->action: 
+[2018-01-12 10:49:40.817887] [info] -->suite_id: 
+[2018-01-12 10:49:40.817924] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-01-12 11:05:03.521341] [info] Entering index: 
+[2018-01-12 11:05:03.521532] [info] -->action: 
+[2018-01-12 11:05:03.521574] [info] -->suite_id: 
+[2018-01-12 11:05:03.521611] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-01-12 11:05:07.554312] [info] Entering index: 
+[2018-01-12 11:05:07.554408] [info] -->action: homes
+[2018-01-12 11:05:07.554447] [info] -->suite_id: 
+[2018-01-12 11:05:07.554483] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-01-12 11:05:07.724709] [info] Running query: select * from senatorapts.House h, senatorapts.HouseAvailable a where h.house_id = a.house_id  and h.deleted != 1 order by a.year, a.month
+[2018-01-12 11:05:07.724841] [info] 0 rows returned.
+[2018-01-12 11:05:19.406588] [info] Entering index: 
+[2018-01-12 11:05:19.406708] [info] -->action: homes
+[2018-01-12 11:05:19.406749] [info] -->suite_id: 
+[2018-01-12 11:05:19.406785] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-01-12 11:05:19.421950] [info] Running query: select * from senatorapts.House h, senatorapts.HouseAvailable a where h.house_id = a.house_id  and h.deleted != 1 order by a.year, a.month
+[2018-01-12 11:05:19.422092] [info] 0 rows returned.
+[2018-01-12 13:16:02.438591] [info] Entering index: 
+[2018-01-12 13:16:02.438792] [info] -->action: 
+[2018-01-12 13:16:02.438836] [info] -->suite_id: 
+[2018-01-12 13:16:02.438872] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-01-12 13:47:28.448012] [info] Entering index: 
+[2018-01-12 13:47:28.448177] [info] -->action: how_to_rent
+[2018-01-12 13:47:28.448218] [info] -->suite_id: 
+[2018-01-12 13:47:28.448252] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-01-12 14:03:47.865117] [info] Entering index: 
+[2018-01-12 14:03:47.865269] [info] -->action: 
+[2018-01-12 14:03:47.865318] [info] -->suite_id: 
+[2018-01-12 14:03:47.865358] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-01-12 18:34:33.877701] [info] Entering index: 
+[2018-01-12 18:34:33.877847] [info] -->action: 
+[2018-01-12 18:34:33.877893] [info] -->suite_id: 
+[2018-01-12 18:34:33.877933] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-01-12 18:35:27.224775] [info] Entering index: 
+[2018-01-12 18:35:27.224879] [info] -->action: 
+[2018-01-12 18:35:27.224922] [info] -->suite_id: 
+[2018-01-12 18:35:27.224961] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-01-12 18:51:59.647728] [info] Entering index: 
+[2018-01-12 18:51:59.647874] [info] -->action: 
+[2018-01-12 18:51:59.647917] [info] -->suite_id: 
+[2018-01-12 18:51:59.647953] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-01-12 19:18:59.464973] [info] Entering index: 
+[2018-01-12 19:18:59.465197] [info] -->action: 
+[2018-01-12 19:18:59.465241] [info] -->suite_id: 
+[2018-01-12 19:18:59.465280] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-01-12 20:06:01.659074] [info] Entering index: 
+[2018-01-12 20:06:01.659193] [info] -->action: 
+[2018-01-12 20:06:01.659240] [info] -->suite_id: 
+[2018-01-12 20:06:01.659279] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-01-12 20:07:05.605655] [info] Entering index: 
+[2018-01-12 20:07:05.605746] [info] -->action: apt_plans
+[2018-01-12 20:07:05.605788] [info] -->suite_id: 
+[2018-01-12 20:07:05.605827] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-01-12 20:07:22.404958] [info] Entering index: 
+[2018-01-12 20:07:22.405055] [info] -->action: floor_plan
+[2018-01-12 20:07:22.405097] [info] -->suite_id: 05
+[2018-01-12 20:07:22.479352] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE code='05'
+[2018-01-12 20:07:22.479424] [info] 1 rows returned.
+[2018-01-12 20:07:22.479482] [info] beanGallery->dxHashToClass
+    gallery_id: '6'
+    code: '05'
+    description: 'Floor Plan 05'
+[2018-01-12 20:07:22.479661] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [6]
+code [05]
+description [Floor Plan 05]
+exists [1]
+
+[2018-01-12 20:07:22.490061] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='6'
+[2018-01-12 20:07:22.490129] [info] 1 rows returned.
+[2018-01-12 20:07:22.490175] [info] Results: 1
+[2018-01-12 20:07:22.490221] [info] beanGallery->dxHashToClass
+    gallery_id: '6'
+    code: '05'
+    description: 'Floor Plan 05'
+[2018-01-12 20:07:22.490349] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [6]
+code [05]
+description [Floor Plan 05]
+exists [1]
+
+[2018-01-12 20:07:22.490406] [info] -->gallery_id: 6
+[2018-01-12 20:07:22.490448] [info] __doLoadPhotos
+[2018-01-12 20:07:22.490488] [info] -->this: 1
+[2018-01-12 20:07:22.490525] [info] -->gallery: 1
+[2018-01-12 20:07:22.521034] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 6 and gp.photo_id = p.photo_id
+[2018-01-12 20:07:22.521101] [info] 4 rows returned.
+[2018-01-12 20:07:22.521147] [info] Results: 4
+[2018-01-12 20:07:22.521214] [info] 20
+[2018-01-12 20:07:22.521255] [info] 21
+[2018-01-12 20:07:22.521291] [info] 22
+[2018-01-12 20:07:22.521342] [info] 23
+[2018-01-12 20:07:22.521384] [info] images/imggal/05/thumb/ig_thumb_05_1.jpg
+[2018-01-12 20:07:22.521420] [info] images/imggal/05/thumb/ig_thumb_05_2.jpg
+[2018-01-12 20:07:22.521457] [info] images/imggal/05/thumb/ig_thumb_05_3.jpg
+[2018-01-12 20:07:22.521493] [info] images/imggal/05/thumb/ig_thumb_05_4.jpg
+[2018-01-12 20:07:22.521532] [info] images/imggal/05/med/ig_med_05_1.jpg
+[2018-01-12 20:07:22.521569] [info] images/imggal/05/med/ig_med_05_2.jpg
+[2018-01-12 20:07:22.521605] [info] images/imggal/05/med/ig_med_05_3.jpg
+[2018-01-12 20:07:22.521641] [info] images/imggal/05/med/ig_med_05_4.jpg
+[2018-01-12 20:07:22.521677] [info] images/imggal/05/full/ig_full_05_1.jpg
+[2018-01-12 20:07:22.521713] [info] images/imggal/05/full/ig_full_05_2.jpg
+[2018-01-12 20:07:22.521749] [info] images/imggal/05/full/ig_full_05_3.jpg
+[2018-01-12 20:07:22.521790] [info] images/imggal/05/full/ig_full_05_4.jpg
+[2018-01-12 20:07:22.521836] [info] -->num_photos: 4
+[2018-01-12 20:07:22.521944] [info] i: 
+[2018-01-12 20:07:22.521992] [info] thumbs[i]: images/imggal/05/thumb/ig_thumb_05_1.jpg
+[2018-01-12 20:07:22.522031] [info] meds[i]: images/imggal/05/med/ig_med_05_1.jpg
+[2018-01-12 20:07:22.522068] [info] fulls[i]: images/imggal/05/full/ig_full_05_1.jpg
+[2018-01-12 20:07:22.522110] [info] i: 
+[2018-01-12 20:07:22.522147] [info] thumbs[i]: images/imggal/05/thumb/ig_thumb_05_2.jpg
+[2018-01-12 20:07:22.522185] [info] meds[i]: images/imggal/05/med/ig_med_05_2.jpg
+[2018-01-12 20:07:22.522221] [info] fulls[i]: images/imggal/05/full/ig_full_05_2.jpg
+[2018-01-12 20:07:22.522262] [info] i: 
+[2018-01-12 20:07:22.522299] [info] thumbs[i]: images/imggal/05/thumb/ig_thumb_05_3.jpg
+[2018-01-12 20:07:22.522351] [info] meds[i]: images/imggal/05/med/ig_med_05_3.jpg
+[2018-01-12 20:07:22.522388] [info] fulls[i]: images/imggal/05/full/ig_full_05_3.jpg
+[2018-01-12 20:07:22.522430] [info] i: 
+[2018-01-12 20:07:22.522468] [info] thumbs[i]: images/imggal/05/thumb/ig_thumb_05_4.jpg
+[2018-01-12 20:07:22.522504] [info] meds[i]: images/imggal/05/med/ig_med_05_4.jpg
+[2018-01-12 20:07:22.522540] [info] fulls[i]: images/imggal/05/full/ig_full_05_4.jpg
+[2018-01-12 20:07:22.553450] [info] __getPhotoPath: 0 fulls images/imggal/05/full/ig_full_05_1.jpg
+[2018-01-12 20:07:22.553517] [info] __getPhotoPath: 0 meds images/imggal/05/med/ig_med_05_1.jpg
+[2018-01-12 20:07:22.553565] [info] __getPhotoPath: 0 fulls images/imggal/05/full/ig_full_05_1.jpg
+[2018-01-12 20:09:07.174762] [info] Entering index: 
+[2018-01-12 20:09:07.174863] [info] -->action: 
+[2018-01-12 20:09:07.174906] [info] -->suite_id: 
+[2018-01-12 20:09:07.174945] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-01-12 20:09:14.800189] [info] Entering index: 
+[2018-01-12 20:09:14.800281] [info] -->action: apt_vacancies
+[2018-01-12 20:09:14.800323] [info] -->suite_id: 
+[2018-01-12 20:09:14.800363] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-01-12 20:09:14.883316] [info] Running query: select * from senatorapts.Suite s, senatorapts.Available a where s.suite_id = a.suite_id  order by a.year, LPAD(a.month,2,'0'), s.suite_order
+[2018-01-12 20:09:14.883419] [info] 4 rows returned.
+[2018-01-12 20:09:14.883496] [info] beanAvailable->dxHashToClass
+    suite_id: '1003'
+    bedrooms: 'B'
+    floor_plan: 'index.php?action=floor_plan&suite_id=03'
+    suite_order: '76'
+    rent: '860.00'
+    promotion: ''
+    month: '12'
+    year: '2017'
+[2018-01-12 20:09:14.883673] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [1003]
+house_id []
+month [12]
+year [2017]
+rent [860.00]
+promotion []
+exists []
+
+[2018-01-12 20:09:14.883722] [info] Populating available
+[2018-01-12 20:09:14.883764] [info] beanSuite->dxHashToClass
+    suite_id: '1003'
+    bedrooms: 'B'
+    floor_plan: 'index.php?action=floor_plan&suite_id=03'
+    suite_order: '76'
+    rent: '860.00'
+    promotion: ''
+    month: '12'
+    year: '2017'
+[2018-01-12 20:09:14.883905] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [1003]
+bedrooms [B]
+suite_order [76]
+floor_plan [index.php?action=floor_plan&suite_id=03]
+exists []
+
+[2018-01-12 20:09:14.883950] [info] Populating suite
+[2018-01-12 20:09:14.883991] [info] results is not a member of classObject
+[2018-01-12 20:09:14.884031] [info] totalRows is not a member of classObject
+[2018-01-12 20:09:14.884069] [info] currRow is not a member of classObject
+[2018-01-12 20:09:14.884198] [info] beanAvailable->dxHashToClass
+    suite_id: '102'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=02'
+    suite_order: '5'
+    rent: '940.00'
+    promotion: ''
+    month: '1'
+    year: '2018'
+[2018-01-12 20:09:14.884349] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [102]
+house_id []
+month [1]
+year [2018]
+rent [940.00]
+promotion []
+exists []
+
+[2018-01-12 20:09:14.884406] [info] Populating available
+[2018-01-12 20:09:14.884455] [info] beanSuite->dxHashToClass
+    suite_id: '102'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=02'
+    suite_order: '5'
+    rent: '940.00'
+    promotion: ''
+    month: '1'
+    year: '2018'
+[2018-01-12 20:09:14.884593] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [102]
+bedrooms [1]
+suite_order [5]
+floor_plan [index.php?action=floor_plan&suite_id=02]
+exists []
+
+[2018-01-12 20:09:14.884639] [info] Populating suite
+[2018-01-12 20:09:14.884680] [info] results is not a member of classObject
+[2018-01-12 20:09:14.884718] [info] totalRows is not a member of classObject
+[2018-01-12 20:09:14.884757] [info] currRow is not a member of classObject
+[2018-01-12 20:09:14.884840] [info] beanAvailable->dxHashToClass
+    suite_id: '605'
+    bedrooms: '2'
+    floor_plan: 'index.php?action=floor_plan&suite_id=05'
+    suite_order: '46'
+    rent: '1175.00'
+    promotion: ''
+    month: '1'
+    year: '2018'
+[2018-01-12 20:09:14.884984] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [605]
+house_id []
+month [1]
+year [2018]
+rent [1175.00]
+promotion []
+exists []
+
+[2018-01-12 20:09:14.885030] [info] Populating available
+[2018-01-12 20:09:14.885071] [info] beanSuite->dxHashToClass
+    suite_id: '605'
+    bedrooms: '2'
+    floor_plan: 'index.php?action=floor_plan&suite_id=05'
+    suite_order: '46'
+    rent: '1175.00'
+    promotion: ''
+    month: '1'
+    year: '2018'
+[2018-01-12 20:09:14.885205] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [605]
+bedrooms [2]
+suite_order [46]
+floor_plan [index.php?action=floor_plan&suite_id=05]
+exists []
+
+[2018-01-12 20:09:14.885251] [info] Populating suite
+[2018-01-12 20:09:14.885291] [info] results is not a member of classObject
+[2018-01-12 20:09:14.885329] [info] totalRows is not a member of classObject
+[2018-01-12 20:09:14.885376] [info] currRow is not a member of classObject
+[2018-01-12 20:09:14.885458] [info] beanAvailable->dxHashToClass
+    suite_id: '905'
+    bedrooms: '2'
+    floor_plan: 'index.php?action=floor_plan&suite_id=05'
+    suite_order: '70'
+    rent: '1180.00'
+    promotion: ''
+    month: '1'
+    year: '2018'
+[2018-01-12 20:09:14.885605] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [905]
+house_id []
+month [1]
+year [2018]
+rent [1180.00]
+promotion []
+exists []
+
+[2018-01-12 20:09:14.885649] [info] Populating available
+[2018-01-12 20:09:14.885690] [info] beanSuite->dxHashToClass
+    suite_id: '905'
+    bedrooms: '2'
+    floor_plan: 'index.php?action=floor_plan&suite_id=05'
+    suite_order: '70'
+    rent: '1180.00'
+    promotion: ''
+    month: '1'
+    year: '2018'
+[2018-01-12 20:09:14.885827] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [905]
+bedrooms [2]
+suite_order [70]
+floor_plan [index.php?action=floor_plan&suite_id=05]
+exists []
+
+[2018-01-12 20:09:14.885870] [info] Populating suite
+[2018-01-12 20:09:14.885910] [info] results is not a member of classObject
+[2018-01-12 20:09:14.885950] [info] totalRows is not a member of classObject
+[2018-01-12 20:09:14.885987] [info] currRow is not a member of classObject
+[2018-01-12 20:09:58.752687] [info] Entering index: 
+[2018-01-12 20:09:58.752779] [info] -->action: floor_plan
+[2018-01-12 20:09:58.752824] [info] -->suite_id: 05
+[2018-01-12 20:09:58.757049] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE code='05'
+[2018-01-12 20:09:58.757153] [info] 1 rows returned.
+[2018-01-12 20:09:58.757216] [info] beanGallery->dxHashToClass
+    gallery_id: '6'
+    code: '05'
+    description: 'Floor Plan 05'
+[2018-01-12 20:09:58.757379] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [6]
+code [05]
+description [Floor Plan 05]
+exists [1]
+
+[2018-01-12 20:09:58.758887] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='6'
+[2018-01-12 20:09:58.758949] [info] 1 rows returned.
+[2018-01-12 20:09:58.758992] [info] Results: 1
+[2018-01-12 20:09:58.759037] [info] beanGallery->dxHashToClass
+    gallery_id: '6'
+    code: '05'
+    description: 'Floor Plan 05'
+[2018-01-12 20:09:58.759161] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [6]
+code [05]
+description [Floor Plan 05]
+exists [1]
+
+[2018-01-12 20:09:58.759218] [info] -->gallery_id: 6
+[2018-01-12 20:09:58.759262] [info] __doLoadPhotos
+[2018-01-12 20:09:58.759300] [info] -->this: 1
+[2018-01-12 20:09:58.759356] [info] -->gallery: 1
+[2018-01-12 20:09:58.759799] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 6 and gp.photo_id = p.photo_id
+[2018-01-12 20:09:58.759856] [info] 4 rows returned.
+[2018-01-12 20:09:58.759900] [info] Results: 4
+[2018-01-12 20:09:58.759964] [info] 20
+[2018-01-12 20:09:58.760004] [info] 21
+[2018-01-12 20:09:58.760041] [info] 22
+[2018-01-12 20:09:58.760077] [info] 23
+[2018-01-12 20:09:58.760116] [info] images/imggal/05/thumb/ig_thumb_05_1.jpg
+[2018-01-12 20:09:58.760153] [info] images/imggal/05/thumb/ig_thumb_05_2.jpg
+[2018-01-12 20:09:58.760219] [info] images/imggal/05/thumb/ig_thumb_05_3.jpg
+[2018-01-12 20:09:58.760257] [info] images/imggal/05/thumb/ig_thumb_05_4.jpg
+[2018-01-12 20:09:58.760297] [info] images/imggal/05/med/ig_med_05_1.jpg
+[2018-01-12 20:09:58.760346] [info] images/imggal/05/med/ig_med_05_2.jpg
+[2018-01-12 20:09:58.760385] [info] images/imggal/05/med/ig_med_05_3.jpg
+[2018-01-12 20:09:58.760421] [info] images/imggal/05/med/ig_med_05_4.jpg
+[2018-01-12 20:09:58.760459] [info] images/imggal/05/full/ig_full_05_1.jpg
+[2018-01-12 20:09:58.760497] [info] images/imggal/05/full/ig_full_05_2.jpg
+[2018-01-12 20:09:58.760533] [info] images/imggal/05/full/ig_full_05_3.jpg
+[2018-01-12 20:09:58.760569] [info] images/imggal/05/full/ig_full_05_4.jpg
+[2018-01-12 20:09:58.760612] [info] -->num_photos: 4
+[2018-01-12 20:09:58.760716] [info] i: 
+[2018-01-12 20:09:58.760766] [info] thumbs[i]: images/imggal/05/thumb/ig_thumb_05_1.jpg
+[2018-01-12 20:09:58.760803] [info] meds[i]: images/imggal/05/med/ig_med_05_1.jpg
+[2018-01-12 20:09:58.760842] [info] fulls[i]: images/imggal/05/full/ig_full_05_1.jpg
+[2018-01-12 20:09:58.760884] [info] i: 
+[2018-01-12 20:09:58.760921] [info] thumbs[i]: images/imggal/05/thumb/ig_thumb_05_2.jpg
+[2018-01-12 20:09:58.760958] [info] meds[i]: images/imggal/05/med/ig_med_05_2.jpg
+[2018-01-12 20:09:58.760996] [info] fulls[i]: images/imggal/05/full/ig_full_05_2.jpg
+[2018-01-12 20:09:58.761035] [info] i: 
+[2018-01-12 20:09:58.761073] [info] thumbs[i]: images/imggal/05/thumb/ig_thumb_05_3.jpg
+[2018-01-12 20:09:58.761111] [info] meds[i]: images/imggal/05/med/ig_med_05_3.jpg
+[2018-01-12 20:09:58.761147] [info] fulls[i]: images/imggal/05/full/ig_full_05_3.jpg
+[2018-01-12 20:09:58.761188] [info] i: 
+[2018-01-12 20:09:58.761225] [info] thumbs[i]: images/imggal/05/thumb/ig_thumb_05_4.jpg
+[2018-01-12 20:09:58.761262] [info] meds[i]: images/imggal/05/med/ig_med_05_4.jpg
+[2018-01-12 20:09:58.761298] [info] fulls[i]: images/imggal/05/full/ig_full_05_4.jpg
+[2018-01-12 20:09:58.765314] [info] __getPhotoPath: 0 fulls images/imggal/05/full/ig_full_05_1.jpg
+[2018-01-12 20:09:58.765413] [info] __getPhotoPath: 0 meds images/imggal/05/med/ig_med_05_1.jpg
+[2018-01-12 20:09:58.765461] [info] __getPhotoPath: 0 fulls images/imggal/05/full/ig_full_05_1.jpg
+[2018-01-12 22:07:12.979140] [info] Entering index: 
+[2018-01-12 22:07:12.979341] [info] -->action: 
+[2018-01-12 22:07:12.979383] [info] -->suite_id: 
+[2018-01-12 22:07:12.979419] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-01-12 22:07:16.793049] [info] Entering index: 
+[2018-01-12 22:07:16.793132] [info] -->action: contact_us
+[2018-01-12 22:07:16.793169] [info] -->suite_id: 
+[2018-01-12 22:07:16.793205] [info] -->there is no gallery for this page, or it did not load correctly

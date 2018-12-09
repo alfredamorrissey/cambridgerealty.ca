@@ -1,0 +1,543 @@
+[2016-12-24 0:46:07.791783] [info] Entering index: 
+[2016-12-24 0:46:07.791951] [info] -->action: 
+[2016-12-24 0:46:07.792000] [info] -->suite_id: 
+[2016-12-24 0:46:07.792036] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 0:47:24.008291] [info] Entering index: 
+[2016-12-24 0:47:24.008380] [info] -->action: 
+[2016-12-24 0:47:24.008419] [info] -->suite_id: 
+[2016-12-24 0:47:24.008452] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 1:21:12.980160] [info] Entering index: 
+[2016-12-24 1:21:12.980309] [info] -->action: 
+[2016-12-24 1:21:12.980350] [info] -->suite_id: 
+[2016-12-24 1:21:12.980386] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 1:21:29.759892] [info] Entering index: 
+[2016-12-24 1:21:29.759993] [info] -->action: 
+[2016-12-24 1:21:29.760030] [info] -->suite_id: 
+[2016-12-24 1:21:29.760066] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 2:10:19.530039] [info] Entering index: 
+[2016-12-24 2:10:19.530201] [info] -->action: 
+[2016-12-24 2:10:19.530242] [info] -->suite_id: 
+[2016-12-24 2:10:19.530278] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 2:44:51.754416] [info] Entering index: 
+[2016-12-24 2:44:51.754558] [info] -->action: 
+[2016-12-24 2:44:51.754601] [info] -->suite_id: 
+[2016-12-24 2:44:51.754637] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 2:52:36.526438] [info] Entering index: 
+[2016-12-24 2:52:36.526592] [info] -->action: 
+[2016-12-24 2:52:36.526642] [info] -->suite_id: 
+[2016-12-24 2:52:36.526684] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 2:53:26.799813] [info] Entering index: 
+[2016-12-24 2:53:26.799921] [info] -->action: apt_vacancies
+[2016-12-24 2:53:26.799968] [info] -->suite_id: 
+[2016-12-24 2:53:26.800009] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 2:53:26.872092] [info] Running query: select * from senatorapts.Suite s, senatorapts.Available a where s.suite_id = a.suite_id  order by a.year, a.month, s.suite_order
+[2016-12-24 2:53:26.872200] [info] 1 rows returned.
+[2016-12-24 2:53:26.872287] [info] beanAvailable->dxHashToClass
+    suite_id: '202'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=02'
+    suite_order: '11'
+    rent: '920.00'
+    promotion: ''
+    month: '3'
+    year: '2017'
+[2016-12-24 2:53:26.872620] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [202]
+house_id []
+month [3]
+year [2017]
+rent [920.00]
+promotion []
+exists []
+
+[2016-12-24 2:53:26.872670] [info] Populating available
+[2016-12-24 2:53:26.872714] [info] beanSuite->dxHashToClass
+    suite_id: '202'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=02'
+    suite_order: '11'
+    rent: '920.00'
+    promotion: ''
+    month: '3'
+    year: '2017'
+[2016-12-24 2:53:26.872857] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [202]
+bedrooms [1]
+suite_order [11]
+floor_plan [index.php?action=floor_plan&suite_id=02]
+exists []
+
+[2016-12-24 2:53:26.872903] [info] Populating suite
+[2016-12-24 2:53:26.872944] [info] results is not a member of classObject
+[2016-12-24 2:53:26.872982] [info] totalRows is not a member of classObject
+[2016-12-24 2:53:26.873022] [info] currRow is not a member of classObject
+[2016-12-24 2:53:34.097503] [info] Entering index: 
+[2016-12-24 2:53:34.097610] [info] -->action: apt_plans
+[2016-12-24 2:53:34.097656] [info] -->suite_id: 
+[2016-12-24 2:53:34.097695] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 2:53:41.668483] [info] Entering index: 
+[2016-12-24 2:53:41.668590] [info] -->action: homes
+[2016-12-24 2:53:41.668636] [info] -->suite_id: 
+[2016-12-24 2:53:41.668678] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 2:53:41.746290] [info] Running query: select * from senatorapts.House h, senatorapts.HouseAvailable a where h.house_id = a.house_id  and h.deleted != 1 order by a.year, a.month
+[2016-12-24 2:53:41.746407] [info] 1 rows returned.
+[2016-12-24 2:53:41.746490] [info] beanAvailable->dxHashToClass
+    house_id: '8'
+    house_num: '1A'
+    street: 'Foxhill Way'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1J8'
+    description: 'JANUARY FREE !! 
+    
+    613-232-2396 
+    
+    3 Bedroom family home with 1 ½ bathrooms with a master bedroom featuring an ensuite ½ bathroom, 5 appliances, A/C, eat-in kitchen, dining room, a sunken living room, storage, water filtration system with spare filter, shady fenced yard, shed, patio and parking. $1,245.00 plus utilities. 
+    
+    This townhome is located on a quiet cul-de-sac within easy reach of schools, shopping, parks, public transport, restaurants and is ideal for a young family or couples. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396.'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '2'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1245.00'
+    month: '12'
+    year: '2016'
+    promotion: 'JANUARY FREE'
+[2016-12-24 2:53:41.746792] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [8]
+month [12]
+year [2016]
+rent [1245.00]
+promotion [JANUARY FREE]
+exists []
+
+[2016-12-24 2:53:41.746840] [info] Populating available
+[2016-12-24 2:53:41.746882] [info] beanHouse->dxHashToClass
+    house_id: '8'
+    house_num: '1A'
+    street: 'Foxhill Way'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1J8'
+    description: 'JANUARY FREE !! 
+    
+    613-232-2396 
+    
+    3 Bedroom family home with 1 ½ bathrooms with a master bedroom featuring an ensuite ½ bathroom, 5 appliances, A/C, eat-in kitchen, dining room, a sunken living room, storage, water filtration system with spare filter, shady fenced yard, shed, patio and parking. $1,245.00 plus utilities. 
+    
+    This townhome is located on a quiet cul-de-sac within easy reach of schools, shopping, parks, public transport, restaurants and is ideal for a young family or couples. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396.'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '2'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1245.00'
+    month: '12'
+    year: '2016'
+    promotion: 'JANUARY FREE'
+[2016-12-24 2:53:41.747169] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [8]
+house_num [1A]
+street [Foxhill Way]
+city [Ottawa]
+prov [ON]
+postal_code [K2J 1J8]
+bedrooms [3]
+bathrooms [1]
+powder_rooms [2]
+description [JANUARY FREE !! 
+
+613-232-2396 
+
+3 Bedroom family home with 1 ½ bathrooms with a master bedroom featuring an ensuite ½ bathroom, 5 appliances, A/C, eat-in kitchen, dining room, a sunken living room, storage, water filtration system with spare filter, shady fenced yard, shed, patio and parking. $1,245.00 plus utilities. 
+
+This townhome is located on a quiet cul-de-sac within easy reach of schools, shopping, parks, public transport, restaurants and is ideal for a young family or couples. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396.]
+size []
+type [SEMI-DETACHED]
+exists []
+
+[2016-12-24 2:53:41.747215] [info] Populating house
+[2016-12-24 2:53:41.747257] [info] beanSuite->dxHashToClass
+    house_id: '8'
+    house_num: '1A'
+    street: 'Foxhill Way'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1J8'
+    description: 'JANUARY FREE !! 
+    
+    613-232-2396 
+    
+    3 Bedroom family home with 1 ½ bathrooms with a master bedroom featuring an ensuite ½ bathroom, 5 appliances, A/C, eat-in kitchen, dining room, a sunken living room, storage, water filtration system with spare filter, shady fenced yard, shed, patio and parking. $1,245.00 plus utilities. 
+    
+    This townhome is located on a quiet cul-de-sac within easy reach of schools, shopping, parks, public transport, restaurants and is ideal for a young family or couples. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396.'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '2'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1245.00'
+    month: '12'
+    year: '2016'
+    promotion: 'JANUARY FREE'
+[2016-12-24 2:53:41.747523] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2016-12-24 2:53:41.747570] [info] Populating suite
+[2016-12-24 2:53:41.747611] [info] results is not a member of classObject
+[2016-12-24 2:53:41.747649] [info] totalRows is not a member of classObject
+[2016-12-24 2:53:41.747688] [info] currRow is not a member of classObject
+[2016-12-24 3:43:13.437655] [info] Entering index: 
+[2016-12-24 3:43:13.437839] [info] -->action: 
+[2016-12-24 3:43:13.437882] [info] -->suite_id: 
+[2016-12-24 3:43:13.437926] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 4:23:20.860053] [info] Entering index: 
+[2016-12-24 4:23:20.860229] [info] -->action: 
+[2016-12-24 4:23:20.860271] [info] -->suite_id: 
+[2016-12-24 4:23:20.860308] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 4:23:44.841785] [info] Entering index: 
+[2016-12-24 4:23:44.841878] [info] -->action: 
+[2016-12-24 4:23:44.841917] [info] -->suite_id: 
+[2016-12-24 4:23:44.841952] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 4:39:32.312267] [info] Entering index: 
+[2016-12-24 4:39:32.312443] [info] -->action: 
+[2016-12-24 4:39:32.312488] [info] -->suite_id: 
+[2016-12-24 4:39:32.312525] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 5:14:54.754808] [info] Entering index: 
+[2016-12-24 5:14:54.754968] [info] -->action: 
+[2016-12-24 5:14:54.755028] [info] -->suite_id: 
+[2016-12-24 5:14:54.755070] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 6:14:01.843338] [info] Entering index: 
+[2016-12-24 6:14:01.843530] [info] -->action: 
+[2016-12-24 6:14:01.843575] [info] -->suite_id: 
+[2016-12-24 6:14:01.843611] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 6:47:30.070652] [info] Entering index: 
+[2016-12-24 6:47:30.070836] [info] -->action: 
+[2016-12-24 6:47:30.070878] [info] -->suite_id: 
+[2016-12-24 6:47:30.070914] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 6:48:53.768860] [info] Entering index: 
+[2016-12-24 6:48:53.768981] [info] -->action: 
+[2016-12-24 6:48:53.769022] [info] -->suite_id: 
+[2016-12-24 6:48:53.769063] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 7:21:03.130764] [info] Entering index: 
+[2016-12-24 7:21:03.130939] [info] -->action: 
+[2016-12-24 7:21:03.130980] [info] -->suite_id: 
+[2016-12-24 7:21:03.131017] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 7:21:21.147722] [info] Entering index: 
+[2016-12-24 7:21:21.147814] [info] -->action: 
+[2016-12-24 7:21:21.147855] [info] -->suite_id: 
+[2016-12-24 7:21:21.147893] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 7:40:06.035878] [info] Entering index: 
+[2016-12-24 7:40:06.036060] [info] -->action: 
+[2016-12-24 7:40:06.036102] [info] -->suite_id: 
+[2016-12-24 7:40:06.036138] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 8:06:46.172899] [info] Entering index: 
+[2016-12-24 8:06:46.173069] [info] -->action: 
+[2016-12-24 8:06:46.173111] [info] -->suite_id: 
+[2016-12-24 8:06:46.173149] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 8:41:37.728281] [info] Entering index: 
+[2016-12-24 8:41:37.728449] [info] -->action: 
+[2016-12-24 8:41:37.728491] [info] -->suite_id: 
+[2016-12-24 8:41:37.728528] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 8:42:42.937258] [info] Entering index: 
+[2016-12-24 8:42:42.937359] [info] -->action: 
+[2016-12-24 8:42:42.937397] [info] -->suite_id: 
+[2016-12-24 8:42:42.937439] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 8:48:57.568404] [info] Entering index: 
+[2016-12-24 8:48:57.568568] [info] -->action: 
+[2016-12-24 8:48:57.568609] [info] -->suite_id: 
+[2016-12-24 8:48:57.568655] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 9:37:41.234685] [info] Entering index: 
+[2016-12-24 9:37:41.234869] [info] -->action: 
+[2016-12-24 9:37:41.234911] [info] -->suite_id: 
+[2016-12-24 9:37:41.234949] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 9:40:35.023740] [info] Entering index: 
+[2016-12-24 9:40:35.023900] [info] -->action: 
+[2016-12-24 9:40:35.023942] [info] -->suite_id: 
+[2016-12-24 9:40:35.023979] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 9:41:41.027744] [info] Entering index: 
+[2016-12-24 9:41:41.027833] [info] -->action: 
+[2016-12-24 9:41:41.027872] [info] -->suite_id: 
+[2016-12-24 9:41:41.027908] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 10:24:59.021027] [info] Entering index: 
+[2016-12-24 10:24:59.021190] [info] -->action: 
+[2016-12-24 10:24:59.021233] [info] -->suite_id: 
+[2016-12-24 10:24:59.021269] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 10:25:25.977627] [info] Entering index: 
+[2016-12-24 10:25:25.977742] [info] -->action: 
+[2016-12-24 10:25:25.977782] [info] -->suite_id: 
+[2016-12-24 10:25:25.977818] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 10:43:51.386406] [info] Entering index: 
+[2016-12-24 10:43:51.386574] [info] -->action: 
+[2016-12-24 10:43:51.386617] [info] -->suite_id: 
+[2016-12-24 10:43:51.386655] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 10:53:26.598046] [info] Entering index: 
+[2016-12-24 10:53:26.598227] [info] -->action: 
+[2016-12-24 10:53:26.598270] [info] -->suite_id: 
+[2016-12-24 10:53:26.598306] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 12:47:05.485697] [info] Entering index: 
+[2016-12-24 12:47:05.485860] [info] -->action: 
+[2016-12-24 12:47:05.485902] [info] -->suite_id: 
+[2016-12-24 12:47:05.485937] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 12:48:24.107558] [info] Entering index: 
+[2016-12-24 12:48:24.107664] [info] -->action: 
+[2016-12-24 12:48:24.107702] [info] -->suite_id: 
+[2016-12-24 12:48:24.107738] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 13:20:35.592314] [info] Entering index: 
+[2016-12-24 13:20:35.592489] [info] -->action: 
+[2016-12-24 13:20:35.592530] [info] -->suite_id: 
+[2016-12-24 13:20:35.592566] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 13:20:52.013356] [info] Entering index: 
+[2016-12-24 13:20:52.013442] [info] -->action: 
+[2016-12-24 13:20:52.013478] [info] -->suite_id: 
+[2016-12-24 13:20:52.013513] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 15:42:15.146527] [info] Entering index: 
+[2016-12-24 15:42:15.146692] [info] -->action: 
+[2016-12-24 15:42:15.146735] [info] -->suite_id: 
+[2016-12-24 15:42:15.146771] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 15:43:22.583473] [info] Entering index: 
+[2016-12-24 15:43:22.583568] [info] -->action: 
+[2016-12-24 15:43:22.583605] [info] -->suite_id: 
+[2016-12-24 15:43:22.583648] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 16:24:07.847866] [info] Entering index: 
+[2016-12-24 16:24:07.848033] [info] -->action: 
+[2016-12-24 16:24:07.848082] [info] -->suite_id: 
+[2016-12-24 16:24:07.848119] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 16:24:32.140625] [info] Entering index: 
+[2016-12-24 16:24:32.140716] [info] -->action: 
+[2016-12-24 16:24:32.140753] [info] -->suite_id: 
+[2016-12-24 16:24:32.140789] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 17:28:30.644634] [info] Entering index: 
+[2016-12-24 17:28:30.644807] [info] -->action: 
+[2016-12-24 17:28:30.644856] [info] -->suite_id: 
+[2016-12-24 17:28:30.644897] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 17:41:05.395358] [info] Entering index: 
+[2016-12-24 17:41:05.395514] [info] -->action: 
+[2016-12-24 17:41:05.395558] [info] -->suite_id: 
+[2016-12-24 17:41:05.395595] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 17:59:46.646490] [info] Entering index: 
+[2016-12-24 17:59:46.646673] [info] -->action: 
+[2016-12-24 17:59:46.646717] [info] -->suite_id: 
+[2016-12-24 17:59:46.646753] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 18:46:00.759474] [info] Entering index: 
+[2016-12-24 18:46:00.759639] [info] -->action: 
+[2016-12-24 18:46:00.759682] [info] -->suite_id: 
+[2016-12-24 18:46:00.759717] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 18:47:17.114043] [info] Entering index: 
+[2016-12-24 18:47:17.114135] [info] -->action: 
+[2016-12-24 18:47:17.114171] [info] -->suite_id: 
+[2016-12-24 18:47:17.114206] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 19:20:06.204775] [info] Entering index: 
+[2016-12-24 19:20:06.204952] [info] -->action: 
+[2016-12-24 19:20:06.205004] [info] -->suite_id: 
+[2016-12-24 19:20:06.205039] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 19:20:21.925276] [info] Entering index: 
+[2016-12-24 19:20:21.925384] [info] -->action: 
+[2016-12-24 19:20:21.925421] [info] -->suite_id: 
+[2016-12-24 19:20:21.925457] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 19:33:13.730082] [info] Entering index: 
+[2016-12-24 19:33:13.730279] [info] -->action: 
+[2016-12-24 19:33:13.730321] [info] -->suite_id: 
+[2016-12-24 19:33:13.730360] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 20:06:47.051856] [info] Entering index: 
+[2016-12-24 20:06:47.052042] [info] -->action: 
+[2016-12-24 20:06:47.052087] [info] -->suite_id: 
+[2016-12-24 20:06:47.052124] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 20:15:35.851249] [info] Entering index: 
+[2016-12-24 20:15:35.851399] [info] -->action: 
+[2016-12-24 20:15:35.851440] [info] -->suite_id: 
+[2016-12-24 20:15:35.851475] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 21:21:45.637557] [info] Entering index: 
+[2016-12-24 21:21:45.637748] [info] -->action: 
+[2016-12-24 21:21:45.637792] [info] -->suite_id: 
+[2016-12-24 21:21:45.637828] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 21:40:24.093930] [info] Entering index: 
+[2016-12-24 21:40:24.094098] [info] -->action: 
+[2016-12-24 21:40:24.094140] [info] -->suite_id: 
+[2016-12-24 21:40:24.094175] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 21:41:28.786216] [info] Entering index: 
+[2016-12-24 21:41:28.786345] [info] -->action: 
+[2016-12-24 21:41:28.786384] [info] -->suite_id: 
+[2016-12-24 21:41:28.786420] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 22:13:11.592525] [info] Entering index: 
+[2016-12-24 22:13:11.592710] [info] -->action: 
+[2016-12-24 22:13:11.592752] [info] -->suite_id: 
+[2016-12-24 22:13:11.592787] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 22:25:37.963901] [info] Entering index: 
+[2016-12-24 22:25:37.964066] [info] -->action: 
+[2016-12-24 22:25:37.964107] [info] -->suite_id: 
+[2016-12-24 22:25:37.964142] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 22:26:06.715275] [info] Entering index: 
+[2016-12-24 22:26:06.715363] [info] -->action: 
+[2016-12-24 22:26:06.715399] [info] -->suite_id: 
+[2016-12-24 22:26:06.715435] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 22:49:08.811278] [info] Entering index: 
+[2016-12-24 22:49:08.811417] [info] -->action: 
+[2016-12-24 22:49:08.811459] [info] -->suite_id: 
+[2016-12-24 22:49:08.811496] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 23:11:37.526654] [info] Entering index: 
+[2016-12-24 23:11:37.526832] [info] -->action: homes
+[2016-12-24 23:11:37.526874] [info] -->suite_id: 
+[2016-12-24 23:11:37.526911] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-12-24 23:11:37.702193] [info] Running query: select * from senatorapts.House h, senatorapts.HouseAvailable a where h.house_id = a.house_id  and h.deleted != 1 order by a.year, a.month
+[2016-12-24 23:11:37.702303] [info] 1 rows returned.
+[2016-12-24 23:11:37.702400] [info] beanAvailable->dxHashToClass
+    house_id: '8'
+    house_num: '1A'
+    street: 'Foxhill Way'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1J8'
+    description: 'JANUARY FREE !! 
+    
+    613-232-2396 
+    
+    3 Bedroom family home with 1 ½ bathrooms with a master bedroom featuring an ensuite ½ bathroom, 5 appliances, A/C, eat-in kitchen, dining room, a sunken living room, storage, water filtration system with spare filter, shady fenced yard, shed, patio and parking. $1,245.00 plus utilities. 
+    
+    This townhome is located on a quiet cul-de-sac within easy reach of schools, shopping, parks, public transport, restaurants and is ideal for a young family or couples. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396.'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '2'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1245.00'
+    month: '12'
+    year: '2016'
+    promotion: 'JANUARY FREE'
+[2016-12-24 23:11:37.702758] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [8]
+month [12]
+year [2016]
+rent [1245.00]
+promotion [JANUARY FREE]
+exists []
+
+[2016-12-24 23:11:37.702804] [info] Populating available
+[2016-12-24 23:11:37.702842] [info] beanHouse->dxHashToClass
+    house_id: '8'
+    house_num: '1A'
+    street: 'Foxhill Way'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1J8'
+    description: 'JANUARY FREE !! 
+    
+    613-232-2396 
+    
+    3 Bedroom family home with 1 ½ bathrooms with a master bedroom featuring an ensuite ½ bathroom, 5 appliances, A/C, eat-in kitchen, dining room, a sunken living room, storage, water filtration system with spare filter, shady fenced yard, shed, patio and parking. $1,245.00 plus utilities. 
+    
+    This townhome is located on a quiet cul-de-sac within easy reach of schools, shopping, parks, public transport, restaurants and is ideal for a young family or couples. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396.'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '2'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1245.00'
+    month: '12'
+    year: '2016'
+    promotion: 'JANUARY FREE'
+[2016-12-24 23:11:37.703115] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [8]
+house_num [1A]
+street [Foxhill Way]
+city [Ottawa]
+prov [ON]
+postal_code [K2J 1J8]
+bedrooms [3]
+bathrooms [1]
+powder_rooms [2]
+description [JANUARY FREE !! 
+
+613-232-2396 
+
+3 Bedroom family home with 1 ½ bathrooms with a master bedroom featuring an ensuite ½ bathroom, 5 appliances, A/C, eat-in kitchen, dining room, a sunken living room, storage, water filtration system with spare filter, shady fenced yard, shed, patio and parking. $1,245.00 plus utilities. 
+
+This townhome is located on a quiet cul-de-sac within easy reach of schools, shopping, parks, public transport, restaurants and is ideal for a young family or couples. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396.]
+size []
+type [SEMI-DETACHED]
+exists []
+
+[2016-12-24 23:11:37.703161] [info] Populating house
+[2016-12-24 23:11:37.703200] [info] beanSuite->dxHashToClass
+    house_id: '8'
+    house_num: '1A'
+    street: 'Foxhill Way'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1J8'
+    description: 'JANUARY FREE !! 
+    
+    613-232-2396 
+    
+    3 Bedroom family home with 1 ½ bathrooms with a master bedroom featuring an ensuite ½ bathroom, 5 appliances, A/C, eat-in kitchen, dining room, a sunken living room, storage, water filtration system with spare filter, shady fenced yard, shed, patio and parking. $1,245.00 plus utilities. 
+    
+    This townhome is located on a quiet cul-de-sac within easy reach of schools, shopping, parks, public transport, restaurants and is ideal for a young family or couples. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396.'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '2'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1245.00'
+    month: '12'
+    year: '2016'
+    promotion: 'JANUARY FREE'
+[2016-12-24 23:11:37.703439] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2016-12-24 23:11:37.703480] [info] Populating suite
+[2016-12-24 23:11:37.703516] [info] results is not a member of classObject
+[2016-12-24 23:11:37.703552] [info] totalRows is not a member of classObject
+[2016-12-24 23:11:37.703584] [info] currRow is not a member of classObject
+[2016-12-24 23:35:50.727885] [info] Entering index: 
+[2016-12-24 23:35:50.728029] [info] -->action: 
+[2016-12-24 23:35:50.728079] [info] -->suite_id: 
+[2016-12-24 23:35:50.728121] [info] -->there is no gallery for this page, or it did not load correctly

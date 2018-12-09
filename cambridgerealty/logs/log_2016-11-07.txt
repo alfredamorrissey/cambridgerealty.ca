@@ -1,0 +1,1430 @@
+[2016-11-07 0:05:33.273838] [info] Entering index: 
+[2016-11-07 0:05:33.274029] [info] -->action: house
+[2016-11-07 0:05:33.274071] [info] -->suite_id: 
+[2016-11-07 0:05:33.429614] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id='12'
+[2016-11-07 0:05:33.429749] [info] 1 rows returned.
+[2016-11-07 0:05:33.429790] [info] Results: 1
+[2016-11-07 0:05:33.429858] [info] beanHouse->dxHashToClass
+    house_id: '12'
+    house_num: '66'
+    street: 'Sundback Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2L 2W8'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY 
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom townhouse, 1 full and 2 half bathrooms, the master bedroom features one of the half bathrooms as an ensuite as well as a walk-in closet, air-conditioning, 5 appliances, eat-in kitchen, dining room, living room, fireplace, large entrance, storage, fenced yard, shed, patio, garage. $1,395.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '2'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-11-07 0:05:33.430234] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [12]
+house_num [66]
+street [Sundback Lane]
+city [Ottawa]
+prov [ON]
+postal_code [K2L 2W8]
+bedrooms [3]
+bathrooms [1]
+powder_rooms [2]
+description [$500.00 MOVE-IN BONUS !!
+
+IMMEDIATE AVAILABILITY 
+
+Call 613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom townhouse, 1 full and 2 half bathrooms, the master bedroom features one of the half bathrooms as an ensuite as well as a walk-in closet, air-conditioning, 5 appliances, eat-in kitchen, dining room, living room, fireplace, large entrance, storage, fenced yard, shed, patio, garage. $1,395.00 plus utilities. 
+
+This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [SEMI-DETACHED]
+exists [1]
+
+[2016-11-07 0:05:33.493910] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=12
+[2016-11-07 0:05:33.494043] [info] 1 rows returned.
+[2016-11-07 0:05:33.496583] [info] Gallery exists 111
+[2016-11-07 0:05:33.591398] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='111'
+[2016-11-07 0:05:33.591526] [info] 1 rows returned.
+[2016-11-07 0:05:33.591567] [info] Results: 1
+[2016-11-07 0:05:33.591617] [info] beanGallery->dxHashToClass
+    gallery_id: '111'
+    code: '66SundbackLane'
+    description: '66 Sundback Lane'
+[2016-11-07 0:05:33.591746] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [111]
+code [66SundbackLane]
+description [66 Sundback Lane]
+exists [1]
+
+[2016-11-07 0:05:33.591799] [info] gallery: 1
+[2016-11-07 0:05:33.591850] [info] __doLoadPhotos
+[2016-11-07 0:05:33.591887] [info] -->this: 1
+[2016-11-07 0:05:33.591923] [info] -->gallery: 1
+[2016-11-07 0:05:33.684212] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 111 and gp.photo_id = p.photo_id
+[2016-11-07 0:05:33.684335] [info] 10 rows returned.
+[2016-11-07 0:05:33.684412] [info] Results: 10
+[2016-11-07 0:05:33.684582] [info] 234
+[2016-11-07 0:05:33.684629] [info] 235
+[2016-11-07 0:05:33.684665] [info] 236
+[2016-11-07 0:05:33.684699] [info] 237
+[2016-11-07 0:05:33.684731] [info] 238
+[2016-11-07 0:05:33.684770] [info] 239
+[2016-11-07 0:05:33.684803] [info] 240
+[2016-11-07 0:05:33.684835] [info] 241
+[2016-11-07 0:05:33.684869] [info] 242
+[2016-11-07 0:05:33.685030] [info] 243
+[2016-11-07 0:05:33.685077] [info] images/imggal/66SundbackLane/thumb/4.jpg
+[2016-11-07 0:05:33.685121] [info] images/imggal/66SundbackLane/thumb/1.jpg
+[2016-11-07 0:05:33.685156] [info] images/imggal/66SundbackLane/thumb/2.jpg
+[2016-11-07 0:05:33.685189] [info] images/imggal/66SundbackLane/thumb/3.jpg
+[2016-11-07 0:05:33.685223] [info] images/imggal/66SundbackLane/thumb/5.jpg
+[2016-11-07 0:05:33.685256] [info] images/imggal/66SundbackLane/thumb/6.jpg
+[2016-11-07 0:05:33.685287] [info] images/imggal/66SundbackLane/thumb/7.jpg
+[2016-11-07 0:05:33.685321] [info] images/imggal/66SundbackLane/thumb/8.jpg
+[2016-11-07 0:05:33.685363] [info] images/imggal/66SundbackLane/thumb/9.jpg
+[2016-11-07 0:05:33.685398] [info] images/imggal/66SundbackLane/thumb/10.jpg
+[2016-11-07 0:05:33.685434] [info] images/imggal/66SundbackLane/med/4.jpg
+[2016-11-07 0:05:33.685467] [info] images/imggal/66SundbackLane/med/1.jpg
+[2016-11-07 0:05:33.685501] [info] images/imggal/66SundbackLane/med/2.jpg
+[2016-11-07 0:05:33.685534] [info] images/imggal/66SundbackLane/med/3.jpg
+[2016-11-07 0:05:33.685565] [info] images/imggal/66SundbackLane/med/5.jpg
+[2016-11-07 0:05:33.685599] [info] images/imggal/66SundbackLane/med/6.jpg
+[2016-11-07 0:05:33.685631] [info] images/imggal/66SundbackLane/med/7.jpg
+[2016-11-07 0:05:33.685663] [info] images/imggal/66SundbackLane/med/8.jpg
+[2016-11-07 0:05:33.685697] [info] images/imggal/66SundbackLane/med/9.jpg
+[2016-11-07 0:05:33.685729] [info] images/imggal/66SundbackLane/med/10.jpg
+[2016-11-07 0:05:33.685765] [info] images/imggal/66SundbackLane/full/4.jpg
+[2016-11-07 0:05:33.685798] [info] images/imggal/66SundbackLane/full/1.jpg
+[2016-11-07 0:05:33.685832] [info] images/imggal/66SundbackLane/full/2.jpg
+[2016-11-07 0:05:33.685863] [info] images/imggal/66SundbackLane/full/3.jpg
+[2016-11-07 0:05:33.685897] [info] images/imggal/66SundbackLane/full/5.jpg
+[2016-11-07 0:05:33.685929] [info] images/imggal/66SundbackLane/full/6.jpg
+[2016-11-07 0:05:33.685969] [info] images/imggal/66SundbackLane/full/7.jpg
+[2016-11-07 0:05:33.686002] [info] images/imggal/66SundbackLane/full/8.jpg
+[2016-11-07 0:05:33.686034] [info] images/imggal/66SundbackLane/full/9.jpg
+[2016-11-07 0:05:33.686068] [info] images/imggal/66SundbackLane/full/10.jpg
+[2016-11-07 0:05:33.686110] [info] -->num_photos: 10
+[2016-11-07 0:05:33.696856] [info] i: 
+[2016-11-07 0:05:33.696966] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/4.jpg
+[2016-11-07 0:05:33.697006] [info] meds[i]: images/imggal/66SundbackLane/med/4.jpg
+[2016-11-07 0:05:33.697042] [info] fulls[i]: images/imggal/66SundbackLane/full/4.jpg
+[2016-11-07 0:05:33.697082] [info] i: 
+[2016-11-07 0:05:33.697118] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/1.jpg
+[2016-11-07 0:05:33.697151] [info] meds[i]: images/imggal/66SundbackLane/med/1.jpg
+[2016-11-07 0:05:33.697185] [info] fulls[i]: images/imggal/66SundbackLane/full/1.jpg
+[2016-11-07 0:05:33.697223] [info] i: 
+[2016-11-07 0:05:33.697258] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/2.jpg
+[2016-11-07 0:05:33.697293] [info] meds[i]: images/imggal/66SundbackLane/med/2.jpg
+[2016-11-07 0:05:33.697325] [info] fulls[i]: images/imggal/66SundbackLane/full/2.jpg
+[2016-11-07 0:05:33.697380] [info] i: 
+[2016-11-07 0:05:33.697417] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/3.jpg
+[2016-11-07 0:05:33.697453] [info] meds[i]: images/imggal/66SundbackLane/med/3.jpg
+[2016-11-07 0:05:33.697487] [info] fulls[i]: images/imggal/66SundbackLane/full/3.jpg
+[2016-11-07 0:05:33.697525] [info] i: 
+[2016-11-07 0:05:33.697560] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/5.jpg
+[2016-11-07 0:05:33.697593] [info] meds[i]: images/imggal/66SundbackLane/med/5.jpg
+[2016-11-07 0:05:33.697627] [info] fulls[i]: images/imggal/66SundbackLane/full/5.jpg
+[2016-11-07 0:05:33.697664] [info] i: 
+[2016-11-07 0:05:33.697700] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/6.jpg
+[2016-11-07 0:05:33.697732] [info] meds[i]: images/imggal/66SundbackLane/med/6.jpg
+[2016-11-07 0:05:33.697767] [info] fulls[i]: images/imggal/66SundbackLane/full/6.jpg
+[2016-11-07 0:05:33.697803] [info] i: 
+[2016-11-07 0:05:33.697839] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/7.jpg
+[2016-11-07 0:05:33.697880] [info] meds[i]: images/imggal/66SundbackLane/med/7.jpg
+[2016-11-07 0:05:33.697916] [info] fulls[i]: images/imggal/66SundbackLane/full/7.jpg
+[2016-11-07 0:05:33.697953] [info] i: 
+[2016-11-07 0:05:33.697988] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/8.jpg
+[2016-11-07 0:05:33.698021] [info] meds[i]: images/imggal/66SundbackLane/med/8.jpg
+[2016-11-07 0:05:33.698055] [info] fulls[i]: images/imggal/66SundbackLane/full/8.jpg
+[2016-11-07 0:05:33.698093] [info] i: 
+[2016-11-07 0:05:33.698129] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/9.jpg
+[2016-11-07 0:05:33.698163] [info] meds[i]: images/imggal/66SundbackLane/med/9.jpg
+[2016-11-07 0:05:33.698199] [info] fulls[i]: images/imggal/66SundbackLane/full/9.jpg
+[2016-11-07 0:05:33.698240] [info] i: 
+[2016-11-07 0:05:33.698276] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/10.jpg
+[2016-11-07 0:05:33.698312] [info] meds[i]: images/imggal/66SundbackLane/med/10.jpg
+[2016-11-07 0:05:33.698354] [info] fulls[i]: images/imggal/66SundbackLane/full/10.jpg
+[2016-11-07 0:05:33.733304] [info] __getPhotoPath: 0 fulls images/imggal/66SundbackLane/full/4.jpg
+[2016-11-07 0:05:33.733402] [info] __getPhotoPath: 0 meds images/imggal/66SundbackLane/med/4.jpg
+[2016-11-07 0:05:33.733449] [info] __getPhotoPath: 0 fulls images/imggal/66SundbackLane/full/4.jpg
+[2016-11-07 0:05:33.733596] [info] classGoogleMap->embedMap()
+[2016-11-07 0:05:33.733644] [info] -->addressString: 66%2BSundback+Lane%2C%2BOttawa%2C%2BON
+[2016-11-07 0:05:33.733681] [info] -->html: <iframe width="475" height="450" frameborder="0" style="border:0"src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAPmcMH3KFQE-9rfNowTpSWwD7mKrcrr2Q&q=66%2BSundback+Lane%2C%2BOttawa%2C%2BON&attribution_source=Google+Maps+Embed+API&attribution_ios_deep_link_id=comgooglemaps://?daddr=66%2BSundback+Lane%2C%2BOttawa%2C%2BON" allowfullscreen></iframe>
+[2016-11-07 0:11:59.134212] [info] Entering index: 
+[2016-11-07 0:11:59.134383] [info] -->action: 
+[2016-11-07 0:11:59.134427] [info] -->suite_id: 
+[2016-11-07 0:11:59.134464] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 0:14:04.793699] [info] Entering index: 
+[2016-11-07 0:14:04.793843] [info] -->action: 
+[2016-11-07 0:14:04.793904] [info] -->suite_id: 
+[2016-11-07 0:14:04.793946] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 0:44:41.827388] [info] Entering index: 
+[2016-11-07 0:44:41.827588] [info] -->action: 
+[2016-11-07 0:44:41.827630] [info] -->suite_id: 
+[2016-11-07 0:44:41.827666] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 0:45:56.720304] [info] Entering index: 
+[2016-11-07 0:45:56.720422] [info] -->action: 
+[2016-11-07 0:45:56.720460] [info] -->suite_id: 
+[2016-11-07 0:45:56.720495] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 0:57:59.694870] [info] Entering index: 
+[2016-11-07 0:57:59.695075] [info] -->action: 
+[2016-11-07 0:57:59.695117] [info] -->suite_id: 
+[2016-11-07 0:57:59.695154] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 1:20:36.099359] [info] Entering index: 
+[2016-11-07 1:20:36.099540] [info] -->action: 
+[2016-11-07 1:20:36.099584] [info] -->suite_id: 
+[2016-11-07 1:20:36.099621] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 1:20:53.277560] [info] Entering index: 
+[2016-11-07 1:20:53.277671] [info] -->action: 
+[2016-11-07 1:20:53.277709] [info] -->suite_id: 
+[2016-11-07 1:20:53.277745] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 2:08:16.579674] [info] Entering index: 
+[2016-11-07 2:08:16.579863] [info] -->action: 
+[2016-11-07 2:08:16.579905] [info] -->suite_id: 
+[2016-11-07 2:08:16.579942] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 2:41:32.822849] [info] Entering index: 
+[2016-11-07 2:41:32.823009] [info] -->action: 
+[2016-11-07 2:41:32.823051] [info] -->suite_id: 
+[2016-11-07 2:41:32.823088] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 2:42:37.595943] [info] Entering index: 
+[2016-11-07 2:42:37.596052] [info] -->action: 
+[2016-11-07 2:42:37.596091] [info] -->suite_id: 
+[2016-11-07 2:42:37.596127] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 2:53:06.457237] [info] Entering index: 
+[2016-11-07 2:53:06.457422] [info] -->action: house
+[2016-11-07 2:53:06.457465] [info] -->suite_id: 
+[2016-11-07 2:53:06.826149] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id='12'
+[2016-11-07 2:53:06.826282] [info] 1 rows returned.
+[2016-11-07 2:53:06.826323] [info] Results: 1
+[2016-11-07 2:53:06.826406] [info] beanHouse->dxHashToClass
+    house_id: '12'
+    house_num: '66'
+    street: 'Sundback Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2L 2W8'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY 
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom townhouse, 1 full and 2 half bathrooms, the master bedroom features one of the half bathrooms as an ensuite as well as a walk-in closet, air-conditioning, 5 appliances, eat-in kitchen, dining room, living room, fireplace, large entrance, storage, fenced yard, shed, patio, garage. $1,395.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '2'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-11-07 2:53:06.826781] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [12]
+house_num [66]
+street [Sundback Lane]
+city [Ottawa]
+prov [ON]
+postal_code [K2L 2W8]
+bedrooms [3]
+bathrooms [1]
+powder_rooms [2]
+description [$500.00 MOVE-IN BONUS !!
+
+IMMEDIATE AVAILABILITY 
+
+Call 613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom townhouse, 1 full and 2 half bathrooms, the master bedroom features one of the half bathrooms as an ensuite as well as a walk-in closet, air-conditioning, 5 appliances, eat-in kitchen, dining room, living room, fireplace, large entrance, storage, fenced yard, shed, patio, garage. $1,395.00 plus utilities. 
+
+This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [SEMI-DETACHED]
+exists [1]
+
+[2016-11-07 2:53:06.962249] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=12
+[2016-11-07 2:53:06.962380] [info] 1 rows returned.
+[2016-11-07 2:53:06.969177] [info] Gallery exists 111
+[2016-11-07 2:53:06.989088] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='111'
+[2016-11-07 2:53:06.989207] [info] 1 rows returned.
+[2016-11-07 2:53:06.989248] [info] Results: 1
+[2016-11-07 2:53:06.989296] [info] beanGallery->dxHashToClass
+    gallery_id: '111'
+    code: '66SundbackLane'
+    description: '66 Sundback Lane'
+[2016-11-07 2:53:06.989440] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [111]
+code [66SundbackLane]
+description [66 Sundback Lane]
+exists [1]
+
+[2016-11-07 2:53:06.989495] [info] gallery: 1
+[2016-11-07 2:53:06.989540] [info] __doLoadPhotos
+[2016-11-07 2:53:06.989578] [info] -->this: 1
+[2016-11-07 2:53:06.989614] [info] -->gallery: 1
+[2016-11-07 2:53:07.025041] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 111 and gp.photo_id = p.photo_id
+[2016-11-07 2:53:07.025163] [info] 10 rows returned.
+[2016-11-07 2:53:07.025208] [info] Results: 10
+[2016-11-07 2:53:07.025310] [info] 234
+[2016-11-07 2:53:07.025360] [info] 235
+[2016-11-07 2:53:07.025398] [info] 236
+[2016-11-07 2:53:07.025430] [info] 237
+[2016-11-07 2:53:07.025474] [info] 238
+[2016-11-07 2:53:07.025509] [info] 239
+[2016-11-07 2:53:07.025542] [info] 240
+[2016-11-07 2:53:07.025574] [info] 241
+[2016-11-07 2:53:07.025608] [info] 242
+[2016-11-07 2:53:07.025640] [info] 243
+[2016-11-07 2:53:07.025676] [info] images/imggal/66SundbackLane/thumb/4.jpg
+[2016-11-07 2:53:07.025712] [info] images/imggal/66SundbackLane/thumb/1.jpg
+[2016-11-07 2:53:07.025744] [info] images/imggal/66SundbackLane/thumb/2.jpg
+[2016-11-07 2:53:07.025778] [info] images/imggal/66SundbackLane/thumb/3.jpg
+[2016-11-07 2:53:07.025810] [info] images/imggal/66SundbackLane/thumb/5.jpg
+[2016-11-07 2:53:07.025844] [info] images/imggal/66SundbackLane/thumb/6.jpg
+[2016-11-07 2:53:07.025882] [info] images/imggal/66SundbackLane/thumb/7.jpg
+[2016-11-07 2:53:07.025917] [info] images/imggal/66SundbackLane/thumb/8.jpg
+[2016-11-07 2:53:07.025949] [info] images/imggal/66SundbackLane/thumb/9.jpg
+[2016-11-07 2:53:07.025983] [info] images/imggal/66SundbackLane/thumb/10.jpg
+[2016-11-07 2:53:07.026017] [info] images/imggal/66SundbackLane/med/4.jpg
+[2016-11-07 2:53:07.026051] [info] images/imggal/66SundbackLane/med/1.jpg
+[2016-11-07 2:53:07.026084] [info] images/imggal/66SundbackLane/med/2.jpg
+[2016-11-07 2:53:07.026118] [info] images/imggal/66SundbackLane/med/3.jpg
+[2016-11-07 2:53:07.026151] [info] images/imggal/66SundbackLane/med/5.jpg
+[2016-11-07 2:53:07.026185] [info] images/imggal/66SundbackLane/med/6.jpg
+[2016-11-07 2:53:07.026217] [info] images/imggal/66SundbackLane/med/7.jpg
+[2016-11-07 2:53:07.026251] [info] images/imggal/66SundbackLane/med/8.jpg
+[2016-11-07 2:53:07.026283] [info] images/imggal/66SundbackLane/med/9.jpg
+[2016-11-07 2:53:07.026316] [info] images/imggal/66SundbackLane/med/10.jpg
+[2016-11-07 2:53:07.026360] [info] images/imggal/66SundbackLane/full/4.jpg
+[2016-11-07 2:53:07.026396] [info] images/imggal/66SundbackLane/full/1.jpg
+[2016-11-07 2:53:07.026429] [info] images/imggal/66SundbackLane/full/2.jpg
+[2016-11-07 2:53:07.026463] [info] images/imggal/66SundbackLane/full/3.jpg
+[2016-11-07 2:53:07.026495] [info] images/imggal/66SundbackLane/full/5.jpg
+[2016-11-07 2:53:07.026529] [info] images/imggal/66SundbackLane/full/6.jpg
+[2016-11-07 2:53:07.026561] [info] images/imggal/66SundbackLane/full/7.jpg
+[2016-11-07 2:53:07.026595] [info] images/imggal/66SundbackLane/full/8.jpg
+[2016-11-07 2:53:07.026628] [info] images/imggal/66SundbackLane/full/9.jpg
+[2016-11-07 2:53:07.026660] [info] images/imggal/66SundbackLane/full/10.jpg
+[2016-11-07 2:53:07.026702] [info] -->num_photos: 10
+[2016-11-07 2:53:07.043941] [info] i: 
+[2016-11-07 2:53:07.044044] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/4.jpg
+[2016-11-07 2:53:07.044083] [info] meds[i]: images/imggal/66SundbackLane/med/4.jpg
+[2016-11-07 2:53:07.044118] [info] fulls[i]: images/imggal/66SundbackLane/full/4.jpg
+[2016-11-07 2:53:07.044158] [info] i: 
+[2016-11-07 2:53:07.044193] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/1.jpg
+[2016-11-07 2:53:07.044226] [info] meds[i]: images/imggal/66SundbackLane/med/1.jpg
+[2016-11-07 2:53:07.044260] [info] fulls[i]: images/imggal/66SundbackLane/full/1.jpg
+[2016-11-07 2:53:07.044297] [info] i: 
+[2016-11-07 2:53:07.044332] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/2.jpg
+[2016-11-07 2:53:07.044383] [info] meds[i]: images/imggal/66SundbackLane/med/2.jpg
+[2016-11-07 2:53:07.044419] [info] fulls[i]: images/imggal/66SundbackLane/full/2.jpg
+[2016-11-07 2:53:07.044456] [info] i: 
+[2016-11-07 2:53:07.044491] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/3.jpg
+[2016-11-07 2:53:07.044523] [info] meds[i]: images/imggal/66SundbackLane/med/3.jpg
+[2016-11-07 2:53:07.044557] [info] fulls[i]: images/imggal/66SundbackLane/full/3.jpg
+[2016-11-07 2:53:07.044595] [info] i: 
+[2016-11-07 2:53:07.044629] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/5.jpg
+[2016-11-07 2:53:07.044661] [info] meds[i]: images/imggal/66SundbackLane/med/5.jpg
+[2016-11-07 2:53:07.044694] [info] fulls[i]: images/imggal/66SundbackLane/full/5.jpg
+[2016-11-07 2:53:07.044733] [info] i: 
+[2016-11-07 2:53:07.044766] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/6.jpg
+[2016-11-07 2:53:07.044809] [info] meds[i]: images/imggal/66SundbackLane/med/6.jpg
+[2016-11-07 2:53:07.044843] [info] fulls[i]: images/imggal/66SundbackLane/full/6.jpg
+[2016-11-07 2:53:07.044887] [info] i: 
+[2016-11-07 2:53:07.044924] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/7.jpg
+[2016-11-07 2:53:07.044958] [info] meds[i]: images/imggal/66SundbackLane/med/7.jpg
+[2016-11-07 2:53:07.045262] [info] fulls[i]: images/imggal/66SundbackLane/full/7.jpg
+[2016-11-07 2:53:07.045321] [info] i: 
+[2016-11-07 2:53:07.045366] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/8.jpg
+[2016-11-07 2:53:07.045403] [info] meds[i]: images/imggal/66SundbackLane/med/8.jpg
+[2016-11-07 2:53:07.045437] [info] fulls[i]: images/imggal/66SundbackLane/full/8.jpg
+[2016-11-07 2:53:07.045475] [info] i: 
+[2016-11-07 2:53:07.045509] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/9.jpg
+[2016-11-07 2:53:07.045542] [info] meds[i]: images/imggal/66SundbackLane/med/9.jpg
+[2016-11-07 2:53:07.045576] [info] fulls[i]: images/imggal/66SundbackLane/full/9.jpg
+[2016-11-07 2:53:07.045613] [info] i: 
+[2016-11-07 2:53:07.045646] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/10.jpg
+[2016-11-07 2:53:07.045680] [info] meds[i]: images/imggal/66SundbackLane/med/10.jpg
+[2016-11-07 2:53:07.045713] [info] fulls[i]: images/imggal/66SundbackLane/full/10.jpg
+[2016-11-07 2:53:07.094943] [info] __getPhotoPath: 0 fulls images/imggal/66SundbackLane/full/4.jpg
+[2016-11-07 2:53:07.095048] [info] __getPhotoPath: 0 meds images/imggal/66SundbackLane/med/4.jpg
+[2016-11-07 2:53:07.095092] [info] __getPhotoPath: 0 fulls images/imggal/66SundbackLane/full/4.jpg
+[2016-11-07 2:53:07.095231] [info] classGoogleMap->embedMap()
+[2016-11-07 2:53:07.095274] [info] -->addressString: 66%2BSundback+Lane%2C%2BOttawa%2C%2BON
+[2016-11-07 2:53:07.095310] [info] -->html: <iframe width="475" height="450" frameborder="0" style="border:0"src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAPmcMH3KFQE-9rfNowTpSWwD7mKrcrr2Q&q=66%2BSundback+Lane%2C%2BOttawa%2C%2BON&attribution_source=Google+Maps+Embed+API&attribution_ios_deep_link_id=comgooglemaps://?daddr=66%2BSundback+Lane%2C%2BOttawa%2C%2BON" allowfullscreen></iframe>
+[2016-11-07 3:39:58.936966] [info] Entering index: 
+[2016-11-07 3:39:58.937099] [info] -->action: 
+[2016-11-07 3:39:58.937140] [info] -->suite_id: 
+[2016-11-07 3:39:58.937175] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 3:41:02.702658] [info] Entering index: 
+[2016-11-07 3:41:02.702773] [info] -->action: 
+[2016-11-07 3:41:02.702811] [info] -->suite_id: 
+[2016-11-07 3:41:02.702847] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 4:17:47.401407] [info] Entering index: 
+[2016-11-07 4:17:47.401606] [info] -->action: 
+[2016-11-07 4:17:47.401648] [info] -->suite_id: 
+[2016-11-07 4:17:47.401684] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 4:17:47.869611] [info] Entering index: 
+[2016-11-07 4:17:47.869710] [info] -->action: 
+[2016-11-07 4:17:47.869748] [info] -->suite_id: 
+[2016-11-07 4:17:47.869784] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 4:23:26.733993] [info] Entering index: 
+[2016-11-07 4:23:26.734186] [info] -->action: 
+[2016-11-07 4:23:26.734229] [info] -->suite_id: 
+[2016-11-07 4:23:26.734266] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 4:23:52.943845] [info] Entering index: 
+[2016-11-07 4:23:52.943931] [info] -->action: 
+[2016-11-07 4:23:52.943969] [info] -->suite_id: 
+[2016-11-07 4:23:52.944005] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 5:02:13.529922] [info] Entering index: 
+[2016-11-07 5:02:13.530112] [info] -->action: 
+[2016-11-07 5:02:13.530154] [info] -->suite_id: 
+[2016-11-07 5:02:13.530191] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 5:55:46.922460] [info] Entering index: 
+[2016-11-07 5:55:46.922650] [info] -->action: 
+[2016-11-07 5:55:46.922698] [info] -->suite_id: 
+[2016-11-07 5:55:46.922736] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 6:46:34.213660] [info] Entering index: 
+[2016-11-07 6:46:34.213816] [info] -->action: 
+[2016-11-07 6:46:34.213857] [info] -->suite_id: 
+[2016-11-07 6:46:34.213892] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 6:47:54.855122] [info] Entering index: 
+[2016-11-07 6:47:54.855209] [info] -->action: 
+[2016-11-07 6:47:54.855247] [info] -->suite_id: 
+[2016-11-07 6:47:54.855281] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 7:20:29.075006] [info] Entering index: 
+[2016-11-07 7:20:29.075201] [info] -->action: 
+[2016-11-07 7:20:29.075243] [info] -->suite_id: 
+[2016-11-07 7:20:29.075279] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 7:20:46.082572] [info] Entering index: 
+[2016-11-07 7:20:46.082672] [info] -->action: 
+[2016-11-07 7:20:46.082709] [info] -->suite_id: 
+[2016-11-07 7:20:46.082743] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 7:55:52.632278] [info] Entering index: 
+[2016-11-07 7:55:52.632464] [info] -->action: 
+[2016-11-07 7:55:52.632508] [info] -->suite_id: 
+[2016-11-07 7:55:52.632544] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 9:40:04.318310] [info] Entering index: 
+[2016-11-07 9:40:04.318586] [info] -->action: 
+[2016-11-07 9:40:04.318630] [info] -->suite_id: 
+[2016-11-07 9:40:04.318666] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 9:41:10.501435] [info] Entering index: 
+[2016-11-07 9:41:10.501594] [info] -->action: 
+[2016-11-07 9:41:10.501637] [info] -->suite_id: 
+[2016-11-07 9:41:10.501673] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 10:04:08.943324] [info] Entering index: 
+[2016-11-07 10:04:08.943464] [info] -->action: 
+[2016-11-07 10:04:08.943511] [info] -->suite_id: 
+[2016-11-07 10:04:08.943552] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 10:04:09.343493] [info] Entering index: 
+[2016-11-07 10:04:09.343648] [info] -->action: house
+[2016-11-07 10:04:09.343691] [info] -->suite_id: 
+[2016-11-07 10:04:09.582190] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id='12'
+[2016-11-07 10:04:09.582309] [info] 1 rows returned.
+[2016-11-07 10:04:09.582350] [info] Results: 1
+[2016-11-07 10:04:09.582422] [info] beanHouse->dxHashToClass
+    house_id: '12'
+    house_num: '66'
+    street: 'Sundback Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2L 2W8'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY 
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom townhouse, 1 full and 2 half bathrooms, the master bedroom features one of the half bathrooms as an ensuite as well as a walk-in closet, air-conditioning, 5 appliances, eat-in kitchen, dining room, living room, fireplace, large entrance, storage, fenced yard, shed, patio, garage. $1,395.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '2'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-11-07 10:04:09.582971] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [12]
+house_num [66]
+street [Sundback Lane]
+city [Ottawa]
+prov [ON]
+postal_code [K2L 2W8]
+bedrooms [3]
+bathrooms [1]
+powder_rooms [2]
+description [$500.00 MOVE-IN BONUS !!
+
+IMMEDIATE AVAILABILITY 
+
+Call 613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom townhouse, 1 full and 2 half bathrooms, the master bedroom features one of the half bathrooms as an ensuite as well as a walk-in closet, air-conditioning, 5 appliances, eat-in kitchen, dining room, living room, fireplace, large entrance, storage, fenced yard, shed, patio, garage. $1,395.00 plus utilities. 
+
+This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [SEMI-DETACHED]
+exists [1]
+
+[2016-11-07 10:04:09.711754] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=12
+[2016-11-07 10:04:09.711894] [info] 1 rows returned.
+[2016-11-07 10:04:09.730834] [info] Gallery exists 111
+[2016-11-07 10:04:09.858261] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='111'
+[2016-11-07 10:04:09.858406] [info] 1 rows returned.
+[2016-11-07 10:04:09.858448] [info] Results: 1
+[2016-11-07 10:04:09.858496] [info] beanGallery->dxHashToClass
+    gallery_id: '111'
+    code: '66SundbackLane'
+    description: '66 Sundback Lane'
+[2016-11-07 10:04:09.858632] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [111]
+code [66SundbackLane]
+description [66 Sundback Lane]
+exists [1]
+
+[2016-11-07 10:04:09.858684] [info] gallery: 1
+[2016-11-07 10:04:09.858726] [info] __doLoadPhotos
+[2016-11-07 10:04:09.858762] [info] -->this: 1
+[2016-11-07 10:04:09.858798] [info] -->gallery: 1
+[2016-11-07 10:04:10.118707] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 111 and gp.photo_id = p.photo_id
+[2016-11-07 10:04:10.118840] [info] 10 rows returned.
+[2016-11-07 10:04:10.118884] [info] Results: 10
+[2016-11-07 10:04:10.118988] [info] 234
+[2016-11-07 10:04:10.119028] [info] 235
+[2016-11-07 10:04:10.119060] [info] 236
+[2016-11-07 10:04:10.119093] [info] 237
+[2016-11-07 10:04:10.119127] [info] 238
+[2016-11-07 10:04:10.119158] [info] 239
+[2016-11-07 10:04:10.119190] [info] 240
+[2016-11-07 10:04:10.119223] [info] 241
+[2016-11-07 10:04:10.119255] [info] 242
+[2016-11-07 10:04:10.119287] [info] 243
+[2016-11-07 10:04:10.119322] [info] images/imggal/66SundbackLane/thumb/4.jpg
+[2016-11-07 10:04:10.119368] [info] images/imggal/66SundbackLane/thumb/1.jpg
+[2016-11-07 10:04:10.119404] [info] images/imggal/66SundbackLane/thumb/2.jpg
+[2016-11-07 10:04:10.119436] [info] images/imggal/66SundbackLane/thumb/3.jpg
+[2016-11-07 10:04:10.119469] [info] images/imggal/66SundbackLane/thumb/5.jpg
+[2016-11-07 10:04:10.119502] [info] images/imggal/66SundbackLane/thumb/6.jpg
+[2016-11-07 10:04:10.119534] [info] images/imggal/66SundbackLane/thumb/7.jpg
+[2016-11-07 10:04:10.119565] [info] images/imggal/66SundbackLane/thumb/8.jpg
+[2016-11-07 10:04:10.119597] [info] images/imggal/66SundbackLane/thumb/9.jpg
+[2016-11-07 10:04:10.119630] [info] images/imggal/66SundbackLane/thumb/10.jpg
+[2016-11-07 10:04:10.119664] [info] images/imggal/66SundbackLane/med/4.jpg
+[2016-11-07 10:04:10.119698] [info] images/imggal/66SundbackLane/med/1.jpg
+[2016-11-07 10:04:10.119729] [info] images/imggal/66SundbackLane/med/2.jpg
+[2016-11-07 10:04:10.119761] [info] images/imggal/66SundbackLane/med/3.jpg
+[2016-11-07 10:04:10.119793] [info] images/imggal/66SundbackLane/med/5.jpg
+[2016-11-07 10:04:10.119826] [info] images/imggal/66SundbackLane/med/6.jpg
+[2016-11-07 10:04:10.119858] [info] images/imggal/66SundbackLane/med/7.jpg
+[2016-11-07 10:04:10.119889] [info] images/imggal/66SundbackLane/med/8.jpg
+[2016-11-07 10:04:10.119921] [info] images/imggal/66SundbackLane/med/9.jpg
+[2016-11-07 10:04:10.119954] [info] images/imggal/66SundbackLane/med/10.jpg
+[2016-11-07 10:04:10.119987] [info] images/imggal/66SundbackLane/full/4.jpg
+[2016-11-07 10:04:10.120021] [info] images/imggal/66SundbackLane/full/1.jpg
+[2016-11-07 10:04:10.120054] [info] images/imggal/66SundbackLane/full/2.jpg
+[2016-11-07 10:04:10.120085] [info] images/imggal/66SundbackLane/full/3.jpg
+[2016-11-07 10:04:10.120117] [info] images/imggal/66SundbackLane/full/5.jpg
+[2016-11-07 10:04:10.120150] [info] images/imggal/66SundbackLane/full/6.jpg
+[2016-11-07 10:04:10.120189] [info] images/imggal/66SundbackLane/full/7.jpg
+[2016-11-07 10:04:10.120223] [info] images/imggal/66SundbackLane/full/8.jpg
+[2016-11-07 10:04:10.120255] [info] images/imggal/66SundbackLane/full/9.jpg
+[2016-11-07 10:04:10.120287] [info] images/imggal/66SundbackLane/full/10.jpg
+[2016-11-07 10:04:10.120331] [info] -->num_photos: 10
+[2016-11-07 10:04:10.121253] [info] i: 
+[2016-11-07 10:04:10.121304] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/4.jpg
+[2016-11-07 10:04:10.121340] [info] meds[i]: images/imggal/66SundbackLane/med/4.jpg
+[2016-11-07 10:04:10.121383] [info] fulls[i]: images/imggal/66SundbackLane/full/4.jpg
+[2016-11-07 10:04:10.121423] [info] i: 
+[2016-11-07 10:04:10.121458] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/1.jpg
+[2016-11-07 10:04:10.121490] [info] meds[i]: images/imggal/66SundbackLane/med/1.jpg
+[2016-11-07 10:04:10.121524] [info] fulls[i]: images/imggal/66SundbackLane/full/1.jpg
+[2016-11-07 10:04:10.121560] [info] i: 
+[2016-11-07 10:04:10.121593] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/2.jpg
+[2016-11-07 10:04:10.121627] [info] meds[i]: images/imggal/66SundbackLane/med/2.jpg
+[2016-11-07 10:04:10.121659] [info] fulls[i]: images/imggal/66SundbackLane/full/2.jpg
+[2016-11-07 10:04:10.121695] [info] i: 
+[2016-11-07 10:04:10.121728] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/3.jpg
+[2016-11-07 10:04:10.121762] [info] meds[i]: images/imggal/66SundbackLane/med/3.jpg
+[2016-11-07 10:04:10.121794] [info] fulls[i]: images/imggal/66SundbackLane/full/3.jpg
+[2016-11-07 10:04:10.121830] [info] i: 
+[2016-11-07 10:04:10.121865] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/5.jpg
+[2016-11-07 10:04:10.121896] [info] meds[i]: images/imggal/66SundbackLane/med/5.jpg
+[2016-11-07 10:04:10.121929] [info] fulls[i]: images/imggal/66SundbackLane/full/5.jpg
+[2016-11-07 10:04:10.121967] [info] i: 
+[2016-11-07 10:04:10.121999] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/6.jpg
+[2016-11-07 10:04:10.122033] [info] meds[i]: images/imggal/66SundbackLane/med/6.jpg
+[2016-11-07 10:04:10.122066] [info] fulls[i]: images/imggal/66SundbackLane/full/6.jpg
+[2016-11-07 10:04:10.122102] [info] i: 
+[2016-11-07 10:04:10.122134] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/7.jpg
+[2016-11-07 10:04:10.122168] [info] meds[i]: images/imggal/66SundbackLane/med/7.jpg
+[2016-11-07 10:04:10.122200] [info] fulls[i]: images/imggal/66SundbackLane/full/7.jpg
+[2016-11-07 10:04:10.122236] [info] i: 
+[2016-11-07 10:04:10.122270] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/8.jpg
+[2016-11-07 10:04:10.122303] [info] meds[i]: images/imggal/66SundbackLane/med/8.jpg
+[2016-11-07 10:04:10.122334] [info] fulls[i]: images/imggal/66SundbackLane/full/8.jpg
+[2016-11-07 10:04:10.122381] [info] i: 
+[2016-11-07 10:04:10.122416] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/9.jpg
+[2016-11-07 10:04:10.122450] [info] meds[i]: images/imggal/66SundbackLane/med/9.jpg
+[2016-11-07 10:04:10.122483] [info] fulls[i]: images/imggal/66SundbackLane/full/9.jpg
+[2016-11-07 10:04:10.122519] [info] i: 
+[2016-11-07 10:04:10.122551] [info] thumbs[i]: images/imggal/66SundbackLane/thumb/10.jpg
+[2016-11-07 10:04:10.122584] [info] meds[i]: images/imggal/66SundbackLane/med/10.jpg
+[2016-11-07 10:04:10.122616] [info] fulls[i]: images/imggal/66SundbackLane/full/10.jpg
+[2016-11-07 10:04:10.168746] [info] __getPhotoPath: 0 fulls images/imggal/66SundbackLane/full/4.jpg
+[2016-11-07 10:04:10.168807] [info] __getPhotoPath: 0 meds images/imggal/66SundbackLane/med/4.jpg
+[2016-11-07 10:04:10.168849] [info] __getPhotoPath: 0 fulls images/imggal/66SundbackLane/full/4.jpg
+[2016-11-07 10:04:10.168973] [info] classGoogleMap->embedMap()
+[2016-11-07 10:04:10.169017] [info] -->addressString: 66%2BSundback+Lane%2C%2BOttawa%2C%2BON
+[2016-11-07 10:04:10.169053] [info] -->html: <iframe width="475" height="450" frameborder="0" style="border:0"src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAPmcMH3KFQE-9rfNowTpSWwD7mKrcrr2Q&q=66%2BSundback+Lane%2C%2BOttawa%2C%2BON&attribution_source=Google+Maps+Embed+API&attribution_ios_deep_link_id=comgooglemaps://?daddr=66%2BSundback+Lane%2C%2BOttawa%2C%2BON" allowfullscreen></iframe>
+[2016-11-07 10:04:14.778692] [info] Entering index: 
+[2016-11-07 10:04:14.778778] [info] -->action: apt_vacancies
+[2016-11-07 10:04:14.778821] [info] -->suite_id: 
+[2016-11-07 10:04:14.778861] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 10:04:15.199243] [info] Running query: select * from senatorapts.Suite s, senatorapts.Available a where s.suite_id = a.suite_id  order by a.year, a.month, s.suite_order
+[2016-11-07 10:04:15.199381] [info] 3 rows returned.
+[2016-11-07 10:04:15.199474] [info] beanAvailable->dxHashToClass
+    suite_id: '408'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=08'
+    suite_order: '33'
+    rent: '915.00'
+    promotion: ''
+    month: '12'
+    year: '2016'
+[2016-11-07 10:04:15.199692] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [408]
+house_id []
+month [12]
+year [2016]
+rent [915.00]
+promotion []
+exists []
+
+[2016-11-07 10:04:15.199743] [info] Populating available
+[2016-11-07 10:04:15.199788] [info] beanSuite->dxHashToClass
+    suite_id: '408'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=08'
+    suite_order: '33'
+    rent: '915.00'
+    promotion: ''
+    month: '12'
+    year: '2016'
+[2016-11-07 10:04:15.199955] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [408]
+bedrooms [1]
+suite_order [33]
+floor_plan [index.php?action=floor_plan&suite_id=08]
+exists []
+
+[2016-11-07 10:04:15.200005] [info] Populating suite
+[2016-11-07 10:04:15.200046] [info] results is not a member of classObject
+[2016-11-07 10:04:15.200086] [info] totalRows is not a member of classObject
+[2016-11-07 10:04:15.200124] [info] currRow is not a member of classObject
+[2016-11-07 10:04:15.200256] [info] beanAvailable->dxHashToClass
+    suite_id: '604'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=04'
+    suite_order: '45'
+    rent: '905.00'
+    promotion: ''
+    month: '12'
+    year: '2016'
+[2016-11-07 10:04:15.200409] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [604]
+house_id []
+month [12]
+year [2016]
+rent [905.00]
+promotion []
+exists []
+
+[2016-11-07 10:04:15.200455] [info] Populating available
+[2016-11-07 10:04:15.200498] [info] beanSuite->dxHashToClass
+    suite_id: '604'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=04'
+    suite_order: '45'
+    rent: '905.00'
+    promotion: ''
+    month: '12'
+    year: '2016'
+[2016-11-07 10:04:15.200635] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [604]
+bedrooms [1]
+suite_order [45]
+floor_plan [index.php?action=floor_plan&suite_id=04]
+exists []
+
+[2016-11-07 10:04:15.200680] [info] Populating suite
+[2016-11-07 10:04:15.200721] [info] results is not a member of classObject
+[2016-11-07 10:04:15.200761] [info] totalRows is not a member of classObject
+[2016-11-07 10:04:15.200799] [info] currRow is not a member of classObject
+[2016-11-07 10:04:15.200887] [info] beanAvailable->dxHashToClass
+    suite_id: '904'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=04'
+    suite_order: '69'
+    rent: '910.00'
+    promotion: ''
+    month: '1'
+    year: '2017'
+[2016-11-07 10:04:15.201039] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [904]
+house_id []
+month [1]
+year [2017]
+rent [910.00]
+promotion []
+exists []
+
+[2016-11-07 10:04:15.201085] [info] Populating available
+[2016-11-07 10:04:15.201127] [info] beanSuite->dxHashToClass
+    suite_id: '904'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=04'
+    suite_order: '69'
+    rent: '910.00'
+    promotion: ''
+    month: '1'
+    year: '2017'
+[2016-11-07 10:04:15.201265] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [904]
+bedrooms [1]
+suite_order [69]
+floor_plan [index.php?action=floor_plan&suite_id=04]
+exists []
+
+[2016-11-07 10:04:15.201309] [info] Populating suite
+[2016-11-07 10:04:15.201349] [info] results is not a member of classObject
+[2016-11-07 10:04:15.201402] [info] totalRows is not a member of classObject
+[2016-11-07 10:04:15.201442] [info] currRow is not a member of classObject
+[2016-11-07 10:04:22.081917] [info] Entering index: 
+[2016-11-07 10:04:22.082019] [info] -->action: homes
+[2016-11-07 10:04:22.082063] [info] -->suite_id: 
+[2016-11-07 10:04:22.082103] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 10:04:22.281196] [info] Running query: select * from senatorapts.House h, senatorapts.HouseAvailable a where h.house_id = a.house_id  and h.deleted != 1 order by a.year, a.month
+[2016-11-07 10:04:22.281311] [info] 3 rows returned.
+[2016-11-07 10:04:22.281399] [info] beanAvailable->dxHashToClass
+    house_id: '14'
+    house_num: '21'
+    street: 'Trafford Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1X6'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom single family home, 2.5 bathrooms, master bedroom featuring a sitting area and an ensuite bathroom, 5 appliances, eat-in kitchen, dining room, living room, fireplace, finished rec room in the basement, storage, yard, garage. $1,390.00 plus utilities.
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+     
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1390.00'
+    month: '11'
+    year: '2016'
+    promotion: '$500.00 Move-in Bonus'
+[2016-11-07 10:04:22.281728] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [14]
+month [11]
+year [2016]
+rent [1390.00]
+promotion [$500.00 Move-in Bonus]
+exists []
+
+[2016-11-07 10:04:22.281776] [info] Populating available
+[2016-11-07 10:04:22.281820] [info] beanHouse->dxHashToClass
+    house_id: '14'
+    house_num: '21'
+    street: 'Trafford Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1X6'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom single family home, 2.5 bathrooms, master bedroom featuring a sitting area and an ensuite bathroom, 5 appliances, eat-in kitchen, dining room, living room, fireplace, finished rec room in the basement, storage, yard, garage. $1,390.00 plus utilities.
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+     
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1390.00'
+    month: '11'
+    year: '2016'
+    promotion: '$500.00 Move-in Bonus'
+[2016-11-07 10:04:22.282136] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [14]
+house_num [21]
+street [Trafford Lane]
+city [Ottawa]
+prov [ON]
+postal_code [K2J 1X6]
+bedrooms [3]
+bathrooms [2]
+powder_rooms [1]
+description [$500.00 MOVE-IN BONUS !!
+
+IMMEDIATE AVAILABILITY
+
+Call 613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom single family home, 2.5 bathrooms, master bedroom featuring a sitting area and an ensuite bathroom, 5 appliances, eat-in kitchen, dining room, living room, fireplace, finished rec room in the basement, storage, yard, garage. $1,390.00 plus utilities.
+
+This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+ 
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [DETACHED]
+exists []
+
+[2016-11-07 10:04:22.282193] [info] Populating house
+[2016-11-07 10:04:22.282238] [info] beanSuite->dxHashToClass
+    house_id: '14'
+    house_num: '21'
+    street: 'Trafford Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1X6'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom single family home, 2.5 bathrooms, master bedroom featuring a sitting area and an ensuite bathroom, 5 appliances, eat-in kitchen, dining room, living room, fireplace, finished rec room in the basement, storage, yard, garage. $1,390.00 plus utilities.
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+     
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1390.00'
+    month: '11'
+    year: '2016'
+    promotion: '$500.00 Move-in Bonus'
+[2016-11-07 10:04:22.282501] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2016-11-07 10:04:22.282548] [info] Populating suite
+[2016-11-07 10:04:22.282588] [info] results is not a member of classObject
+[2016-11-07 10:04:22.282627] [info] totalRows is not a member of classObject
+[2016-11-07 10:04:22.282665] [info] currRow is not a member of classObject
+[2016-11-07 10:04:22.282769] [info] beanAvailable->dxHashToClass
+    house_id: '13'
+    house_num: '6529'
+    street: 'Colony Square'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 3E3'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY 
+    
+    END UNIT! 
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,350.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1350.00'
+    month: '11'
+    year: '2016'
+    promotion: '$500.00 Move-in Bonus'
+[2016-11-07 10:04:22.283049] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [13]
+month [11]
+year [2016]
+rent [1350.00]
+promotion [$500.00 Move-in Bonus]
+exists []
+
+[2016-11-07 10:04:22.283097] [info] Populating available
+[2016-11-07 10:04:22.283138] [info] beanHouse->dxHashToClass
+    house_id: '13'
+    house_num: '6529'
+    street: 'Colony Square'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 3E3'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY 
+    
+    END UNIT! 
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,350.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1350.00'
+    month: '11'
+    year: '2016'
+    promotion: '$500.00 Move-in Bonus'
+[2016-11-07 10:04:22.283432] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [13]
+house_num [6529]
+street [Colony Square]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 3E3]
+bedrooms [3]
+bathrooms [1]
+powder_rooms [1]
+description [$500.00 MOVE-IN BONUS !!
+
+IMMEDIATE AVAILABILITY 
+
+END UNIT! 
+
+Call 613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,350.00 plus utilities. 
+
+This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [SEMI-DETACHED]
+exists []
+
+[2016-11-07 10:04:22.283480] [info] Populating house
+[2016-11-07 10:04:22.283523] [info] beanSuite->dxHashToClass
+    house_id: '13'
+    house_num: '6529'
+    street: 'Colony Square'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 3E3'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY 
+    
+    END UNIT! 
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,350.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1350.00'
+    month: '11'
+    year: '2016'
+    promotion: '$500.00 Move-in Bonus'
+[2016-11-07 10:04:22.283776] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2016-11-07 10:04:22.283823] [info] Populating suite
+[2016-11-07 10:04:22.283863] [info] results is not a member of classObject
+[2016-11-07 10:04:22.283901] [info] totalRows is not a member of classObject
+[2016-11-07 10:04:22.283951] [info] currRow is not a member of classObject
+[2016-11-07 10:04:22.284038] [info] beanAvailable->dxHashToClass
+    house_id: '12'
+    house_num: '66'
+    street: 'Sundback Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2L 2W8'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY 
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom townhouse, 1 full and 2 half bathrooms, the master bedroom features one of the half bathrooms as an ensuite as well as a walk-in closet, air-conditioning, 5 appliances, eat-in kitchen, dining room, living room, fireplace, large entrance, storage, fenced yard, shed, patio, garage. $1,395.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '2'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1395.00'
+    month: '11'
+    year: '2016'
+    promotion: '$500.00 Move-in Bonus'
+[2016-11-07 10:04:22.284316] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [12]
+month [11]
+year [2016]
+rent [1395.00]
+promotion [$500.00 Move-in Bonus]
+exists []
+
+[2016-11-07 10:04:22.284362] [info] Populating available
+[2016-11-07 10:04:22.284403] [info] beanHouse->dxHashToClass
+    house_id: '12'
+    house_num: '66'
+    street: 'Sundback Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2L 2W8'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY 
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom townhouse, 1 full and 2 half bathrooms, the master bedroom features one of the half bathrooms as an ensuite as well as a walk-in closet, air-conditioning, 5 appliances, eat-in kitchen, dining room, living room, fireplace, large entrance, storage, fenced yard, shed, patio, garage. $1,395.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '2'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1395.00'
+    month: '11'
+    year: '2016'
+    promotion: '$500.00 Move-in Bonus'
+[2016-11-07 10:04:22.284707] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [12]
+house_num [66]
+street [Sundback Lane]
+city [Ottawa]
+prov [ON]
+postal_code [K2L 2W8]
+bedrooms [3]
+bathrooms [1]
+powder_rooms [2]
+description [$500.00 MOVE-IN BONUS !!
+
+IMMEDIATE AVAILABILITY 
+
+Call 613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom townhouse, 1 full and 2 half bathrooms, the master bedroom features one of the half bathrooms as an ensuite as well as a walk-in closet, air-conditioning, 5 appliances, eat-in kitchen, dining room, living room, fireplace, large entrance, storage, fenced yard, shed, patio, garage. $1,395.00 plus utilities. 
+
+This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [SEMI-DETACHED]
+exists []
+
+[2016-11-07 10:04:22.284754] [info] Populating house
+[2016-11-07 10:04:22.284796] [info] beanSuite->dxHashToClass
+    house_id: '12'
+    house_num: '66'
+    street: 'Sundback Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2L 2W8'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY 
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom townhouse, 1 full and 2 half bathrooms, the master bedroom features one of the half bathrooms as an ensuite as well as a walk-in closet, air-conditioning, 5 appliances, eat-in kitchen, dining room, living room, fireplace, large entrance, storage, fenced yard, shed, patio, garage. $1,395.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '2'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1395.00'
+    month: '11'
+    year: '2016'
+    promotion: '$500.00 Move-in Bonus'
+[2016-11-07 10:04:22.285074] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2016-11-07 10:04:22.285121] [info] Populating suite
+[2016-11-07 10:04:22.285161] [info] results is not a member of classObject
+[2016-11-07 10:04:22.285201] [info] totalRows is not a member of classObject
+[2016-11-07 10:04:22.285238] [info] currRow is not a member of classObject
+[2016-11-07 10:23:52.742861] [info] Entering index: 
+[2016-11-07 10:23:52.743050] [info] -->action: 
+[2016-11-07 10:23:52.743093] [info] -->suite_id: 
+[2016-11-07 10:23:52.743129] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 10:24:17.634964] [info] Entering index: 
+[2016-11-07 10:24:17.635049] [info] -->action: 
+[2016-11-07 10:24:17.635093] [info] -->suite_id: 
+[2016-11-07 10:24:17.635130] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 11:07:57.930824] [info] Entering index: 
+[2016-11-07 11:07:57.930996] [info] -->action: 
+[2016-11-07 11:07:57.931037] [info] -->suite_id: 
+[2016-11-07 11:07:57.931072] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 11:18:53.244615] [info] Entering index: 
+[2016-11-07 11:18:53.244796] [info] -->action: 
+[2016-11-07 11:18:53.244837] [info] -->suite_id: 
+[2016-11-07 11:18:53.244874] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 11:27:41.561645] [info] Entering index: 
+[2016-11-07 11:27:41.561820] [info] -->action: 
+[2016-11-07 11:27:41.561862] [info] -->suite_id: 
+[2016-11-07 11:27:41.561899] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 11:27:49.029728] [info] Entering index: 
+[2016-11-07 11:27:49.029860] [info] -->action: contact_us
+[2016-11-07 11:27:49.029901] [info] -->suite_id: 
+[2016-11-07 11:27:49.029937] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 11:28:25.220455] [info] Entering index: 
+[2016-11-07 11:28:25.220598] [info] -->action: 
+[2016-11-07 11:28:25.220645] [info] -->suite_id: 
+[2016-11-07 11:28:25.220684] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 12:19:50.984749] [info] Entering index: 
+[2016-11-07 12:19:50.984935] [info] -->action: 
+[2016-11-07 12:19:50.984977] [info] -->suite_id: 
+[2016-11-07 12:19:50.985013] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 12:20:05.592232] [info] Entering index: 
+[2016-11-07 12:20:05.592319] [info] -->action: 
+[2016-11-07 12:20:05.592358] [info] -->suite_id: 
+[2016-11-07 12:20:05.592400] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 12:48:41.181953] [info] Entering index: 
+[2016-11-07 12:48:41.182123] [info] -->action: 
+[2016-11-07 12:48:41.182166] [info] -->suite_id: 
+[2016-11-07 12:48:41.182202] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 13:18:57.156295] [info] Entering index: 
+[2016-11-07 13:18:57.156497] [info] -->action: 
+[2016-11-07 13:18:57.156542] [info] -->suite_id: 
+[2016-11-07 13:18:57.156579] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 13:19:10.204523] [info] Entering index: 
+[2016-11-07 13:19:10.204628] [info] -->action: 
+[2016-11-07 13:19:10.204668] [info] -->suite_id: 
+[2016-11-07 13:19:10.204704] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 13:31:20.858840] [info] Entering index: 
+[2016-11-07 13:31:20.859025] [info] -->action: 
+[2016-11-07 13:31:20.859067] [info] -->suite_id: 
+[2016-11-07 13:31:20.859105] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 15:09:25.756676] [info] Entering index: 
+[2016-11-07 15:09:25.756829] [info] -->action: apt_vacancies
+[2016-11-07 15:09:25.756886] [info] -->suite_id: 
+[2016-11-07 15:09:25.756931] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 15:09:25.843188] [info] Running query: select * from senatorapts.Suite s, senatorapts.Available a where s.suite_id = a.suite_id  order by a.year, a.month, s.suite_order
+[2016-11-07 15:09:25.843277] [info] 3 rows returned.
+[2016-11-07 15:09:25.843369] [info] beanAvailable->dxHashToClass
+    suite_id: '408'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=08'
+    suite_order: '33'
+    rent: '915.00'
+    promotion: ''
+    month: '12'
+    year: '2016'
+[2016-11-07 15:09:25.843619] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [408]
+house_id []
+month [12]
+year [2016]
+rent [915.00]
+promotion []
+exists []
+
+[2016-11-07 15:09:25.843669] [info] Populating available
+[2016-11-07 15:09:25.843713] [info] beanSuite->dxHashToClass
+    suite_id: '408'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=08'
+    suite_order: '33'
+    rent: '915.00'
+    promotion: ''
+    month: '12'
+    year: '2016'
+[2016-11-07 15:09:25.843864] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [408]
+bedrooms [1]
+suite_order [33]
+floor_plan [index.php?action=floor_plan&suite_id=08]
+exists []
+
+[2016-11-07 15:09:25.843921] [info] Populating suite
+[2016-11-07 15:09:25.843964] [info] results is not a member of classObject
+[2016-11-07 15:09:25.844003] [info] totalRows is not a member of classObject
+[2016-11-07 15:09:25.844041] [info] currRow is not a member of classObject
+[2016-11-07 15:09:25.844157] [info] beanAvailable->dxHashToClass
+    suite_id: '604'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=04'
+    suite_order: '45'
+    rent: '905.00'
+    promotion: ''
+    month: '12'
+    year: '2016'
+[2016-11-07 15:09:25.844312] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [604]
+house_id []
+month [12]
+year [2016]
+rent [905.00]
+promotion []
+exists []
+
+[2016-11-07 15:09:25.844358] [info] Populating available
+[2016-11-07 15:09:25.844399] [info] beanSuite->dxHashToClass
+    suite_id: '604'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=04'
+    suite_order: '45'
+    rent: '905.00'
+    promotion: ''
+    month: '12'
+    year: '2016'
+[2016-11-07 15:09:25.844538] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [604]
+bedrooms [1]
+suite_order [45]
+floor_plan [index.php?action=floor_plan&suite_id=04]
+exists []
+
+[2016-11-07 15:09:25.844583] [info] Populating suite
+[2016-11-07 15:09:25.844623] [info] results is not a member of classObject
+[2016-11-07 15:09:25.844661] [info] totalRows is not a member of classObject
+[2016-11-07 15:09:25.844700] [info] currRow is not a member of classObject
+[2016-11-07 15:09:25.844779] [info] beanAvailable->dxHashToClass
+    suite_id: '904'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=04'
+    suite_order: '69'
+    rent: '910.00'
+    promotion: ''
+    month: '1'
+    year: '2017'
+[2016-11-07 15:09:25.844937] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [904]
+house_id []
+month [1]
+year [2017]
+rent [910.00]
+promotion []
+exists []
+
+[2016-11-07 15:09:25.844984] [info] Populating available
+[2016-11-07 15:09:25.845025] [info] beanSuite->dxHashToClass
+    suite_id: '904'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=04'
+    suite_order: '69'
+    rent: '910.00'
+    promotion: ''
+    month: '1'
+    year: '2017'
+[2016-11-07 15:09:25.845165] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [904]
+bedrooms [1]
+suite_order [69]
+floor_plan [index.php?action=floor_plan&suite_id=04]
+exists []
+
+[2016-11-07 15:09:25.845210] [info] Populating suite
+[2016-11-07 15:09:25.845249] [info] results is not a member of classObject
+[2016-11-07 15:09:25.845288] [info] totalRows is not a member of classObject
+[2016-11-07 15:09:25.845326] [info] currRow is not a member of classObject
+[2016-11-07 15:10:32.243076] [info] Entering index: 
+[2016-11-07 15:10:32.243232] [info] -->action: 
+[2016-11-07 15:10:32.243280] [info] -->suite_id: 
+[2016-11-07 15:10:32.243320] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 15:42:25.524183] [info] Entering index: 
+[2016-11-07 15:42:25.524374] [info] -->action: 
+[2016-11-07 15:42:25.524426] [info] -->suite_id: 
+[2016-11-07 15:42:25.524465] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 15:43:35.019284] [info] Entering index: 
+[2016-11-07 15:43:35.019407] [info] -->action: 
+[2016-11-07 15:43:35.019448] [info] -->suite_id: 
+[2016-11-07 15:43:35.019484] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 18:44:44.382607] [info] Entering index: 
+[2016-11-07 18:44:44.382802] [info] -->action: 
+[2016-11-07 18:44:44.382844] [info] -->suite_id: 
+[2016-11-07 18:44:44.382882] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 18:45:59.388813] [info] Entering index: 
+[2016-11-07 18:45:59.388901] [info] -->action: 
+[2016-11-07 18:45:59.388941] [info] -->suite_id: 
+[2016-11-07 18:45:59.388974] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 19:07:01.902407] [info] Entering index: 
+[2016-11-07 19:07:01.902565] [info] -->action: 
+[2016-11-07 19:07:01.902607] [info] -->suite_id: 
+[2016-11-07 19:07:01.902643] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 19:19:26.750859] [info] Entering index: 
+[2016-11-07 19:19:26.751027] [info] -->action: 
+[2016-11-07 19:19:26.751070] [info] -->suite_id: 
+[2016-11-07 19:19:26.751106] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 19:19:41.731471] [info] Entering index: 
+[2016-11-07 19:19:41.731570] [info] -->action: 
+[2016-11-07 19:19:41.731610] [info] -->suite_id: 
+[2016-11-07 19:19:41.731647] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 19:27:04.591686] [info] Entering index: 
+[2016-11-07 19:27:04.591883] [info] -->action: apt_plans
+[2016-11-07 19:27:04.591928] [info] -->suite_id: 
+[2016-11-07 19:27:04.591967] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 19:27:07.819384] [info] Entering index: 
+[2016-11-07 19:27:07.819484] [info] -->action: 
+[2016-11-07 19:27:07.819524] [info] -->suite_id: 
+[2016-11-07 19:27:07.819560] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 19:48:52.313276] [info] Entering index: 
+[2016-11-07 19:48:52.313458] [info] -->action: 
+[2016-11-07 19:48:52.313502] [info] -->suite_id: 
+[2016-11-07 19:48:52.313538] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 20:29:58.111937] [info] Entering index: 
+[2016-11-07 20:29:58.112066] [info] -->action: 
+[2016-11-07 20:29:58.112113] [info] -->suite_id: 
+[2016-11-07 20:29:58.112154] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 21:19:39.987704] [info] Entering index: 
+[2016-11-07 21:19:39.987847] [info] -->action: 
+[2016-11-07 21:19:39.987889] [info] -->suite_id: 
+[2016-11-07 21:19:39.987925] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 21:36:29.442846] [info] Entering index: 
+[2016-11-07 21:36:29.442987] [info] -->action: 
+[2016-11-07 21:36:29.443033] [info] -->suite_id: 
+[2016-11-07 21:36:29.443073] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 21:40:07.206094] [info] Entering index: 
+[2016-11-07 21:40:07.206286] [info] -->action: 
+[2016-11-07 21:40:07.206330] [info] -->suite_id: 
+[2016-11-07 21:40:07.206367] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 21:41:10.242719] [info] Entering index: 
+[2016-11-07 21:41:10.242815] [info] -->action: 
+[2016-11-07 21:41:10.242852] [info] -->suite_id: 
+[2016-11-07 21:41:10.242887] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 23:04:56.762602] [info] Entering index: 
+[2016-11-07 23:04:56.762808] [info] -->action: 
+[2016-11-07 23:04:56.762856] [info] -->suite_id: 
+[2016-11-07 23:04:56.762893] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-11-07 23:31:18.114470] [info] Entering index: 
+[2016-11-07 23:31:18.114635] [info] -->action: 
+[2016-11-07 23:31:18.114679] [info] -->suite_id: 
+[2016-11-07 23:31:18.114715] [info] -->there is no gallery for this page, or it did not load correctly

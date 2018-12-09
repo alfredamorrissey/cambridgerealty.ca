@@ -1,0 +1,750 @@
+[2018-05-30 11:05:19.170248] [info] edit_room.php -> 203
+[2018-05-30 11:05:20.163683] [info] Running query: SELECT * FROM senatorapts.Available WHERE suite_id='203'
+[2018-05-30 11:05:20.163954] [info] 1 rows returned.
+[2018-05-30 11:05:20.164011] [info] Results: 1
+[2018-05-30 11:05:20.164083] [info] beanAvailable->dxHashToClass
+    suite_id: '203'
+    rent: '919.00'
+    promotion: ''
+    month: '7'
+    year: '2018'
+[2018-05-30 11:05:20.164410] [info] tblName [Available]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [203]
+house_id []
+month [7]
+year [2018]
+rent [919.00]
+promotion []
+exists [1]
+
+[2018-05-30 11:05:33.955346] [info] tblName [Member]
+tblIndex [Array]
+schema [senatorapts]
+member_id [-1]
+username []
+password []
+exists []
+
+[2018-05-30 11:05:33.990323] [info] Running query: SELECT * FROM senatorapts.Member WHERE username='e.674.em@gmail.com'
+[2018-05-30 11:05:33.990401] [info] 1 rows returned.
+[2018-05-30 11:05:33.990458] [info] beanMember->dxHashToClass
+    member_id: '2'
+    username: 'e.674.em@gmail.com'
+    password: 'YHKNdw3TI0lCz0WZA3Xfq6OkERPFLFHmF/brnN3G8cg='
+[2018-05-30 11:05:33.990597] [info] tblName [Member]
+tblIndex [Array]
+schema [senatorapts]
+member_id [2]
+username [e.674.em@gmail.com]
+password [YHKNdw3TI0lCz0WZA3Xfq6OkERPFLFHmF/brnN3G8cg=]
+exists [1]
+
+[2018-05-30 11:05:33.990669] [info] tblName [Member]
+tblIndex [Array]
+schema [senatorapts]
+member_id [2]
+username [e.674.em@gmail.com]
+password [YHKNdw3TI0lCz0WZA3Xfq6OkERPFLFHmF/brnN3G8cg=]
+exists [1]
+
+[2018-05-30 11:05:33.991249] [info] Decrypted password: [Pluron25] does it mathc [Pluron25]
+[2018-05-30 11:05:34.117705] [info] Running query: select * from senatorapts.Suite s, senatorapts.Available a where s.suite_id = a.suite_id  order by a.year, LPAD(a.month,2,'0'), s.suite_order
+[2018-05-30 11:05:34.117814] [info] 3 rows returned.
+[2018-05-30 11:05:34.117891] [info] beanAvailable->dxHashToClass
+    suite_id: '203'
+    bedrooms: 'B'
+    floor_plan: 'index.php?action=floor_plan&suite_id=03'
+    suite_order: '12'
+    rent: '919.00'
+    promotion: ''
+    month: '7'
+    year: '2018'
+[2018-05-30 11:05:34.118072] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [203]
+house_id []
+month [7]
+year [2018]
+rent [919.00]
+promotion []
+exists []
+
+[2018-05-30 11:05:34.118119] [info] Populating available
+[2018-05-30 11:05:34.118163] [info] beanSuite->dxHashToClass
+    suite_id: '203'
+    bedrooms: 'B'
+    floor_plan: 'index.php?action=floor_plan&suite_id=03'
+    suite_order: '12'
+    rent: '919.00'
+    promotion: ''
+    month: '7'
+    year: '2018'
+[2018-05-30 11:05:34.118302] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [203]
+bedrooms [B]
+suite_order [12]
+floor_plan [index.php?action=floor_plan&suite_id=03]
+exists []
+
+[2018-05-30 11:05:34.118347] [info] Populating suite
+[2018-05-30 11:05:34.118401] [info] results is not a member of classObject
+[2018-05-30 11:05:34.118441] [info] totalRows is not a member of classObject
+[2018-05-30 11:05:34.118479] [info] currRow is not a member of classObject
+[2018-05-30 11:05:34.118599] [info] beanAvailable->dxHashToClass
+    suite_id: '503'
+    bedrooms: 'B'
+    floor_plan: 'index.php?action=floor_plan&suite_id=03'
+    suite_order: '36'
+    rent: '920.00'
+    promotion: ''
+    month: '8'
+    year: '2018'
+[2018-05-30 11:05:34.118748] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [503]
+house_id []
+month [8]
+year [2018]
+rent [920.00]
+promotion []
+exists []
+
+[2018-05-30 11:05:34.118793] [info] Populating available
+[2018-05-30 11:05:34.118835] [info] beanSuite->dxHashToClass
+    suite_id: '503'
+    bedrooms: 'B'
+    floor_plan: 'index.php?action=floor_plan&suite_id=03'
+    suite_order: '36'
+    rent: '920.00'
+    promotion: ''
+    month: '8'
+    year: '2018'
+[2018-05-30 11:05:34.118969] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [503]
+bedrooms [B]
+suite_order [36]
+floor_plan [index.php?action=floor_plan&suite_id=03]
+exists []
+
+[2018-05-30 11:05:34.119014] [info] Populating suite
+[2018-05-30 11:05:34.119055] [info] results is not a member of classObject
+[2018-05-30 11:05:34.119101] [info] totalRows is not a member of classObject
+[2018-05-30 11:05:34.119141] [info] currRow is not a member of classObject
+[2018-05-30 11:05:34.119215] [info] beanAvailable->dxHashToClass
+    suite_id: '808'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=08'
+    suite_order: '65'
+    rent: '1030.00'
+    promotion: ''
+    month: '8'
+    year: '2018'
+[2018-05-30 11:05:34.119366] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [808]
+house_id []
+month [8]
+year [2018]
+rent [1030.00]
+promotion []
+exists []
+
+[2018-05-30 11:05:34.119414] [info] Populating available
+[2018-05-30 11:05:34.119456] [info] beanSuite->dxHashToClass
+    suite_id: '808'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=08'
+    suite_order: '65'
+    rent: '1030.00'
+    promotion: ''
+    month: '8'
+    year: '2018'
+[2018-05-30 11:05:34.119590] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [808]
+bedrooms [1]
+suite_order [65]
+floor_plan [index.php?action=floor_plan&suite_id=08]
+exists []
+
+[2018-05-30 11:05:34.119635] [info] Populating suite
+[2018-05-30 11:05:34.119674] [info] results is not a member of classObject
+[2018-05-30 11:05:34.119714] [info] totalRows is not a member of classObject
+[2018-05-30 11:05:34.119751] [info] currRow is not a member of classObject
+[2018-05-30 11:05:37.096945] [info] edit_room.php -> 203
+[2018-05-30 11:05:37.097666] [info] Running query: SELECT * FROM senatorapts.Available WHERE suite_id='203'
+[2018-05-30 11:05:37.097738] [info] 1 rows returned.
+[2018-05-30 11:05:37.097784] [info] Results: 1
+[2018-05-30 11:05:37.097835] [info] beanAvailable->dxHashToClass
+    suite_id: '203'
+    rent: '919.00'
+    promotion: ''
+    month: '7'
+    year: '2018'
+[2018-05-30 11:05:37.097989] [info] tblName [Available]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [203]
+house_id []
+month [7]
+year [2018]
+rent [919.00]
+promotion []
+exists [1]
+
+[2018-05-30 11:05:41.980237] [info] edit_room.php -> 203
+[2018-05-30 11:05:41.980936] [info] Running query: SELECT * FROM senatorapts.Available WHERE suite_id='203'
+[2018-05-30 11:05:41.980999] [info] 1 rows returned.
+[2018-05-30 11:05:41.981044] [info] Results: 1
+[2018-05-30 11:05:41.981095] [info] beanAvailable->dxHashToClass
+    suite_id: '203'
+    rent: '919.00'
+    promotion: ''
+    month: '7'
+    year: '2018'
+[2018-05-30 11:05:41.981246] [info] tblName [Available]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [203]
+house_id []
+month [7]
+year [2018]
+rent [919.00]
+promotion []
+exists [1]
+
+[2018-05-30 11:05:41.981327] [info] Saving 203
+[2018-05-30 11:05:41.981396] [info] beanAvailable->__doSave
+[2018-05-30 11:05:41.981462] [info] tblName [Available]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [203]
+house_id []
+month [7]
+year [2018]
+rent [939.00]
+promotion []
+exists [1]
+
+[2018-05-30 11:05:41.982273] [info] Running query: UPDATE senatorapts.Available SET  month='7', year='2018', rent='939.00', promotion='' WHERE suite_id='203'
+[2018-05-30 11:05:41.982331] [info]  rows returned.
+[2018-05-30 11:05:41.982383] [info] Saved available 1
+[2018-05-30 11:05:41.983333] [info] Running query: select * from senatorapts.Suite s, senatorapts.Available a where s.suite_id = a.suite_id  order by a.year, LPAD(a.month,2,'0'), s.suite_order
+[2018-05-30 11:05:41.983406] [info] 3 rows returned.
+[2018-05-30 11:05:41.983474] [info] beanAvailable->dxHashToClass
+    suite_id: '203'
+    bedrooms: 'B'
+    floor_plan: 'index.php?action=floor_plan&suite_id=03'
+    suite_order: '12'
+    rent: '939.00'
+    promotion: ''
+    month: '7'
+    year: '2018'
+[2018-05-30 11:05:41.983630] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [203]
+house_id []
+month [7]
+year [2018]
+rent [939.00]
+promotion []
+exists []
+
+[2018-05-30 11:05:41.983680] [info] Populating available
+[2018-05-30 11:05:41.983724] [info] beanSuite->dxHashToClass
+    suite_id: '203'
+    bedrooms: 'B'
+    floor_plan: 'index.php?action=floor_plan&suite_id=03'
+    suite_order: '12'
+    rent: '939.00'
+    promotion: ''
+    month: '7'
+    year: '2018'
+[2018-05-30 11:05:41.983870] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [203]
+bedrooms [B]
+suite_order [12]
+floor_plan [index.php?action=floor_plan&suite_id=03]
+exists []
+
+[2018-05-30 11:05:41.983918] [info] Populating suite
+[2018-05-30 11:05:41.983959] [info] results is not a member of classObject
+[2018-05-30 11:05:41.983998] [info] totalRows is not a member of classObject
+[2018-05-30 11:05:41.984035] [info] currRow is not a member of classObject
+[2018-05-30 11:05:41.984117] [info] beanAvailable->dxHashToClass
+    suite_id: '503'
+    bedrooms: 'B'
+    floor_plan: 'index.php?action=floor_plan&suite_id=03'
+    suite_order: '36'
+    rent: '920.00'
+    promotion: ''
+    month: '8'
+    year: '2018'
+[2018-05-30 11:05:41.984261] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [503]
+house_id []
+month [8]
+year [2018]
+rent [920.00]
+promotion []
+exists []
+
+[2018-05-30 11:05:41.984308] [info] Populating available
+[2018-05-30 11:05:41.984360] [info] beanSuite->dxHashToClass
+    suite_id: '503'
+    bedrooms: 'B'
+    floor_plan: 'index.php?action=floor_plan&suite_id=03'
+    suite_order: '36'
+    rent: '920.00'
+    promotion: ''
+    month: '8'
+    year: '2018'
+[2018-05-30 11:05:41.984498] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [503]
+bedrooms [B]
+suite_order [36]
+floor_plan [index.php?action=floor_plan&suite_id=03]
+exists []
+
+[2018-05-30 11:05:41.984544] [info] Populating suite
+[2018-05-30 11:05:41.984584] [info] results is not a member of classObject
+[2018-05-30 11:05:41.984622] [info] totalRows is not a member of classObject
+[2018-05-30 11:05:41.984661] [info] currRow is not a member of classObject
+[2018-05-30 11:05:41.984733] [info] beanAvailable->dxHashToClass
+    suite_id: '808'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=08'
+    suite_order: '65'
+    rent: '1030.00'
+    promotion: ''
+    month: '8'
+    year: '2018'
+[2018-05-30 11:05:41.984874] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [808]
+house_id []
+month [8]
+year [2018]
+rent [1030.00]
+promotion []
+exists []
+
+[2018-05-30 11:05:41.984919] [info] Populating available
+[2018-05-30 11:05:41.984960] [info] beanSuite->dxHashToClass
+    suite_id: '808'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=08'
+    suite_order: '65'
+    rent: '1030.00'
+    promotion: ''
+    month: '8'
+    year: '2018'
+[2018-05-30 11:05:41.985093] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [808]
+bedrooms [1]
+suite_order [65]
+floor_plan [index.php?action=floor_plan&suite_id=08]
+exists []
+
+[2018-05-30 11:05:41.985136] [info] Populating suite
+[2018-05-30 11:05:41.985177] [info] results is not a member of classObject
+[2018-05-30 11:05:41.985214] [info] totalRows is not a member of classObject
+[2018-05-30 11:05:41.985253] [info] currRow is not a member of classObject
+[2018-05-30 11:05:46.560748] [info] edit_room.php -> 503
+[2018-05-30 11:05:46.561584] [info] Running query: SELECT * FROM senatorapts.Available WHERE suite_id='503'
+[2018-05-30 11:05:46.561649] [info] 1 rows returned.
+[2018-05-30 11:05:46.561693] [info] Results: 1
+[2018-05-30 11:05:46.561743] [info] beanAvailable->dxHashToClass
+    suite_id: '503'
+    rent: '920.00'
+    promotion: ''
+    month: '8'
+    year: '2018'
+[2018-05-30 11:05:46.561897] [info] tblName [Available]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [503]
+house_id []
+month [8]
+year [2018]
+rent [920.00]
+promotion []
+exists [1]
+
+[2018-05-30 11:05:50.846616] [info] edit_room.php -> 503
+[2018-05-30 11:05:50.847400] [info] Running query: SELECT * FROM senatorapts.Available WHERE suite_id='503'
+[2018-05-30 11:05:50.847517] [info] 1 rows returned.
+[2018-05-30 11:05:50.847563] [info] Results: 1
+[2018-05-30 11:05:50.847620] [info] beanAvailable->dxHashToClass
+    suite_id: '503'
+    rent: '920.00'
+    promotion: ''
+    month: '8'
+    year: '2018'
+[2018-05-30 11:05:50.847798] [info] tblName [Available]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [503]
+house_id []
+month [8]
+year [2018]
+rent [920.00]
+promotion []
+exists [1]
+
+[2018-05-30 11:05:50.847887] [info] Saving 503
+[2018-05-30 11:05:50.847942] [info] beanAvailable->__doSave
+[2018-05-30 11:05:50.848006] [info] tblName [Available]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [503]
+house_id []
+month [8]
+year [2018]
+rent [950.00]
+promotion []
+exists [1]
+
+[2018-05-30 11:05:50.848637] [info] Running query: UPDATE senatorapts.Available SET  month='8', year='2018', rent='950.00', promotion='' WHERE suite_id='503'
+[2018-05-30 11:05:50.848701] [info]  rows returned.
+[2018-05-30 11:05:50.848742] [info] Saved available 1
+[2018-05-30 11:05:50.849786] [info] Running query: select * from senatorapts.Suite s, senatorapts.Available a where s.suite_id = a.suite_id  order by a.year, LPAD(a.month,2,'0'), s.suite_order
+[2018-05-30 11:05:50.849848] [info] 3 rows returned.
+[2018-05-30 11:05:50.849915] [info] beanAvailable->dxHashToClass
+    suite_id: '203'
+    bedrooms: 'B'
+    floor_plan: 'index.php?action=floor_plan&suite_id=03'
+    suite_order: '12'
+    rent: '939.00'
+    promotion: ''
+    month: '7'
+    year: '2018'
+[2018-05-30 11:05:50.850075] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [203]
+house_id []
+month [7]
+year [2018]
+rent [939.00]
+promotion []
+exists []
+
+[2018-05-30 11:05:50.850122] [info] Populating available
+[2018-05-30 11:05:50.850167] [info] beanSuite->dxHashToClass
+    suite_id: '203'
+    bedrooms: 'B'
+    floor_plan: 'index.php?action=floor_plan&suite_id=03'
+    suite_order: '12'
+    rent: '939.00'
+    promotion: ''
+    month: '7'
+    year: '2018'
+[2018-05-30 11:05:50.850308] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [203]
+bedrooms [B]
+suite_order [12]
+floor_plan [index.php?action=floor_plan&suite_id=03]
+exists []
+
+[2018-05-30 11:05:50.850372] [info] Populating suite
+[2018-05-30 11:05:50.850414] [info] results is not a member of classObject
+[2018-05-30 11:05:50.850452] [info] totalRows is not a member of classObject
+[2018-05-30 11:05:50.850490] [info] currRow is not a member of classObject
+[2018-05-30 11:05:50.850574] [info] beanAvailable->dxHashToClass
+    suite_id: '503'
+    bedrooms: 'B'
+    floor_plan: 'index.php?action=floor_plan&suite_id=03'
+    suite_order: '36'
+    rent: '950.00'
+    promotion: ''
+    month: '8'
+    year: '2018'
+[2018-05-30 11:05:50.850719] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [503]
+house_id []
+month [8]
+year [2018]
+rent [950.00]
+promotion []
+exists []
+
+[2018-05-30 11:05:50.850764] [info] Populating available
+[2018-05-30 11:05:50.850806] [info] beanSuite->dxHashToClass
+    suite_id: '503'
+    bedrooms: 'B'
+    floor_plan: 'index.php?action=floor_plan&suite_id=03'
+    suite_order: '36'
+    rent: '950.00'
+    promotion: ''
+    month: '8'
+    year: '2018'
+[2018-05-30 11:05:50.850940] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [503]
+bedrooms [B]
+suite_order [36]
+floor_plan [index.php?action=floor_plan&suite_id=03]
+exists []
+
+[2018-05-30 11:05:50.850986] [info] Populating suite
+[2018-05-30 11:05:50.851026] [info] results is not a member of classObject
+[2018-05-30 11:05:50.851063] [info] totalRows is not a member of classObject
+[2018-05-30 11:05:50.851102] [info] currRow is not a member of classObject
+[2018-05-30 11:05:50.851172] [info] beanAvailable->dxHashToClass
+    suite_id: '808'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=08'
+    suite_order: '65'
+    rent: '1030.00'
+    promotion: ''
+    month: '8'
+    year: '2018'
+[2018-05-30 11:05:50.851315] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [808]
+house_id []
+month [8]
+year [2018]
+rent [1030.00]
+promotion []
+exists []
+
+[2018-05-30 11:05:50.851373] [info] Populating available
+[2018-05-30 11:05:50.851416] [info] beanSuite->dxHashToClass
+    suite_id: '808'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=08'
+    suite_order: '65'
+    rent: '1030.00'
+    promotion: ''
+    month: '8'
+    year: '2018'
+[2018-05-30 11:05:50.851551] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [808]
+bedrooms [1]
+suite_order [65]
+floor_plan [index.php?action=floor_plan&suite_id=08]
+exists []
+
+[2018-05-30 11:05:50.851602] [info] Populating suite
+[2018-05-30 11:05:50.851644] [info] results is not a member of classObject
+[2018-05-30 11:05:50.851721] [info] totalRows is not a member of classObject
+[2018-05-30 11:05:50.851768] [info] currRow is not a member of classObject
+[2018-05-30 11:05:53.222953] [info] edit_room.php -> 808
+[2018-05-30 11:05:53.223889] [info] Running query: SELECT * FROM senatorapts.Available WHERE suite_id='808'
+[2018-05-30 11:05:53.223953] [info] 1 rows returned.
+[2018-05-30 11:05:53.223998] [info] Results: 1
+[2018-05-30 11:05:53.224047] [info] beanAvailable->dxHashToClass
+    suite_id: '808'
+    rent: '1030.00'
+    promotion: ''
+    month: '8'
+    year: '2018'
+[2018-05-30 11:05:53.224200] [info] tblName [Available]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [808]
+house_id []
+month [8]
+year [2018]
+rent [1030.00]
+promotion []
+exists [1]
+
+[2018-05-30 11:05:58.074414] [info] edit_room.php -> 808
+[2018-05-30 11:05:58.075135] [info] Running query: SELECT * FROM senatorapts.Available WHERE suite_id='808'
+[2018-05-30 11:05:58.075201] [info] 1 rows returned.
+[2018-05-30 11:05:58.075244] [info] Results: 1
+[2018-05-30 11:05:58.075294] [info] beanAvailable->dxHashToClass
+    suite_id: '808'
+    rent: '1030.00'
+    promotion: ''
+    month: '8'
+    year: '2018'
+[2018-05-30 11:05:58.075459] [info] tblName [Available]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [808]
+house_id []
+month [8]
+year [2018]
+rent [1030.00]
+promotion []
+exists [1]
+
+[2018-05-30 11:05:58.075534] [info] Saving 808
+[2018-05-30 11:05:58.075587] [info] beanAvailable->__doSave
+[2018-05-30 11:05:58.075653] [info] tblName [Available]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [808]
+house_id []
+month [8]
+year [2018]
+rent [1060.00]
+promotion []
+exists [1]
+
+[2018-05-30 11:05:58.076430] [info] Running query: UPDATE senatorapts.Available SET  month='8', year='2018', rent='1060.00', promotion='' WHERE suite_id='808'
+[2018-05-30 11:05:58.076553] [info]  rows returned.
+[2018-05-30 11:05:58.076600] [info] Saved available 1
+[2018-05-30 11:05:58.077646] [info] Running query: select * from senatorapts.Suite s, senatorapts.Available a where s.suite_id = a.suite_id  order by a.year, LPAD(a.month,2,'0'), s.suite_order
+[2018-05-30 11:05:58.077708] [info] 3 rows returned.
+[2018-05-30 11:05:58.077785] [info] beanAvailable->dxHashToClass
+    suite_id: '203'
+    bedrooms: 'B'
+    floor_plan: 'index.php?action=floor_plan&suite_id=03'
+    suite_order: '12'
+    rent: '939.00'
+    promotion: ''
+    month: '7'
+    year: '2018'
+[2018-05-30 11:05:58.077956] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [203]
+house_id []
+month [7]
+year [2018]
+rent [939.00]
+promotion []
+exists []
+
+[2018-05-30 11:05:58.078006] [info] Populating available
+[2018-05-30 11:05:58.078049] [info] beanSuite->dxHashToClass
+    suite_id: '203'
+    bedrooms: 'B'
+    floor_plan: 'index.php?action=floor_plan&suite_id=03'
+    suite_order: '12'
+    rent: '939.00'
+    promotion: ''
+    month: '7'
+    year: '2018'
+[2018-05-30 11:05:58.078191] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [203]
+bedrooms [B]
+suite_order [12]
+floor_plan [index.php?action=floor_plan&suite_id=03]
+exists []
+
+[2018-05-30 11:05:58.078238] [info] Populating suite
+[2018-05-30 11:05:58.078278] [info] results is not a member of classObject
+[2018-05-30 11:05:58.078316] [info] totalRows is not a member of classObject
+[2018-05-30 11:05:58.078371] [info] currRow is not a member of classObject
+[2018-05-30 11:05:58.078459] [info] beanAvailable->dxHashToClass
+    suite_id: '503'
+    bedrooms: 'B'
+    floor_plan: 'index.php?action=floor_plan&suite_id=03'
+    suite_order: '36'
+    rent: '950.00'
+    promotion: ''
+    month: '8'
+    year: '2018'
+[2018-05-30 11:05:58.078603] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [503]
+house_id []
+month [8]
+year [2018]
+rent [950.00]
+promotion []
+exists []
+
+[2018-05-30 11:05:58.078649] [info] Populating available
+[2018-05-30 11:05:58.078690] [info] beanSuite->dxHashToClass
+    suite_id: '503'
+    bedrooms: 'B'
+    floor_plan: 'index.php?action=floor_plan&suite_id=03'
+    suite_order: '36'
+    rent: '950.00'
+    promotion: ''
+    month: '8'
+    year: '2018'
+[2018-05-30 11:05:58.078831] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [503]
+bedrooms [B]
+suite_order [36]
+floor_plan [index.php?action=floor_plan&suite_id=03]
+exists []
+
+[2018-05-30 11:05:58.078919] [info] Populating suite
+[2018-05-30 11:05:58.078963] [info] results is not a member of classObject
+[2018-05-30 11:05:58.079003] [info] totalRows is not a member of classObject
+[2018-05-30 11:05:58.079040] [info] currRow is not a member of classObject
+[2018-05-30 11:05:58.079113] [info] beanAvailable->dxHashToClass
+    suite_id: '808'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=08'
+    suite_order: '65'
+    rent: '1060.00'
+    promotion: ''
+    month: '8'
+    year: '2018'
+[2018-05-30 11:05:58.079257] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [808]
+house_id []
+month [8]
+year [2018]
+rent [1060.00]
+promotion []
+exists []
+
+[2018-05-30 11:05:58.079303] [info] Populating available
+[2018-05-30 11:05:58.079356] [info] beanSuite->dxHashToClass
+    suite_id: '808'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=08'
+    suite_order: '65'
+    rent: '1060.00'
+    promotion: ''
+    month: '8'
+    year: '2018'
+[2018-05-30 11:05:58.079493] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [808]
+bedrooms [1]
+suite_order [65]
+floor_plan [index.php?action=floor_plan&suite_id=08]
+exists []
+
+[2018-05-30 11:05:58.079538] [info] Populating suite
+[2018-05-30 11:05:58.079579] [info] results is not a member of classObject
+[2018-05-30 11:05:58.079617] [info] totalRows is not a member of classObject
+[2018-05-30 11:05:58.079654] [info] currRow is not a member of classObject

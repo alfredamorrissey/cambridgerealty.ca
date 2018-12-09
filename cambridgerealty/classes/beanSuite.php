@@ -1,0 +1,14 @@
+<?php
+class beanSuite extends classObject
+{
+    protected $tblName = 'Suite';
+	protected $tblIndex = array("suite_id");
+	protected $schema = "senatorapts";
+
+    protected $suite_id = null;
+    protected $bedrooms = null;
+    protected $suite_order = null;
+	protected $floor_plan = null;
+    
+}
+?>

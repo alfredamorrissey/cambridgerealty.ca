@@ -1,0 +1,45 @@
+[2017-02-11 12:23:28.354546] [info] Running query: select * from senatorapts.Suite s, senatorapts.Available a where s.suite_id = a.suite_id  order by a.year, a.month, s.suite_order
+[2017-02-11 12:23:28.354769] [info] 1 rows returned.
+[2017-02-11 12:23:28.354903] [info] beanAvailable->dxHashToClass
+    suite_id: '101'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=01'
+    suite_order: '4'
+    rent: '895.00'
+    promotion: ''
+    month: '3'
+    year: '2017'
+[2017-02-11 12:23:28.355178] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [101]
+house_id []
+month [3]
+year [2017]
+rent [895.00]
+promotion []
+exists []
+
+[2017-02-11 12:23:28.355222] [info] Populating available
+[2017-02-11 12:23:28.355262] [info] beanSuite->dxHashToClass
+    suite_id: '101'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=01'
+    suite_order: '4'
+    rent: '895.00'
+    promotion: ''
+    month: '3'
+    year: '2017'
+[2017-02-11 12:23:28.355393] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [101]
+bedrooms [1]
+suite_order [4]
+floor_plan [index.php?action=floor_plan&suite_id=01]
+exists []
+
+[2017-02-11 12:23:28.355434] [info] Populating suite
+[2017-02-11 12:23:28.355470] [info] results is not a member of classObject
+[2017-02-11 12:23:28.355505] [info] totalRows is not a member of classObject
+[2017-02-11 12:23:28.355540] [info] currRow is not a member of classObject

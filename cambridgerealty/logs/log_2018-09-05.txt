@@ -1,0 +1,559 @@
+[2018-09-05 2:36:30.822370] [info] Entering index: 
+[2018-09-05 2:36:30.822561] [info] -->action: 
+[2018-09-05 2:36:30.822606] [info] -->suite_id: 
+[2018-09-05 2:36:30.822643] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 2:44:22.575478] [info] Entering index: 
+[2018-09-05 2:44:22.575680] [info] -->action: how_to_rent
+[2018-09-05 2:44:22.575721] [info] -->suite_id: 
+[2018-09-05 2:44:22.575757] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 2:53:24.716300] [info] Entering index: 
+[2018-09-05 2:53:24.716459] [info] -->action: 
+[2018-09-05 2:53:24.716500] [info] -->suite_id: 
+[2018-09-05 2:53:24.716536] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 3:27:16.816819] [info] Entering index: 
+[2018-09-05 3:27:16.817498] [info] -->action: floor_plan
+[2018-09-05 3:27:16.817783] [info] -->suite_id: B-1
+[2018-09-05 3:27:16.867218] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE code='B-1'
+[2018-09-05 3:27:16.867345] [info] 1 rows returned.
+[2018-09-05 3:27:16.867410] [info] beanGallery->dxHashToClass
+    gallery_id: '10'
+    code: 'B-1'
+    description: 'Floor Plan B-1'
+[2018-09-05 3:27:16.867633] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [10]
+code [B-1]
+description [Floor Plan B-1]
+exists [1]
+
+[2018-09-05 3:27:16.882169] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='10'
+[2018-09-05 3:27:16.882221] [info] 1 rows returned.
+[2018-09-05 3:27:16.882261] [info] Results: 1
+[2018-09-05 3:27:16.882302] [info] beanGallery->dxHashToClass
+    gallery_id: '10'
+    code: 'B-1'
+    description: 'Floor Plan B-1'
+[2018-09-05 3:27:16.882402] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [10]
+code [B-1]
+description [Floor Plan B-1]
+exists [1]
+
+[2018-09-05 3:27:16.882452] [info] -->gallery_id: 10
+[2018-09-05 3:27:16.882492] [info] __doLoadPhotos
+[2018-09-05 3:27:16.882527] [info] -->this: 1
+[2018-09-05 3:27:16.882560] [info] -->gallery: 1
+[2018-09-05 3:27:16.929680] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 10 and gp.photo_id = p.photo_id
+[2018-09-05 3:27:16.929785] [info] 4 rows returned.
+[2018-09-05 3:27:16.929827] [info] Results: 4
+[2018-09-05 3:27:16.929899] [info] 178
+[2018-09-05 3:27:16.929951] [info] 179
+[2018-09-05 3:27:16.929986] [info] 180
+[2018-09-05 3:27:16.930025] [info] 181
+[2018-09-05 3:27:16.930059] [info] images/imggal/B-1/thumb/1.jpg
+[2018-09-05 3:27:16.930094] [info] images/imggal/B-1/thumb/2.jpg
+[2018-09-05 3:27:16.930125] [info] images/imggal/B-1/thumb/3.jpg
+[2018-09-05 3:27:16.930157] [info] images/imggal/B-1/thumb/4.jpg
+[2018-09-05 3:27:16.930191] [info] images/imggal/B-1/med/1.jpg
+[2018-09-05 3:27:16.930223] [info] images/imggal/B-1/med/2.jpg
+[2018-09-05 3:27:16.930255] [info] images/imggal/B-1/med/3.jpg
+[2018-09-05 3:27:16.930290] [info] images/imggal/B-1/med/4.jpg
+[2018-09-05 3:27:16.930324] [info] images/imggal/B-1/full/1.jpg
+[2018-09-05 3:27:16.930356] [info] images/imggal/B-1/full/2.jpg
+[2018-09-05 3:27:16.930387] [info] images/imggal/B-1/full/3.jpg
+[2018-09-05 3:27:16.930418] [info] images/imggal/B-1/full/4.jpg
+[2018-09-05 3:27:16.930459] [info] -->num_photos: 4
+[2018-09-05 3:27:16.942708] [info] i: 
+[2018-09-05 3:27:16.942792] [info] thumbs[i]: images/imggal/B-1/thumb/1.jpg
+[2018-09-05 3:27:16.942831] [info] meds[i]: images/imggal/B-1/med/1.jpg
+[2018-09-05 3:27:16.942874] [info] fulls[i]: images/imggal/B-1/full/1.jpg
+[2018-09-05 3:27:16.942917] [info] i: 
+[2018-09-05 3:27:16.942953] [info] thumbs[i]: images/imggal/B-1/thumb/2.jpg
+[2018-09-05 3:27:16.942986] [info] meds[i]: images/imggal/B-1/med/2.jpg
+[2018-09-05 3:27:16.943018] [info] fulls[i]: images/imggal/B-1/full/2.jpg
+[2018-09-05 3:27:16.943056] [info] i: 
+[2018-09-05 3:27:16.943089] [info] thumbs[i]: images/imggal/B-1/thumb/3.jpg
+[2018-09-05 3:27:16.943123] [info] meds[i]: images/imggal/B-1/med/3.jpg
+[2018-09-05 3:27:16.943156] [info] fulls[i]: images/imggal/B-1/full/3.jpg
+[2018-09-05 3:27:16.943192] [info] i: 
+[2018-09-05 3:27:16.943232] [info] thumbs[i]: images/imggal/B-1/thumb/4.jpg
+[2018-09-05 3:27:16.943267] [info] meds[i]: images/imggal/B-1/med/4.jpg
+[2018-09-05 3:27:16.943300] [info] fulls[i]: images/imggal/B-1/full/4.jpg
+[2018-09-05 3:27:16.985354] [info] __getPhotoPath: 0 fulls images/imggal/B-1/full/1.jpg
+[2018-09-05 3:27:16.985440] [info] __getPhotoPath: 0 meds images/imggal/B-1/med/1.jpg
+[2018-09-05 3:27:16.985485] [info] __getPhotoPath: 0 fulls images/imggal/B-1/full/1.jpg
+[2018-09-05 3:49:50.319320] [info] Entering index: 
+[2018-09-05 3:49:50.319500] [info] -->action: 
+[2018-09-05 3:49:50.319542] [info] -->suite_id: 
+[2018-09-05 3:49:50.319578] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 5:09:33.526127] [info] Entering index: 
+[2018-09-05 5:09:33.526307] [info] -->action: contact_us
+[2018-09-05 5:09:33.526350] [info] -->suite_id: 
+[2018-09-05 5:09:33.526387] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 5:46:39.224786] [info] Entering index: 
+[2018-09-05 5:46:39.224991] [info] -->action: homes
+[2018-09-05 5:46:39.225034] [info] -->suite_id: 
+[2018-09-05 5:46:39.225071] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 5:46:39.474322] [info] Running query: select * from senatorapts.House h, senatorapts.HouseAvailable a where h.house_id = a.house_id  and h.deleted != 1 order by a.year, a.month
+[2018-09-05 5:46:39.474462] [info] 0 rows returned.
+[2018-09-05 7:41:45.169970] [info] Entering index: 
+[2018-09-05 7:41:45.170250] [info] -->action: 
+[2018-09-05 7:41:45.170296] [info] -->suite_id: 
+[2018-09-05 7:41:45.170336] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 7:44:05.020770] [info] Entering index: 
+[2018-09-05 7:44:05.020965] [info] -->action: 
+[2018-09-05 7:44:05.021013] [info] -->suite_id: 
+[2018-09-05 7:44:05.021056] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 7:45:21.310913] [info] Entering index: 
+[2018-09-05 7:45:21.311026] [info] -->action: 
+[2018-09-05 7:45:21.311064] [info] -->suite_id: 
+[2018-09-05 7:45:21.311099] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 7:52:06.755875] [info] Entering index: 
+[2018-09-05 7:52:06.756089] [info] -->action: 
+[2018-09-05 7:52:06.756134] [info] -->suite_id: 
+[2018-09-05 7:52:06.756170] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 9:54:25.987386] [info] Entering index: 
+[2018-09-05 9:54:25.987551] [info] -->action: 
+[2018-09-05 9:54:25.987593] [info] -->suite_id: 
+[2018-09-05 9:54:25.987629] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 9:54:27.036003] [info] Entering index: 
+[2018-09-05 9:54:27.036112] [info] -->action: 
+[2018-09-05 9:54:27.036150] [info] -->suite_id: 
+[2018-09-05 9:54:27.036185] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 10:15:48.152296] [info] Entering index: 
+[2018-09-05 10:15:48.152487] [info] -->action: 
+[2018-09-05 10:15:48.152529] [info] -->suite_id: 
+[2018-09-05 10:15:48.152566] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 10:16:08.434825] [info] Entering index: 
+[2018-09-05 10:16:08.434907] [info] -->action: apt_vacancies
+[2018-09-05 10:16:08.434956] [info] -->suite_id: 
+[2018-09-05 10:16:08.434993] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 10:16:08.502706] [info] Running query: select * from senatorapts.Suite s, senatorapts.Available a where s.suite_id = a.suite_id  order by a.year, LPAD(a.month,2,'0'), s.suite_order
+[2018-09-05 10:16:08.502775] [info] 0 rows returned.
+[2018-09-05 10:16:19.599354] [info] Entering index: 
+[2018-09-05 10:16:19.599436] [info] -->action: apt_plans
+[2018-09-05 10:16:19.599473] [info] -->suite_id: 
+[2018-09-05 10:16:19.599508] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 10:16:22.986879] [info] Entering index: 
+[2018-09-05 10:16:22.986964] [info] -->action: floor_plan
+[2018-09-05 10:16:22.987009] [info] -->suite_id: 01
+[2018-09-05 10:16:23.006143] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE code='01'
+[2018-09-05 10:16:23.006251] [info] 1 rows returned.
+[2018-09-05 10:16:23.006314] [info] beanGallery->dxHashToClass
+    gallery_id: '2'
+    code: '01'
+    description: 'Floor Plan 01'
+[2018-09-05 10:16:23.006494] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [2]
+code [01]
+description [Floor Plan 01]
+exists [1]
+
+[2018-09-05 10:16:23.008789] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='2'
+[2018-09-05 10:16:23.008848] [info] 1 rows returned.
+[2018-09-05 10:16:23.008898] [info] Results: 1
+[2018-09-05 10:16:23.008940] [info] beanGallery->dxHashToClass
+    gallery_id: '2'
+    code: '01'
+    description: 'Floor Plan 01'
+[2018-09-05 10:16:23.009046] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [2]
+code [01]
+description [Floor Plan 01]
+exists [1]
+
+[2018-09-05 10:16:23.009094] [info] -->gallery_id: 2
+[2018-09-05 10:16:23.009131] [info] __doLoadPhotos
+[2018-09-05 10:16:23.009166] [info] -->this: 1
+[2018-09-05 10:16:23.009198] [info] -->gallery: 1
+[2018-09-05 10:16:23.036463] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 2 and gp.photo_id = p.photo_id
+[2018-09-05 10:16:23.036523] [info] 7 rows returned.
+[2018-09-05 10:16:23.036561] [info] Results: 7
+[2018-09-05 10:16:23.036628] [info] 1
+[2018-09-05 10:16:23.036664] [info] 2
+[2018-09-05 10:16:23.036696] [info] 3
+[2018-09-05 10:16:23.036729] [info] 4
+[2018-09-05 10:16:23.036761] [info] 5
+[2018-09-05 10:16:23.036792] [info] 6
+[2018-09-05 10:16:23.036823] [info] 7
+[2018-09-05 10:16:23.036864] [info] images/imggal/01/thumb/1.jpg
+[2018-09-05 10:16:23.036900] [info] images/imggal/01/thumb/2.jpg
+[2018-09-05 10:16:23.036932] [info] images/imggal/01/thumb/3.jpg
+[2018-09-05 10:16:23.036964] [info] images/imggal/01/thumb/4.jpg
+[2018-09-05 10:16:23.036995] [info] images/imggal/01/thumb/5.jpg
+[2018-09-05 10:16:23.037028] [info] images/imggal/01/thumb/6.jpg
+[2018-09-05 10:16:23.037060] [info] images/imggal/01/thumb/7.jpg
+[2018-09-05 10:16:23.037092] [info] images/imggal/01/med/1.jpg
+[2018-09-05 10:16:23.037126] [info] images/imggal/01/med/2.jpg
+[2018-09-05 10:16:23.037158] [info] images/imggal/01/med/3.jpg
+[2018-09-05 10:16:23.037189] [info] images/imggal/01/med/4.jpg
+[2018-09-05 10:16:23.037220] [info] images/imggal/01/med/5.jpg
+[2018-09-05 10:16:23.037251] [info] images/imggal/01/med/6.jpg
+[2018-09-05 10:16:23.037283] [info] images/imggal/01/med/7.jpg
+[2018-09-05 10:16:23.037317] [info] images/imggal/01/full/1.jpg
+[2018-09-05 10:16:23.037348] [info] images/imggal/01/full/2.jpg
+[2018-09-05 10:16:23.037380] [info] images/imggal/01/full/3.jpg
+[2018-09-05 10:16:23.037412] [info] images/imggal/01/full/4.jpg
+[2018-09-05 10:16:23.037444] [info] images/imggal/01/full/5.jpg
+[2018-09-05 10:16:23.037482] [info] images/imggal/01/full/6.jpg
+[2018-09-05 10:16:23.037514] [info] images/imggal/01/full/7.jpg
+[2018-09-05 10:16:23.037553] [info] -->num_photos: 7
+[2018-09-05 10:16:23.037655] [info] i: 
+[2018-09-05 10:16:23.037697] [info] thumbs[i]: images/imggal/01/thumb/1.jpg
+[2018-09-05 10:16:23.037730] [info] meds[i]: images/imggal/01/med/1.jpg
+[2018-09-05 10:16:23.037763] [info] fulls[i]: images/imggal/01/full/1.jpg
+[2018-09-05 10:16:23.037800] [info] i: 
+[2018-09-05 10:16:23.037832] [info] thumbs[i]: images/imggal/01/thumb/2.jpg
+[2018-09-05 10:16:23.037873] [info] meds[i]: images/imggal/01/med/2.jpg
+[2018-09-05 10:16:23.037906] [info] fulls[i]: images/imggal/01/full/2.jpg
+[2018-09-05 10:16:23.037942] [info] i: 
+[2018-09-05 10:16:23.037976] [info] thumbs[i]: images/imggal/01/thumb/3.jpg
+[2018-09-05 10:16:23.038007] [info] meds[i]: images/imggal/01/med/3.jpg
+[2018-09-05 10:16:23.038039] [info] fulls[i]: images/imggal/01/full/3.jpg
+[2018-09-05 10:16:23.038075] [info] i: 
+[2018-09-05 10:16:23.038109] [info] thumbs[i]: images/imggal/01/thumb/4.jpg
+[2018-09-05 10:16:23.038141] [info] meds[i]: images/imggal/01/med/4.jpg
+[2018-09-05 10:16:23.038180] [info] fulls[i]: images/imggal/01/full/4.jpg
+[2018-09-05 10:16:23.038218] [info] i: 
+[2018-09-05 10:16:23.038250] [info] thumbs[i]: images/imggal/01/thumb/5.jpg
+[2018-09-05 10:16:23.038283] [info] meds[i]: images/imggal/01/med/5.jpg
+[2018-09-05 10:16:23.038315] [info] fulls[i]: images/imggal/01/full/5.jpg
+[2018-09-05 10:16:23.038350] [info] i: 
+[2018-09-05 10:16:23.038382] [info] thumbs[i]: images/imggal/01/thumb/6.jpg
+[2018-09-05 10:16:23.038414] [info] meds[i]: images/imggal/01/med/6.jpg
+[2018-09-05 10:16:23.038445] [info] fulls[i]: images/imggal/01/full/6.jpg
+[2018-09-05 10:16:23.038480] [info] i: 
+[2018-09-05 10:16:23.038513] [info] thumbs[i]: images/imggal/01/thumb/7.jpg
+[2018-09-05 10:16:23.038544] [info] meds[i]: images/imggal/01/med/7.jpg
+[2018-09-05 10:16:23.038577] [info] fulls[i]: images/imggal/01/full/7.jpg
+[2018-09-05 10:16:23.055916] [info] __getPhotoPath: 0 fulls images/imggal/01/full/1.jpg
+[2018-09-05 10:16:23.055977] [info] __getPhotoPath: 0 meds images/imggal/01/med/1.jpg
+[2018-09-05 10:16:23.056018] [info] __getPhotoPath: 0 fulls images/imggal/01/full/1.jpg
+[2018-09-05 10:17:12.758780] [info] Entering index: 
+[2018-09-05 10:17:12.758863] [info] -->action: 
+[2018-09-05 10:17:12.758913] [info] -->suite_id: 
+[2018-09-05 10:17:12.758949] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 10:17:25.938929] [info] Entering index: 
+[2018-09-05 10:17:25.939009] [info] -->action: homes
+[2018-09-05 10:17:25.939048] [info] -->suite_id: 
+[2018-09-05 10:17:25.939081] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 10:17:25.971285] [info] Running query: select * from senatorapts.House h, senatorapts.HouseAvailable a where h.house_id = a.house_id  and h.deleted != 1 order by a.year, a.month
+[2018-09-05 10:17:25.971400] [info] 0 rows returned.
+[2018-09-05 10:17:38.729665] [info] Entering index: 
+[2018-09-05 10:17:38.729763] [info] -->action: apartments
+[2018-09-05 10:17:38.729801] [info] -->suite_id: 
+[2018-09-05 10:17:38.729836] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 10:46:28.734392] [info] Entering index: 
+[2018-09-05 10:46:28.734534] [info] -->action: 
+[2018-09-05 10:46:28.734575] [info] -->suite_id: 
+[2018-09-05 10:46:28.734610] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 11:15:50.523698] [info] Entering index: 
+[2018-09-05 11:15:50.523871] [info] -->action: 
+[2018-09-05 11:15:50.523915] [info] -->suite_id: 
+[2018-09-05 11:15:50.523951] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 11:15:53.506766] [info] Entering index: 
+[2018-09-05 11:15:53.506874] [info] -->action: homes
+[2018-09-05 11:15:53.506916] [info] -->suite_id: 
+[2018-09-05 11:15:53.506953] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 11:15:53.540092] [info] Running query: select * from senatorapts.House h, senatorapts.HouseAvailable a where h.house_id = a.house_id  and h.deleted != 1 order by a.year, a.month
+[2018-09-05 11:15:53.540519] [info] 0 rows returned.
+[2018-09-05 11:43:53.799071] [info] Entering index: 
+[2018-09-05 11:43:53.799263] [info] -->action: 
+[2018-09-05 11:43:53.799313] [info] -->suite_id: 
+[2018-09-05 11:43:53.799354] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 11:44:17.560998] [info] Entering index: 
+[2018-09-05 11:44:17.561089] [info] -->action: apt_plans
+[2018-09-05 11:44:17.561135] [info] -->suite_id: 
+[2018-09-05 11:44:17.561177] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 11:44:24.841579] [info] Entering index: 
+[2018-09-05 11:44:24.841670] [info] -->action: floor_plan
+[2018-09-05 11:44:24.841717] [info] -->suite_id: 08
+[2018-09-05 11:44:24.947140] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE code='08'
+[2018-09-05 11:44:24.947249] [info] 1 rows returned.
+[2018-09-05 11:44:24.947314] [info] beanGallery->dxHashToClass
+    gallery_id: '9'
+    code: '08'
+    description: 'Floor Plan 08'
+[2018-09-05 11:44:24.947546] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [9]
+code [08]
+description [Floor Plan 08]
+exists [1]
+
+[2018-09-05 11:44:24.969561] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='9'
+[2018-09-05 11:44:24.969635] [info] 1 rows returned.
+[2018-09-05 11:44:24.969680] [info] Results: 1
+[2018-09-05 11:44:24.969727] [info] beanGallery->dxHashToClass
+    gallery_id: '9'
+    code: '08'
+    description: 'Floor Plan 08'
+[2018-09-05 11:44:24.969847] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [9]
+code [08]
+description [Floor Plan 08]
+exists [1]
+
+[2018-09-05 11:44:24.969903] [info] -->gallery_id: 9
+[2018-09-05 11:44:24.969948] [info] __doLoadPhotos
+[2018-09-05 11:44:24.969986] [info] -->this: 1
+[2018-09-05 11:44:24.970025] [info] -->gallery: 1
+[2018-09-05 11:44:25.003771] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 9 and gp.photo_id = p.photo_id
+[2018-09-05 11:44:25.003858] [info] 6 rows returned.
+[2018-09-05 11:44:25.003904] [info] Results: 6
+[2018-09-05 11:44:25.003992] [info] 32
+[2018-09-05 11:44:25.004035] [info] 33
+[2018-09-05 11:44:25.004074] [info] 34
+[2018-09-05 11:44:25.004110] [info] 35
+[2018-09-05 11:44:25.004146] [info] 36
+[2018-09-05 11:44:25.004182] [info] 37
+[2018-09-05 11:44:25.004220] [info] images/imggal/08/thumb/ig_thumb_08_1.jpg
+[2018-09-05 11:44:25.004256] [info] images/imggal/08/thumb/ig_thumb_08_2.jpg
+[2018-09-05 11:44:25.004293] [info] images/imggal/08/thumb/ig_thumb_08_3.jpg
+[2018-09-05 11:44:25.004329] [info] images/imggal/08/thumb/ig_thumb_08_4.jpg
+[2018-09-05 11:44:25.004384] [info] images/imggal/08/thumb/ig_thumb_08_5.jpg
+[2018-09-05 11:44:25.004421] [info] images/imggal/08/thumb/ig_thumb_08_6.jpg
+[2018-09-05 11:44:25.004460] [info] images/imggal/08/med/ig_med_08_1.jpg
+[2018-09-05 11:44:25.004497] [info] images/imggal/08/med/ig_med_08_2.jpg
+[2018-09-05 11:44:25.004533] [info] images/imggal/08/med/ig_med_08_3.jpg
+[2018-09-05 11:44:25.004569] [info] images/imggal/08/med/ig_med_08_4.jpg
+[2018-09-05 11:44:25.004605] [info] images/imggal/08/med/ig_med_08_5.jpg
+[2018-09-05 11:44:25.004640] [info] images/imggal/08/med/ig_med_08_6.jpg
+[2018-09-05 11:44:25.004678] [info] images/imggal/08/full/ig_full_08_1.jpg
+[2018-09-05 11:44:25.004714] [info] images/imggal/08/full/ig_full_08_2.jpg
+[2018-09-05 11:44:25.004750] [info] images/imggal/08/full/ig_full_08_3.jpg
+[2018-09-05 11:44:25.004786] [info] images/imggal/08/full/ig_full_08_4.jpg
+[2018-09-05 11:44:25.004821] [info] images/imggal/08/full/ig_full_08_5.jpg
+[2018-09-05 11:44:25.004857] [info] images/imggal/08/full/ig_full_08_6.jpg
+[2018-09-05 11:44:25.004900] [info] -->num_photos: 6
+[2018-09-05 11:44:25.005026] [info] i: 
+[2018-09-05 11:44:25.005074] [info] thumbs[i]: images/imggal/08/thumb/ig_thumb_08_1.jpg
+[2018-09-05 11:44:25.005115] [info] meds[i]: images/imggal/08/med/ig_med_08_1.jpg
+[2018-09-05 11:44:25.005155] [info] fulls[i]: images/imggal/08/full/ig_full_08_1.jpg
+[2018-09-05 11:44:25.005198] [info] i: 
+[2018-09-05 11:44:25.005238] [info] thumbs[i]: images/imggal/08/thumb/ig_thumb_08_2.jpg
+[2018-09-05 11:44:25.005275] [info] meds[i]: images/imggal/08/med/ig_med_08_2.jpg
+[2018-09-05 11:44:25.005311] [info] fulls[i]: images/imggal/08/full/ig_full_08_2.jpg
+[2018-09-05 11:44:25.005362] [info] i: 
+[2018-09-05 11:44:25.005400] [info] thumbs[i]: images/imggal/08/thumb/ig_thumb_08_3.jpg
+[2018-09-05 11:44:25.005436] [info] meds[i]: images/imggal/08/med/ig_med_08_3.jpg
+[2018-09-05 11:44:25.005471] [info] fulls[i]: images/imggal/08/full/ig_full_08_3.jpg
+[2018-09-05 11:44:25.005511] [info] i: 
+[2018-09-05 11:44:25.005548] [info] thumbs[i]: images/imggal/08/thumb/ig_thumb_08_4.jpg
+[2018-09-05 11:44:25.005584] [info] meds[i]: images/imggal/08/med/ig_med_08_4.jpg
+[2018-09-05 11:44:25.005620] [info] fulls[i]: images/imggal/08/full/ig_full_08_4.jpg
+[2018-09-05 11:44:25.005660] [info] i: 
+[2018-09-05 11:44:25.005697] [info] thumbs[i]: images/imggal/08/thumb/ig_thumb_08_5.jpg
+[2018-09-05 11:44:25.005733] [info] meds[i]: images/imggal/08/med/ig_med_08_5.jpg
+[2018-09-05 11:44:25.005776] [info] fulls[i]: images/imggal/08/full/ig_full_08_5.jpg
+[2018-09-05 11:44:25.005819] [info] i: 
+[2018-09-05 11:44:25.005856] [info] thumbs[i]: images/imggal/08/thumb/ig_thumb_08_6.jpg
+[2018-09-05 11:44:25.005892] [info] meds[i]: images/imggal/08/med/ig_med_08_6.jpg
+[2018-09-05 11:44:25.005927] [info] fulls[i]: images/imggal/08/full/ig_full_08_6.jpg
+[2018-09-05 11:44:25.034431] [info] __getPhotoPath: 0 fulls images/imggal/08/full/ig_full_08_1.jpg
+[2018-09-05 11:44:25.034532] [info] __getPhotoPath: 0 meds images/imggal/08/med/ig_med_08_1.jpg
+[2018-09-05 11:44:25.034579] [info] __getPhotoPath: 0 fulls images/imggal/08/full/ig_full_08_1.jpg
+[2018-09-05 11:44:48.324007] [info] Entering index: 
+[2018-09-05 11:44:48.324120] [info] -->action: apt_plans
+[2018-09-05 11:44:48.324166] [info] -->suite_id: 
+[2018-09-05 11:44:48.324207] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 11:44:53.981179] [info] Entering index: 
+[2018-09-05 11:44:53.981280] [info] -->action: apt_vacancies
+[2018-09-05 11:44:53.981334] [info] -->suite_id: 
+[2018-09-05 11:44:53.981379] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 11:44:54.047655] [info] Running query: select * from senatorapts.Suite s, senatorapts.Available a where s.suite_id = a.suite_id  order by a.year, LPAD(a.month,2,'0'), s.suite_order
+[2018-09-05 11:44:54.047729] [info] 0 rows returned.
+[2018-09-05 13:37:20.857451] [info] Entering index: 
+[2018-09-05 13:37:20.857611] [info] -->action: 
+[2018-09-05 13:37:20.857655] [info] -->suite_id: 
+[2018-09-05 13:37:20.857692] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 14:32:36.012193] [info] Entering index: 
+[2018-09-05 14:32:36.012388] [info] -->action: 
+[2018-09-05 14:32:36.012489] [info] -->suite_id: 
+[2018-09-05 14:32:36.012538] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 14:37:37.156871] [info] Entering index: 
+[2018-09-05 14:37:37.157043] [info] -->action: 
+[2018-09-05 14:37:37.157147] [info] -->suite_id: 
+[2018-09-05 14:37:37.157193] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 14:38:07.764498] [info] Entering index: 
+[2018-09-05 14:38:07.764585] [info] -->action: 
+[2018-09-05 14:38:07.764626] [info] -->suite_id: 
+[2018-09-05 14:38:07.764663] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 15:15:38.664448] [info] Entering index: 
+[2018-09-05 15:15:38.664602] [info] -->action: 
+[2018-09-05 15:15:38.664650] [info] -->suite_id: 
+[2018-09-05 15:15:38.664690] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 15:15:42.372318] [info] Entering index: 
+[2018-09-05 15:15:42.372421] [info] -->action: apt_plans
+[2018-09-05 15:15:42.372462] [info] -->suite_id: 
+[2018-09-05 15:15:42.372500] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 15:34:01.034528] [info] Entering index: 
+[2018-09-05 15:34:01.034677] [info] -->action: 
+[2018-09-05 15:34:01.034718] [info] -->suite_id: 
+[2018-09-05 15:34:01.034751] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 15:36:06.824701] [info] Entering index: 
+[2018-09-05 15:36:06.824817] [info] -->action: 
+[2018-09-05 15:36:06.824863] [info] -->suite_id: 
+[2018-09-05 15:36:06.824899] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 15:36:11.895266] [info] Entering index: 
+[2018-09-05 15:36:11.895364] [info] -->action: 
+[2018-09-05 15:36:11.895401] [info] -->suite_id: 
+[2018-09-05 15:36:11.895436] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 15:36:30.169478] [info] Entering index: 
+[2018-09-05 15:36:30.169565] [info] -->action: contact_us
+[2018-09-05 15:36:30.169604] [info] -->suite_id: 
+[2018-09-05 15:36:30.169637] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 15:36:30.198391] [info] Entering index: 
+[2018-09-05 15:36:30.198482] [info] -->action: apartments
+[2018-09-05 15:36:30.198519] [info] -->suite_id: 
+[2018-09-05 15:36:30.198554] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 15:36:30.216264] [info] Entering index: 
+[2018-09-05 15:36:30.216360] [info] -->action: 
+[2018-09-05 15:36:30.216397] [info] -->suite_id: 
+[2018-09-05 15:36:30.216432] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 15:36:30.249986] [info] Entering index: 
+[2018-09-05 15:36:30.250078] [info] -->action: apt_vacancies
+[2018-09-05 15:36:30.250116] [info] -->suite_id: 
+[2018-09-05 15:36:30.250150] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 15:36:30.374141] [info] Running query: select * from senatorapts.Suite s, senatorapts.Available a where s.suite_id = a.suite_id  order by a.year, LPAD(a.month,2,'0'), s.suite_order
+[2018-09-05 15:36:30.374270] [info] 0 rows returned.
+[2018-09-05 15:36:31.140398] [info] Entering index: 
+[2018-09-05 15:36:31.140503] [info] -->action: homes
+[2018-09-05 15:36:31.140542] [info] -->suite_id: 
+[2018-09-05 15:36:31.140577] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 15:36:31.195673] [info] Running query: select * from senatorapts.House h, senatorapts.HouseAvailable a where h.house_id = a.house_id  and h.deleted != 1 order by a.year, a.month
+[2018-09-05 15:36:31.195801] [info] 0 rows returned.
+[2018-09-05 15:36:31.266343] [info] Entering index: 
+[2018-09-05 15:36:31.266442] [info] -->action: apt_plans
+[2018-09-05 15:36:31.266479] [info] -->suite_id: 
+[2018-09-05 15:36:31.266514] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 15:36:31.463933] [info] Entering index: 
+[2018-09-05 15:36:31.464030] [info] -->action: homes
+[2018-09-05 15:36:31.464068] [info] -->suite_id: 
+[2018-09-05 15:36:31.464102] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 15:36:31.465560] [info] Running query: select * from senatorapts.House h, senatorapts.HouseAvailable a where h.house_id = a.house_id  and h.deleted != 1 order by a.year, a.month
+[2018-09-05 15:36:31.465779] [info] 0 rows returned.
+[2018-09-05 15:36:31.528238] [info] Entering index: 
+[2018-09-05 15:36:31.528373] [info] -->action: how_to_rent
+[2018-09-05 15:36:31.528414] [info] -->suite_id: 
+[2018-09-05 15:36:31.528450] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 16:16:38.182907] [info] Entering index: 
+[2018-09-05 16:16:38.183067] [info] -->action: 
+[2018-09-05 16:16:38.183114] [info] -->suite_id: 
+[2018-09-05 16:16:38.183155] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 17:05:51.570451] [info] Entering index: 
+[2018-09-05 17:05:51.570640] [info] -->action: 
+[2018-09-05 17:05:51.570683] [info] -->suite_id: 
+[2018-09-05 17:05:51.570719] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 18:03:34.437316] [info] Entering index: 
+[2018-09-05 18:03:34.437515] [info] -->action: 
+[2018-09-05 18:03:34.437556] [info] -->suite_id: 
+[2018-09-05 18:03:34.437592] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 19:09:01.428332] [info] Entering index: 
+[2018-09-05 19:09:01.428354] [info] Entering index: 
+[2018-09-05 19:09:01.428514] [info] -->action: 
+[2018-09-05 19:09:01.429251] [info] -->action: 
+[2018-09-05 19:09:01.429707] [info] -->suite_id: 
+[2018-09-05 19:09:01.430179] [info] -->suite_id: 
+[2018-09-05 19:09:01.430572] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 19:09:01.430913] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 19:09:01.523649] [info] Entering index: 
+[2018-09-05 19:09:01.523674] [info] Entering index: 
+[2018-09-05 19:09:01.523747] [info] -->action: 
+[2018-09-05 19:09:01.524213] [info] -->action: 
+[2018-09-05 19:09:01.524626] [info] -->suite_id: 
+[2018-09-05 19:09:01.524997] [info] -->suite_id: 
+[2018-09-05 19:09:01.526026] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 19:09:01.526391] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 19:09:01.841964] [info] Entering index: 
+[2018-09-05 19:09:01.842063] [info] -->action: 
+[2018-09-05 19:09:01.842101] [info] -->suite_id: 
+[2018-09-05 19:09:01.842133] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 19:09:03.024940] [info] Entering index: 
+[2018-09-05 19:09:03.025048] [info] -->action: contact_us
+[2018-09-05 19:09:03.025085] [info] -->suite_id: 
+[2018-09-05 19:09:03.025119] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 19:09:04.268847] [info] Entering index: 
+[2018-09-05 19:09:04.268964] [info] -->action: 
+[2018-09-05 19:09:04.269001] [info] -->suite_id: 
+[2018-09-05 19:09:04.269035] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 19:09:04.676829] [info] Entering index: 
+[2018-09-05 19:09:04.676939] [info] -->action: homes
+[2018-09-05 19:09:04.676978] [info] -->suite_id: 
+[2018-09-05 19:09:04.677011] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 19:09:04.752351] [info] Running query: select * from senatorapts.House h, senatorapts.HouseAvailable a where h.house_id = a.house_id  and h.deleted != 1 order by a.year, a.month
+[2018-09-05 19:09:04.752494] [info] 0 rows returned.
+[2018-09-05 19:09:05.128448] [info] Entering index: 
+[2018-09-05 19:09:05.128545] [info] -->action: apt_plans
+[2018-09-05 19:09:05.128582] [info] -->suite_id: 
+[2018-09-05 19:09:05.128616] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 19:09:05.536637] [info] Entering index: 
+[2018-09-05 19:09:05.536735] [info] -->action: apartments
+[2018-09-05 19:09:05.536772] [info] -->suite_id: 
+[2018-09-05 19:09:05.536804] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 19:09:06.511145] [info] Entering index: 
+[2018-09-05 19:09:06.511241] [info] -->action: how_to_rent
+[2018-09-05 19:09:06.511279] [info] -->suite_id: 
+[2018-09-05 19:09:06.511312] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 19:09:06.901830] [info] Entering index: 
+[2018-09-05 19:09:06.901942] [info] -->action: apt_vacancies
+[2018-09-05 19:09:06.901979] [info] -->suite_id: 
+[2018-09-05 19:09:06.902013] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 19:09:06.906984] [info] Running query: select * from senatorapts.Suite s, senatorapts.Available a where s.suite_id = a.suite_id  order by a.year, LPAD(a.month,2,'0'), s.suite_order
+[2018-09-05 19:09:06.907047] [info] 0 rows returned.
+[2018-09-05 19:29:52.362634] [info] Entering index: 
+[2018-09-05 19:29:52.362804] [info] -->action: 
+[2018-09-05 19:29:52.362854] [info] -->suite_id: 
+[2018-09-05 19:29:52.362896] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 19:29:53.377095] [info] Entering index: 
+[2018-09-05 19:29:53.377196] [info] -->action: 
+[2018-09-05 19:29:53.377242] [info] -->suite_id: 
+[2018-09-05 19:29:53.377285] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 19:53:37.749587] [info] Entering index: 
+[2018-09-05 19:53:37.749747] [info] -->action: 
+[2018-09-05 19:53:37.749789] [info] -->suite_id: 
+[2018-09-05 19:53:37.749826] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 20:09:58.503022] [info] Entering index: 
+[2018-09-05 20:09:58.503191] [info] -->action: 
+[2018-09-05 20:09:58.503233] [info] -->suite_id: 
+[2018-09-05 20:09:58.503271] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 20:10:25.043962] [info] Entering index: 
+[2018-09-05 20:10:25.044049] [info] -->action: 
+[2018-09-05 20:10:25.044087] [info] -->suite_id: 
+[2018-09-05 20:10:25.044125] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 21:19:56.462399] [info] Entering index: 
+[2018-09-05 21:19:56.462604] [info] -->action: 
+[2018-09-05 21:19:56.462646] [info] -->suite_id: 
+[2018-09-05 21:19:56.462683] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 21:27:47.019100] [info] Entering index: 
+[2018-09-05 21:27:47.019262] [info] -->action: 
+[2018-09-05 21:27:47.019304] [info] -->suite_id: 
+[2018-09-05 21:27:47.019340] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 22:26:53.504622] [info] Entering index: 
+[2018-09-05 22:26:53.504770] [info] -->action: homes
+[2018-09-05 22:26:53.504810] [info] -->suite_id: 
+[2018-09-05 22:26:53.504846] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 22:26:53.600703] [info] Running query: select * from senatorapts.House h, senatorapts.HouseAvailable a where h.house_id = a.house_id  and h.deleted != 1 order by a.year, a.month
+[2018-09-05 22:26:53.600822] [info] 0 rows returned.
+[2018-09-05 23:36:10.015552] [info] Entering index: 
+[2018-09-05 23:36:10.015793] [info] -->action: apartments
+[2018-09-05 23:36:10.015836] [info] -->suite_id: 
+[2018-09-05 23:36:10.015886] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 23:41:48.649420] [info] Entering index: 
+[2018-09-05 23:41:48.649597] [info] -->action: 
+[2018-09-05 23:41:48.649637] [info] -->suite_id: 
+[2018-09-05 23:41:48.649672] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-09-05 23:49:43.421196] [info] Entering index: 
+[2018-09-05 23:49:43.421358] [info] -->action: 
+[2018-09-05 23:49:43.421401] [info] -->suite_id: 
+[2018-09-05 23:49:43.421437] [info] -->there is no gallery for this page, or it did not load correctly

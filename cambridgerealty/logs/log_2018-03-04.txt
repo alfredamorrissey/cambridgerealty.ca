@@ -1,0 +1,642 @@
+[2018-03-04 2:27:11.069235] [info] Entering index: 
+[2018-03-04 2:27:11.069427] [info] -->action: 
+[2018-03-04 2:27:11.069469] [info] -->suite_id: 
+[2018-03-04 2:27:11.069506] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 6:35:31.667330] [info] Entering index: 
+[2018-03-04 6:35:31.667529] [info] -->action: 
+[2018-03-04 6:35:31.667572] [info] -->suite_id: 
+[2018-03-04 6:35:31.667608] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 6:35:32.783255] [info] Entering index: 
+[2018-03-04 6:35:32.783337] [info] -->action: 
+[2018-03-04 6:35:32.783375] [info] -->suite_id: 
+[2018-03-04 6:35:32.783410] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 6:35:33.712301] [info] Entering index: 
+[2018-03-04 6:35:33.712404] [info] -->action: 
+[2018-03-04 6:35:33.712443] [info] -->suite_id: 
+[2018-03-04 6:35:33.712477] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 6:35:34.468851] [info] Entering index: 
+[2018-03-04 6:35:34.468954] [info] -->action: 
+[2018-03-04 6:35:34.468995] [info] -->suite_id: 
+[2018-03-04 6:35:34.469031] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 6:35:35.626652] [info] Entering index: 
+[2018-03-04 6:35:35.626766] [info] -->action: 
+[2018-03-04 6:35:35.626806] [info] -->suite_id: 
+[2018-03-04 6:35:35.626842] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 6:35:36.313359] [info] Entering index: 
+[2018-03-04 6:35:36.313456] [info] -->action: 
+[2018-03-04 6:35:36.313494] [info] -->suite_id: 
+[2018-03-04 6:35:36.313529] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 10:47:42.815109] [info] Entering index: 
+[2018-03-04 10:47:42.815294] [info] -->action: how_to_rent
+[2018-03-04 10:47:42.815337] [info] -->suite_id: 
+[2018-03-04 10:47:42.815375] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 11:41:52.861660] [info] Entering index: 
+[2018-03-04 11:41:52.861850] [info] -->action: 
+[2018-03-04 11:41:52.861892] [info] -->suite_id: 
+[2018-03-04 11:41:52.861929] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 11:45:16.550924] [info] Entering index: 
+[2018-03-04 11:45:16.551033] [info] -->action: how_to_rent
+[2018-03-04 11:45:16.551071] [info] -->suite_id: 
+[2018-03-04 11:45:16.551106] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 11:46:03.657383] [info] Entering index: 
+[2018-03-04 11:46:03.657485] [info] -->action: homes
+[2018-03-04 11:46:03.657522] [info] -->suite_id: 
+[2018-03-04 11:46:03.657557] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 11:46:03.799686] [info] Running query: select * from senatorapts.House h, senatorapts.HouseAvailable a where h.house_id = a.house_id  and h.deleted != 1 order by a.year, a.month
+[2018-03-04 11:46:03.799833] [info] 0 rows returned.
+[2018-03-04 14:04:39.804436] [info] Entering index: 
+[2018-03-04 14:04:39.804631] [info] -->action: 
+[2018-03-04 14:04:39.804680] [info] -->suite_id: 
+[2018-03-04 14:04:39.804722] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 14:04:43.000930] [info] Entering index: 
+[2018-03-04 14:04:43.001029] [info] -->action: apartments
+[2018-03-04 14:04:43.001074] [info] -->suite_id: 
+[2018-03-04 14:04:43.001115] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 14:04:45.845410] [info] Entering index: 
+[2018-03-04 14:04:45.845511] [info] -->action: apt_vacancies
+[2018-03-04 14:04:45.845557] [info] -->suite_id: 
+[2018-03-04 14:04:45.845597] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 14:04:46.144515] [info] Running query: select * from senatorapts.Suite s, senatorapts.Available a where s.suite_id = a.suite_id  order by a.year, LPAD(a.month,2,'0'), s.suite_order
+[2018-03-04 14:04:46.144922] [info] 6 rows returned.
+[2018-03-04 14:04:46.145025] [info] beanAvailable->dxHashToClass
+    suite_id: '102'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=02'
+    suite_order: '5'
+    rent: '940.00'
+    promotion: ''
+    month: '2'
+    year: '2018'
+[2018-03-04 14:04:46.145297] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [102]
+house_id []
+month [2]
+year [2018]
+rent [940.00]
+promotion []
+exists []
+
+[2018-03-04 14:04:46.145349] [info] Populating available
+[2018-03-04 14:04:46.145409] [info] beanSuite->dxHashToClass
+    suite_id: '102'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=02'
+    suite_order: '5'
+    rent: '940.00'
+    promotion: ''
+    month: '2'
+    year: '2018'
+[2018-03-04 14:04:46.145555] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [102]
+bedrooms [1]
+suite_order [5]
+floor_plan [index.php?action=floor_plan&suite_id=02]
+exists []
+
+[2018-03-04 14:04:46.145601] [info] Populating suite
+[2018-03-04 14:04:46.145642] [info] results is not a member of classObject
+[2018-03-04 14:04:46.145679] [info] totalRows is not a member of classObject
+[2018-03-04 14:04:46.145718] [info] currRow is not a member of classObject
+[2018-03-04 14:04:46.145843] [info] beanAvailable->dxHashToClass
+    suite_id: '207'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=07'
+    suite_order: '16'
+    rent: '980.00'
+    promotion: ''
+    month: '2'
+    year: '2018'
+[2018-03-04 14:04:46.146002] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [207]
+house_id []
+month [2]
+year [2018]
+rent [980.00]
+promotion []
+exists []
+
+[2018-03-04 14:04:46.146049] [info] Populating available
+[2018-03-04 14:04:46.146090] [info] beanSuite->dxHashToClass
+    suite_id: '207'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=07'
+    suite_order: '16'
+    rent: '980.00'
+    promotion: ''
+    month: '2'
+    year: '2018'
+[2018-03-04 14:04:46.146226] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [207]
+bedrooms [1]
+suite_order [16]
+floor_plan [index.php?action=floor_plan&suite_id=07]
+exists []
+
+[2018-03-04 14:04:46.146271] [info] Populating suite
+[2018-03-04 14:04:46.146311] [info] results is not a member of classObject
+[2018-03-04 14:04:46.146349] [info] totalRows is not a member of classObject
+[2018-03-04 14:04:46.146399] [info] currRow is not a member of classObject
+[2018-03-04 14:04:46.146478] [info] beanAvailable->dxHashToClass
+    suite_id: '502'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=02'
+    suite_order: '35'
+    rent: '999.00'
+    promotion: ''
+    month: '3'
+    year: '2018'
+[2018-03-04 14:04:46.146625] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [502]
+house_id []
+month [3]
+year [2018]
+rent [999.00]
+promotion []
+exists []
+
+[2018-03-04 14:04:46.146670] [info] Populating available
+[2018-03-04 14:04:46.146712] [info] beanSuite->dxHashToClass
+    suite_id: '502'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=02'
+    suite_order: '35'
+    rent: '999.00'
+    promotion: ''
+    month: '3'
+    year: '2018'
+[2018-03-04 14:04:46.146847] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [502]
+bedrooms [1]
+suite_order [35]
+floor_plan [index.php?action=floor_plan&suite_id=02]
+exists []
+
+[2018-03-04 14:04:46.146891] [info] Populating suite
+[2018-03-04 14:04:46.146930] [info] results is not a member of classObject
+[2018-03-04 14:04:46.146969] [info] totalRows is not a member of classObject
+[2018-03-04 14:04:46.147006] [info] currRow is not a member of classObject
+[2018-03-04 14:04:46.147087] [info] beanAvailable->dxHashToClass
+    suite_id: '308'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=08'
+    suite_order: '25'
+    rent: '969.00'
+    promotion: ''
+    month: '4'
+    year: '2018'
+[2018-03-04 14:04:46.147232] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [308]
+house_id []
+month [4]
+year [2018]
+rent [969.00]
+promotion []
+exists []
+
+[2018-03-04 14:04:46.147277] [info] Populating available
+[2018-03-04 14:04:46.147317] [info] beanSuite->dxHashToClass
+    suite_id: '308'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=08'
+    suite_order: '25'
+    rent: '969.00'
+    promotion: ''
+    month: '4'
+    year: '2018'
+[2018-03-04 14:04:46.147469] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [308]
+bedrooms [1]
+suite_order [25]
+floor_plan [index.php?action=floor_plan&suite_id=08]
+exists []
+
+[2018-03-04 14:04:46.147516] [info] Populating suite
+[2018-03-04 14:04:46.147557] [info] results is not a member of classObject
+[2018-03-04 14:04:46.147594] [info] totalRows is not a member of classObject
+[2018-03-04 14:04:46.147633] [info] currRow is not a member of classObject
+[2018-03-04 14:04:46.147712] [info] beanAvailable->dxHashToClass
+    suite_id: '1007'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=07'
+    suite_order: '80'
+    rent: '989.00'
+    promotion: ''
+    month: '4'
+    year: '2018'
+[2018-03-04 14:04:46.147859] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [1007]
+house_id []
+month [4]
+year [2018]
+rent [989.00]
+promotion []
+exists []
+
+[2018-03-04 14:04:46.147905] [info] Populating available
+[2018-03-04 14:04:46.147945] [info] beanSuite->dxHashToClass
+    suite_id: '1007'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=07'
+    suite_order: '80'
+    rent: '989.00'
+    promotion: ''
+    month: '4'
+    year: '2018'
+[2018-03-04 14:04:46.148081] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [1007]
+bedrooms [1]
+suite_order [80]
+floor_plan [index.php?action=floor_plan&suite_id=07]
+exists []
+
+[2018-03-04 14:04:46.148125] [info] Populating suite
+[2018-03-04 14:04:46.148165] [info] results is not a member of classObject
+[2018-03-04 14:04:46.148204] [info] totalRows is not a member of classObject
+[2018-03-04 14:04:46.148241] [info] currRow is not a member of classObject
+[2018-03-04 14:04:46.148319] [info] beanAvailable->dxHashToClass
+    suite_id: '301'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=01'
+    suite_order: '18'
+    rent: '985.00'
+    promotion: ''
+    month: '7'
+    year: '2018'
+[2018-03-04 14:04:46.148472] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [301]
+house_id []
+month [7]
+year [2018]
+rent [985.00]
+promotion []
+exists []
+
+[2018-03-04 14:04:46.148518] [info] Populating available
+[2018-03-04 14:04:46.148559] [info] beanSuite->dxHashToClass
+    suite_id: '301'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=01'
+    suite_order: '18'
+    rent: '985.00'
+    promotion: ''
+    month: '7'
+    year: '2018'
+[2018-03-04 14:04:46.148694] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [301]
+bedrooms [1]
+suite_order [18]
+floor_plan [index.php?action=floor_plan&suite_id=01]
+exists []
+
+[2018-03-04 14:04:46.148737] [info] Populating suite
+[2018-03-04 14:04:46.148777] [info] results is not a member of classObject
+[2018-03-04 14:04:46.148816] [info] totalRows is not a member of classObject
+[2018-03-04 14:04:46.148854] [info] currRow is not a member of classObject
+[2018-03-04 14:26:54.078071] [info] Entering index: 
+[2018-03-04 14:26:54.078217] [info] -->action: 
+[2018-03-04 14:26:54.078264] [info] -->suite_id: 
+[2018-03-04 14:26:54.078304] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 14:53:48.773516] [info] Entering index: 
+[2018-03-04 14:53:48.773713] [info] -->action: 
+[2018-03-04 14:53:48.773796] [info] -->suite_id: 
+[2018-03-04 14:53:48.773837] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 15:33:13.337829] [info] Entering index: 
+[2018-03-04 15:33:13.338037] [info] -->action: how_to_rent
+[2018-03-04 15:33:13.338082] [info] -->suite_id: 
+[2018-03-04 15:33:13.338119] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 16:20:35.592717] [info] Entering index: 
+[2018-03-04 16:20:35.592906] [info] -->action: 
+[2018-03-04 16:20:35.592951] [info] -->suite_id: 
+[2018-03-04 16:20:35.592987] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 18:36:34.566719] [info] Entering index: 
+[2018-03-04 18:36:34.566893] [info] -->action: 
+[2018-03-04 18:36:34.566941] [info] -->suite_id: 
+[2018-03-04 18:36:34.566983] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 18:36:40.204886] [info] Entering index: 
+[2018-03-04 18:36:40.204984] [info] -->action: 
+[2018-03-04 18:36:40.205029] [info] -->suite_id: 
+[2018-03-04 18:36:40.205070] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 18:52:22.993681] [info] Entering index: 
+[2018-03-04 18:52:22.993870] [info] -->action: contact_us
+[2018-03-04 18:52:22.993916] [info] -->suite_id: 
+[2018-03-04 18:52:22.993952] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 19:00:53.326433] [info] Entering index: 
+[2018-03-04 19:00:53.326616] [info] -->action: how_to_rent
+[2018-03-04 19:00:53.326658] [info] -->suite_id: 
+[2018-03-04 19:00:53.326694] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 19:07:24.695210] [info] Entering index: 
+[2018-03-04 19:07:24.695385] [info] -->action: 
+[2018-03-04 19:07:24.695429] [info] -->suite_id: 
+[2018-03-04 19:07:24.695463] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 20:32:23.553200] [info] Entering index: 
+[2018-03-04 20:32:23.553397] [info] -->action: 
+[2018-03-04 20:32:23.553442] [info] -->suite_id: 
+[2018-03-04 20:32:23.553479] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 20:32:25.862720] [info] Entering index: 
+[2018-03-04 20:32:25.862806] [info] -->action: apartments
+[2018-03-04 20:32:25.862845] [info] -->suite_id: 
+[2018-03-04 20:32:25.862883] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 20:32:27.569184] [info] Entering index: 
+[2018-03-04 20:32:27.569272] [info] -->action: apartments
+[2018-03-04 20:32:27.569314] [info] -->suite_id: 
+[2018-03-04 20:32:27.569351] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 20:32:29.049155] [info] Entering index: 
+[2018-03-04 20:32:29.049253] [info] -->action: apartments
+[2018-03-04 20:32:29.049297] [info] -->suite_id: 
+[2018-03-04 20:32:29.049335] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 20:32:33.601999] [info] Entering index: 
+[2018-03-04 20:32:33.602101] [info] -->action: apt_vacancies
+[2018-03-04 20:32:33.602148] [info] -->suite_id: 
+[2018-03-04 20:32:33.602186] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 20:32:33.716739] [info] Running query: select * from senatorapts.Suite s, senatorapts.Available a where s.suite_id = a.suite_id  order by a.year, LPAD(a.month,2,'0'), s.suite_order
+[2018-03-04 20:32:33.716854] [info] 6 rows returned.
+[2018-03-04 20:32:33.716944] [info] beanAvailable->dxHashToClass
+    suite_id: '102'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=02'
+    suite_order: '5'
+    rent: '940.00'
+    promotion: ''
+    month: '2'
+    year: '2018'
+[2018-03-04 20:32:33.717194] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [102]
+house_id []
+month [2]
+year [2018]
+rent [940.00]
+promotion []
+exists []
+
+[2018-03-04 20:32:33.717241] [info] Populating available
+[2018-03-04 20:32:33.717281] [info] beanSuite->dxHashToClass
+    suite_id: '102'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=02'
+    suite_order: '5'
+    rent: '940.00'
+    promotion: ''
+    month: '2'
+    year: '2018'
+[2018-03-04 20:32:33.717412] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [102]
+bedrooms [1]
+suite_order [5]
+floor_plan [index.php?action=floor_plan&suite_id=02]
+exists []
+
+[2018-03-04 20:32:33.717453] [info] Populating suite
+[2018-03-04 20:32:33.717489] [info] results is not a member of classObject
+[2018-03-04 20:32:33.717525] [info] totalRows is not a member of classObject
+[2018-03-04 20:32:33.717560] [info] currRow is not a member of classObject
+[2018-03-04 20:32:33.717680] [info] beanAvailable->dxHashToClass
+    suite_id: '207'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=07'
+    suite_order: '16'
+    rent: '980.00'
+    promotion: ''
+    month: '2'
+    year: '2018'
+[2018-03-04 20:32:33.717813] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [207]
+house_id []
+month [2]
+year [2018]
+rent [980.00]
+promotion []
+exists []
+
+[2018-03-04 20:32:33.717854] [info] Populating available
+[2018-03-04 20:32:33.717890] [info] beanSuite->dxHashToClass
+    suite_id: '207'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=07'
+    suite_order: '16'
+    rent: '980.00'
+    promotion: ''
+    month: '2'
+    year: '2018'
+[2018-03-04 20:32:33.718020] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [207]
+bedrooms [1]
+suite_order [16]
+floor_plan [index.php?action=floor_plan&suite_id=07]
+exists []
+
+[2018-03-04 20:32:33.718060] [info] Populating suite
+[2018-03-04 20:32:33.718097] [info] results is not a member of classObject
+[2018-03-04 20:32:33.718132] [info] totalRows is not a member of classObject
+[2018-03-04 20:32:33.718168] [info] currRow is not a member of classObject
+[2018-03-04 20:32:33.718238] [info] beanAvailable->dxHashToClass
+    suite_id: '502'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=02'
+    suite_order: '35'
+    rent: '999.00'
+    promotion: ''
+    month: '3'
+    year: '2018'
+[2018-03-04 20:32:33.718365] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [502]
+house_id []
+month [3]
+year [2018]
+rent [999.00]
+promotion []
+exists []
+
+[2018-03-04 20:32:33.718405] [info] Populating available
+[2018-03-04 20:32:33.718446] [info] beanSuite->dxHashToClass
+    suite_id: '502'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=02'
+    suite_order: '35'
+    rent: '999.00'
+    promotion: ''
+    month: '3'
+    year: '2018'
+[2018-03-04 20:32:33.718565] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [502]
+bedrooms [1]
+suite_order [35]
+floor_plan [index.php?action=floor_plan&suite_id=02]
+exists []
+
+[2018-03-04 20:32:33.718605] [info] Populating suite
+[2018-03-04 20:32:33.718641] [info] results is not a member of classObject
+[2018-03-04 20:32:33.718676] [info] totalRows is not a member of classObject
+[2018-03-04 20:32:33.718709] [info] currRow is not a member of classObject
+[2018-03-04 20:32:33.718781] [info] beanAvailable->dxHashToClass
+    suite_id: '308'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=08'
+    suite_order: '25'
+    rent: '969.00'
+    promotion: ''
+    month: '4'
+    year: '2018'
+[2018-03-04 20:32:33.718909] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [308]
+house_id []
+month [4]
+year [2018]
+rent [969.00]
+promotion []
+exists []
+
+[2018-03-04 20:32:33.718949] [info] Populating available
+[2018-03-04 20:32:33.718997] [info] beanSuite->dxHashToClass
+    suite_id: '308'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=08'
+    suite_order: '25'
+    rent: '969.00'
+    promotion: ''
+    month: '4'
+    year: '2018'
+[2018-03-04 20:32:33.719119] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [308]
+bedrooms [1]
+suite_order [25]
+floor_plan [index.php?action=floor_plan&suite_id=08]
+exists []
+
+[2018-03-04 20:32:33.719157] [info] Populating suite
+[2018-03-04 20:32:33.719193] [info] results is not a member of classObject
+[2018-03-04 20:32:33.719228] [info] totalRows is not a member of classObject
+[2018-03-04 20:32:33.719263] [info] currRow is not a member of classObject
+[2018-03-04 20:32:33.719336] [info] beanAvailable->dxHashToClass
+    suite_id: '1007'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=07'
+    suite_order: '80'
+    rent: '989.00'
+    promotion: ''
+    month: '4'
+    year: '2018'
+[2018-03-04 20:32:33.719463] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [1007]
+house_id []
+month [4]
+year [2018]
+rent [989.00]
+promotion []
+exists []
+
+[2018-03-04 20:32:33.719508] [info] Populating available
+[2018-03-04 20:32:33.719547] [info] beanSuite->dxHashToClass
+    suite_id: '1007'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=07'
+    suite_order: '80'
+    rent: '989.00'
+    promotion: ''
+    month: '4'
+    year: '2018'
+[2018-03-04 20:32:33.719666] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [1007]
+bedrooms [1]
+suite_order [80]
+floor_plan [index.php?action=floor_plan&suite_id=07]
+exists []
+
+[2018-03-04 20:32:33.719707] [info] Populating suite
+[2018-03-04 20:32:33.719743] [info] results is not a member of classObject
+[2018-03-04 20:32:33.719777] [info] totalRows is not a member of classObject
+[2018-03-04 20:32:33.719811] [info] currRow is not a member of classObject
+[2018-03-04 20:32:33.719880] [info] beanAvailable->dxHashToClass
+    suite_id: '301'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=01'
+    suite_order: '18'
+    rent: '985.00'
+    promotion: ''
+    month: '7'
+    year: '2018'
+[2018-03-04 20:32:33.720016] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [301]
+house_id []
+month [7]
+year [2018]
+rent [985.00]
+promotion []
+exists []
+
+[2018-03-04 20:32:33.720057] [info] Populating available
+[2018-03-04 20:32:33.720094] [info] beanSuite->dxHashToClass
+    suite_id: '301'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=01'
+    suite_order: '18'
+    rent: '985.00'
+    promotion: ''
+    month: '7'
+    year: '2018'
+[2018-03-04 20:32:33.720215] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [301]
+bedrooms [1]
+suite_order [18]
+floor_plan [index.php?action=floor_plan&suite_id=01]
+exists []
+
+[2018-03-04 20:32:33.720253] [info] Populating suite
+[2018-03-04 20:32:33.720288] [info] results is not a member of classObject
+[2018-03-04 20:32:33.720324] [info] totalRows is not a member of classObject
+[2018-03-04 20:32:33.720359] [info] currRow is not a member of classObject
+[2018-03-04 21:44:25.685478] [info] Entering index: 
+[2018-03-04 21:44:25.685650] [info] -->action: how_to_rent
+[2018-03-04 21:44:25.685699] [info] -->suite_id: 
+[2018-03-04 21:44:25.685741] [info] -->there is no gallery for this page, or it did not load correctly
+[2018-03-04 22:46:42.863091] [info] Entering index: 
+[2018-03-04 22:46:42.863296] [info] -->action: 
+[2018-03-04 22:46:42.863341] [info] -->suite_id: 
+[2018-03-04 22:46:42.863378] [info] -->there is no gallery for this page, or it did not load correctly

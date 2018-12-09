@@ -1,0 +1,2748 @@
+[2016-02-20 0:13:29.355279] [info] Entering index: 
+[2016-02-20 0:13:29.355473] [info] -->action: apt_vacancies
+[2016-02-20 0:13:29.355518] [info] -->suite_id: 
+[2016-02-20 0:13:29.355555] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 0:13:29.484473] [info] Running query: select * from senatorapts.Suite s, senatorapts.Available a where s.suite_id = a.suite_id  order by a.year, a.month, s.suite_order
+[2016-02-20 0:13:29.484591] [info] 1 rows returned.
+[2016-02-20 0:13:29.484675] [info] beanAvailable->dxHashToClass
+    suite_id: '202'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=02'
+    suite_order: '11'
+    rent: '875'
+    promotion: '$500.00 Move-in Bonus'
+    month: '2'
+    year: '2016'
+[2016-02-20 0:13:29.484931] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [202]
+house_id []
+month [2]
+year [2016]
+rent [875]
+promotion [$500.00 Move-in Bonus]
+exists []
+
+[2016-02-20 0:13:29.484977] [info] Populating available
+[2016-02-20 0:13:29.485016] [info] beanSuite->dxHashToClass
+    suite_id: '202'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=02'
+    suite_order: '11'
+    rent: '875'
+    promotion: '$500.00 Move-in Bonus'
+    month: '2'
+    year: '2016'
+[2016-02-20 0:13:29.485148] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [202]
+bedrooms [1]
+suite_order [11]
+floor_plan [index.php?action=floor_plan&suite_id=02]
+exists []
+
+[2016-02-20 0:13:29.485188] [info] Populating suite
+[2016-02-20 0:13:29.485224] [info] results is not a member of classObject
+[2016-02-20 0:13:29.485260] [info] totalRows is not a member of classObject
+[2016-02-20 0:13:29.485294] [info] currRow is not a member of classObject
+[2016-02-20 0:16:09.624525] [info] Entering index: 
+[2016-02-20 0:16:09.624630] [info] -->action: 
+[2016-02-20 0:16:09.624669] [info] -->suite_id: 
+[2016-02-20 0:16:09.624702] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 0:16:11.033176] [info] Entering index: 
+[2016-02-20 0:16:11.033276] [info] -->action: 
+[2016-02-20 0:16:11.033313] [info] -->suite_id: 
+[2016-02-20 0:16:11.033348] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 0:16:25.166610] [info] Entering index: 
+[2016-02-20 0:16:25.166760] [info] -->action: floor_plan
+[2016-02-20 0:16:25.166802] [info] -->suite_id: 04
+[2016-02-20 0:16:25.263370] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE code='04'
+[2016-02-20 0:16:25.263494] [info] 1 rows returned.
+[2016-02-20 0:16:25.263560] [info] beanGallery->dxHashToClass
+    gallery_id: '5'
+    code: '04'
+    description: 'Floor Plan 04'
+[2016-02-20 0:16:25.263758] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [5]
+code [04]
+description [Floor Plan 04]
+exists [1]
+
+[2016-02-20 0:16:25.277852] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='5'
+[2016-02-20 0:16:25.277955] [info] 1 rows returned.
+[2016-02-20 0:16:25.277995] [info] Results: 1
+[2016-02-20 0:16:25.278038] [info] beanGallery->dxHashToClass
+    gallery_id: '5'
+    code: '04'
+    description: 'Floor Plan 04'
+[2016-02-20 0:16:25.278160] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [5]
+code [04]
+description [Floor Plan 04]
+exists [1]
+
+[2016-02-20 0:16:25.278209] [info] -->gallery_id: 5
+[2016-02-20 0:16:25.278249] [info] __doLoadPhotos
+[2016-02-20 0:16:25.278283] [info] -->this: 1
+[2016-02-20 0:16:25.278316] [info] -->gallery: 1
+[2016-02-20 0:16:25.326548] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 5 and gp.photo_id = p.photo_id
+[2016-02-20 0:16:25.326661] [info] 4 rows returned.
+[2016-02-20 0:16:25.326703] [info] Results: 4
+[2016-02-20 0:16:25.326772] [info] 16
+[2016-02-20 0:16:25.326809] [info] 17
+[2016-02-20 0:16:25.326843] [info] 18
+[2016-02-20 0:16:25.326874] [info] 19
+[2016-02-20 0:16:25.326908] [info] images/imggal/04/thumb/ig_thumb_04_1.jpg
+[2016-02-20 0:16:25.326941] [info] images/imggal/04/thumb/ig_thumb_04_2.jpg
+[2016-02-20 0:16:25.326972] [info] images/imggal/04/thumb/ig_thumb_04_3.jpg
+[2016-02-20 0:16:25.327014] [info] images/imggal/04/thumb/ig_thumb_04_4.jpg
+[2016-02-20 0:16:25.327049] [info] images/imggal/04/med/ig_med_04_1.jpg
+[2016-02-20 0:16:25.327092] [info] images/imggal/04/med/ig_med_04_2.jpg
+[2016-02-20 0:16:25.327126] [info] images/imggal/04/med/ig_med_04_3.jpg
+[2016-02-20 0:16:25.327157] [info] images/imggal/04/med/ig_med_04_4.jpg
+[2016-02-20 0:16:25.327192] [info] images/imggal/04/full/ig_full_04_1.jpg
+[2016-02-20 0:16:25.327224] [info] images/imggal/04/full/ig_full_04_2.jpg
+[2016-02-20 0:16:25.327255] [info] images/imggal/04/full/ig_full_04_3.jpg
+[2016-02-20 0:16:25.327287] [info] images/imggal/04/full/ig_full_04_4.jpg
+[2016-02-20 0:16:25.327327] [info] -->num_photos: 4
+[2016-02-20 0:16:25.338439] [info] i: 
+[2016-02-20 0:16:25.338538] [info] thumbs[i]: images/imggal/04/thumb/ig_thumb_04_1.jpg
+[2016-02-20 0:16:25.338577] [info] meds[i]: images/imggal/04/med/ig_med_04_1.jpg
+[2016-02-20 0:16:25.338613] [info] fulls[i]: images/imggal/04/full/ig_full_04_1.jpg
+[2016-02-20 0:16:25.338651] [info] i: 
+[2016-02-20 0:16:25.338686] [info] thumbs[i]: images/imggal/04/thumb/ig_thumb_04_2.jpg
+[2016-02-20 0:16:25.338720] [info] meds[i]: images/imggal/04/med/ig_med_04_2.jpg
+[2016-02-20 0:16:25.338752] [info] fulls[i]: images/imggal/04/full/ig_full_04_2.jpg
+[2016-02-20 0:16:25.338789] [info] i: 
+[2016-02-20 0:16:25.338824] [info] thumbs[i]: images/imggal/04/thumb/ig_thumb_04_3.jpg
+[2016-02-20 0:16:25.338856] [info] meds[i]: images/imggal/04/med/ig_med_04_3.jpg
+[2016-02-20 0:16:25.338890] [info] fulls[i]: images/imggal/04/full/ig_full_04_3.jpg
+[2016-02-20 0:16:25.338926] [info] i: 
+[2016-02-20 0:16:25.338959] [info] thumbs[i]: images/imggal/04/thumb/ig_thumb_04_4.jpg
+[2016-02-20 0:16:25.338993] [info] meds[i]: images/imggal/04/med/ig_med_04_4.jpg
+[2016-02-20 0:16:25.339026] [info] fulls[i]: images/imggal/04/full/ig_full_04_4.jpg
+[2016-02-20 0:16:25.376125] [info] __getPhotoPath: 0 fulls images/imggal/04/full/ig_full_04_1.jpg
+[2016-02-20 0:16:25.376230] [info] __getPhotoPath: 0 meds images/imggal/04/med/ig_med_04_1.jpg
+[2016-02-20 0:16:25.376272] [info] __getPhotoPath: 0 fulls images/imggal/04/full/ig_full_04_1.jpg
+[2016-02-20 0:19:35.436197] [info] Entering index: 
+[2016-02-20 0:19:35.436366] [info] -->action: how_to_rent
+[2016-02-20 0:19:35.436417] [info] -->suite_id: 
+[2016-02-20 0:19:35.436460] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 0:20:02.721219] [info] Entering index: 
+[2016-02-20 0:20:02.721311] [info] -->action: 
+[2016-02-20 0:20:02.721349] [info] -->suite_id: 
+[2016-02-20 0:20:02.721380] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 0:20:03.214680] [info] Entering index: 
+[2016-02-20 0:20:03.214773] [info] -->action: 
+[2016-02-20 0:20:03.214811] [info] -->suite_id: 
+[2016-02-20 0:20:03.214843] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 0:28:54.266458] [info] Entering index: 
+[2016-02-20 0:28:54.266625] [info] -->action: homes
+[2016-02-20 0:28:54.266675] [info] -->suite_id: 
+[2016-02-20 0:28:54.266719] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 0:28:54.533513] [info] Running query: select * from senatorapts.House h, senatorapts.HouseAvailable a where h.house_id = a.house_id  and h.deleted != 1 order by a.year, a.month
+[2016-02-20 0:28:54.533617] [info] 0 rows returned.
+[2016-02-20 0:48:02.429519] [info] Entering index: 
+[2016-02-20 0:48:02.429723] [info] -->action: 
+[2016-02-20 0:48:02.429768] [info] -->suite_id: 
+[2016-02-20 0:48:02.429805] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 0:49:10.523999] [info] Entering index: 
+[2016-02-20 0:49:10.524107] [info] -->action: 
+[2016-02-20 0:49:10.524148] [info] -->suite_id: 
+[2016-02-20 0:49:10.524184] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 0:56:54.893028] [info] Entering index: 
+[2016-02-20 0:56:54.893218] [info] -->action: apartments
+[2016-02-20 0:56:54.893270] [info] -->suite_id: 
+[2016-02-20 0:56:54.893317] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 1:16:16.093931] [info] Entering index: 
+[2016-02-20 1:16:16.094114] [info] -->action: 
+[2016-02-20 1:16:16.094156] [info] -->suite_id: 
+[2016-02-20 1:16:16.094192] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 1:16:16.650008] [info] Entering index: 
+[2016-02-20 1:16:16.650105] [info] -->action: 
+[2016-02-20 1:16:16.650144] [info] -->suite_id: 
+[2016-02-20 1:16:16.650178] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 1:18:44.636380] [info] Entering index: 
+[2016-02-20 1:18:44.636539] [info] -->action: contact_us
+[2016-02-20 1:18:44.636590] [info] -->suite_id: 
+[2016-02-20 1:18:44.636631] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 1:19:11.366254] [info] Entering index: 
+[2016-02-20 1:19:11.366414] [info] -->action: 
+[2016-02-20 1:19:11.366456] [info] -->suite_id: 
+[2016-02-20 1:19:11.366494] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 1:19:17.680229] [info] Entering index: 
+[2016-02-20 1:19:17.680342] [info] -->action: 
+[2016-02-20 1:19:17.680382] [info] -->suite_id: 
+[2016-02-20 1:19:17.680418] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 1:20:39.450156] [info] Entering index: 
+[2016-02-20 1:20:39.450264] [info] -->action: 
+[2016-02-20 1:20:39.450304] [info] -->suite_id: 
+[2016-02-20 1:20:39.450339] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 1:20:55.643671] [info] Entering index: 
+[2016-02-20 1:20:55.643771] [info] -->action: 
+[2016-02-20 1:20:55.643810] [info] -->suite_id: 
+[2016-02-20 1:20:55.643846] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 2:15:13.027400] [info] Entering index: 
+[2016-02-20 2:15:13.027556] [info] -->action: 
+[2016-02-20 2:15:13.027601] [info] -->suite_id: 
+[2016-02-20 2:15:13.027638] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 2:15:30.509605] [info] Entering index: 
+[2016-02-20 2:15:30.509701] [info] -->action: 
+[2016-02-20 2:15:30.509741] [info] -->suite_id: 
+[2016-02-20 2:15:30.509777] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 2:19:40.261584] [info] Entering index: 
+[2016-02-20 2:19:40.261766] [info] -->action: 
+[2016-02-20 2:19:40.261811] [info] -->suite_id: 
+[2016-02-20 2:19:40.261847] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 2:19:42.495213] [info] Entering index: 
+[2016-02-20 2:19:42.495311] [info] -->action: 
+[2016-02-20 2:19:42.495348] [info] -->suite_id: 
+[2016-02-20 2:19:42.495384] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 2:52:36.445334] [info] Entering index: 
+[2016-02-20 2:52:36.451406] [info] -->action: 
+[2016-02-20 2:52:36.451461] [info] -->suite_id: 
+[2016-02-20 2:52:36.451498] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 3:16:17.666805] [info] Entering index: 
+[2016-02-20 3:16:17.666965] [info] -->action: 
+[2016-02-20 3:16:17.667009] [info] -->suite_id: 
+[2016-02-20 3:16:17.667047] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 3:16:18.102828] [info] Entering index: 
+[2016-02-20 3:16:18.102916] [info] -->action: 
+[2016-02-20 3:16:18.102957] [info] -->suite_id: 
+[2016-02-20 3:16:18.102993] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 3:18:47.916297] [info] Entering index: 
+[2016-02-20 3:18:47.916459] [info] -->action: 
+[2016-02-20 3:18:47.916498] [info] -->suite_id: 
+[2016-02-20 3:18:47.916537] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 3:18:49.116260] [info] Entering index: 
+[2016-02-20 3:18:49.116352] [info] -->action: 
+[2016-02-20 3:18:49.116390] [info] -->suite_id: 
+[2016-02-20 3:18:49.116425] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 3:25:34.414726] [info] Entering index: 
+[2016-02-20 3:25:34.414840] [info] -->action: 
+[2016-02-20 3:25:34.414880] [info] -->suite_id: 
+[2016-02-20 3:25:34.414913] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 3:31:44.954633] [info] Entering index: 
+[2016-02-20 3:31:44.954785] [info] -->action: floor_plan
+[2016-02-20 3:31:44.954827] [info] -->suite_id: 06
+[2016-02-20 3:31:45.309987] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE code='06'
+[2016-02-20 3:31:45.310107] [info] 1 rows returned.
+[2016-02-20 3:31:45.310173] [info] beanGallery->dxHashToClass
+    gallery_id: '7'
+    code: '06'
+    description: 'Floor Plan 06'
+[2016-02-20 3:31:45.310380] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [7]
+code [06]
+description [Floor Plan 06]
+exists [1]
+
+[2016-02-20 3:31:45.326169] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='7'
+[2016-02-20 3:31:45.326250] [info] 1 rows returned.
+[2016-02-20 3:31:45.326291] [info] Results: 1
+[2016-02-20 3:31:45.326333] [info] beanGallery->dxHashToClass
+    gallery_id: '7'
+    code: '06'
+    description: 'Floor Plan 06'
+[2016-02-20 3:31:45.326442] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [7]
+code [06]
+description [Floor Plan 06]
+exists [1]
+
+[2016-02-20 3:31:45.326493] [info] -->gallery_id: 7
+[2016-02-20 3:31:45.326531] [info] __doLoadPhotos
+[2016-02-20 3:31:45.326566] [info] -->this: 1
+[2016-02-20 3:31:45.326600] [info] -->gallery: 1
+[2016-02-20 3:31:45.418334] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 7 and gp.photo_id = p.photo_id
+[2016-02-20 3:31:45.418517] [info] 5 rows returned.
+[2016-02-20 3:31:45.418565] [info] Results: 5
+[2016-02-20 3:31:45.418643] [info] 24
+[2016-02-20 3:31:45.418688] [info] 25
+[2016-02-20 3:31:45.418723] [info] 26
+[2016-02-20 3:31:45.418756] [info] 27
+[2016-02-20 3:31:45.418787] [info] 28
+[2016-02-20 3:31:45.418822] [info] images/imggal/06/thumb/ig_thumb_06_1.jpg
+[2016-02-20 3:31:45.418901] [info] images/imggal/06/thumb/ig_thumb_06_2.jpg
+[2016-02-20 3:31:45.418936] [info] images/imggal/06/thumb/ig_thumb_06_3.jpg
+[2016-02-20 3:31:45.418968] [info] images/imggal/06/thumb/ig_thumb_06_4.jpg
+[2016-02-20 3:31:45.419004] [info] images/imggal/06/thumb/ig_thumb_06_5.jpg
+[2016-02-20 3:31:45.419040] [info] images/imggal/06/med/ig_med_06_1.jpg
+[2016-02-20 3:31:45.419074] [info] images/imggal/06/med/ig_med_06_2.jpg
+[2016-02-20 3:31:45.419106] [info] images/imggal/06/med/ig_med_06_3.jpg
+[2016-02-20 3:31:45.419137] [info] images/imggal/06/med/ig_med_06_4.jpg
+[2016-02-20 3:31:45.419168] [info] images/imggal/06/med/ig_med_06_5.jpg
+[2016-02-20 3:31:45.419203] [info] images/imggal/06/full/ig_full_06_1.jpg
+[2016-02-20 3:31:45.419235] [info] images/imggal/06/full/ig_full_06_2.jpg
+[2016-02-20 3:31:45.419267] [info] images/imggal/06/full/ig_full_06_3.jpg
+[2016-02-20 3:31:45.419298] [info] images/imggal/06/full/ig_full_06_4.jpg
+[2016-02-20 3:31:45.419331] [info] images/imggal/06/full/ig_full_06_5.jpg
+[2016-02-20 3:31:45.419373] [info] -->num_photos: 5
+[2016-02-20 3:31:45.462333] [info] i: 
+[2016-02-20 3:31:45.462418] [info] thumbs[i]: images/imggal/06/thumb/ig_thumb_06_1.jpg
+[2016-02-20 3:31:45.462456] [info] meds[i]: images/imggal/06/med/ig_med_06_1.jpg
+[2016-02-20 3:31:45.462491] [info] fulls[i]: images/imggal/06/full/ig_full_06_1.jpg
+[2016-02-20 3:31:45.462532] [info] i: 
+[2016-02-20 3:31:45.462565] [info] thumbs[i]: images/imggal/06/thumb/ig_thumb_06_2.jpg
+[2016-02-20 3:31:45.462599] [info] meds[i]: images/imggal/06/med/ig_med_06_2.jpg
+[2016-02-20 3:31:45.462675] [info] fulls[i]: images/imggal/06/full/ig_full_06_2.jpg
+[2016-02-20 3:31:45.462717] [info] i: 
+[2016-02-20 3:31:45.462752] [info] thumbs[i]: images/imggal/06/thumb/ig_thumb_06_3.jpg
+[2016-02-20 3:31:45.462790] [info] meds[i]: images/imggal/06/med/ig_med_06_3.jpg
+[2016-02-20 3:31:45.462825] [info] fulls[i]: images/imggal/06/full/ig_full_06_3.jpg
+[2016-02-20 3:31:45.462862] [info] i: 
+[2016-02-20 3:31:45.462913] [info] thumbs[i]: images/imggal/06/thumb/ig_thumb_06_4.jpg
+[2016-02-20 3:31:45.462949] [info] meds[i]: images/imggal/06/med/ig_med_06_4.jpg
+[2016-02-20 3:31:45.462982] [info] fulls[i]: images/imggal/06/full/ig_full_06_4.jpg
+[2016-02-20 3:31:45.463021] [info] i: 
+[2016-02-20 3:31:45.463054] [info] thumbs[i]: images/imggal/06/thumb/ig_thumb_06_5.jpg
+[2016-02-20 3:31:45.463088] [info] meds[i]: images/imggal/06/med/ig_med_06_5.jpg
+[2016-02-20 3:31:45.463121] [info] fulls[i]: images/imggal/06/full/ig_full_06_5.jpg
+[2016-02-20 3:31:45.508241] [info] __getPhotoPath: 0 fulls images/imggal/06/full/ig_full_06_1.jpg
+[2016-02-20 3:31:45.508336] [info] __getPhotoPath: 0 meds images/imggal/06/med/ig_med_06_1.jpg
+[2016-02-20 3:31:45.508379] [info] __getPhotoPath: 0 fulls images/imggal/06/full/ig_full_06_1.jpg
+[2016-02-20 3:33:06.206147] [info] Entering index: 
+[2016-02-20 3:33:06.206290] [info] -->action: 
+[2016-02-20 3:33:06.206337] [info] -->suite_id: 
+[2016-02-20 3:33:06.206378] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 3:42:21.031157] [info] Entering index: 
+[2016-02-20 3:42:21.031352] [info] -->action: 
+[2016-02-20 3:42:21.031404] [info] -->suite_id: 
+[2016-02-20 3:42:21.031447] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 3:43:27.725711] [info] Entering index: 
+[2016-02-20 3:43:27.725817] [info] -->action: 
+[2016-02-20 3:43:27.725864] [info] -->suite_id: 
+[2016-02-20 3:43:27.725908] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 4:08:55.626847] [info] Entering index: 
+[2016-02-20 4:08:55.627048] [info] -->action: floor_plan
+[2016-02-20 4:08:55.627090] [info] -->suite_id: 07
+[2016-02-20 4:08:55.654737] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE code='07'
+[2016-02-20 4:08:55.654870] [info] 1 rows returned.
+[2016-02-20 4:08:55.655013] [info] beanGallery->dxHashToClass
+    gallery_id: '8'
+    code: '07'
+    description: 'Floor Plan 07'
+[2016-02-20 4:08:55.655231] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [8]
+code [07]
+description [Floor Plan 07]
+exists [1]
+
+[2016-02-20 4:08:55.658224] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='8'
+[2016-02-20 4:08:55.658288] [info] 1 rows returned.
+[2016-02-20 4:08:55.658327] [info] Results: 1
+[2016-02-20 4:08:55.658369] [info] beanGallery->dxHashToClass
+    gallery_id: '8'
+    code: '07'
+    description: 'Floor Plan 07'
+[2016-02-20 4:08:55.658473] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [8]
+code [07]
+description [Floor Plan 07]
+exists [1]
+
+[2016-02-20 4:08:55.658521] [info] -->gallery_id: 8
+[2016-02-20 4:08:55.658560] [info] __doLoadPhotos
+[2016-02-20 4:08:55.658595] [info] -->this: 1
+[2016-02-20 4:08:55.658627] [info] -->gallery: 1
+[2016-02-20 4:08:55.667943] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 8 and gp.photo_id = p.photo_id
+[2016-02-20 4:08:55.668039] [info] 3 rows returned.
+[2016-02-20 4:08:55.668078] [info] Results: 3
+[2016-02-20 4:08:55.668143] [info] 29
+[2016-02-20 4:08:55.668180] [info] 30
+[2016-02-20 4:08:55.668214] [info] 31
+[2016-02-20 4:08:55.668246] [info] images/imggal/07/thumb/ig_thumb_07_1.jpg
+[2016-02-20 4:08:55.668278] [info] images/imggal/07/thumb/ig_thumb_07_2.jpg
+[2016-02-20 4:08:55.668308] [info] images/imggal/07/thumb/ig_thumb_07_3.jpg
+[2016-02-20 4:08:55.668342] [info] images/imggal/07/med/ig_med_07_1.jpg
+[2016-02-20 4:08:55.668374] [info] images/imggal/07/med/ig_med_07_2.jpg
+[2016-02-20 4:08:55.668405] [info] images/imggal/07/med/ig_med_07_3.jpg
+[2016-02-20 4:08:55.668437] [info] images/imggal/07/full/ig_full_07_1.jpg
+[2016-02-20 4:08:55.668467] [info] images/imggal/07/full/ig_full_07_2.jpg
+[2016-02-20 4:08:55.668498] [info] images/imggal/07/full/ig_full_07_3.jpg
+[2016-02-20 4:08:55.668539] [info] -->num_photos: 3
+[2016-02-20 4:08:55.717173] [info] i: 
+[2016-02-20 4:08:55.717269] [info] thumbs[i]: images/imggal/07/thumb/ig_thumb_07_1.jpg
+[2016-02-20 4:08:55.717308] [info] meds[i]: images/imggal/07/med/ig_med_07_1.jpg
+[2016-02-20 4:08:55.717351] [info] fulls[i]: images/imggal/07/full/ig_full_07_1.jpg
+[2016-02-20 4:08:55.717391] [info] i: 
+[2016-02-20 4:08:55.717426] [info] thumbs[i]: images/imggal/07/thumb/ig_thumb_07_2.jpg
+[2016-02-20 4:08:55.717458] [info] meds[i]: images/imggal/07/med/ig_med_07_2.jpg
+[2016-02-20 4:08:55.717492] [info] fulls[i]: images/imggal/07/full/ig_full_07_2.jpg
+[2016-02-20 4:08:55.717528] [info] i: 
+[2016-02-20 4:08:55.717561] [info] thumbs[i]: images/imggal/07/thumb/ig_thumb_07_3.jpg
+[2016-02-20 4:08:55.717593] [info] meds[i]: images/imggal/07/med/ig_med_07_3.jpg
+[2016-02-20 4:08:55.717626] [info] fulls[i]: images/imggal/07/full/ig_full_07_3.jpg
+[2016-02-20 4:08:55.740520] [info] __getPhotoPath: 0 fulls images/imggal/07/full/ig_full_07_1.jpg
+[2016-02-20 4:08:55.740592] [info] __getPhotoPath: 0 meds images/imggal/07/med/ig_med_07_1.jpg
+[2016-02-20 4:08:55.740636] [info] __getPhotoPath: 0 fulls images/imggal/07/full/ig_full_07_1.jpg
+[2016-02-20 4:15:17.760051] [info] Entering index: 
+[2016-02-20 4:15:17.760215] [info] -->action: 
+[2016-02-20 4:15:17.760261] [info] -->suite_id: 
+[2016-02-20 4:15:17.760298] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 4:15:19.457715] [info] Entering index: 
+[2016-02-20 4:15:19.457815] [info] -->action: 
+[2016-02-20 4:15:19.457855] [info] -->suite_id: 
+[2016-02-20 4:15:19.457891] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 4:19:31.927021] [info] Entering index: 
+[2016-02-20 4:19:31.927196] [info] -->action: 
+[2016-02-20 4:19:31.927246] [info] -->suite_id: 
+[2016-02-20 4:19:31.927288] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 4:19:32.691308] [info] Entering index: 
+[2016-02-20 4:19:32.691404] [info] -->action: 
+[2016-02-20 4:19:32.691447] [info] -->suite_id: 
+[2016-02-20 4:19:32.691488] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 4:24:03.252576] [info] Entering index: 
+[2016-02-20 4:24:03.252682] [info] -->action: 
+[2016-02-20 4:24:03.252728] [info] -->suite_id: 
+[2016-02-20 4:24:03.252770] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 4:24:27.425404] [info] Entering index: 
+[2016-02-20 4:24:27.425509] [info] -->action: 
+[2016-02-20 4:24:27.425555] [info] -->suite_id: 
+[2016-02-20 4:24:27.425596] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 4:33:14.681107] [info] Entering index: 
+[2016-02-20 4:33:14.681284] [info] -->action: floor_plan
+[2016-02-20 4:33:14.681328] [info] -->suite_id: 08
+[2016-02-20 4:33:14.776599] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE code='08'
+[2016-02-20 4:33:14.776722] [info] 1 rows returned.
+[2016-02-20 4:33:14.776787] [info] beanGallery->dxHashToClass
+    gallery_id: '9'
+    code: '08'
+    description: 'Floor Plan 08'
+[2016-02-20 4:33:14.777000] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [9]
+code [08]
+description [Floor Plan 08]
+exists [1]
+
+[2016-02-20 4:33:14.780524] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='9'
+[2016-02-20 4:33:14.780597] [info] 1 rows returned.
+[2016-02-20 4:33:14.780637] [info] Results: 1
+[2016-02-20 4:33:14.780679] [info] beanGallery->dxHashToClass
+    gallery_id: '9'
+    code: '08'
+    description: 'Floor Plan 08'
+[2016-02-20 4:33:14.780788] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [9]
+code [08]
+description [Floor Plan 08]
+exists [1]
+
+[2016-02-20 4:33:14.780838] [info] -->gallery_id: 9
+[2016-02-20 4:33:14.780877] [info] __doLoadPhotos
+[2016-02-20 4:33:14.780911] [info] -->this: 1
+[2016-02-20 4:33:14.780945] [info] -->gallery: 1
+[2016-02-20 4:33:14.840975] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 9 and gp.photo_id = p.photo_id
+[2016-02-20 4:33:14.841090] [info] 6 rows returned.
+[2016-02-20 4:33:14.841134] [info] Results: 6
+[2016-02-20 4:33:14.841213] [info] 32
+[2016-02-20 4:33:14.841253] [info] 33
+[2016-02-20 4:33:14.841295] [info] 34
+[2016-02-20 4:33:14.841329] [info] 35
+[2016-02-20 4:33:14.841361] [info] 36
+[2016-02-20 4:33:14.841392] [info] 37
+[2016-02-20 4:33:14.841425] [info] images/imggal/08/thumb/ig_thumb_08_1.jpg
+[2016-02-20 4:33:14.841459] [info] images/imggal/08/thumb/ig_thumb_08_2.jpg
+[2016-02-20 4:33:14.841490] [info] images/imggal/08/thumb/ig_thumb_08_3.jpg
+[2016-02-20 4:33:14.841521] [info] images/imggal/08/thumb/ig_thumb_08_4.jpg
+[2016-02-20 4:33:14.841553] [info] images/imggal/08/thumb/ig_thumb_08_5.jpg
+[2016-02-20 4:33:14.841584] [info] images/imggal/08/thumb/ig_thumb_08_6.jpg
+[2016-02-20 4:33:14.841619] [info] images/imggal/08/med/ig_med_08_1.jpg
+[2016-02-20 4:33:14.841650] [info] images/imggal/08/med/ig_med_08_2.jpg
+[2016-02-20 4:33:14.841681] [info] images/imggal/08/med/ig_med_08_3.jpg
+[2016-02-20 4:33:14.841713] [info] images/imggal/08/med/ig_med_08_4.jpg
+[2016-02-20 4:33:14.841744] [info] images/imggal/08/med/ig_med_08_5.jpg
+[2016-02-20 4:33:14.841777] [info] images/imggal/08/med/ig_med_08_6.jpg
+[2016-02-20 4:33:14.841809] [info] images/imggal/08/full/ig_full_08_1.jpg
+[2016-02-20 4:33:14.841841] [info] images/imggal/08/full/ig_full_08_2.jpg
+[2016-02-20 4:33:14.841873] [info] images/imggal/08/full/ig_full_08_3.jpg
+[2016-02-20 4:33:14.841917] [info] images/imggal/08/full/ig_full_08_4.jpg
+[2016-02-20 4:33:14.841949] [info] images/imggal/08/full/ig_full_08_5.jpg
+[2016-02-20 4:33:14.841980] [info] images/imggal/08/full/ig_full_08_6.jpg
+[2016-02-20 4:33:14.842022] [info] -->num_photos: 6
+[2016-02-20 4:33:14.872365] [info] i: 
+[2016-02-20 4:33:14.872467] [info] thumbs[i]: images/imggal/08/thumb/ig_thumb_08_1.jpg
+[2016-02-20 4:33:14.872505] [info] meds[i]: images/imggal/08/med/ig_med_08_1.jpg
+[2016-02-20 4:33:14.872541] [info] fulls[i]: images/imggal/08/full/ig_full_08_1.jpg
+[2016-02-20 4:33:14.872581] [info] i: 
+[2016-02-20 4:33:14.872615] [info] thumbs[i]: images/imggal/08/thumb/ig_thumb_08_2.jpg
+[2016-02-20 4:33:14.872648] [info] meds[i]: images/imggal/08/med/ig_med_08_2.jpg
+[2016-02-20 4:33:14.872682] [info] fulls[i]: images/imggal/08/full/ig_full_08_2.jpg
+[2016-02-20 4:33:14.872719] [info] i: 
+[2016-02-20 4:33:14.872752] [info] thumbs[i]: images/imggal/08/thumb/ig_thumb_08_3.jpg
+[2016-02-20 4:33:14.872786] [info] meds[i]: images/imggal/08/med/ig_med_08_3.jpg
+[2016-02-20 4:33:14.872819] [info] fulls[i]: images/imggal/08/full/ig_full_08_3.jpg
+[2016-02-20 4:33:14.872857] [info] i: 
+[2016-02-20 4:33:14.872905] [info] thumbs[i]: images/imggal/08/thumb/ig_thumb_08_4.jpg
+[2016-02-20 4:33:14.872944] [info] meds[i]: images/imggal/08/med/ig_med_08_4.jpg
+[2016-02-20 4:33:14.872977] [info] fulls[i]: images/imggal/08/full/ig_full_08_4.jpg
+[2016-02-20 4:33:14.873013] [info] i: 
+[2016-02-20 4:33:14.873049] [info] thumbs[i]: images/imggal/08/thumb/ig_thumb_08_5.jpg
+[2016-02-20 4:33:14.873081] [info] meds[i]: images/imggal/08/med/ig_med_08_5.jpg
+[2016-02-20 4:33:14.873115] [info] fulls[i]: images/imggal/08/full/ig_full_08_5.jpg
+[2016-02-20 4:33:14.873152] [info] i: 
+[2016-02-20 4:33:14.873186] [info] thumbs[i]: images/imggal/08/thumb/ig_thumb_08_6.jpg
+[2016-02-20 4:33:14.873219] [info] meds[i]: images/imggal/08/med/ig_med_08_6.jpg
+[2016-02-20 4:33:14.873251] [info] fulls[i]: images/imggal/08/full/ig_full_08_6.jpg
+[2016-02-20 4:33:14.910154] [info] __getPhotoPath: 0 fulls images/imggal/08/full/ig_full_08_1.jpg
+[2016-02-20 4:33:14.910264] [info] __getPhotoPath: 0 meds images/imggal/08/med/ig_med_08_1.jpg
+[2016-02-20 4:33:14.910307] [info] __getPhotoPath: 0 fulls images/imggal/08/full/ig_full_08_1.jpg
+[2016-02-20 5:16:36.595937] [info] Entering index: 
+[2016-02-20 5:16:36.596084] [info] -->action: 
+[2016-02-20 5:16:36.596124] [info] -->suite_id: 
+[2016-02-20 5:16:36.596159] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 5:16:37.046130] [info] Entering index: 
+[2016-02-20 5:16:37.046224] [info] -->action: 
+[2016-02-20 5:16:37.046273] [info] -->suite_id: 
+[2016-02-20 5:16:37.046308] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 5:21:13.879343] [info] Entering index: 
+[2016-02-20 5:21:13.879479] [info] -->action: 
+[2016-02-20 5:21:13.879522] [info] -->suite_id: 
+[2016-02-20 5:21:13.879559] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 5:21:14.298110] [info] Entering index: 
+[2016-02-20 5:21:14.298203] [info] -->action: 
+[2016-02-20 5:21:14.298240] [info] -->suite_id: 
+[2016-02-20 5:21:14.298275] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 5:58:21.770337] [info] Entering index: 
+[2016-02-20 5:58:21.770487] [info] -->action: 
+[2016-02-20 5:58:21.770529] [info] -->suite_id: 
+[2016-02-20 5:58:21.770566] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 6:17:03.605945] [info] Entering index: 
+[2016-02-20 6:17:03.606095] [info] -->action: 
+[2016-02-20 6:17:03.606137] [info] -->suite_id: 
+[2016-02-20 6:17:03.606173] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 6:17:04.147257] [info] Entering index: 
+[2016-02-20 6:17:04.147351] [info] -->action: 
+[2016-02-20 6:17:04.147391] [info] -->suite_id: 
+[2016-02-20 6:17:04.147427] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 6:21:13.580935] [info] Entering index: 
+[2016-02-20 6:21:13.581110] [info] -->action: 
+[2016-02-20 6:21:13.581151] [info] -->suite_id: 
+[2016-02-20 6:21:13.581187] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 6:21:31.465707] [info] Entering index: 
+[2016-02-20 6:21:31.465806] [info] -->action: 
+[2016-02-20 6:21:31.465859] [info] -->suite_id: 
+[2016-02-20 6:21:31.465898] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 6:22:59.878180] [info] Entering index: 
+[2016-02-20 6:22:59.878350] [info] -->action: 
+[2016-02-20 6:22:59.878391] [info] -->suite_id: 
+[2016-02-20 6:22:59.878427] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 6:23:20.897238] [info] Entering index: 
+[2016-02-20 6:23:20.897335] [info] -->action: 
+[2016-02-20 6:23:20.897373] [info] -->suite_id: 
+[2016-02-20 6:23:20.897408] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 6:29:45.572825] [info] Entering index: 
+[2016-02-20 6:29:45.573026] [info] -->action: 
+[2016-02-20 6:29:45.573070] [info] -->suite_id: 
+[2016-02-20 6:29:45.573107] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 6:32:55.632647] [info] Entering index: 
+[2016-02-20 6:32:55.632797] [info] -->action: 
+[2016-02-20 6:32:55.632838] [info] -->suite_id: 
+[2016-02-20 6:32:55.632874] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 6:54:24.357412] [info] Entering index: 
+[2016-02-20 6:54:24.357584] [info] -->action: apt_vacancies
+[2016-02-20 6:54:24.357626] [info] -->suite_id: 
+[2016-02-20 6:54:24.357664] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 6:54:24.561184] [info] Running query: select * from senatorapts.Suite s, senatorapts.Available a where s.suite_id = a.suite_id  order by a.year, a.month, s.suite_order
+[2016-02-20 6:54:24.561309] [info] 1 rows returned.
+[2016-02-20 6:54:24.561398] [info] beanAvailable->dxHashToClass
+    suite_id: '202'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=02'
+    suite_order: '11'
+    rent: '875'
+    promotion: '$500.00 Move-in Bonus'
+    month: '2'
+    year: '2016'
+[2016-02-20 6:54:24.561634] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [202]
+house_id []
+month [2]
+year [2016]
+rent [875]
+promotion [$500.00 Move-in Bonus]
+exists []
+
+[2016-02-20 6:54:24.561680] [info] Populating available
+[2016-02-20 6:54:24.561717] [info] beanSuite->dxHashToClass
+    suite_id: '202'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=02'
+    suite_order: '11'
+    rent: '875'
+    promotion: '$500.00 Move-in Bonus'
+    month: '2'
+    year: '2016'
+[2016-02-20 6:54:24.561849] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [202]
+bedrooms [1]
+suite_order [11]
+floor_plan [index.php?action=floor_plan&suite_id=02]
+exists []
+
+[2016-02-20 6:54:24.561899] [info] Populating suite
+[2016-02-20 6:54:24.561948] [info] results is not a member of classObject
+[2016-02-20 6:54:24.561983] [info] totalRows is not a member of classObject
+[2016-02-20 6:54:24.562016] [info] currRow is not a member of classObject
+[2016-02-20 6:57:24.653059] [info] Entering index: 
+[2016-02-20 6:57:24.653172] [info] -->action: how_to_rent
+[2016-02-20 6:57:24.653211] [info] -->suite_id: 
+[2016-02-20 6:57:24.653244] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 7:17:03.506849] [info] Entering index: 
+[2016-02-20 7:17:03.507023] [info] -->action: 
+[2016-02-20 7:17:03.507066] [info] -->suite_id: 
+[2016-02-20 7:17:03.507102] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 7:17:03.971404] [info] Entering index: 
+[2016-02-20 7:17:03.971498] [info] -->action: 
+[2016-02-20 7:17:03.971544] [info] -->suite_id: 
+[2016-02-20 7:17:03.971580] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 7:21:01.515588] [info] Entering index: 
+[2016-02-20 7:21:01.515767] [info] -->action: 
+[2016-02-20 7:21:01.515809] [info] -->suite_id: 
+[2016-02-20 7:21:01.515846] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 7:21:20.164967] [info] Entering index: 
+[2016-02-20 7:21:20.165057] [info] -->action: 
+[2016-02-20 7:21:20.165096] [info] -->suite_id: 
+[2016-02-20 7:21:20.165131] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 7:22:28.938668] [info] Entering index: 
+[2016-02-20 7:22:28.938767] [info] -->action: 
+[2016-02-20 7:22:28.938806] [info] -->suite_id: 
+[2016-02-20 7:22:28.938841] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 7:22:30.544523] [info] Entering index: 
+[2016-02-20 7:22:30.544614] [info] -->action: 
+[2016-02-20 7:22:30.544651] [info] -->suite_id: 
+[2016-02-20 7:22:30.544687] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 7:31:25.527858] [info] Entering index: 
+[2016-02-20 7:31:25.528038] [info] -->action: apartments
+[2016-02-20 7:31:25.528081] [info] -->suite_id: 
+[2016-02-20 7:31:25.528119] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 7:34:35.440908] [info] Entering index: 
+[2016-02-20 7:34:35.441015] [info] -->action: homes
+[2016-02-20 7:34:35.441054] [info] -->suite_id: 
+[2016-02-20 7:34:35.441087] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 7:34:35.623724] [info] Running query: select * from senatorapts.House h, senatorapts.HouseAvailable a where h.house_id = a.house_id  and h.deleted != 1 order by a.year, a.month
+[2016-02-20 7:34:35.623872] [info] 0 rows returned.
+[2016-02-20 8:16:13.143098] [info] Entering index: 
+[2016-02-20 8:16:13.143295] [info] -->action: 
+[2016-02-20 8:16:13.143341] [info] -->suite_id: 
+[2016-02-20 8:16:13.143378] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 8:16:18.624691] [info] Entering index: 
+[2016-02-20 8:16:18.624794] [info] -->action: 
+[2016-02-20 8:16:18.624835] [info] -->suite_id: 
+[2016-02-20 8:16:18.624871] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 8:22:11.137005] [info] Entering index: 
+[2016-02-20 8:22:11.137171] [info] -->action: 
+[2016-02-20 8:22:11.137213] [info] -->suite_id: 
+[2016-02-20 8:22:11.137250] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 8:22:11.770623] [info] Entering index: 
+[2016-02-20 8:22:11.770714] [info] -->action: 
+[2016-02-20 8:22:11.770752] [info] -->suite_id: 
+[2016-02-20 8:22:11.770787] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 8:34:46.384694] [info] Entering index: 
+[2016-02-20 8:34:46.384871] [info] -->action: 
+[2016-02-20 8:34:46.384915] [info] -->suite_id: 
+[2016-02-20 8:34:46.384951] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 9:05:45.869628] [info] Entering index: 
+[2016-02-20 9:05:45.869801] [info] -->action: apt_plans
+[2016-02-20 9:05:45.869843] [info] -->suite_id: 
+[2016-02-20 9:05:45.869893] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 9:16:30.153935] [info] Entering index: 
+[2016-02-20 9:16:30.154090] [info] -->action: 
+[2016-02-20 9:16:30.154134] [info] -->suite_id: 
+[2016-02-20 9:16:30.154172] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 9:16:32.162880] [info] Entering index: 
+[2016-02-20 9:16:32.162978] [info] -->action: 
+[2016-02-20 9:16:32.163018] [info] -->suite_id: 
+[2016-02-20 9:16:32.163055] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 9:19:41.223665] [info] Entering index: 
+[2016-02-20 9:19:41.223900] [info] -->action: 
+[2016-02-20 9:19:41.223944] [info] -->suite_id: 
+[2016-02-20 9:19:41.223982] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 9:19:45.542292] [info] Entering index: 
+[2016-02-20 9:19:45.542390] [info] -->action: 
+[2016-02-20 9:19:45.542428] [info] -->suite_id: 
+[2016-02-20 9:19:45.542464] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 9:23:55.462285] [info] Entering index: 
+[2016-02-20 9:23:55.462400] [info] -->action: apt_vacancies
+[2016-02-20 9:23:55.462440] [info] -->suite_id: 
+[2016-02-20 9:23:55.462476] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 9:23:55.528156] [info] Running query: select * from senatorapts.Suite s, senatorapts.Available a where s.suite_id = a.suite_id  order by a.year, a.month, s.suite_order
+[2016-02-20 9:23:55.528274] [info] 1 rows returned.
+[2016-02-20 9:23:55.528346] [info] beanAvailable->dxHashToClass
+    suite_id: '202'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=02'
+    suite_order: '11'
+    rent: '875'
+    promotion: '$500.00 Move-in Bonus'
+    month: '2'
+    year: '2016'
+[2016-02-20 9:23:55.528536] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [202]
+house_id []
+month [2]
+year [2016]
+rent [875]
+promotion [$500.00 Move-in Bonus]
+exists []
+
+[2016-02-20 9:23:55.528579] [info] Populating available
+[2016-02-20 9:23:55.528618] [info] beanSuite->dxHashToClass
+    suite_id: '202'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=02'
+    suite_order: '11'
+    rent: '875'
+    promotion: '$500.00 Move-in Bonus'
+    month: '2'
+    year: '2016'
+[2016-02-20 9:23:55.528748] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [202]
+bedrooms [1]
+suite_order [11]
+floor_plan [index.php?action=floor_plan&suite_id=02]
+exists []
+
+[2016-02-20 9:23:55.528789] [info] Populating suite
+[2016-02-20 9:23:55.528832] [info] results is not a member of classObject
+[2016-02-20 9:23:55.528872] [info] totalRows is not a member of classObject
+[2016-02-20 9:23:55.528906] [info] currRow is not a member of classObject
+[2016-02-20 9:43:08.660742] [info] Entering index: 
+[2016-02-20 9:43:08.660851] [info] -->action: house
+[2016-02-20 9:43:08.660897] [info] -->suite_id: 
+[2016-02-20 9:43:08.661850] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id='11'
+[2016-02-20 9:43:08.661916] [info] 1 rows returned.
+[2016-02-20 9:43:08.661961] [info] Results: 1
+[2016-02-20 9:43:08.662017] [info] beanHouse->dxHashToClass
+    house_id: '11'
+    house_num: '1985'
+    street: 'Greenvale Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 6E'
+    description: '$500.00 MOVE-IN BONUS 
+    
+    NEWLY RENOVATED 
+    
+    613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-02-20 9:43:08.662308] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [11]
+house_num [1985]
+street [Greenvale Lane]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 6E]
+bedrooms [3]
+bathrooms [2]
+powder_rooms [1]
+description [$500.00 MOVE-IN BONUS 
+
+NEWLY RENOVATED 
+
+613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [DETACHED]
+exists [1]
+
+[2016-02-20 9:43:08.743894] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=11
+[2016-02-20 9:43:08.744004] [info] 0 rows returned.
+[2016-02-20 9:43:08.746048] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id='11'
+[2016-02-20 9:43:08.746115] [info] 1 rows returned.
+[2016-02-20 9:43:08.746160] [info] Results: 1
+[2016-02-20 9:43:08.746212] [info] beanHouse->dxHashToClass
+    house_id: '11'
+    house_num: '1985'
+    street: 'Greenvale Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 6E'
+    description: '$500.00 MOVE-IN BONUS 
+    
+    NEWLY RENOVATED 
+    
+    613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-02-20 9:43:08.746495] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [11]
+house_num [1985]
+street [Greenvale Lane]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 6E]
+bedrooms [3]
+bathrooms [2]
+powder_rooms [1]
+description [$500.00 MOVE-IN BONUS 
+
+NEWLY RENOVATED 
+
+613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [DETACHED]
+exists [1]
+
+[2016-02-20 9:43:08.746572] [info] Create gallery for 1985 Greenvale Lane
+[2016-02-20 9:43:08.746619] [info] beanGallery->__doSave
+[2016-02-20 9:43:08.746694] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [-1]
+code [1985GreenvaleLane]
+description [1985 Greenvale Lane]
+exists []
+
+[2016-02-20 9:43:08.748157] [info] Running query: INSERT INTO senatorapts.Gallery ( code ,description ) VALUES ('1985GreenvaleLane' ,'1985 Greenvale Lane' );
+[2016-02-20 9:43:08.748220] [info]  rows returned.
+[2016-02-20 9:43:08.748950] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id=27
+[2016-02-20 9:43:08.749010] [info] 1 rows returned.
+[2016-02-20 9:43:08.749053] [info] Results: 1
+[2016-02-20 9:43:08.749099] [info] beanGallery->dxHashToClass
+    gallery_id: '27'
+    code: '1985GreenvaleLane'
+    description: '1985 Greenvale Lane'
+[2016-02-20 9:43:08.749222] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [27]
+code [1985GreenvaleLane]
+description [1985 Greenvale Lane]
+exists [1]
+
+[2016-02-20 9:43:08.753982] [info] Running query: INSERT INTO HouseGallery (house_id, gallery_id) values (11, 27)
+[2016-02-20 9:43:08.754050] [info]  rows returned.
+[2016-02-20 9:43:08.754095] [info] gallery: 1
+[2016-02-20 9:43:08.754141] [info] __doLoadPhotos
+[2016-02-20 9:43:08.754182] [info] -->this: 1
+[2016-02-20 9:43:08.754220] [info] -->gallery: 1
+[2016-02-20 9:43:08.754684] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 27 and gp.photo_id = p.photo_id
+[2016-02-20 9:43:08.754743] [info] 0 rows returned.
+[2016-02-20 9:43:08.754786] [info] Results: 0
+[2016-02-20 9:43:08.754836] [info] -->num_photos: 0
+[2016-02-20 9:43:08.854140] [info] __getPhotoPath: 0 fulls 
+[2016-02-20 9:43:08.854247] [info] __getPhotoPath: 0 meds 
+[2016-02-20 9:43:08.854298] [info] __getPhotoPath: 0 fulls 
+[2016-02-20 9:43:08.854376] [info] classGoogleMap->embedMap()
+[2016-02-20 9:43:08.854418] [info] -->addressString: 1985%2BGreenvale+Lane%2C%2BOttawa%2C%2BON
+[2016-02-20 9:43:08.854456] [info] -->html: <iframe width="475" height="450" frameborder="0" style="border:0"src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAPmcMH3KFQE-9rfNowTpSWwD7mKrcrr2Q&q=1985%2BGreenvale+Lane%2C%2BOttawa%2C%2BON&attribution_source=Google+Maps+Embed+API&attribution_ios_deep_link_id=comgooglemaps://?daddr=1985%2BGreenvale+Lane%2C%2BOttawa%2C%2BON" allowfullscreen></iframe>
+[2016-02-20 10:10:22.501112] [info] Entering index: 
+[2016-02-20 10:10:22.501214] [info] -->action: house
+[2016-02-20 10:10:22.501262] [info] -->suite_id: 
+[2016-02-20 10:10:22.505820] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id='11'
+[2016-02-20 10:10:22.506005] [info] 1 rows returned.
+[2016-02-20 10:10:22.506081] [info] Results: 1
+[2016-02-20 10:10:22.506165] [info] beanHouse->dxHashToClass
+    house_id: '11'
+    house_num: '1985'
+    street: 'Greenvale Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 6E'
+    description: '$500.00 MOVE-IN BONUS 
+    
+    NEWLY RENOVATED 
+    
+    613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-02-20 10:10:22.506468] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [11]
+house_num [1985]
+street [Greenvale Lane]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 6E]
+bedrooms [3]
+bathrooms [2]
+powder_rooms [1]
+description [$500.00 MOVE-IN BONUS 
+
+NEWLY RENOVATED 
+
+613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [DETACHED]
+exists [1]
+
+[2016-02-20 10:10:22.533423] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=11
+[2016-02-20 10:10:22.533545] [info] 1 rows returned.
+[2016-02-20 10:10:22.535675] [info] Gallery exists 27
+[2016-02-20 10:10:22.536225] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='27'
+[2016-02-20 10:10:22.536417] [info] 1 rows returned.
+[2016-02-20 10:10:22.536467] [info] Results: 1
+[2016-02-20 10:10:22.536519] [info] beanGallery->dxHashToClass
+    gallery_id: '27'
+    code: '1985GreenvaleLane'
+    description: '1985 Greenvale Lane'
+[2016-02-20 10:10:22.536639] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [27]
+code [1985GreenvaleLane]
+description [1985 Greenvale Lane]
+exists [1]
+
+[2016-02-20 10:10:22.536690] [info] gallery: 1
+[2016-02-20 10:10:22.536740] [info] __doLoadPhotos
+[2016-02-20 10:10:22.536777] [info] -->this: 1
+[2016-02-20 10:10:22.536811] [info] -->gallery: 1
+[2016-02-20 10:10:22.537349] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 27 and gp.photo_id = p.photo_id
+[2016-02-20 10:10:22.537409] [info] 9 rows returned.
+[2016-02-20 10:10:22.537448] [info] Results: 9
+[2016-02-20 10:10:22.537524] [info] 210
+[2016-02-20 10:10:22.537560] [info] 211
+[2016-02-20 10:10:22.537599] [info] 212
+[2016-02-20 10:10:22.537631] [info] 213
+[2016-02-20 10:10:22.537662] [info] 214
+[2016-02-20 10:10:22.537694] [info] 215
+[2016-02-20 10:10:22.537727] [info] 216
+[2016-02-20 10:10:22.537798] [info] 217
+[2016-02-20 10:10:22.537836] [info] 218
+[2016-02-20 10:10:22.537869] [info] images/imggal/1985GreenvaleLane/thumb/1.jpg
+[2016-02-20 10:10:22.537906] [info] images/imggal/1985GreenvaleLane/thumb/2.jpg
+[2016-02-20 10:10:22.537940] [info] images/imggal/1985GreenvaleLane/thumb/3.jpg
+[2016-02-20 10:10:22.537971] [info] images/imggal/1985GreenvaleLane/thumb/4.jpg
+[2016-02-20 10:10:22.538003] [info] images/imggal/1985GreenvaleLane/thumb/5.jpg
+[2016-02-20 10:10:22.538036] [info] images/imggal/1985GreenvaleLane/thumb/6.jpg
+[2016-02-20 10:10:22.538068] [info] images/imggal/1985GreenvaleLane/thumb/7.jpg
+[2016-02-20 10:10:22.538147] [info] images/imggal/1985GreenvaleLane/thumb/8.jpg
+[2016-02-20 10:10:22.538197] [info] images/imggal/1985GreenvaleLane/thumb/9.jpg
+[2016-02-20 10:10:22.538233] [info] images/imggal/1985GreenvaleLane/med/1.jpg
+[2016-02-20 10:10:22.538266] [info] images/imggal/1985GreenvaleLane/med/2.jpg
+[2016-02-20 10:10:22.538300] [info] images/imggal/1985GreenvaleLane/med/3.jpg
+[2016-02-20 10:10:22.538394] [info] images/imggal/1985GreenvaleLane/med/4.jpg
+[2016-02-20 10:10:22.538434] [info] images/imggal/1985GreenvaleLane/med/5.jpg
+[2016-02-20 10:10:22.538465] [info] images/imggal/1985GreenvaleLane/med/6.jpg
+[2016-02-20 10:10:22.538537] [info] images/imggal/1985GreenvaleLane/med/7.jpg
+[2016-02-20 10:10:22.538574] [info] images/imggal/1985GreenvaleLane/med/8.jpg
+[2016-02-20 10:10:22.538606] [info] images/imggal/1985GreenvaleLane/med/9.jpg
+[2016-02-20 10:10:22.538641] [info] images/imggal/1985GreenvaleLane/full/1.jpg
+[2016-02-20 10:10:22.538680] [info] images/imggal/1985GreenvaleLane/full/2.jpg
+[2016-02-20 10:10:22.538712] [info] images/imggal/1985GreenvaleLane/full/3.jpg
+[2016-02-20 10:10:22.538743] [info] images/imggal/1985GreenvaleLane/full/4.jpg
+[2016-02-20 10:10:22.538775] [info] images/imggal/1985GreenvaleLane/full/5.jpg
+[2016-02-20 10:10:22.538808] [info] images/imggal/1985GreenvaleLane/full/6.jpg
+[2016-02-20 10:10:22.538839] [info] images/imggal/1985GreenvaleLane/full/7.jpg
+[2016-02-20 10:10:22.538959] [info] images/imggal/1985GreenvaleLane/full/8.jpg
+[2016-02-20 10:10:22.538994] [info] images/imggal/1985GreenvaleLane/full/9.jpg
+[2016-02-20 10:10:22.539040] [info] -->num_photos: 9
+[2016-02-20 10:10:22.555771] [info] i: 
+[2016-02-20 10:10:22.555856] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/1.jpg
+[2016-02-20 10:10:22.555893] [info] meds[i]: images/imggal/1985GreenvaleLane/med/1.jpg
+[2016-02-20 10:10:22.555927] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/1.jpg
+[2016-02-20 10:10:22.555964] [info] i: 
+[2016-02-20 10:10:22.555998] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/2.jpg
+[2016-02-20 10:10:22.556030] [info] meds[i]: images/imggal/1985GreenvaleLane/med/2.jpg
+[2016-02-20 10:10:22.556061] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/2.jpg
+[2016-02-20 10:10:22.556103] [info] i: 
+[2016-02-20 10:10:22.556138] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/3.jpg
+[2016-02-20 10:10:22.556169] [info] meds[i]: images/imggal/1985GreenvaleLane/med/3.jpg
+[2016-02-20 10:10:22.556214] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/3.jpg
+[2016-02-20 10:10:22.556251] [info] i: 
+[2016-02-20 10:10:22.556283] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/4.jpg
+[2016-02-20 10:10:22.556315] [info] meds[i]: images/imggal/1985GreenvaleLane/med/4.jpg
+[2016-02-20 10:10:22.556346] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/4.jpg
+[2016-02-20 10:10:22.556381] [info] i: 
+[2016-02-20 10:10:22.556413] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/5.jpg
+[2016-02-20 10:10:22.556446] [info] meds[i]: images/imggal/1985GreenvaleLane/med/5.jpg
+[2016-02-20 10:10:22.556477] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/5.jpg
+[2016-02-20 10:10:22.556513] [info] i: 
+[2016-02-20 10:10:22.556545] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/6.jpg
+[2016-02-20 10:10:22.556576] [info] meds[i]: images/imggal/1985GreenvaleLane/med/6.jpg
+[2016-02-20 10:10:22.556607] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/6.jpg
+[2016-02-20 10:10:22.556643] [info] i: 
+[2016-02-20 10:10:22.556674] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/7.jpg
+[2016-02-20 10:10:22.556706] [info] meds[i]: images/imggal/1985GreenvaleLane/med/7.jpg
+[2016-02-20 10:10:22.556739] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/7.jpg
+[2016-02-20 10:10:22.556773] [info] i: 
+[2016-02-20 10:10:22.556806] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/8.jpg
+[2016-02-20 10:10:22.556838] [info] meds[i]: images/imggal/1985GreenvaleLane/med/8.jpg
+[2016-02-20 10:10:22.556869] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/8.jpg
+[2016-02-20 10:10:22.556904] [info] i: 
+[2016-02-20 10:10:22.556936] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/9.jpg
+[2016-02-20 10:10:22.556967] [info] meds[i]: images/imggal/1985GreenvaleLane/med/9.jpg
+[2016-02-20 10:10:22.556998] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/9.jpg
+[2016-02-20 10:10:22.612354] [info] __getPhotoPath: 0 fulls images/imggal/1985GreenvaleLane/full/1.jpg
+[2016-02-20 10:10:22.612453] [info] __getPhotoPath: 0 meds images/imggal/1985GreenvaleLane/med/1.jpg
+[2016-02-20 10:10:22.612495] [info] __getPhotoPath: 0 fulls images/imggal/1985GreenvaleLane/full/1.jpg
+[2016-02-20 10:10:22.612626] [info] classGoogleMap->embedMap()
+[2016-02-20 10:10:22.612668] [info] -->addressString: 1985%2BGreenvale+Lane%2C%2BOttawa%2C%2BON
+[2016-02-20 10:10:22.612703] [info] -->html: <iframe width="475" height="450" frameborder="0" style="border:0"src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAPmcMH3KFQE-9rfNowTpSWwD7mKrcrr2Q&q=1985%2BGreenvale+Lane%2C%2BOttawa%2C%2BON&attribution_source=Google+Maps+Embed+API&attribution_ios_deep_link_id=comgooglemaps://?daddr=1985%2BGreenvale+Lane%2C%2BOttawa%2C%2BON" allowfullscreen></iframe>
+[2016-02-20 10:11:37.144001] [info] Entering index: 
+[2016-02-20 10:11:37.144099] [info] -->action: house
+[2016-02-20 10:11:37.144138] [info] -->suite_id: 
+[2016-02-20 10:11:37.149156] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id='11'
+[2016-02-20 10:11:37.149244] [info] 1 rows returned.
+[2016-02-20 10:11:37.149286] [info] Results: 1
+[2016-02-20 10:11:37.149337] [info] beanHouse->dxHashToClass
+    house_id: '11'
+    house_num: '1985'
+    street: 'Greenvale Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 6E'
+    description: '$500.00 MOVE-IN BONUS 
+    
+    NEWLY RENOVATED 
+    
+    613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-02-20 10:11:37.149597] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [11]
+house_num [1985]
+street [Greenvale Lane]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 6E]
+bedrooms [3]
+bathrooms [2]
+powder_rooms [1]
+description [$500.00 MOVE-IN BONUS 
+
+NEWLY RENOVATED 
+
+613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [DETACHED]
+exists [1]
+
+[2016-02-20 10:11:37.153635] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=11
+[2016-02-20 10:11:37.153701] [info] 1 rows returned.
+[2016-02-20 10:11:37.157448] [info] Gallery exists 27
+[2016-02-20 10:11:37.159313] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='27'
+[2016-02-20 10:11:37.159370] [info] 1 rows returned.
+[2016-02-20 10:11:37.159409] [info] Results: 1
+[2016-02-20 10:11:37.159452] [info] beanGallery->dxHashToClass
+    gallery_id: '27'
+    code: '1985GreenvaleLane'
+    description: '1985 Greenvale Lane'
+[2016-02-20 10:11:37.159564] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [27]
+code [1985GreenvaleLane]
+description [1985 Greenvale Lane]
+exists [1]
+
+[2016-02-20 10:11:37.159614] [info] gallery: 1
+[2016-02-20 10:11:37.159655] [info] __doLoadPhotos
+[2016-02-20 10:11:37.159691] [info] -->this: 1
+[2016-02-20 10:11:37.159723] [info] -->gallery: 1
+[2016-02-20 10:11:37.160202] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 27 and gp.photo_id = p.photo_id
+[2016-02-20 10:11:37.160265] [info] 13 rows returned.
+[2016-02-20 10:11:37.160307] [info] Results: 13
+[2016-02-20 10:11:37.160398] [info] 210
+[2016-02-20 10:11:37.160434] [info] 211
+[2016-02-20 10:11:37.160468] [info] 212
+[2016-02-20 10:11:37.160500] [info] 213
+[2016-02-20 10:11:37.160531] [info] 214
+[2016-02-20 10:11:37.160562] [info] 215
+[2016-02-20 10:11:37.160593] [info] 216
+[2016-02-20 10:11:37.160624] [info] 217
+[2016-02-20 10:11:37.160716] [info] 218
+[2016-02-20 10:11:37.160753] [info] 219
+[2016-02-20 10:11:37.160785] [info] 220
+[2016-02-20 10:11:37.160818] [info] 221
+[2016-02-20 10:11:37.160850] [info] 222
+[2016-02-20 10:11:37.160883] [info] images/imggal/1985GreenvaleLane/thumb/1.jpg
+[2016-02-20 10:11:37.160917] [info] images/imggal/1985GreenvaleLane/thumb/2.jpg
+[2016-02-20 10:11:37.160948] [info] images/imggal/1985GreenvaleLane/thumb/3.jpg
+[2016-02-20 10:11:37.160979] [info] images/imggal/1985GreenvaleLane/thumb/4.jpg
+[2016-02-20 10:11:37.161117] [info] images/imggal/1985GreenvaleLane/thumb/5.jpg
+[2016-02-20 10:11:37.161154] [info] images/imggal/1985GreenvaleLane/thumb/6.jpg
+[2016-02-20 10:11:37.161196] [info] images/imggal/1985GreenvaleLane/thumb/7.jpg
+[2016-02-20 10:11:37.161228] [info] images/imggal/1985GreenvaleLane/thumb/8.jpg
+[2016-02-20 10:11:37.161267] [info] images/imggal/1985GreenvaleLane/thumb/9.jpg
+[2016-02-20 10:11:37.161298] [info] images/imggal/1985GreenvaleLane/thumb/10.jpg
+[2016-02-20 10:11:37.161329] [info] images/imggal/1985GreenvaleLane/thumb/11.jpg
+[2016-02-20 10:11:37.161360] [info] images/imggal/1985GreenvaleLane/thumb/12.jpg
+[2016-02-20 10:11:37.161392] [info] images/imggal/1985GreenvaleLane/thumb/13.jpg
+[2016-02-20 10:11:37.161427] [info] images/imggal/1985GreenvaleLane/med/1.jpg
+[2016-02-20 10:11:37.161459] [info] images/imggal/1985GreenvaleLane/med/2.jpg
+[2016-02-20 10:11:37.161492] [info] images/imggal/1985GreenvaleLane/med/3.jpg
+[2016-02-20 10:11:37.161544] [info] images/imggal/1985GreenvaleLane/med/4.jpg
+[2016-02-20 10:11:37.161577] [info] images/imggal/1985GreenvaleLane/med/5.jpg
+[2016-02-20 10:11:37.161609] [info] images/imggal/1985GreenvaleLane/med/6.jpg
+[2016-02-20 10:11:37.161640] [info] images/imggal/1985GreenvaleLane/med/7.jpg
+[2016-02-20 10:11:37.161672] [info] images/imggal/1985GreenvaleLane/med/8.jpg
+[2016-02-20 10:11:37.161704] [info] images/imggal/1985GreenvaleLane/med/9.jpg
+[2016-02-20 10:11:37.161735] [info] images/imggal/1985GreenvaleLane/med/10.jpg
+[2016-02-20 10:11:37.161766] [info] images/imggal/1985GreenvaleLane/med/11.jpg
+[2016-02-20 10:11:37.161797] [info] images/imggal/1985GreenvaleLane/med/12.jpg
+[2016-02-20 10:11:37.161828] [info] images/imggal/1985GreenvaleLane/med/13.jpg
+[2016-02-20 10:11:37.161861] [info] images/imggal/1985GreenvaleLane/full/1.jpg
+[2016-02-20 10:11:37.161894] [info] images/imggal/1985GreenvaleLane/full/2.jpg
+[2016-02-20 10:11:37.161926] [info] images/imggal/1985GreenvaleLane/full/3.jpg
+[2016-02-20 10:11:37.162024] [info] images/imggal/1985GreenvaleLane/full/4.jpg
+[2016-02-20 10:11:37.162069] [info] images/imggal/1985GreenvaleLane/full/5.jpg
+[2016-02-20 10:11:37.162106] [info] images/imggal/1985GreenvaleLane/full/6.jpg
+[2016-02-20 10:11:37.162138] [info] images/imggal/1985GreenvaleLane/full/7.jpg
+[2016-02-20 10:11:37.162178] [info] images/imggal/1985GreenvaleLane/full/8.jpg
+[2016-02-20 10:11:37.162213] [info] images/imggal/1985GreenvaleLane/full/9.jpg
+[2016-02-20 10:11:37.162245] [info] images/imggal/1985GreenvaleLane/full/10.jpg
+[2016-02-20 10:11:37.162276] [info] images/imggal/1985GreenvaleLane/full/11.jpg
+[2016-02-20 10:11:37.162311] [info] images/imggal/1985GreenvaleLane/full/12.jpg
+[2016-02-20 10:11:37.162343] [info] images/imggal/1985GreenvaleLane/full/13.jpg
+[2016-02-20 10:11:37.162383] [info] -->num_photos: 13
+[2016-02-20 10:11:37.166687] [info] i: 
+[2016-02-20 10:11:37.166758] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/1.jpg
+[2016-02-20 10:11:37.166794] [info] meds[i]: images/imggal/1985GreenvaleLane/med/1.jpg
+[2016-02-20 10:11:37.166826] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/1.jpg
+[2016-02-20 10:11:37.166865] [info] i: 
+[2016-02-20 10:11:37.166898] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/2.jpg
+[2016-02-20 10:11:37.166930] [info] meds[i]: images/imggal/1985GreenvaleLane/med/2.jpg
+[2016-02-20 10:11:37.166963] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/2.jpg
+[2016-02-20 10:11:37.166997] [info] i: 
+[2016-02-20 10:11:37.167031] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/3.jpg
+[2016-02-20 10:11:37.167062] [info] meds[i]: images/imggal/1985GreenvaleLane/med/3.jpg
+[2016-02-20 10:11:37.167134] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/3.jpg
+[2016-02-20 10:11:37.167191] [info] i: 
+[2016-02-20 10:11:37.167232] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/4.jpg
+[2016-02-20 10:11:37.167264] [info] meds[i]: images/imggal/1985GreenvaleLane/med/4.jpg
+[2016-02-20 10:11:37.167299] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/4.jpg
+[2016-02-20 10:11:37.167335] [info] i: 
+[2016-02-20 10:11:37.167368] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/5.jpg
+[2016-02-20 10:11:37.167401] [info] meds[i]: images/imggal/1985GreenvaleLane/med/5.jpg
+[2016-02-20 10:11:37.167433] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/5.jpg
+[2016-02-20 10:11:37.167468] [info] i: 
+[2016-02-20 10:11:37.167500] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/6.jpg
+[2016-02-20 10:11:37.167531] [info] meds[i]: images/imggal/1985GreenvaleLane/med/6.jpg
+[2016-02-20 10:11:37.167563] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/6.jpg
+[2016-02-20 10:11:37.167599] [info] i: 
+[2016-02-20 10:11:37.167632] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/7.jpg
+[2016-02-20 10:11:37.167663] [info] meds[i]: images/imggal/1985GreenvaleLane/med/7.jpg
+[2016-02-20 10:11:37.167694] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/7.jpg
+[2016-02-20 10:11:37.167728] [info] i: 
+[2016-02-20 10:11:37.167762] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/8.jpg
+[2016-02-20 10:11:37.167803] [info] meds[i]: images/imggal/1985GreenvaleLane/med/8.jpg
+[2016-02-20 10:11:37.167836] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/8.jpg
+[2016-02-20 10:11:37.167872] [info] i: 
+[2016-02-20 10:11:37.167906] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/9.jpg
+[2016-02-20 10:11:37.167968] [info] meds[i]: images/imggal/1985GreenvaleLane/med/9.jpg
+[2016-02-20 10:11:37.168009] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/9.jpg
+[2016-02-20 10:11:37.168046] [info] i: 
+[2016-02-20 10:11:37.168080] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/10.jpg
+[2016-02-20 10:11:37.168116] [info] meds[i]: images/imggal/1985GreenvaleLane/med/10.jpg
+[2016-02-20 10:11:37.168148] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/10.jpg
+[2016-02-20 10:11:37.168193] [info] i: 
+[2016-02-20 10:11:37.168226] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/11.jpg
+[2016-02-20 10:11:37.168257] [info] meds[i]: images/imggal/1985GreenvaleLane/med/11.jpg
+[2016-02-20 10:11:37.168289] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/11.jpg
+[2016-02-20 10:11:37.168324] [info] i: 
+[2016-02-20 10:11:37.168358] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/12.jpg
+[2016-02-20 10:11:37.168389] [info] meds[i]: images/imggal/1985GreenvaleLane/med/12.jpg
+[2016-02-20 10:11:37.168420] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/12.jpg
+[2016-02-20 10:11:37.168456] [info] i: 
+[2016-02-20 10:11:37.168488] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/13.jpg
+[2016-02-20 10:11:37.168519] [info] meds[i]: images/imggal/1985GreenvaleLane/med/13.jpg
+[2016-02-20 10:11:37.168550] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/13.jpg
+[2016-02-20 10:11:37.172780] [info] __getPhotoPath: 0 fulls images/imggal/1985GreenvaleLane/full/1.jpg
+[2016-02-20 10:11:37.172879] [info] __getPhotoPath: 0 meds images/imggal/1985GreenvaleLane/med/1.jpg
+[2016-02-20 10:11:37.172921] [info] __getPhotoPath: 0 fulls images/imggal/1985GreenvaleLane/full/1.jpg
+[2016-02-20 10:11:37.173060] [info] classGoogleMap->embedMap()
+[2016-02-20 10:11:37.173103] [info] -->addressString: 1985%2BGreenvale+Lane%2C%2BOttawa%2C%2BON
+[2016-02-20 10:11:37.173136] [info] -->html: <iframe width="475" height="450" frameborder="0" style="border:0"src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAPmcMH3KFQE-9rfNowTpSWwD7mKrcrr2Q&q=1985%2BGreenvale+Lane%2C%2BOttawa%2C%2BON&attribution_source=Google+Maps+Embed+API&attribution_ios_deep_link_id=comgooglemaps://?daddr=1985%2BGreenvale+Lane%2C%2BOttawa%2C%2BON" allowfullscreen></iframe>
+[2016-02-20 10:15:42.552319] [info] Entering index: 
+[2016-02-20 10:15:42.552431] [info] -->action: 
+[2016-02-20 10:15:42.552469] [info] -->suite_id: 
+[2016-02-20 10:15:42.552505] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 10:15:43.137902] [info] Entering index: 
+[2016-02-20 10:15:43.137998] [info] -->action: 
+[2016-02-20 10:15:43.138036] [info] -->suite_id: 
+[2016-02-20 10:15:43.138072] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 10:18:58.076534] [info] Entering index: 
+[2016-02-20 10:18:58.076739] [info] -->action: 
+[2016-02-20 10:18:58.076788] [info] -->suite_id: 
+[2016-02-20 10:18:58.076826] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 10:20:02.573937] [info] Entering index: 
+[2016-02-20 10:20:02.574038] [info] -->action: 
+[2016-02-20 10:20:02.574078] [info] -->suite_id: 
+[2016-02-20 10:20:02.574112] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 10:20:05.464935] [info] Entering index: 
+[2016-02-20 10:20:05.465043] [info] -->action: 
+[2016-02-20 10:20:05.465085] [info] -->suite_id: 
+[2016-02-20 10:20:05.465125] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 10:25:27.626600] [info] Entering index: 
+[2016-02-20 10:25:27.626719] [info] -->action: 
+[2016-02-20 10:25:27.626760] [info] -->suite_id: 
+[2016-02-20 10:25:27.626796] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 10:25:56.520952] [info] Entering index: 
+[2016-02-20 10:25:56.521053] [info] -->action: 
+[2016-02-20 10:25:56.521092] [info] -->suite_id: 
+[2016-02-20 10:25:56.521128] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 10:29:06.026508] [info] Entering index: 
+[2016-02-20 10:29:06.026674] [info] -->action: 
+[2016-02-20 10:29:06.026716] [info] -->suite_id: 
+[2016-02-20 10:29:06.026753] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 11:00:33.592602] [info] Entering index: 
+[2016-02-20 11:00:33.592761] [info] -->action: homes
+[2016-02-20 11:00:33.592809] [info] -->suite_id: 
+[2016-02-20 11:00:33.592852] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 11:00:33.746860] [info] Running query: select * from senatorapts.House h, senatorapts.HouseAvailable a where h.house_id = a.house_id  and h.deleted != 1 order by a.year, a.month
+[2016-02-20 11:00:33.746956] [info] 1 rows returned.
+[2016-02-20 11:00:33.747056] [info] beanAvailable->dxHashToClass
+    house_id: '11'
+    house_num: '1985'
+    street: 'Greenvale Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 6E'
+    description: '$500.00 MOVE-IN BONUS 
+    
+    NEWLY RENOVATED 
+    
+    613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1250.00'
+    month: '2'
+    year: '2016'
+    promotion: '$500.00 MOVE-IN BONUS'
+[2016-02-20 11:00:33.747427] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [11]
+month [2]
+year [2016]
+rent [1250.00]
+promotion [$500.00 MOVE-IN BONUS]
+exists []
+
+[2016-02-20 11:00:33.747479] [info] Populating available
+[2016-02-20 11:00:33.747524] [info] beanHouse->dxHashToClass
+    house_id: '11'
+    house_num: '1985'
+    street: 'Greenvale Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 6E'
+    description: '$500.00 MOVE-IN BONUS 
+    
+    NEWLY RENOVATED 
+    
+    613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1250.00'
+    month: '2'
+    year: '2016'
+    promotion: '$500.00 MOVE-IN BONUS'
+[2016-02-20 11:00:33.747843] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [11]
+house_num [1985]
+street [Greenvale Lane]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 6E]
+bedrooms [3]
+bathrooms [2]
+powder_rooms [1]
+description [$500.00 MOVE-IN BONUS 
+
+NEWLY RENOVATED 
+
+613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [DETACHED]
+exists []
+
+[2016-02-20 11:00:33.747898] [info] Populating house
+[2016-02-20 11:00:33.747942] [info] beanSuite->dxHashToClass
+    house_id: '11'
+    house_num: '1985'
+    street: 'Greenvale Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 6E'
+    description: '$500.00 MOVE-IN BONUS 
+    
+    NEWLY RENOVATED 
+    
+    613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1250.00'
+    month: '2'
+    year: '2016'
+    promotion: '$500.00 MOVE-IN BONUS'
+[2016-02-20 11:00:33.748203] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2016-02-20 11:00:33.748250] [info] Populating suite
+[2016-02-20 11:00:33.748290] [info] results is not a member of classObject
+[2016-02-20 11:00:33.748328] [info] totalRows is not a member of classObject
+[2016-02-20 11:00:33.748369] [info] currRow is not a member of classObject
+[2016-02-20 11:00:36.968061] [info] Entering index: 
+[2016-02-20 11:00:36.968156] [info] -->action: house
+[2016-02-20 11:00:36.968199] [info] -->suite_id: 
+[2016-02-20 11:00:36.970243] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id='11'
+[2016-02-20 11:00:36.970316] [info] 1 rows returned.
+[2016-02-20 11:00:36.970365] [info] Results: 1
+[2016-02-20 11:00:36.970418] [info] beanHouse->dxHashToClass
+    house_id: '11'
+    house_num: '1985'
+    street: 'Greenvale Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 6E'
+    description: '$500.00 MOVE-IN BONUS 
+    
+    NEWLY RENOVATED 
+    
+    613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-02-20 11:00:36.970719] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [11]
+house_num [1985]
+street [Greenvale Lane]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 6E]
+bedrooms [3]
+bathrooms [2]
+powder_rooms [1]
+description [$500.00 MOVE-IN BONUS 
+
+NEWLY RENOVATED 
+
+613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [DETACHED]
+exists [1]
+
+[2016-02-20 11:00:36.985991] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=11
+[2016-02-20 11:00:36.986058] [info] 1 rows returned.
+[2016-02-20 11:00:36.989048] [info] Gallery exists 27
+[2016-02-20 11:00:37.019649] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='27'
+[2016-02-20 11:00:37.019731] [info] 1 rows returned.
+[2016-02-20 11:00:37.019778] [info] Results: 1
+[2016-02-20 11:00:37.019829] [info] beanGallery->dxHashToClass
+    gallery_id: '27'
+    code: '1985GreenvaleLane'
+    description: '1985 Greenvale Lane'
+[2016-02-20 11:00:37.019959] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [27]
+code [1985GreenvaleLane]
+description [1985 Greenvale Lane]
+exists [1]
+
+[2016-02-20 11:00:37.020018] [info] gallery: 1
+[2016-02-20 11:00:37.020066] [info] __doLoadPhotos
+[2016-02-20 11:00:37.020106] [info] -->this: 1
+[2016-02-20 11:00:37.020144] [info] -->gallery: 1
+[2016-02-20 11:00:37.031371] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 27 and gp.photo_id = p.photo_id
+[2016-02-20 11:00:37.031444] [info] 13 rows returned.
+[2016-02-20 11:00:37.031491] [info] Results: 13
+[2016-02-20 11:00:37.031611] [info] 210
+[2016-02-20 11:00:37.031661] [info] 211
+[2016-02-20 11:00:37.031699] [info] 212
+[2016-02-20 11:00:37.031735] [info] 213
+[2016-02-20 11:00:37.031771] [info] 214
+[2016-02-20 11:00:37.031809] [info] 215
+[2016-02-20 11:00:37.031845] [info] 216
+[2016-02-20 11:00:37.031881] [info] 217
+[2016-02-20 11:00:37.031917] [info] 218
+[2016-02-20 11:00:37.031951] [info] 219
+[2016-02-20 11:00:37.031989] [info] 220
+[2016-02-20 11:00:37.032023] [info] 221
+[2016-02-20 11:00:37.032108] [info] 222
+[2016-02-20 11:00:37.032150] [info] images/imggal/1985GreenvaleLane/thumb/1.jpg
+[2016-02-20 11:00:37.032188] [info] images/imggal/1985GreenvaleLane/thumb/2.jpg
+[2016-02-20 11:00:37.032232] [info] images/imggal/1985GreenvaleLane/thumb/3.jpg
+[2016-02-20 11:00:37.032269] [info] images/imggal/1985GreenvaleLane/thumb/4.jpg
+[2016-02-20 11:00:37.032305] [info] images/imggal/1985GreenvaleLane/thumb/5.jpg
+[2016-02-20 11:00:37.032341] [info] images/imggal/1985GreenvaleLane/thumb/6.jpg
+[2016-02-20 11:00:37.032449] [info] images/imggal/1985GreenvaleLane/thumb/7.jpg
+[2016-02-20 11:00:37.032493] [info] images/imggal/1985GreenvaleLane/thumb/8.jpg
+[2016-02-20 11:00:37.032535] [info] images/imggal/1985GreenvaleLane/thumb/9.jpg
+[2016-02-20 11:00:37.032572] [info] images/imggal/1985GreenvaleLane/thumb/10.jpg
+[2016-02-20 11:00:37.032627] [info] images/imggal/1985GreenvaleLane/thumb/11.jpg
+[2016-02-20 11:00:37.032664] [info] images/imggal/1985GreenvaleLane/thumb/12.jpg
+[2016-02-20 11:00:37.032701] [info] images/imggal/1985GreenvaleLane/thumb/13.jpg
+[2016-02-20 11:00:37.032741] [info] images/imggal/1985GreenvaleLane/med/1.jpg
+[2016-02-20 11:00:37.032778] [info] images/imggal/1985GreenvaleLane/med/2.jpg
+[2016-02-20 11:00:37.032814] [info] images/imggal/1985GreenvaleLane/med/3.jpg
+[2016-02-20 11:00:37.032851] [info] images/imggal/1985GreenvaleLane/med/4.jpg
+[2016-02-20 11:00:37.032887] [info] images/imggal/1985GreenvaleLane/med/5.jpg
+[2016-02-20 11:00:37.032923] [info] images/imggal/1985GreenvaleLane/med/6.jpg
+[2016-02-20 11:00:37.032959] [info] images/imggal/1985GreenvaleLane/med/7.jpg
+[2016-02-20 11:00:37.032995] [info] images/imggal/1985GreenvaleLane/med/8.jpg
+[2016-02-20 11:00:37.033031] [info] images/imggal/1985GreenvaleLane/med/9.jpg
+[2016-02-20 11:00:37.033068] [info] images/imggal/1985GreenvaleLane/med/10.jpg
+[2016-02-20 11:00:37.033103] [info] images/imggal/1985GreenvaleLane/med/11.jpg
+[2016-02-20 11:00:37.033211] [info] images/imggal/1985GreenvaleLane/med/12.jpg
+[2016-02-20 11:00:37.033250] [info] images/imggal/1985GreenvaleLane/med/13.jpg
+[2016-02-20 11:00:37.033294] [info] images/imggal/1985GreenvaleLane/full/1.jpg
+[2016-02-20 11:00:37.033334] [info] images/imggal/1985GreenvaleLane/full/2.jpg
+[2016-02-20 11:00:37.033370] [info] images/imggal/1985GreenvaleLane/full/3.jpg
+[2016-02-20 11:00:37.033407] [info] images/imggal/1985GreenvaleLane/full/4.jpg
+[2016-02-20 11:00:37.033443] [info] images/imggal/1985GreenvaleLane/full/5.jpg
+[2016-02-20 11:00:37.033479] [info] images/imggal/1985GreenvaleLane/full/6.jpg
+[2016-02-20 11:00:37.033515] [info] images/imggal/1985GreenvaleLane/full/7.jpg
+[2016-02-20 11:00:37.033557] [info] images/imggal/1985GreenvaleLane/full/8.jpg
+[2016-02-20 11:00:37.033606] [info] images/imggal/1985GreenvaleLane/full/9.jpg
+[2016-02-20 11:00:37.033643] [info] images/imggal/1985GreenvaleLane/full/10.jpg
+[2016-02-20 11:00:37.033680] [info] images/imggal/1985GreenvaleLane/full/11.jpg
+[2016-02-20 11:00:37.033716] [info] images/imggal/1985GreenvaleLane/full/12.jpg
+[2016-02-20 11:00:37.033752] [info] images/imggal/1985GreenvaleLane/full/13.jpg
+[2016-02-20 11:00:37.033798] [info] -->num_photos: 13
+[2016-02-20 11:00:37.033905] [info] i: 
+[2016-02-20 11:00:37.033952] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/1.jpg
+[2016-02-20 11:00:37.033991] [info] meds[i]: images/imggal/1985GreenvaleLane/med/1.jpg
+[2016-02-20 11:00:37.034029] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/1.jpg
+[2016-02-20 11:00:37.034071] [info] i: 
+[2016-02-20 11:00:37.034110] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/2.jpg
+[2016-02-20 11:00:37.034147] [info] meds[i]: images/imggal/1985GreenvaleLane/med/2.jpg
+[2016-02-20 11:00:37.034183] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/2.jpg
+[2016-02-20 11:00:37.034261] [info] i: 
+[2016-02-20 11:00:37.034312] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/3.jpg
+[2016-02-20 11:00:37.034348] [info] meds[i]: images/imggal/1985GreenvaleLane/med/3.jpg
+[2016-02-20 11:00:37.034385] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/3.jpg
+[2016-02-20 11:00:37.034426] [info] i: 
+[2016-02-20 11:00:37.034466] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/4.jpg
+[2016-02-20 11:00:37.034502] [info] meds[i]: images/imggal/1985GreenvaleLane/med/4.jpg
+[2016-02-20 11:00:37.034538] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/4.jpg
+[2016-02-20 11:00:37.034579] [info] i: 
+[2016-02-20 11:00:37.034672] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/5.jpg
+[2016-02-20 11:00:37.034727] [info] meds[i]: images/imggal/1985GreenvaleLane/med/5.jpg
+[2016-02-20 11:00:37.034770] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/5.jpg
+[2016-02-20 11:00:37.034813] [info] i: 
+[2016-02-20 11:00:37.034852] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/6.jpg
+[2016-02-20 11:00:37.034890] [info] meds[i]: images/imggal/1985GreenvaleLane/med/6.jpg
+[2016-02-20 11:00:37.034928] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/6.jpg
+[2016-02-20 11:00:37.034967] [info] i: 
+[2016-02-20 11:00:37.035006] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/7.jpg
+[2016-02-20 11:00:37.035043] [info] meds[i]: images/imggal/1985GreenvaleLane/med/7.jpg
+[2016-02-20 11:00:37.035079] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/7.jpg
+[2016-02-20 11:00:37.035120] [info] i: 
+[2016-02-20 11:00:37.035168] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/8.jpg
+[2016-02-20 11:00:37.035206] [info] meds[i]: images/imggal/1985GreenvaleLane/med/8.jpg
+[2016-02-20 11:00:37.035243] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/8.jpg
+[2016-02-20 11:00:37.035284] [info] i: 
+[2016-02-20 11:00:37.035321] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/9.jpg
+[2016-02-20 11:00:37.035358] [info] meds[i]: images/imggal/1985GreenvaleLane/med/9.jpg
+[2016-02-20 11:00:37.035394] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/9.jpg
+[2016-02-20 11:00:37.035435] [info] i: 
+[2016-02-20 11:00:37.035474] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/10.jpg
+[2016-02-20 11:00:37.035542] [info] meds[i]: images/imggal/1985GreenvaleLane/med/10.jpg
+[2016-02-20 11:00:37.035599] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/10.jpg
+[2016-02-20 11:00:37.035646] [info] i: 
+[2016-02-20 11:00:37.035690] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/11.jpg
+[2016-02-20 11:00:37.035727] [info] meds[i]: images/imggal/1985GreenvaleLane/med/11.jpg
+[2016-02-20 11:00:37.035764] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/11.jpg
+[2016-02-20 11:00:37.035805] [info] i: 
+[2016-02-20 11:00:37.035844] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/12.jpg
+[2016-02-20 11:00:37.035887] [info] meds[i]: images/imggal/1985GreenvaleLane/med/12.jpg
+[2016-02-20 11:00:37.035924] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/12.jpg
+[2016-02-20 11:00:37.035967] [info] i: 
+[2016-02-20 11:00:37.036005] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/13.jpg
+[2016-02-20 11:00:37.036041] [info] meds[i]: images/imggal/1985GreenvaleLane/med/13.jpg
+[2016-02-20 11:00:37.036077] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/13.jpg
+[2016-02-20 11:00:37.060319] [info] __getPhotoPath: 0 fulls images/imggal/1985GreenvaleLane/full/1.jpg
+[2016-02-20 11:00:37.060388] [info] __getPhotoPath: 0 meds images/imggal/1985GreenvaleLane/med/1.jpg
+[2016-02-20 11:00:37.060436] [info] __getPhotoPath: 0 fulls images/imggal/1985GreenvaleLane/full/1.jpg
+[2016-02-20 11:00:37.060585] [info] classGoogleMap->embedMap()
+[2016-02-20 11:00:37.060633] [info] -->addressString: 1985%2BGreenvale+Lane%2C%2BOttawa%2C%2BON
+[2016-02-20 11:00:37.060673] [info] -->html: <iframe width="475" height="450" frameborder="0" style="border:0"src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAPmcMH3KFQE-9rfNowTpSWwD7mKrcrr2Q&q=1985%2BGreenvale+Lane%2C%2BOttawa%2C%2BON&attribution_source=Google+Maps+Embed+API&attribution_ios_deep_link_id=comgooglemaps://?daddr=1985%2BGreenvale+Lane%2C%2BOttawa%2C%2BON" allowfullscreen></iframe>
+[2016-02-20 11:16:45.301891] [info] Entering index: 
+[2016-02-20 11:16:45.302057] [info] -->action: 
+[2016-02-20 11:16:45.302102] [info] -->suite_id: 
+[2016-02-20 11:16:45.302139] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 11:16:50.634465] [info] Entering index: 
+[2016-02-20 11:16:50.634557] [info] -->action: 
+[2016-02-20 11:16:50.634596] [info] -->suite_id: 
+[2016-02-20 11:16:50.634632] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 11:20:08.383562] [info] Entering index: 
+[2016-02-20 11:20:08.383719] [info] -->action: 
+[2016-02-20 11:20:08.383760] [info] -->suite_id: 
+[2016-02-20 11:20:08.383795] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 11:20:09.311728] [info] Entering index: 
+[2016-02-20 11:20:09.311817] [info] -->action: 
+[2016-02-20 11:20:09.311855] [info] -->suite_id: 
+[2016-02-20 11:20:09.311899] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 12:16:55.515196] [info] Entering index: 
+[2016-02-20 12:16:55.515378] [info] -->action: 
+[2016-02-20 12:16:55.515420] [info] -->suite_id: 
+[2016-02-20 12:16:55.515456] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 12:17:22.062812] [info] Entering index: 
+[2016-02-20 12:17:22.062947] [info] -->action: 
+[2016-02-20 12:17:22.062990] [info] -->suite_id: 
+[2016-02-20 12:17:22.063025] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 12:17:23.940351] [info] Entering index: 
+[2016-02-20 12:17:23.940445] [info] -->action: 
+[2016-02-20 12:17:23.940485] [info] -->suite_id: 
+[2016-02-20 12:17:23.940521] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 12:20:44.336325] [info] Entering index: 
+[2016-02-20 12:20:44.336432] [info] -->action: 
+[2016-02-20 12:20:44.336472] [info] -->suite_id: 
+[2016-02-20 12:20:44.336505] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 12:20:46.420831] [info] Entering index: 
+[2016-02-20 12:20:46.420936] [info] -->action: 
+[2016-02-20 12:20:46.420974] [info] -->suite_id: 
+[2016-02-20 12:20:46.421010] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 12:35:25.460012] [info] Entering index: 
+[2016-02-20 12:35:25.460222] [info] -->action: apt_vacancies
+[2016-02-20 12:35:25.460272] [info] -->suite_id: 
+[2016-02-20 12:35:25.460309] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 12:35:25.619291] [info] Running query: select * from senatorapts.Suite s, senatorapts.Available a where s.suite_id = a.suite_id  order by a.year, a.month, s.suite_order
+[2016-02-20 12:35:25.619431] [info] 1 rows returned.
+[2016-02-20 12:35:25.619522] [info] beanAvailable->dxHashToClass
+    suite_id: '202'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=02'
+    suite_order: '11'
+    rent: '875'
+    promotion: '$500.00 Move-in Bonus'
+    month: '2'
+    year: '2016'
+[2016-02-20 12:35:25.619762] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [202]
+house_id []
+month [2]
+year [2016]
+rent [875]
+promotion [$500.00 Move-in Bonus]
+exists []
+
+[2016-02-20 12:35:25.619808] [info] Populating available
+[2016-02-20 12:35:25.619847] [info] beanSuite->dxHashToClass
+    suite_id: '202'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=02'
+    suite_order: '11'
+    rent: '875'
+    promotion: '$500.00 Move-in Bonus'
+    month: '2'
+    year: '2016'
+[2016-02-20 12:35:25.619991] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [202]
+bedrooms [1]
+suite_order [11]
+floor_plan [index.php?action=floor_plan&suite_id=02]
+exists []
+
+[2016-02-20 12:35:25.620033] [info] Populating suite
+[2016-02-20 12:35:25.620068] [info] results is not a member of classObject
+[2016-02-20 12:35:25.620101] [info] totalRows is not a member of classObject
+[2016-02-20 12:35:25.620135] [info] currRow is not a member of classObject
+[2016-02-20 12:38:25.743841] [info] Entering index: 
+[2016-02-20 12:38:25.743964] [info] -->action: apartments
+[2016-02-20 12:38:25.744008] [info] -->suite_id: 
+[2016-02-20 12:38:25.744043] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 12:47:31.684489] [info] Entering index: 
+[2016-02-20 12:47:31.684673] [info] -->action: 
+[2016-02-20 12:47:31.684715] [info] -->suite_id: 
+[2016-02-20 12:47:31.684751] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 12:48:45.111777] [info] Entering index: 
+[2016-02-20 12:48:45.111885] [info] -->action: 
+[2016-02-20 12:48:45.111936] [info] -->suite_id: 
+[2016-02-20 12:48:45.111972] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 13:11:41.204643] [info] Entering index: 
+[2016-02-20 13:11:41.204829] [info] -->action: 
+[2016-02-20 13:11:41.204874] [info] -->suite_id: 
+[2016-02-20 13:11:41.204911] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 13:15:13.872096] [info] Entering index: 
+[2016-02-20 13:15:13.872221] [info] -->action: homes
+[2016-02-20 13:15:13.872263] [info] -->suite_id: 
+[2016-02-20 13:15:13.872298] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 13:15:14.064137] [info] Running query: select * from senatorapts.House h, senatorapts.HouseAvailable a where h.house_id = a.house_id  and h.deleted != 1 order by a.year, a.month
+[2016-02-20 13:15:14.064290] [info] 1 rows returned.
+[2016-02-20 13:15:14.064397] [info] beanAvailable->dxHashToClass
+    house_id: '11'
+    house_num: '1985'
+    street: 'Greenvale Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 6E'
+    description: '$500.00 MOVE-IN BONUS 
+    
+    NEWLY RENOVATED 
+    
+    613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1250.00'
+    month: '2'
+    year: '2016'
+    promotion: '$500.00 MOVE-IN BONUS'
+[2016-02-20 13:15:14.064757] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [11]
+month [2]
+year [2016]
+rent [1250.00]
+promotion [$500.00 MOVE-IN BONUS]
+exists []
+
+[2016-02-20 13:15:14.064820] [info] Populating available
+[2016-02-20 13:15:14.064862] [info] beanHouse->dxHashToClass
+    house_id: '11'
+    house_num: '1985'
+    street: 'Greenvale Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 6E'
+    description: '$500.00 MOVE-IN BONUS 
+    
+    NEWLY RENOVATED 
+    
+    613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1250.00'
+    month: '2'
+    year: '2016'
+    promotion: '$500.00 MOVE-IN BONUS'
+[2016-02-20 13:15:14.065120] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [11]
+house_num [1985]
+street [Greenvale Lane]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 6E]
+bedrooms [3]
+bathrooms [2]
+powder_rooms [1]
+description [$500.00 MOVE-IN BONUS 
+
+NEWLY RENOVATED 
+
+613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [DETACHED]
+exists []
+
+[2016-02-20 13:15:14.065161] [info] Populating house
+[2016-02-20 13:15:14.065202] [info] beanSuite->dxHashToClass
+    house_id: '11'
+    house_num: '1985'
+    street: 'Greenvale Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 6E'
+    description: '$500.00 MOVE-IN BONUS 
+    
+    NEWLY RENOVATED 
+    
+    613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1250.00'
+    month: '2'
+    year: '2016'
+    promotion: '$500.00 MOVE-IN BONUS'
+[2016-02-20 13:15:14.065426] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2016-02-20 13:15:14.065464] [info] Populating suite
+[2016-02-20 13:15:14.065500] [info] results is not a member of classObject
+[2016-02-20 13:15:14.065532] [info] totalRows is not a member of classObject
+[2016-02-20 13:15:14.065565] [info] currRow is not a member of classObject
+[2016-02-20 13:15:15.271977] [info] Entering index: 
+[2016-02-20 13:15:15.272118] [info] -->action: homes
+[2016-02-20 13:15:15.272161] [info] -->suite_id: 
+[2016-02-20 13:15:15.272197] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 13:15:15.302753] [info] Running query: select * from senatorapts.House h, senatorapts.HouseAvailable a where h.house_id = a.house_id  and h.deleted != 1 order by a.year, a.month
+[2016-02-20 13:15:15.302855] [info] 1 rows returned.
+[2016-02-20 13:15:15.302948] [info] beanAvailable->dxHashToClass
+    house_id: '11'
+    house_num: '1985'
+    street: 'Greenvale Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 6E'
+    description: '$500.00 MOVE-IN BONUS 
+    
+    NEWLY RENOVATED 
+    
+    613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1250.00'
+    month: '2'
+    year: '2016'
+    promotion: '$500.00 MOVE-IN BONUS'
+[2016-02-20 13:15:15.303282] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [11]
+month [2]
+year [2016]
+rent [1250.00]
+promotion [$500.00 MOVE-IN BONUS]
+exists []
+
+[2016-02-20 13:15:15.303328] [info] Populating available
+[2016-02-20 13:15:15.303365] [info] beanHouse->dxHashToClass
+    house_id: '11'
+    house_num: '1985'
+    street: 'Greenvale Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 6E'
+    description: '$500.00 MOVE-IN BONUS 
+    
+    NEWLY RENOVATED 
+    
+    613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1250.00'
+    month: '2'
+    year: '2016'
+    promotion: '$500.00 MOVE-IN BONUS'
+[2016-02-20 13:15:15.303632] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [11]
+house_num [1985]
+street [Greenvale Lane]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 6E]
+bedrooms [3]
+bathrooms [2]
+powder_rooms [1]
+description [$500.00 MOVE-IN BONUS 
+
+NEWLY RENOVATED 
+
+613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [DETACHED]
+exists []
+
+[2016-02-20 13:15:15.303673] [info] Populating house
+[2016-02-20 13:15:15.303711] [info] beanSuite->dxHashToClass
+    house_id: '11'
+    house_num: '1985'
+    street: 'Greenvale Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 6E'
+    description: '$500.00 MOVE-IN BONUS 
+    
+    NEWLY RENOVATED 
+    
+    613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1250.00'
+    month: '2'
+    year: '2016'
+    promotion: '$500.00 MOVE-IN BONUS'
+[2016-02-20 13:15:15.303952] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2016-02-20 13:15:15.303994] [info] Populating suite
+[2016-02-20 13:15:15.304029] [info] results is not a member of classObject
+[2016-02-20 13:15:15.304063] [info] totalRows is not a member of classObject
+[2016-02-20 13:15:15.304095] [info] currRow is not a member of classObject
+[2016-02-20 13:15:21.243140] [info] Entering index: 
+[2016-02-20 13:15:21.243248] [info] -->action: apartments
+[2016-02-20 13:15:21.243289] [info] -->suite_id: 
+[2016-02-20 13:15:21.243324] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 13:15:36.453383] [info] Entering index: 
+[2016-02-20 13:15:36.453538] [info] -->action: 
+[2016-02-20 13:15:36.453582] [info] -->suite_id: 
+[2016-02-20 13:15:36.453618] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 13:15:36.983175] [info] Entering index: 
+[2016-02-20 13:15:36.983287] [info] -->action: 
+[2016-02-20 13:15:36.983325] [info] -->suite_id: 
+[2016-02-20 13:15:36.983361] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 13:15:51.792217] [info] Entering index: 
+[2016-02-20 13:15:51.792311] [info] -->action: apt_vacancies
+[2016-02-20 13:15:51.792351] [info] -->suite_id: 
+[2016-02-20 13:15:51.792387] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 13:15:51.810888] [info] Running query: select * from senatorapts.Suite s, senatorapts.Available a where s.suite_id = a.suite_id  order by a.year, a.month, s.suite_order
+[2016-02-20 13:15:51.810995] [info] 1 rows returned.
+[2016-02-20 13:15:51.811064] [info] beanAvailable->dxHashToClass
+    suite_id: '202'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=02'
+    suite_order: '11'
+    rent: '875'
+    promotion: '$500.00 Move-in Bonus'
+    month: '2'
+    year: '2016'
+[2016-02-20 13:15:51.811229] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [202]
+house_id []
+month [2]
+year [2016]
+rent [875]
+promotion [$500.00 Move-in Bonus]
+exists []
+
+[2016-02-20 13:15:51.811270] [info] Populating available
+[2016-02-20 13:15:51.811315] [info] beanSuite->dxHashToClass
+    suite_id: '202'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=02'
+    suite_order: '11'
+    rent: '875'
+    promotion: '$500.00 Move-in Bonus'
+    month: '2'
+    year: '2016'
+[2016-02-20 13:15:51.811441] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [202]
+bedrooms [1]
+suite_order [11]
+floor_plan [index.php?action=floor_plan&suite_id=02]
+exists []
+
+[2016-02-20 13:15:51.811481] [info] Populating suite
+[2016-02-20 13:15:51.811517] [info] results is not a member of classObject
+[2016-02-20 13:15:51.811551] [info] totalRows is not a member of classObject
+[2016-02-20 13:15:51.811583] [info] currRow is not a member of classObject
+[2016-02-20 13:15:58.480262] [info] Entering index: 
+[2016-02-20 13:15:58.480376] [info] -->action: contact_us
+[2016-02-20 13:15:58.480417] [info] -->suite_id: 
+[2016-02-20 13:15:58.480453] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 13:16:28.303941] [info] Entering index: 
+[2016-02-20 13:16:28.304049] [info] -->action: apartments
+[2016-02-20 13:16:28.304147] [info] -->suite_id: 
+[2016-02-20 13:16:28.304184] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 13:19:43.990895] [info] Entering index: 
+[2016-02-20 13:19:43.990993] [info] -->action: 
+[2016-02-20 13:19:43.991031] [info] -->suite_id: 
+[2016-02-20 13:19:43.991065] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 13:19:57.568101] [info] Entering index: 
+[2016-02-20 13:19:57.568188] [info] -->action: 
+[2016-02-20 13:19:57.568227] [info] -->suite_id: 
+[2016-02-20 13:19:57.568259] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 13:20:09.998852] [info] Entering index: 
+[2016-02-20 13:20:09.998955] [info] -->action: house
+[2016-02-20 13:20:09.998995] [info] -->suite_id: 
+[2016-02-20 13:20:10.036057] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id='11'
+[2016-02-20 13:20:10.036175] [info] 1 rows returned.
+[2016-02-20 13:20:10.036216] [info] Results: 1
+[2016-02-20 13:20:10.036271] [info] beanHouse->dxHashToClass
+    house_id: '11'
+    house_num: '1985'
+    street: 'Greenvale Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 6E'
+    description: '$500.00 MOVE-IN BONUS 
+    
+    NEWLY RENOVATED 
+    
+    613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-02-20 13:20:10.036535] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [11]
+house_num [1985]
+street [Greenvale Lane]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 6E]
+bedrooms [3]
+bathrooms [2]
+powder_rooms [1]
+description [$500.00 MOVE-IN BONUS 
+
+NEWLY RENOVATED 
+
+613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [DETACHED]
+exists [1]
+
+[2016-02-20 13:20:10.124893] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=11
+[2016-02-20 13:20:10.125019] [info] 1 rows returned.
+[2016-02-20 13:20:10.153964] [info] Gallery exists 27
+[2016-02-20 13:20:10.180560] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='27'
+[2016-02-20 13:20:10.180682] [info] 1 rows returned.
+[2016-02-20 13:20:10.180725] [info] Results: 1
+[2016-02-20 13:20:10.180774] [info] beanGallery->dxHashToClass
+    gallery_id: '27'
+    code: '1985GreenvaleLane'
+    description: '1985 Greenvale Lane'
+[2016-02-20 13:20:10.180915] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [27]
+code [1985GreenvaleLane]
+description [1985 Greenvale Lane]
+exists [1]
+
+[2016-02-20 13:20:10.180977] [info] gallery: 1
+[2016-02-20 13:20:10.181024] [info] __doLoadPhotos
+[2016-02-20 13:20:10.181058] [info] -->this: 1
+[2016-02-20 13:20:10.181092] [info] -->gallery: 1
+[2016-02-20 13:20:10.308620] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 27 and gp.photo_id = p.photo_id
+[2016-02-20 13:20:10.308744] [info] 13 rows returned.
+[2016-02-20 13:20:10.308787] [info] Results: 13
+[2016-02-20 13:20:10.308904] [info] 210
+[2016-02-20 13:20:10.308948] [info] 211
+[2016-02-20 13:20:10.308981] [info] 212
+[2016-02-20 13:20:10.309012] [info] 213
+[2016-02-20 13:20:10.309045] [info] 214
+[2016-02-20 13:20:10.309076] [info] 215
+[2016-02-20 13:20:10.309106] [info] 216
+[2016-02-20 13:20:10.309137] [info] 217
+[2016-02-20 13:20:10.309168] [info] 218
+[2016-02-20 13:20:10.309199] [info] 219
+[2016-02-20 13:20:10.309230] [info] 220
+[2016-02-20 13:20:10.309261] [info] 221
+[2016-02-20 13:20:10.309292] [info] 222
+[2016-02-20 13:20:10.309325] [info] images/imggal/1985GreenvaleLane/thumb/1.jpg
+[2016-02-20 13:20:10.309357] [info] images/imggal/1985GreenvaleLane/thumb/2.jpg
+[2016-02-20 13:20:10.309389] [info] images/imggal/1985GreenvaleLane/thumb/3.jpg
+[2016-02-20 13:20:10.309428] [info] images/imggal/1985GreenvaleLane/thumb/4.jpg
+[2016-02-20 13:20:10.309461] [info] images/imggal/1985GreenvaleLane/thumb/5.jpg
+[2016-02-20 13:20:10.309493] [info] images/imggal/1985GreenvaleLane/thumb/6.jpg
+[2016-02-20 13:20:10.309524] [info] images/imggal/1985GreenvaleLane/thumb/7.jpg
+[2016-02-20 13:20:10.309555] [info] images/imggal/1985GreenvaleLane/thumb/8.jpg
+[2016-02-20 13:20:10.309586] [info] images/imggal/1985GreenvaleLane/thumb/9.jpg
+[2016-02-20 13:20:10.309617] [info] images/imggal/1985GreenvaleLane/thumb/10.jpg
+[2016-02-20 13:20:10.309648] [info] images/imggal/1985GreenvaleLane/thumb/11.jpg
+[2016-02-20 13:20:10.309679] [info] images/imggal/1985GreenvaleLane/thumb/12.jpg
+[2016-02-20 13:20:10.309710] [info] images/imggal/1985GreenvaleLane/thumb/13.jpg
+[2016-02-20 13:20:10.309745] [info] images/imggal/1985GreenvaleLane/med/1.jpg
+[2016-02-20 13:20:10.309777] [info] images/imggal/1985GreenvaleLane/med/2.jpg
+[2016-02-20 13:20:10.309808] [info] images/imggal/1985GreenvaleLane/med/3.jpg
+[2016-02-20 13:20:10.309839] [info] images/imggal/1985GreenvaleLane/med/4.jpg
+[2016-02-20 13:20:10.309879] [info] images/imggal/1985GreenvaleLane/med/5.jpg
+[2016-02-20 13:20:10.309911] [info] images/imggal/1985GreenvaleLane/med/6.jpg
+[2016-02-20 13:20:10.309942] [info] images/imggal/1985GreenvaleLane/med/7.jpg
+[2016-02-20 13:20:10.309974] [info] images/imggal/1985GreenvaleLane/med/8.jpg
+[2016-02-20 13:20:10.310005] [info] images/imggal/1985GreenvaleLane/med/9.jpg
+[2016-02-20 13:20:10.310036] [info] images/imggal/1985GreenvaleLane/med/10.jpg
+[2016-02-20 13:20:10.310067] [info] images/imggal/1985GreenvaleLane/med/11.jpg
+[2016-02-20 13:20:10.310098] [info] images/imggal/1985GreenvaleLane/med/12.jpg
+[2016-02-20 13:20:10.310129] [info] images/imggal/1985GreenvaleLane/med/13.jpg
+[2016-02-20 13:20:10.310163] [info] images/imggal/1985GreenvaleLane/full/1.jpg
+[2016-02-20 13:20:10.310195] [info] images/imggal/1985GreenvaleLane/full/2.jpg
+[2016-02-20 13:20:10.310226] [info] images/imggal/1985GreenvaleLane/full/3.jpg
+[2016-02-20 13:20:10.310259] [info] images/imggal/1985GreenvaleLane/full/4.jpg
+[2016-02-20 13:20:10.310290] [info] images/imggal/1985GreenvaleLane/full/5.jpg
+[2016-02-20 13:20:10.310321] [info] images/imggal/1985GreenvaleLane/full/6.jpg
+[2016-02-20 13:20:10.310352] [info] images/imggal/1985GreenvaleLane/full/7.jpg
+[2016-02-20 13:20:10.310383] [info] images/imggal/1985GreenvaleLane/full/8.jpg
+[2016-02-20 13:20:10.310414] [info] images/imggal/1985GreenvaleLane/full/9.jpg
+[2016-02-20 13:20:10.310445] [info] images/imggal/1985GreenvaleLane/full/10.jpg
+[2016-02-20 13:20:10.310477] [info] images/imggal/1985GreenvaleLane/full/11.jpg
+[2016-02-20 13:20:10.310508] [info] images/imggal/1985GreenvaleLane/full/12.jpg
+[2016-02-20 13:20:10.310539] [info] images/imggal/1985GreenvaleLane/full/13.jpg
+[2016-02-20 13:20:10.310580] [info] -->num_photos: 13
+[2016-02-20 13:20:10.310689] [info] i: 
+[2016-02-20 13:20:10.310731] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/1.jpg
+[2016-02-20 13:20:10.310765] [info] meds[i]: images/imggal/1985GreenvaleLane/med/1.jpg
+[2016-02-20 13:20:10.310798] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/1.jpg
+[2016-02-20 13:20:10.310837] [info] i: 
+[2016-02-20 13:20:10.310875] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/2.jpg
+[2016-02-20 13:20:10.310909] [info] meds[i]: images/imggal/1985GreenvaleLane/med/2.jpg
+[2016-02-20 13:20:10.310940] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/2.jpg
+[2016-02-20 13:20:10.310976] [info] i: 
+[2016-02-20 13:20:10.311008] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/3.jpg
+[2016-02-20 13:20:10.311041] [info] meds[i]: images/imggal/1985GreenvaleLane/med/3.jpg
+[2016-02-20 13:20:10.311072] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/3.jpg
+[2016-02-20 13:20:10.311106] [info] i: 
+[2016-02-20 13:20:10.311139] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/4.jpg
+[2016-02-20 13:20:10.311171] [info] meds[i]: images/imggal/1985GreenvaleLane/med/4.jpg
+[2016-02-20 13:20:10.311208] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/4.jpg
+[2016-02-20 13:20:10.311244] [info] i: 
+[2016-02-20 13:20:10.311276] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/5.jpg
+[2016-02-20 13:20:10.311309] [info] meds[i]: images/imggal/1985GreenvaleLane/med/5.jpg
+[2016-02-20 13:20:10.311340] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/5.jpg
+[2016-02-20 13:20:10.311374] [info] i: 
+[2016-02-20 13:20:10.311407] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/6.jpg
+[2016-02-20 13:20:10.311439] [info] meds[i]: images/imggal/1985GreenvaleLane/med/6.jpg
+[2016-02-20 13:20:10.311470] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/6.jpg
+[2016-02-20 13:20:10.311505] [info] i: 
+[2016-02-20 13:20:10.311537] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/7.jpg
+[2016-02-20 13:20:10.311568] [info] meds[i]: images/imggal/1985GreenvaleLane/med/7.jpg
+[2016-02-20 13:20:10.311599] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/7.jpg
+[2016-02-20 13:20:10.311635] [info] i: 
+[2016-02-20 13:20:10.311666] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/8.jpg
+[2016-02-20 13:20:10.311697] [info] meds[i]: images/imggal/1985GreenvaleLane/med/8.jpg
+[2016-02-20 13:20:10.311728] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/8.jpg
+[2016-02-20 13:20:10.311764] [info] i: 
+[2016-02-20 13:20:10.311795] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/9.jpg
+[2016-02-20 13:20:10.311826] [info] meds[i]: images/imggal/1985GreenvaleLane/med/9.jpg
+[2016-02-20 13:20:10.311863] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/9.jpg
+[2016-02-20 13:20:10.311902] [info] i: 
+[2016-02-20 13:20:10.311933] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/10.jpg
+[2016-02-20 13:20:10.311965] [info] meds[i]: images/imggal/1985GreenvaleLane/med/10.jpg
+[2016-02-20 13:20:10.311997] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/10.jpg
+[2016-02-20 13:20:10.312032] [info] i: 
+[2016-02-20 13:20:10.312064] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/11.jpg
+[2016-02-20 13:20:10.312096] [info] meds[i]: images/imggal/1985GreenvaleLane/med/11.jpg
+[2016-02-20 13:20:10.312127] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/11.jpg
+[2016-02-20 13:20:10.312161] [info] i: 
+[2016-02-20 13:20:10.312196] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/12.jpg
+[2016-02-20 13:20:10.312227] [info] meds[i]: images/imggal/1985GreenvaleLane/med/12.jpg
+[2016-02-20 13:20:10.312259] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/12.jpg
+[2016-02-20 13:20:10.312294] [info] i: 
+[2016-02-20 13:20:10.312326] [info] thumbs[i]: images/imggal/1985GreenvaleLane/thumb/13.jpg
+[2016-02-20 13:20:10.312357] [info] meds[i]: images/imggal/1985GreenvaleLane/med/13.jpg
+[2016-02-20 13:20:10.312388] [info] fulls[i]: images/imggal/1985GreenvaleLane/full/13.jpg
+[2016-02-20 13:20:10.385773] [info] __getPhotoPath: 0 fulls images/imggal/1985GreenvaleLane/full/1.jpg
+[2016-02-20 13:20:10.385874] [info] __getPhotoPath: 0 meds images/imggal/1985GreenvaleLane/med/1.jpg
+[2016-02-20 13:20:10.385927] [info] __getPhotoPath: 0 fulls images/imggal/1985GreenvaleLane/full/1.jpg
+[2016-02-20 13:20:10.386076] [info] classGoogleMap->embedMap()
+[2016-02-20 13:20:10.386118] [info] -->addressString: 1985%2BGreenvale+Lane%2C%2BOttawa%2C%2BON
+[2016-02-20 13:20:10.386152] [info] -->html: <iframe width="475" height="450" frameborder="0" style="border:0"src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAPmcMH3KFQE-9rfNowTpSWwD7mKrcrr2Q&q=1985%2BGreenvale+Lane%2C%2BOttawa%2C%2BON&attribution_source=Google+Maps+Embed+API&attribution_ios_deep_link_id=comgooglemaps://?daddr=1985%2BGreenvale+Lane%2C%2BOttawa%2C%2BON" allowfullscreen></iframe>
+[2016-02-20 13:20:23.974128] [info] Entering index: 
+[2016-02-20 13:20:23.974217] [info] -->action: 
+[2016-02-20 13:20:23.974293] [info] -->suite_id: 
+[2016-02-20 13:20:23.974338] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 13:20:40.711885] [info] Entering index: 
+[2016-02-20 13:20:40.711992] [info] -->action: 
+[2016-02-20 13:20:40.712035] [info] -->suite_id: 
+[2016-02-20 13:20:40.712070] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 13:21:26.224020] [info] Entering index: 
+[2016-02-20 13:21:26.224123] [info] -->action: contact_us
+[2016-02-20 13:21:26.224163] [info] -->suite_id: 
+[2016-02-20 13:21:26.224196] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 14:15:14.933331] [info] Entering index: 
+[2016-02-20 14:15:14.933504] [info] -->action: 
+[2016-02-20 14:15:14.933547] [info] -->suite_id: 
+[2016-02-20 14:15:14.933583] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 14:15:19.480305] [info] Entering index: 
+[2016-02-20 14:15:19.480417] [info] -->action: 
+[2016-02-20 14:15:19.480456] [info] -->suite_id: 
+[2016-02-20 14:15:19.480493] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 14:18:30.119599] [info] Entering index: 
+[2016-02-20 14:18:30.119795] [info] -->action: 
+[2016-02-20 14:18:30.119837] [info] -->suite_id: 
+[2016-02-20 14:18:30.119874] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 14:18:37.305540] [info] Entering index: 
+[2016-02-20 14:18:37.305634] [info] -->action: 
+[2016-02-20 14:18:37.305671] [info] -->suite_id: 
+[2016-02-20 14:18:37.305707] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 14:33:40.902282] [info] Entering index: 
+[2016-02-20 14:33:40.902435] [info] -->action: 
+[2016-02-20 14:33:40.902477] [info] -->suite_id: 
+[2016-02-20 14:33:40.902512] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 14:35:53.729815] [info] Entering index: 
+[2016-02-20 14:35:53.729979] [info] -->action: 
+[2016-02-20 14:35:53.730021] [info] -->suite_id: 
+[2016-02-20 14:35:53.730057] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 15:14:28.282608] [info] Entering index: 
+[2016-02-20 15:14:28.282769] [info] -->action: 
+[2016-02-20 15:14:28.282812] [info] -->suite_id: 
+[2016-02-20 15:14:28.282847] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 15:14:28.729962] [info] Entering index: 
+[2016-02-20 15:14:28.730060] [info] -->action: 
+[2016-02-20 15:14:28.730099] [info] -->suite_id: 
+[2016-02-20 15:14:28.730135] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 15:16:30.791840] [info] Entering index: 
+[2016-02-20 15:16:30.791958] [info] -->action: 
+[2016-02-20 15:16:30.791999] [info] -->suite_id: 
+[2016-02-20 15:16:30.792035] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 15:42:09.889390] [info] Entering index: 
+[2016-02-20 15:42:09.889528] [info] -->action: 
+[2016-02-20 15:42:09.889569] [info] -->suite_id: 
+[2016-02-20 15:42:09.889602] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 15:43:14.105236] [info] Entering index: 
+[2016-02-20 15:43:14.105329] [info] -->action: 
+[2016-02-20 15:43:14.105369] [info] -->suite_id: 
+[2016-02-20 15:43:14.105403] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 16:00:45.770106] [info] Entering index: 
+[2016-02-20 16:00:45.770267] [info] -->action: floor_plan
+[2016-02-20 16:00:45.770311] [info] -->suite_id: 02
+[2016-02-20 16:00:45.848007] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE code='02'
+[2016-02-20 16:00:45.848151] [info] 1 rows returned.
+[2016-02-20 16:00:45.848262] [info] beanGallery->dxHashToClass
+    gallery_id: '3'
+    code: '02'
+    description: 'Floor Plan 02'
+[2016-02-20 16:00:45.848647] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [3]
+code [02]
+description [Floor Plan 02]
+exists [1]
+
+[2016-02-20 16:00:45.860831] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='3'
+[2016-02-20 16:00:45.860920] [info] 1 rows returned.
+[2016-02-20 16:00:45.860961] [info] Results: 1
+[2016-02-20 16:00:45.861006] [info] beanGallery->dxHashToClass
+    gallery_id: '3'
+    code: '02'
+    description: 'Floor Plan 02'
+[2016-02-20 16:00:45.861123] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [3]
+code [02]
+description [Floor Plan 02]
+exists [1]
+
+[2016-02-20 16:00:45.861174] [info] -->gallery_id: 3
+[2016-02-20 16:00:45.861212] [info] __doLoadPhotos
+[2016-02-20 16:00:45.861248] [info] -->this: 1
+[2016-02-20 16:00:45.861294] [info] -->gallery: 1
+[2016-02-20 16:00:45.917256] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 3 and gp.photo_id = p.photo_id
+[2016-02-20 16:00:45.917342] [info] 5 rows returned.
+[2016-02-20 16:00:45.917383] [info] Results: 5
+[2016-02-20 16:00:45.917455] [info] 8
+[2016-02-20 16:00:45.917495] [info] 9
+[2016-02-20 16:00:45.917527] [info] 10
+[2016-02-20 16:00:45.917560] [info] 11
+[2016-02-20 16:00:45.917598] [info] 12
+[2016-02-20 16:00:45.917634] [info] images/imggal/02/thumb/ig_thumb_02_1.jpg
+[2016-02-20 16:00:45.917666] [info] images/imggal/02/thumb/ig_thumb_02_2.jpg
+[2016-02-20 16:00:45.917699] [info] images/imggal/02/thumb/ig_thumb_02_3.jpg
+[2016-02-20 16:00:45.917731] [info] images/imggal/02/thumb/ig_thumb_02_4.jpg
+[2016-02-20 16:00:45.917762] [info] images/imggal/02/thumb/ig_thumb_02_5.jpg
+[2016-02-20 16:00:45.917795] [info] images/imggal/02/med/ig_med_02_1.jpg
+[2016-02-20 16:00:45.917829] [info] images/imggal/02/med/ig_med_02_2.jpg
+[2016-02-20 16:00:45.917862] [info] images/imggal/02/med/ig_med_02_3.jpg
+[2016-02-20 16:00:45.917896] [info] images/imggal/02/med/ig_med_02_4.jpg
+[2016-02-20 16:00:45.917927] [info] images/imggal/02/med/ig_med_02_5.jpg
+[2016-02-20 16:00:45.917960] [info] images/imggal/02/full/ig_full_02_1.jpg
+[2016-02-20 16:00:45.917993] [info] images/imggal/02/full/ig_full_02_2.jpg
+[2016-02-20 16:00:45.918025] [info] images/imggal/02/full/ig_full_02_3.jpg
+[2016-02-20 16:00:45.918057] [info] images/imggal/02/full/ig_full_02_4.jpg
+[2016-02-20 16:00:45.918088] [info] images/imggal/02/full/ig_full_02_5.jpg
+[2016-02-20 16:00:45.918132] [info] -->num_photos: 5
+[2016-02-20 16:00:45.935652] [info] i: 
+[2016-02-20 16:00:45.935729] [info] thumbs[i]: images/imggal/02/thumb/ig_thumb_02_1.jpg
+[2016-02-20 16:00:45.935769] [info] meds[i]: images/imggal/02/med/ig_med_02_1.jpg
+[2016-02-20 16:00:45.935803] [info] fulls[i]: images/imggal/02/full/ig_full_02_1.jpg
+[2016-02-20 16:00:45.935843] [info] i: 
+[2016-02-20 16:00:45.935885] [info] thumbs[i]: images/imggal/02/thumb/ig_thumb_02_2.jpg
+[2016-02-20 16:00:45.935920] [info] meds[i]: images/imggal/02/med/ig_med_02_2.jpg
+[2016-02-20 16:00:45.935955] [info] fulls[i]: images/imggal/02/full/ig_full_02_2.jpg
+[2016-02-20 16:00:45.935992] [info] i: 
+[2016-02-20 16:00:45.936027] [info] thumbs[i]: images/imggal/02/thumb/ig_thumb_02_3.jpg
+[2016-02-20 16:00:45.936104] [info] meds[i]: images/imggal/02/med/ig_med_02_3.jpg
+[2016-02-20 16:00:45.936140] [info] fulls[i]: images/imggal/02/full/ig_full_02_3.jpg
+[2016-02-20 16:00:45.936188] [info] i: 
+[2016-02-20 16:00:45.936232] [info] thumbs[i]: images/imggal/02/thumb/ig_thumb_02_4.jpg
+[2016-02-20 16:00:45.936269] [info] meds[i]: images/imggal/02/med/ig_med_02_4.jpg
+[2016-02-20 16:00:45.936302] [info] fulls[i]: images/imggal/02/full/ig_full_02_4.jpg
+[2016-02-20 16:00:45.936341] [info] i: 
+[2016-02-20 16:00:45.936374] [info] thumbs[i]: images/imggal/02/thumb/ig_thumb_02_5.jpg
+[2016-02-20 16:00:45.936408] [info] meds[i]: images/imggal/02/med/ig_med_02_5.jpg
+[2016-02-20 16:00:45.936443] [info] fulls[i]: images/imggal/02/full/ig_full_02_5.jpg
+[2016-02-20 16:00:45.969202] [info] __getPhotoPath: 0 fulls images/imggal/02/full/ig_full_02_1.jpg
+[2016-02-20 16:00:45.969304] [info] __getPhotoPath: 0 meds images/imggal/02/med/ig_med_02_1.jpg
+[2016-02-20 16:00:45.969348] [info] __getPhotoPath: 0 fulls images/imggal/02/full/ig_full_02_1.jpg
+[2016-02-20 16:14:05.987953] [info] Entering index: 
+[2016-02-20 16:14:05.988090] [info] -->action: 
+[2016-02-20 16:14:05.988131] [info] -->suite_id: 
+[2016-02-20 16:14:05.988173] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 16:14:06.555628] [info] Entering index: 
+[2016-02-20 16:14:06.555753] [info] -->action: 
+[2016-02-20 16:14:06.555799] [info] -->suite_id: 
+[2016-02-20 16:14:06.555835] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 16:24:14.779253] [info] Entering index: 
+[2016-02-20 16:24:14.779438] [info] -->action: 
+[2016-02-20 16:24:14.779483] [info] -->suite_id: 
+[2016-02-20 16:24:14.779520] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 16:24:39.207868] [info] Entering index: 
+[2016-02-20 16:24:39.207977] [info] -->action: 
+[2016-02-20 16:24:39.208017] [info] -->suite_id: 
+[2016-02-20 16:24:39.208054] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 17:14:53.902127] [info] Entering index: 
+[2016-02-20 17:14:53.902316] [info] -->action: 
+[2016-02-20 17:14:53.902359] [info] -->suite_id: 
+[2016-02-20 17:14:53.902396] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 17:14:54.346199] [info] Entering index: 
+[2016-02-20 17:14:54.346335] [info] -->action: 
+[2016-02-20 17:14:54.346379] [info] -->suite_id: 
+[2016-02-20 17:14:54.346416] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 18:14:55.653656] [info] Entering index: 
+[2016-02-20 18:14:55.653827] [info] -->action: 
+[2016-02-20 18:14:55.653872] [info] -->suite_id: 
+[2016-02-20 18:14:55.653908] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 18:14:56.106421] [info] Entering index: 
+[2016-02-20 18:14:56.106573] [info] -->action: 
+[2016-02-20 18:14:56.106620] [info] -->suite_id: 
+[2016-02-20 18:14:56.106662] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 18:17:32.933686] [info] Entering index: 
+[2016-02-20 18:17:32.933850] [info] -->action: http://www.imavisionoptica.com/images/r57.txt?
+[2016-02-20 18:17:32.933900] [info] -->suite_id: 
+[2016-02-20 18:17:32.933942] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 18:27:35.956485] [info] Entering index: 
+[2016-02-20 18:27:35.956657] [info] -->action: 
+[2016-02-20 18:27:35.956700] [info] -->suite_id: 
+[2016-02-20 18:27:35.956736] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 18:27:47.796266] [info] Entering index: 
+[2016-02-20 18:27:47.796379] [info] -->action: ftp://conab:654321@www.conab.gov.br/images/Thumbr.php?
+[2016-02-20 18:27:47.796417] [info] -->suite_id: 
+[2016-02-20 18:27:47.796454] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 18:46:24.442513] [info] Entering index: 
+[2016-02-20 18:46:24.442675] [info] -->action: 
+[2016-02-20 18:46:24.442717] [info] -->suite_id: 
+[2016-02-20 18:46:24.442753] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 18:47:40.463538] [info] Entering index: 
+[2016-02-20 18:47:40.463629] [info] -->action: 
+[2016-02-20 18:47:40.463666] [info] -->suite_id: 
+[2016-02-20 18:47:40.463701] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 18:52:12.407968] [info] Entering index: 
+[2016-02-20 18:52:12.408121] [info] -->action: 
+[2016-02-20 18:52:12.408169] [info] -->suite_id: 
+[2016-02-20 18:52:12.408209] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 18:55:16.983942] [info] Entering index: 
+[2016-02-20 18:55:16.984103] [info] -->action: 
+[2016-02-20 18:55:16.984144] [info] -->suite_id: 
+[2016-02-20 18:55:16.984179] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 19:15:41.832019] [info] Entering index: 
+[2016-02-20 19:15:41.832163] [info] -->action: 
+[2016-02-20 19:15:41.832204] [info] -->suite_id: 
+[2016-02-20 19:15:41.832240] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 19:15:42.294576] [info] Entering index: 
+[2016-02-20 19:15:42.294676] [info] -->action: 
+[2016-02-20 19:15:42.294714] [info] -->suite_id: 
+[2016-02-20 19:15:42.294750] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 19:19:45.318831] [info] Entering index: 
+[2016-02-20 19:19:45.318983] [info] -->action: 
+[2016-02-20 19:19:45.319024] [info] -->suite_id: 
+[2016-02-20 19:19:45.319058] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 19:20:00.578022] [info] Entering index: 
+[2016-02-20 19:20:00.578110] [info] -->action: 
+[2016-02-20 19:20:00.578149] [info] -->suite_id: 
+[2016-02-20 19:20:00.578182] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 19:41:28.775806] [info] Entering index: 
+[2016-02-20 19:41:28.775974] [info] -->action: 
+[2016-02-20 19:41:28.776017] [info] -->suite_id: 
+[2016-02-20 19:41:28.776053] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 20:15:12.850389] [info] Entering index: 
+[2016-02-20 20:15:12.850605] [info] -->action: 
+[2016-02-20 20:15:12.850647] [info] -->suite_id: 
+[2016-02-20 20:15:12.850691] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 20:15:13.413266] [info] Entering index: 
+[2016-02-20 20:15:13.413362] [info] -->action: 
+[2016-02-20 20:15:13.413402] [info] -->suite_id: 
+[2016-02-20 20:15:13.413438] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 20:23:30.405564] [info] Entering index: 
+[2016-02-20 20:23:30.405718] [info] -->action: 
+[2016-02-20 20:23:30.405760] [info] -->suite_id: 
+[2016-02-20 20:23:30.405796] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 20:38:39.708628] [info] Entering index: 
+[2016-02-20 20:38:39.708807] [info] -->action: 
+[2016-02-20 20:38:39.708849] [info] -->suite_id: 
+[2016-02-20 20:38:39.708897] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 21:15:43.178627] [info] Entering index: 
+[2016-02-20 21:15:43.178783] [info] -->action: 
+[2016-02-20 21:15:43.178827] [info] -->suite_id: 
+[2016-02-20 21:15:43.178863] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 21:15:43.697384] [info] Entering index: 
+[2016-02-20 21:15:43.697479] [info] -->action: 
+[2016-02-20 21:15:43.697519] [info] -->suite_id: 
+[2016-02-20 21:15:43.697554] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 21:40:06.842508] [info] Entering index: 
+[2016-02-20 21:40:06.842719] [info] -->action: 
+[2016-02-20 21:40:06.842767] [info] -->suite_id: 
+[2016-02-20 21:40:06.842803] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 21:41:08.665514] [info] Entering index: 
+[2016-02-20 21:41:08.665612] [info] -->action: 
+[2016-02-20 21:41:08.665651] [info] -->suite_id: 
+[2016-02-20 21:41:08.665685] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 22:15:23.130681] [info] Entering index: 
+[2016-02-20 22:15:23.130847] [info] -->action: 
+[2016-02-20 22:15:23.130898] [info] -->suite_id: 
+[2016-02-20 22:15:23.130937] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 22:15:23.648495] [info] Entering index: 
+[2016-02-20 22:15:23.648593] [info] -->action: 
+[2016-02-20 22:15:23.648633] [info] -->suite_id: 
+[2016-02-20 22:15:23.648669] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 22:17:23.876123] [info] Entering index: 
+[2016-02-20 22:17:23.876209] [info] -->action: floor_plan
+[2016-02-20 22:17:23.876246] [info] -->suite_id: 07
+[2016-02-20 22:17:23.959186] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE code='07'
+[2016-02-20 22:17:23.959296] [info] 1 rows returned.
+[2016-02-20 22:17:23.959393] [info] beanGallery->dxHashToClass
+    gallery_id: '8'
+    code: '07'
+    description: 'Floor Plan 07'
+[2016-02-20 22:17:23.959640] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [8]
+code [07]
+description [Floor Plan 07]
+exists [1]
+
+[2016-02-20 22:17:23.983757] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='8'
+[2016-02-20 22:17:23.983845] [info] 1 rows returned.
+[2016-02-20 22:17:23.983896] [info] Results: 1
+[2016-02-20 22:17:23.983942] [info] beanGallery->dxHashToClass
+    gallery_id: '8'
+    code: '07'
+    description: 'Floor Plan 07'
+[2016-02-20 22:17:23.984052] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [8]
+code [07]
+description [Floor Plan 07]
+exists [1]
+
+[2016-02-20 22:17:23.984105] [info] -->gallery_id: 8
+[2016-02-20 22:17:23.984143] [info] __doLoadPhotos
+[2016-02-20 22:17:23.984179] [info] -->this: 1
+[2016-02-20 22:17:23.984225] [info] -->gallery: 1
+[2016-02-20 22:17:24.034504] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 8 and gp.photo_id = p.photo_id
+[2016-02-20 22:17:24.034591] [info] 3 rows returned.
+[2016-02-20 22:17:24.034632] [info] Results: 3
+[2016-02-20 22:17:24.034697] [info] 29
+[2016-02-20 22:17:24.034734] [info] 30
+[2016-02-20 22:17:24.034766] [info] 31
+[2016-02-20 22:17:24.034801] [info] images/imggal/07/thumb/ig_thumb_07_1.jpg
+[2016-02-20 22:17:24.034832] [info] images/imggal/07/thumb/ig_thumb_07_2.jpg
+[2016-02-20 22:17:24.034864] [info] images/imggal/07/thumb/ig_thumb_07_3.jpg
+[2016-02-20 22:17:24.034898] [info] images/imggal/07/med/ig_med_07_1.jpg
+[2016-02-20 22:17:24.034930] [info] images/imggal/07/med/ig_med_07_2.jpg
+[2016-02-20 22:17:24.034962] [info] images/imggal/07/med/ig_med_07_3.jpg
+[2016-02-20 22:17:24.034996] [info] images/imggal/07/full/ig_full_07_1.jpg
+[2016-02-20 22:17:24.035027] [info] images/imggal/07/full/ig_full_07_2.jpg
+[2016-02-20 22:17:24.035058] [info] images/imggal/07/full/ig_full_07_3.jpg
+[2016-02-20 22:17:24.035098] [info] -->num_photos: 3
+[2016-02-20 22:17:24.058432] [info] i: 
+[2016-02-20 22:17:24.058501] [info] thumbs[i]: images/imggal/07/thumb/ig_thumb_07_1.jpg
+[2016-02-20 22:17:24.058540] [info] meds[i]: images/imggal/07/med/ig_med_07_1.jpg
+[2016-02-20 22:17:24.058576] [info] fulls[i]: images/imggal/07/full/ig_full_07_1.jpg
+[2016-02-20 22:17:24.058614] [info] i: 
+[2016-02-20 22:17:24.058650] [info] thumbs[i]: images/imggal/07/thumb/ig_thumb_07_2.jpg
+[2016-02-20 22:17:24.058684] [info] meds[i]: images/imggal/07/med/ig_med_07_2.jpg
+[2016-02-20 22:17:24.058717] [info] fulls[i]: images/imggal/07/full/ig_full_07_2.jpg
+[2016-02-20 22:17:24.058754] [info] i: 
+[2016-02-20 22:17:24.058789] [info] thumbs[i]: images/imggal/07/thumb/ig_thumb_07_3.jpg
+[2016-02-20 22:17:24.058823] [info] meds[i]: images/imggal/07/med/ig_med_07_3.jpg
+[2016-02-20 22:17:24.058856] [info] fulls[i]: images/imggal/07/full/ig_full_07_3.jpg
+[2016-02-20 22:17:24.131443] [info] __getPhotoPath: 0 fulls images/imggal/07/full/ig_full_07_1.jpg
+[2016-02-20 22:17:24.131539] [info] __getPhotoPath: 0 meds images/imggal/07/med/ig_med_07_1.jpg
+[2016-02-20 22:17:24.131582] [info] __getPhotoPath: 0 fulls images/imggal/07/full/ig_full_07_1.jpg
+[2016-02-20 22:24:03.456387] [info] Entering index: 
+[2016-02-20 22:24:03.456553] [info] -->action: 
+[2016-02-20 22:24:03.456593] [info] -->suite_id: 
+[2016-02-20 22:24:03.456629] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 22:25:41.298310] [info] Entering index: 
+[2016-02-20 22:25:41.298427] [info] -->action: 
+[2016-02-20 22:25:41.298465] [info] -->suite_id: 
+[2016-02-20 22:25:41.298499] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 22:26:10.044107] [info] Entering index: 
+[2016-02-20 22:26:10.044202] [info] -->action: 
+[2016-02-20 22:26:10.044239] [info] -->suite_id: 
+[2016-02-20 22:26:10.044272] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 23:02:06.200953] [info] Entering index: 
+[2016-02-20 23:02:06.201108] [info] -->action: 
+[2016-02-20 23:02:06.201150] [info] -->suite_id: 
+[2016-02-20 23:02:06.201186] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 23:02:14.261027] [info] Entering index: 
+[2016-02-20 23:02:14.261126] [info] -->action: apt_vacancies
+[2016-02-20 23:02:14.261178] [info] -->suite_id: 
+[2016-02-20 23:02:14.261215] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 23:02:14.434797] [info] Running query: select * from senatorapts.Suite s, senatorapts.Available a where s.suite_id = a.suite_id  order by a.year, a.month, s.suite_order
+[2016-02-20 23:02:14.434927] [info] 1 rows returned.
+[2016-02-20 23:02:14.435009] [info] beanAvailable->dxHashToClass
+    suite_id: '202'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=02'
+    suite_order: '11'
+    rent: '875'
+    promotion: '$500.00 Move-in Bonus'
+    month: '2'
+    year: '2016'
+[2016-02-20 23:02:14.435213] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [202]
+house_id []
+month [2]
+year [2016]
+rent [875]
+promotion [$500.00 Move-in Bonus]
+exists []
+
+[2016-02-20 23:02:14.435256] [info] Populating available
+[2016-02-20 23:02:14.435305] [info] beanSuite->dxHashToClass
+    suite_id: '202'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=02'
+    suite_order: '11'
+    rent: '875'
+    promotion: '$500.00 Move-in Bonus'
+    month: '2'
+    year: '2016'
+[2016-02-20 23:02:14.435436] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [202]
+bedrooms [1]
+suite_order [11]
+floor_plan [index.php?action=floor_plan&suite_id=02]
+exists []
+
+[2016-02-20 23:02:14.435477] [info] Populating suite
+[2016-02-20 23:02:14.435513] [info] results is not a member of classObject
+[2016-02-20 23:02:14.435548] [info] totalRows is not a member of classObject
+[2016-02-20 23:02:14.435581] [info] currRow is not a member of classObject
+[2016-02-20 23:02:31.277307] [info] Entering index: 
+[2016-02-20 23:02:31.277399] [info] -->action: apt_plans
+[2016-02-20 23:02:31.277437] [info] -->suite_id: 
+[2016-02-20 23:02:31.277472] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 23:02:46.741822] [info] Entering index: 
+[2016-02-20 23:02:46.741914] [info] -->action: floor_plan
+[2016-02-20 23:02:46.741951] [info] -->suite_id: B-1
+[2016-02-20 23:02:46.759999] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE code='B-1'
+[2016-02-20 23:02:46.760102] [info] 1 rows returned.
+[2016-02-20 23:02:46.760158] [info] beanGallery->dxHashToClass
+    gallery_id: '10'
+    code: 'B-1'
+    description: 'Floor Plan B-1'
+[2016-02-20 23:02:46.760301] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [10]
+code [B-1]
+description [Floor Plan B-1]
+exists [1]
+
+[2016-02-20 23:02:46.774377] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='10'
+[2016-02-20 23:02:46.774655] [info] 1 rows returned.
+[2016-02-20 23:02:46.774698] [info] Results: 1
+[2016-02-20 23:02:46.774744] [info] beanGallery->dxHashToClass
+    gallery_id: '10'
+    code: 'B-1'
+    description: 'Floor Plan B-1'
+[2016-02-20 23:02:46.774857] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [10]
+code [B-1]
+description [Floor Plan B-1]
+exists [1]
+
+[2016-02-20 23:02:46.774909] [info] -->gallery_id: 10
+[2016-02-20 23:02:46.774947] [info] __doLoadPhotos
+[2016-02-20 23:02:46.774982] [info] -->this: 1
+[2016-02-20 23:02:46.775016] [info] -->gallery: 1
+[2016-02-20 23:02:46.794265] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 10 and gp.photo_id = p.photo_id
+[2016-02-20 23:02:46.794373] [info] 4 rows returned.
+[2016-02-20 23:02:46.794418] [info] Results: 4
+[2016-02-20 23:02:46.794482] [info] 178
+[2016-02-20 23:02:46.794519] [info] 179
+[2016-02-20 23:02:46.794553] [info] 180
+[2016-02-20 23:02:46.794585] [info] 181
+[2016-02-20 23:02:46.794620] [info] images/imggal/B-1/thumb/1.jpg
+[2016-02-20 23:02:46.794652] [info] images/imggal/B-1/thumb/2.jpg
+[2016-02-20 23:02:46.794686] [info] images/imggal/B-1/thumb/3.jpg
+[2016-02-20 23:02:46.794718] [info] images/imggal/B-1/thumb/4.jpg
+[2016-02-20 23:02:46.794751] [info] images/imggal/B-1/med/1.jpg
+[2016-02-20 23:02:46.794785] [info] images/imggal/B-1/med/2.jpg
+[2016-02-20 23:02:46.794816] [info] images/imggal/B-1/med/3.jpg
+[2016-02-20 23:02:46.794848] [info] images/imggal/B-1/med/4.jpg
+[2016-02-20 23:02:46.794883] [info] images/imggal/B-1/full/1.jpg
+[2016-02-20 23:02:46.794915] [info] images/imggal/B-1/full/2.jpg
+[2016-02-20 23:02:46.794960] [info] images/imggal/B-1/full/3.jpg
+[2016-02-20 23:02:46.794995] [info] images/imggal/B-1/full/4.jpg
+[2016-02-20 23:02:46.795037] [info] -->num_photos: 4
+[2016-02-20 23:02:46.795144] [info] i: 
+[2016-02-20 23:02:46.795186] [info] thumbs[i]: images/imggal/B-1/thumb/1.jpg
+[2016-02-20 23:02:46.795219] [info] meds[i]: images/imggal/B-1/med/1.jpg
+[2016-02-20 23:02:46.795260] [info] fulls[i]: images/imggal/B-1/full/1.jpg
+[2016-02-20 23:02:46.795301] [info] i: 
+[2016-02-20 23:02:46.795336] [info] thumbs[i]: images/imggal/B-1/thumb/2.jpg
+[2016-02-20 23:02:46.795367] [info] meds[i]: images/imggal/B-1/med/2.jpg
+[2016-02-20 23:02:46.795399] [info] fulls[i]: images/imggal/B-1/full/2.jpg
+[2016-02-20 23:02:46.795435] [info] i: 
+[2016-02-20 23:02:46.795469] [info] thumbs[i]: images/imggal/B-1/thumb/3.jpg
+[2016-02-20 23:02:46.795500] [info] meds[i]: images/imggal/B-1/med/3.jpg
+[2016-02-20 23:02:46.795532] [info] fulls[i]: images/imggal/B-1/full/3.jpg
+[2016-02-20 23:02:46.795568] [info] i: 
+[2016-02-20 23:02:46.795602] [info] thumbs[i]: images/imggal/B-1/thumb/4.jpg
+[2016-02-20 23:02:46.795634] [info] meds[i]: images/imggal/B-1/med/4.jpg
+[2016-02-20 23:02:46.795665] [info] fulls[i]: images/imggal/B-1/full/4.jpg
+[2016-02-20 23:02:46.843821] [info] __getPhotoPath: 0 fulls images/imggal/B-1/full/1.jpg
+[2016-02-20 23:02:46.843924] [info] __getPhotoPath: 0 meds images/imggal/B-1/med/1.jpg
+[2016-02-20 23:02:46.843966] [info] __getPhotoPath: 0 fulls images/imggal/B-1/full/1.jpg
+[2016-02-20 23:15:07.041663] [info] Entering index: 
+[2016-02-20 23:15:07.041824] [info] -->action: 
+[2016-02-20 23:15:07.041866] [info] -->suite_id: 
+[2016-02-20 23:15:07.041903] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-02-20 23:15:07.832375] [info] Entering index: 
+[2016-02-20 23:15:07.832463] [info] -->action: 
+[2016-02-20 23:15:07.832501] [info] -->suite_id: 
+[2016-02-20 23:15:07.832537] [info] -->there is no gallery for this page, or it did not load correctly

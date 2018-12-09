@@ -1,0 +1,345 @@
+[2016-09-20 1:23:34.185676] [info] Entering index: 
+[2016-09-20 1:23:34.185853] [info] -->action: floor_plan
+[2016-09-20 1:23:34.185895] [info] -->suite_id: 08
+[2016-09-20 1:23:34.935446] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE code='08'
+[2016-09-20 1:23:34.935585] [info] 1 rows returned.
+[2016-09-20 1:23:34.935651] [info] beanGallery->dxHashToClass
+    gallery_id: '9'
+    code: '08'
+    description: 'Floor Plan 08'
+[2016-09-20 1:23:34.935877] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [9]
+code [08]
+description [Floor Plan 08]
+exists [1]
+
+[2016-09-20 1:23:34.951555] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='9'
+[2016-09-20 1:23:34.951685] [info] 1 rows returned.
+[2016-09-20 1:23:34.951729] [info] Results: 1
+[2016-09-20 1:23:34.951776] [info] beanGallery->dxHashToClass
+    gallery_id: '9'
+    code: '08'
+    description: 'Floor Plan 08'
+[2016-09-20 1:23:34.951920] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [9]
+code [08]
+description [Floor Plan 08]
+exists [1]
+
+[2016-09-20 1:23:34.951977] [info] -->gallery_id: 9
+[2016-09-20 1:23:34.952018] [info] __doLoadPhotos
+[2016-09-20 1:23:34.952054] [info] -->this: 1
+[2016-09-20 1:23:34.952089] [info] -->gallery: 1
+[2016-09-20 1:23:35.657851] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 9 and gp.photo_id = p.photo_id
+[2016-09-20 1:23:35.657985] [info] 6 rows returned.
+[2016-09-20 1:23:35.658030] [info] Results: 6
+[2016-09-20 1:23:35.658109] [info] 32
+[2016-09-20 1:23:35.658159] [info] 33
+[2016-09-20 1:23:35.658194] [info] 34
+[2016-09-20 1:23:35.658225] [info] 35
+[2016-09-20 1:23:35.658256] [info] 36
+[2016-09-20 1:23:35.658287] [info] 37
+[2016-09-20 1:23:35.658324] [info] images/imggal/08/thumb/ig_thumb_08_1.jpg
+[2016-09-20 1:23:35.658356] [info] images/imggal/08/thumb/ig_thumb_08_2.jpg
+[2016-09-20 1:23:35.658402] [info] images/imggal/08/thumb/ig_thumb_08_3.jpg
+[2016-09-20 1:23:35.658436] [info] images/imggal/08/thumb/ig_thumb_08_4.jpg
+[2016-09-20 1:23:35.658467] [info] images/imggal/08/thumb/ig_thumb_08_5.jpg
+[2016-09-20 1:23:35.658498] [info] images/imggal/08/thumb/ig_thumb_08_6.jpg
+[2016-09-20 1:23:35.658530] [info] images/imggal/08/med/ig_med_08_1.jpg
+[2016-09-20 1:23:35.658562] [info] images/imggal/08/med/ig_med_08_2.jpg
+[2016-09-20 1:23:35.658596] [info] images/imggal/08/med/ig_med_08_3.jpg
+[2016-09-20 1:23:35.658628] [info] images/imggal/08/med/ig_med_08_4.jpg
+[2016-09-20 1:23:35.658659] [info] images/imggal/08/med/ig_med_08_5.jpg
+[2016-09-20 1:23:35.658739] [info] images/imggal/08/med/ig_med_08_6.jpg
+[2016-09-20 1:23:35.658778] [info] images/imggal/08/full/ig_full_08_1.jpg
+[2016-09-20 1:23:35.658811] [info] images/imggal/08/full/ig_full_08_2.jpg
+[2016-09-20 1:23:35.658843] [info] images/imggal/08/full/ig_full_08_3.jpg
+[2016-09-20 1:23:35.658879] [info] images/imggal/08/full/ig_full_08_4.jpg
+[2016-09-20 1:23:35.658914] [info] images/imggal/08/full/ig_full_08_5.jpg
+[2016-09-20 1:23:35.658946] [info] images/imggal/08/full/ig_full_08_6.jpg
+[2016-09-20 1:23:35.658987] [info] -->num_photos: 6
+[2016-09-20 1:23:35.677166] [info] i: 
+[2016-09-20 1:23:35.677268] [info] thumbs[i]: images/imggal/08/thumb/ig_thumb_08_1.jpg
+[2016-09-20 1:23:35.677306] [info] meds[i]: images/imggal/08/med/ig_med_08_1.jpg
+[2016-09-20 1:23:35.677341] [info] fulls[i]: images/imggal/08/full/ig_full_08_1.jpg
+[2016-09-20 1:23:35.677402] [info] i: 
+[2016-09-20 1:23:35.677448] [info] thumbs[i]: images/imggal/08/thumb/ig_thumb_08_2.jpg
+[2016-09-20 1:23:35.677486] [info] meds[i]: images/imggal/08/med/ig_med_08_2.jpg
+[2016-09-20 1:23:35.677521] [info] fulls[i]: images/imggal/08/full/ig_full_08_2.jpg
+[2016-09-20 1:23:35.677592] [info] i: 
+[2016-09-20 1:23:35.677638] [info] thumbs[i]: images/imggal/08/thumb/ig_thumb_08_3.jpg
+[2016-09-20 1:23:35.677671] [info] meds[i]: images/imggal/08/med/ig_med_08_3.jpg
+[2016-09-20 1:23:35.677706] [info] fulls[i]: images/imggal/08/full/ig_full_08_3.jpg
+[2016-09-20 1:23:35.677742] [info] i: 
+[2016-09-20 1:23:35.677778] [info] thumbs[i]: images/imggal/08/thumb/ig_thumb_08_4.jpg
+[2016-09-20 1:23:35.677820] [info] meds[i]: images/imggal/08/med/ig_med_08_4.jpg
+[2016-09-20 1:23:35.677855] [info] fulls[i]: images/imggal/08/full/ig_full_08_4.jpg
+[2016-09-20 1:23:35.677892] [info] i: 
+[2016-09-20 1:23:35.677927] [info] thumbs[i]: images/imggal/08/thumb/ig_thumb_08_5.jpg
+[2016-09-20 1:23:35.677958] [info] meds[i]: images/imggal/08/med/ig_med_08_5.jpg
+[2016-09-20 1:23:35.677992] [info] fulls[i]: images/imggal/08/full/ig_full_08_5.jpg
+[2016-09-20 1:23:35.678030] [info] i: 
+[2016-09-20 1:23:35.679399] [info] thumbs[i]: images/imggal/08/thumb/ig_thumb_08_6.jpg
+[2016-09-20 1:23:35.679450] [info] meds[i]: images/imggal/08/med/ig_med_08_6.jpg
+[2016-09-20 1:23:35.679485] [info] fulls[i]: images/imggal/08/full/ig_full_08_6.jpg
+[2016-09-20 1:23:35.728776] [info] __getPhotoPath: 0 fulls images/imggal/08/full/ig_full_08_1.jpg
+[2016-09-20 1:23:35.728893] [info] __getPhotoPath: 0 meds images/imggal/08/med/ig_med_08_1.jpg
+[2016-09-20 1:23:35.728938] [info] __getPhotoPath: 0 fulls images/imggal/08/full/ig_full_08_1.jpg
+[2016-09-20 1:38:09.925611] [info] Entering index: 
+[2016-09-20 1:38:09.925786] [info] -->action: 
+[2016-09-20 1:38:09.925836] [info] -->suite_id: 
+[2016-09-20 1:38:09.925878] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 1:38:44.278700] [info] Entering index: 
+[2016-09-20 1:38:44.278846] [info] -->action: contact_us
+[2016-09-20 1:38:44.278891] [info] -->suite_id: 
+[2016-09-20 1:38:44.278928] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 1:45:02.796690] [info] Entering index: 
+[2016-09-20 1:45:02.796932] [info] -->action: 
+[2016-09-20 1:45:02.796977] [info] -->suite_id: 
+[2016-09-20 1:45:02.797014] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 1:46:15.233843] [info] Entering index: 
+[2016-09-20 1:46:15.233947] [info] -->action: 
+[2016-09-20 1:46:15.233987] [info] -->suite_id: 
+[2016-09-20 1:46:15.234023] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 2:12:58.184633] [info] Entering index: 
+[2016-09-20 2:12:58.184792] [info] -->action: contact_us
+[2016-09-20 2:12:58.184834] [info] -->suite_id: 
+[2016-09-20 2:12:58.184870] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 2:20:13.535481] [info] Entering index: 
+[2016-09-20 2:20:13.535686] [info] -->action: 
+[2016-09-20 2:20:13.535742] [info] -->suite_id: 
+[2016-09-20 2:20:13.535778] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 2:20:20.212272] [info] Entering index: 
+[2016-09-20 2:20:20.212377] [info] -->action: 
+[2016-09-20 2:20:20.212414] [info] -->suite_id: 
+[2016-09-20 2:20:20.212450] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 2:20:36.223686] [info] Entering index: 
+[2016-09-20 2:20:36.223789] [info] -->action: 
+[2016-09-20 2:20:36.223828] [info] -->suite_id: 
+[2016-09-20 2:20:36.223864] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 2:21:53.530884] [info] Entering index: 
+[2016-09-20 2:21:53.531032] [info] -->action: homes
+[2016-09-20 2:21:53.531075] [info] -->suite_id: 
+[2016-09-20 2:21:53.531111] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 2:21:53.912507] [info] Running query: select * from senatorapts.House h, senatorapts.HouseAvailable a where h.house_id = a.house_id  and h.deleted != 1 order by a.year, a.month
+[2016-09-20 2:21:53.912622] [info] 0 rows returned.
+[2016-09-20 4:40:25.191288] [info] Entering index: 
+[2016-09-20 4:40:25.191483] [info] -->action: 
+[2016-09-20 4:40:25.191528] [info] -->suite_id: 
+[2016-09-20 4:40:25.191565] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 4:41:29.548105] [info] Entering index: 
+[2016-09-20 4:41:29.548199] [info] -->action: 
+[2016-09-20 4:41:29.548238] [info] -->suite_id: 
+[2016-09-20 4:41:29.548274] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 5:04:43.019382] [info] Entering index: 
+[2016-09-20 5:04:43.019562] [info] -->action: 
+[2016-09-20 5:04:43.019603] [info] -->suite_id: 
+[2016-09-20 5:04:43.019639] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 5:06:40.728941] [info] Entering index: 
+[2016-09-20 5:06:40.729136] [info] -->action: 
+[2016-09-20 5:06:40.729182] [info] -->suite_id: 
+[2016-09-20 5:06:40.729219] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 5:23:24.583659] [info] Entering index: 
+[2016-09-20 5:23:24.583841] [info] -->action: 
+[2016-09-20 5:23:24.583884] [info] -->suite_id: 
+[2016-09-20 5:23:24.583921] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 5:23:48.772249] [info] Entering index: 
+[2016-09-20 5:23:48.772350] [info] -->action: 
+[2016-09-20 5:23:48.772389] [info] -->suite_id: 
+[2016-09-20 5:23:48.772425] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 5:32:07.925771] [info] Entering index: 
+[2016-09-20 5:32:07.925925] [info] -->action: 
+[2016-09-20 5:32:07.925967] [info] -->suite_id: 
+[2016-09-20 5:32:07.926003] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 5:52:31.881663] [info] Entering index: 
+[2016-09-20 5:52:31.881827] [info] -->action: 
+[2016-09-20 5:52:31.881869] [info] -->suite_id: 
+[2016-09-20 5:52:31.881906] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 6:09:07.588670] [info] Entering index: 
+[2016-09-20 6:09:07.588840] [info] -->action: 
+[2016-09-20 6:09:07.588882] [info] -->suite_id: 
+[2016-09-20 6:09:07.588920] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 6:32:22.208565] [info] Entering index: 
+[2016-09-20 6:32:22.208745] [info] -->action: 
+[2016-09-20 6:32:22.208795] [info] -->suite_id: 
+[2016-09-20 6:32:22.208837] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 6:32:23.330259] [info] Entering index: 
+[2016-09-20 6:32:23.330354] [info] -->action: 
+[2016-09-20 6:32:23.330399] [info] -->suite_id: 
+[2016-09-20 6:32:23.330440] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 6:34:11.495843] [info] Entering index: 
+[2016-09-20 6:34:11.495980] [info] -->action: 
+[2016-09-20 6:34:11.496021] [info] -->suite_id: 
+[2016-09-20 6:34:11.496057] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 6:46:41.876074] [info] Entering index: 
+[2016-09-20 6:46:41.876224] [info] -->action: 
+[2016-09-20 6:46:41.876266] [info] -->suite_id: 
+[2016-09-20 6:46:41.876302] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 7:46:18.771178] [info] Entering index: 
+[2016-09-20 7:46:18.771363] [info] -->action: 
+[2016-09-20 7:46:18.771406] [info] -->suite_id: 
+[2016-09-20 7:46:18.771444] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 7:47:35.507951] [info] Entering index: 
+[2016-09-20 7:47:35.508091] [info] -->action: 
+[2016-09-20 7:47:35.508137] [info] -->suite_id: 
+[2016-09-20 7:47:35.508174] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 8:20:15.258167] [info] Entering index: 
+[2016-09-20 8:20:15.258358] [info] -->action: 
+[2016-09-20 8:20:15.258399] [info] -->suite_id: 
+[2016-09-20 8:20:15.258435] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 8:20:32.468082] [info] Entering index: 
+[2016-09-20 8:20:32.468185] [info] -->action: 
+[2016-09-20 8:20:32.468225] [info] -->suite_id: 
+[2016-09-20 8:20:32.468260] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 8:45:53.836519] [info] Entering index: 
+[2016-09-20 8:45:53.836688] [info] -->action: 
+[2016-09-20 8:45:53.836730] [info] -->suite_id: 
+[2016-09-20 8:45:53.836766] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 8:45:53.974400] [info] Entering index: 
+[2016-09-20 8:45:53.974493] [info] -->action: 
+[2016-09-20 8:45:53.974538] [info] -->suite_id: 
+[2016-09-20 8:45:53.974574] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 8:45:54.858578] [info] Entering index: 
+[2016-09-20 8:45:54.858748] [info] -->action: 
+[2016-09-20 8:45:54.858798] [info] -->suite_id: 
+[2016-09-20 8:45:54.858839] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 10:39:30.251204] [info] Entering index: 
+[2016-09-20 10:39:30.251528] [info] -->action: 
+[2016-09-20 10:39:30.251624] [info] -->suite_id: 
+[2016-09-20 10:39:30.251806] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 10:40:33.058820] [info] Entering index: 
+[2016-09-20 10:40:33.058927] [info] -->action: 
+[2016-09-20 10:40:33.058968] [info] -->suite_id: 
+[2016-09-20 10:40:33.059010] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 11:12:41.284172] [info] Entering index: 
+[2016-09-20 11:12:41.284358] [info] -->action: 
+[2016-09-20 11:12:41.284400] [info] -->suite_id: 
+[2016-09-20 11:12:41.284436] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 11:23:44.521365] [info] Entering index: 
+[2016-09-20 11:23:44.521553] [info] -->action: 
+[2016-09-20 11:23:44.521596] [info] -->suite_id: 
+[2016-09-20 11:23:44.521636] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 11:24:09.762993] [info] Entering index: 
+[2016-09-20 11:24:09.763077] [info] -->action: 
+[2016-09-20 11:24:09.763115] [info] -->suite_id: 
+[2016-09-20 11:24:09.763151] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 11:53:26.936743] [info] Entering index: 
+[2016-09-20 11:53:26.936935] [info] -->action: 
+[2016-09-20 11:53:26.936980] [info] -->suite_id: 
+[2016-09-20 11:53:26.937017] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 12:45:12.467588] [info] Entering index: 
+[2016-09-20 12:45:12.467760] [info] -->action: 
+[2016-09-20 12:45:12.467802] [info] -->suite_id: 
+[2016-09-20 12:45:12.467838] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 12:46:24.398333] [info] Entering index: 
+[2016-09-20 12:46:24.398432] [info] -->action: 
+[2016-09-20 12:46:24.398472] [info] -->suite_id: 
+[2016-09-20 12:46:24.398505] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 13:18:57.755656] [info] Entering index: 
+[2016-09-20 13:18:57.755830] [info] -->action: 
+[2016-09-20 13:18:57.755872] [info] -->suite_id: 
+[2016-09-20 13:18:57.755908] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 13:19:10.930794] [info] Entering index: 
+[2016-09-20 13:19:10.930888] [info] -->action: 
+[2016-09-20 13:19:10.930928] [info] -->suite_id: 
+[2016-09-20 13:19:10.930968] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 13:43:31.975157] [info] Entering index: 
+[2016-09-20 13:43:31.975384] [info] -->action: 
+[2016-09-20 13:43:31.975430] [info] -->suite_id: 
+[2016-09-20 13:43:31.975466] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 14:18:27.452058] [info] Entering index: 
+[2016-09-20 14:18:27.452250] [info] -->action: 
+[2016-09-20 14:18:27.452299] [info] -->suite_id: 
+[2016-09-20 14:18:27.452337] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 14:19:11.990801] [info] Entering index: 
+[2016-09-20 14:19:11.990922] [info] -->action: 
+[2016-09-20 14:19:11.990962] [info] -->suite_id: 
+[2016-09-20 14:19:11.990998] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 14:19:25.948537] [info] Entering index: 
+[2016-09-20 14:19:25.948647] [info] -->action: 
+[2016-09-20 14:19:25.948688] [info] -->suite_id: 
+[2016-09-20 14:19:25.948723] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 14:56:51.375782] [info] Entering index: 
+[2016-09-20 14:56:51.375953] [info] -->action: how_to_rent
+[2016-09-20 14:56:51.375998] [info] -->suite_id: 
+[2016-09-20 14:56:51.376044] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 14:59:49.564580] [info] Entering index: 
+[2016-09-20 14:59:49.564752] [info] -->action: 
+[2016-09-20 14:59:49.564795] [info] -->suite_id: 
+[2016-09-20 14:59:49.564832] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 16:41:11.677712] [info] Entering index: 
+[2016-09-20 16:41:11.677903] [info] -->action: 
+[2016-09-20 16:41:11.677947] [info] -->suite_id: 
+[2016-09-20 16:41:11.677984] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 16:42:17.313339] [info] Entering index: 
+[2016-09-20 16:42:17.313431] [info] -->action: 
+[2016-09-20 16:42:17.313469] [info] -->suite_id: 
+[2016-09-20 16:42:17.313505] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 17:23:11.733536] [info] Entering index: 
+[2016-09-20 17:23:11.733676] [info] -->action: 
+[2016-09-20 17:23:11.733727] [info] -->suite_id: 
+[2016-09-20 17:23:11.733762] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 17:23:35.942926] [info] Entering index: 
+[2016-09-20 17:23:35.943048] [info] -->action: 
+[2016-09-20 17:23:35.943085] [info] -->suite_id: 
+[2016-09-20 17:23:35.943120] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 18:12:25.670532] [info] Entering index: 
+[2016-09-20 18:12:25.670711] [info] -->action: 
+[2016-09-20 18:12:25.670758] [info] -->suite_id: 
+[2016-09-20 18:12:25.670799] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 18:37:23.102272] [info] Entering index: 
+[2016-09-20 18:37:23.102425] [info] -->action: 
+[2016-09-20 18:37:23.102468] [info] -->suite_id: 
+[2016-09-20 18:37:23.102504] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 19:45:42.693804] [info] Entering index: 
+[2016-09-20 19:45:42.693988] [info] -->action: 
+[2016-09-20 19:45:42.694030] [info] -->suite_id: 
+[2016-09-20 19:45:42.694066] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 19:46:59.024041] [info] Entering index: 
+[2016-09-20 19:46:59.024132] [info] -->action: 
+[2016-09-20 19:46:59.024171] [info] -->suite_id: 
+[2016-09-20 19:46:59.024204] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 20:12:47.770051] [info] Entering index: 
+[2016-09-20 20:12:47.770232] [info] -->action: 
+[2016-09-20 20:12:47.770275] [info] -->suite_id: 
+[2016-09-20 20:12:47.770312] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 20:20:01.119946] [info] Entering index: 
+[2016-09-20 20:20:01.120163] [info] -->action: 
+[2016-09-20 20:20:01.120213] [info] -->suite_id: 
+[2016-09-20 20:20:01.120251] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 20:20:17.926824] [info] Entering index: 
+[2016-09-20 20:20:17.926930] [info] -->action: 
+[2016-09-20 20:20:17.926970] [info] -->suite_id: 
+[2016-09-20 20:20:17.927051] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 22:33:29.371344] [info] Entering index: 
+[2016-09-20 22:33:29.371499] [info] -->action: 
+[2016-09-20 22:33:29.371541] [info] -->suite_id: 
+[2016-09-20 22:33:29.371576] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 22:33:32.623912] [info] Entering index: 
+[2016-09-20 22:33:32.624011] [info] -->action: apartments
+[2016-09-20 22:33:32.624049] [info] -->suite_id: 
+[2016-09-20 22:33:32.624085] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 22:34:02.002150] [info] Entering index: 
+[2016-09-20 22:34:02.002268] [info] -->action: 
+[2016-09-20 22:34:02.002307] [info] -->suite_id: 
+[2016-09-20 22:34:02.002342] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 22:39:24.999877] [info] Entering index: 
+[2016-09-20 22:39:25.000068] [info] -->action: 
+[2016-09-20 22:39:25.000113] [info] -->suite_id: 
+[2016-09-20 22:39:25.000155] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 22:40:27.643263] [info] Entering index: 
+[2016-09-20 22:40:27.643353] [info] -->action: 
+[2016-09-20 22:40:27.643392] [info] -->suite_id: 
+[2016-09-20 22:40:27.643428] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 23:25:02.982084] [info] Entering index: 
+[2016-09-20 23:25:02.982271] [info] -->action: 
+[2016-09-20 23:25:02.982320] [info] -->suite_id: 
+[2016-09-20 23:25:02.982357] [info] -->there is no gallery for this page, or it did not load correctly
+[2016-09-20 23:25:30.650149] [info] Entering index: 
+[2016-09-20 23:25:30.650252] [info] -->action: 
+[2016-09-20 23:25:30.650290] [info] -->suite_id: 
+[2016-09-20 23:25:30.650325] [info] -->there is no gallery for this page, or it did not load correctly

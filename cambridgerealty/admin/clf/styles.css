@@ -1,0 +1,101 @@
+@media all and (max-width: 767px){
+	.unit_list{
+		width:100%;
+		padding:0px;
+		margin:0px;
+	}	
+}
+
+@media all and (min-width: 768px){
+	.unit_list{
+		width:90%;
+		padding:10px;
+		margin:10px;
+	}	
+}
+
+table.unit_list {
+
+ 	border-collapse:collapse;
+	text-align: center;
+}
+
+.menu td,
+.unit_list td {
+	 border: 2px solid #2b2f6e;
+	 background-color: #f9f4d8;
+	 padding: 0px;
+	 
+	 vertical-align: middle;
+	 text-align: center;
+}
+
+
+.unit_list td.border_no_left {
+	border-left: none;
+}
+
+.unit_list td.border_no_right {
+	border-right: none;
+}
+
+.unit_list td.border_no_top {
+	border-top: none;
+}
+
+.unit_list td.border_no_bottom {
+	border-bottom: none;
+}
+
+.unit_list td.border_none {
+	border-style: none;
+}
+.unit_list td.title {
+	background-color: #2b2f6e;
+	color: #ffffff;
+}
+
+.info { 
+	background: url("../images/Checkmark 2.png") no-repeat; 
+	color: #7a8cb7;
+}
+
+.error { 
+	color: red;
+	background: url("../images/Error.png") no-repeat; 
+}
+
+.warning { 
+	color: red;
+	background: url("../images/Warning.png") no-repeat; 
+}
+
+.msg_container {
+	height:23px; 
+	width: auto;
+	position:relative; 
+	margin-bottom: 0.8em;
+	margin-top: 0.8em;
+}
+
+.info, .warning, .error {
+	left: 50%;
+	top: 50%;
+	position:absolute;
+	height: 22px;
+	width: 700px;
+	-webkit-transform:translate(-50%,-50%); 
+	transform:translate(-50%,-50%);
+}
+
+.msg_content {
+	font-size: 16px;
+	font-weight: bold;
+	left: 30px;
+	top: 50%;
+	-webkit-transform:translate(0%,-50%); 
+	transform:translate(0%,-50%);
+	position:absolute;
+	
+}
+

@@ -1,0 +1,3752 @@
+[2015-12-14 8:40:37.153625] [info] edit_house.php
+[2015-12-14 8:40:37.153754] [info] -->_REQUEST 3
+[2015-12-14 8:40:37.153806] [info] -->_POST 
+[2015-12-14 8:40:37.153847] [info] -->_POST[add_photos] 
+[2015-12-14 8:40:37.153887] [info] -->_POST[save] 
+[2015-12-14 8:40:37.488545] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id='3'
+[2015-12-14 8:40:37.488673] [info] 1 rows returned.
+[2015-12-14 8:40:37.488722] [info] Results: 1
+[2015-12-14 8:40:37.488787] [info] beanHouse->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:40:37.489115] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [3]
+house_num [45]
+street [Clifford Private]
+city [Ottawa]
+prov [ON]
+postal_code [K1G 4Y3]
+bedrooms [3]
+bathrooms [2.5]
+description [ONE MONTH FREE 
+
+NEWLY RENOVATED 
+
+3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+exists [1]
+
+[2015-12-14 8:40:37.548651] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=3
+[2015-12-14 8:40:37.548743] [info] 1 rows returned.
+[2015-12-14 8:40:37.584162] [info] Gallery exists 13
+[2015-12-14 8:40:37.597524] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='13'
+[2015-12-14 8:40:37.597589] [info] 1 rows returned.
+[2015-12-14 8:40:37.597635] [info] Results: 1
+[2015-12-14 8:40:37.597685] [info] beanGallery->dxHashToClass
+    gallery_id: '13'
+    code: '45CliffordPrivate'
+    description: '45 Clifford Private'
+[2015-12-14 8:40:37.597820] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [13]
+code [45CliffordPrivate]
+description [45 Clifford Private]
+exists [1]
+
+[2015-12-14 8:40:37.597877] [info] gallery: 1
+[2015-12-14 8:40:37.597927] [info] __doLoadPhotos
+[2015-12-14 8:40:37.597968] [info] -->this: 1
+[2015-12-14 8:40:37.598006] [info] -->gallery: 1
+[2015-12-14 8:40:37.679163] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 13 and gp.photo_id = p.photo_id
+[2015-12-14 8:40:37.679275] [info] 12 rows returned.
+[2015-12-14 8:40:37.679323] [info] Results: 12
+[2015-12-14 8:40:37.679434] [info] 124
+[2015-12-14 8:40:37.679486] [info] 125
+[2015-12-14 8:40:37.679527] [info] 126
+[2015-12-14 8:40:37.679563] [info] 127
+[2015-12-14 8:40:37.679600] [info] 128
+[2015-12-14 8:40:37.679635] [info] 129
+[2015-12-14 8:40:37.679671] [info] 130
+[2015-12-14 8:40:37.679707] [info] 131
+[2015-12-14 8:40:37.679743] [info] 132
+[2015-12-14 8:40:37.679779] [info] 133
+[2015-12-14 8:40:37.679814] [info] 134
+[2015-12-14 8:40:37.679850] [info] 135
+[2015-12-14 8:40:37.679888] [info] images/imggal/45CliffordPrivate/thumb/1.jpg
+[2015-12-14 8:40:37.679925] [info] images/imggal/45CliffordPrivate/thumb/2.jpg
+[2015-12-14 8:40:37.679961] [info] images/imggal/45CliffordPrivate/thumb/3.jpg
+[2015-12-14 8:40:37.679996] [info] images/imggal/45CliffordPrivate/thumb/4.jpg
+[2015-12-14 8:40:37.680032] [info] images/imggal/45CliffordPrivate/thumb/5.jpg
+[2015-12-14 8:40:37.680077] [info] images/imggal/45CliffordPrivate/thumb/6.jpg
+[2015-12-14 8:40:37.680114] [info] images/imggal/45CliffordPrivate/thumb/7.jpg
+[2015-12-14 8:40:37.680150] [info] images/imggal/45CliffordPrivate/thumb/8.jpg
+[2015-12-14 8:40:37.680186] [info] images/imggal/45CliffordPrivate/thumb/9.jpg
+[2015-12-14 8:40:37.680222] [info] images/imggal/45CliffordPrivate/thumb/10.jpg
+[2015-12-14 8:40:37.680258] [info] images/imggal/45CliffordPrivate/thumb/11.jpg
+[2015-12-14 8:40:37.680293] [info] images/imggal/45CliffordPrivate/thumb/12.jpg
+[2015-12-14 8:40:37.680330] [info] images/imggal/45CliffordPrivate/med/1.jpg
+[2015-12-14 8:40:37.680367] [info] images/imggal/45CliffordPrivate/med/2.jpg
+[2015-12-14 8:40:37.680402] [info] images/imggal/45CliffordPrivate/med/3.jpg
+[2015-12-14 8:40:37.680438] [info] images/imggal/45CliffordPrivate/med/4.jpg
+[2015-12-14 8:40:37.680481] [info] images/imggal/45CliffordPrivate/med/5.jpg
+[2015-12-14 8:40:37.680520] [info] images/imggal/45CliffordPrivate/med/6.jpg
+[2015-12-14 8:40:37.680557] [info] images/imggal/45CliffordPrivate/med/7.jpg
+[2015-12-14 8:40:37.680592] [info] images/imggal/45CliffordPrivate/med/8.jpg
+[2015-12-14 8:40:37.680627] [info] images/imggal/45CliffordPrivate/med/9.jpg
+[2015-12-14 8:40:37.680663] [info] images/imggal/45CliffordPrivate/med/10.jpg
+[2015-12-14 8:40:37.680697] [info] images/imggal/45CliffordPrivate/med/11.jpg
+[2015-12-14 8:40:37.680732] [info] images/imggal/45CliffordPrivate/med/12.jpg
+[2015-12-14 8:40:37.680772] [info] images/imggal/45CliffordPrivate/full/1.jpg
+[2015-12-14 8:40:37.680808] [info] images/imggal/45CliffordPrivate/full/2.jpg
+[2015-12-14 8:40:37.680844] [info] images/imggal/45CliffordPrivate/full/3.jpg
+[2015-12-14 8:40:37.680879] [info] images/imggal/45CliffordPrivate/full/4.jpg
+[2015-12-14 8:40:37.680913] [info] images/imggal/45CliffordPrivate/full/5.jpg
+[2015-12-14 8:40:37.680949] [info] images/imggal/45CliffordPrivate/full/6.jpg
+[2015-12-14 8:40:37.680985] [info] images/imggal/45CliffordPrivate/full/7.jpg
+[2015-12-14 8:40:37.681020] [info] images/imggal/45CliffordPrivate/full/8.jpg
+[2015-12-14 8:40:37.681056] [info] images/imggal/45CliffordPrivate/full/9.jpg
+[2015-12-14 8:40:37.681092] [info] images/imggal/45CliffordPrivate/full/10.jpg
+[2015-12-14 8:40:37.681127] [info] images/imggal/45CliffordPrivate/full/11.jpg
+[2015-12-14 8:40:37.681163] [info] images/imggal/45CliffordPrivate/full/12.jpg
+[2015-12-14 8:40:37.701112] [info] buildSelect: 
+[2015-12-14 8:40:37.701210] [info] buildImageUpload
+[2015-12-14 8:40:40.829958] [info] tblName [Member]
+tblIndex [Array]
+schema [senatorapts]
+member_id [-1]
+username []
+password []
+exists []
+
+[2015-12-14 8:40:40.853935] [info] Running query: SELECT * FROM senatorapts.Member WHERE username='e.674.em@gmail.com'
+[2015-12-14 8:40:40.854001] [info] 1 rows returned.
+[2015-12-14 8:40:40.854055] [info] beanMember->dxHashToClass
+    member_id: '2'
+    username: 'e.674.em@gmail.com'
+    password: 'YHKNdw3TI0lCz0WZA3Xfq6OkERPFLFHmF/brnN3G8cg='
+[2015-12-14 8:40:40.854183] [info] tblName [Member]
+tblIndex [Array]
+schema [senatorapts]
+member_id [2]
+username [e.674.em@gmail.com]
+password [YHKNdw3TI0lCz0WZA3Xfq6OkERPFLFHmF/brnN3G8cg=]
+exists [1]
+
+[2015-12-14 8:40:40.854254] [info] tblName [Member]
+tblIndex [Array]
+schema [senatorapts]
+member_id [2]
+username [e.674.em@gmail.com]
+password [YHKNdw3TI0lCz0WZA3Xfq6OkERPFLFHmF/brnN3G8cg=]
+exists [1]
+
+[2015-12-14 8:40:40.854888] [info] Decrypted password: [Pluron25] does it mathc [Pluron25]
+[2015-12-14 8:40:41.062655] [info] Running query: select * from senatorapts.Suite s, senatorapts.Available a where s.suite_id = a.suite_id  order by a.year, a.month, s.suite_order
+[2015-12-14 8:40:41.062772] [info] 3 rows returned.
+[2015-12-14 8:40:41.062858] [info] beanAvailable->dxHashToClass
+    suite_id: '101'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=01'
+    suite_order: '4'
+    rent: '855'
+    promotion: 'One month free'
+    month: '12'
+    year: '2015'
+[2015-12-14 8:40:41.063038] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [101]
+house_id []
+month [12]
+year [2015]
+rent [855]
+promotion [One month free]
+exists []
+
+[2015-12-14 8:40:41.063091] [info] Populating available
+[2015-12-14 8:40:41.063136] [info] beanSuite->dxHashToClass
+    suite_id: '101'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=01'
+    suite_order: '4'
+    rent: '855'
+    promotion: 'One month free'
+    month: '12'
+    year: '2015'
+[2015-12-14 8:40:41.063278] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [101]
+bedrooms [1]
+suite_order [4]
+floor_plan [index.php?action=floor_plan&suite_id=01]
+exists []
+
+[2015-12-14 8:40:41.063323] [info] Populating suite
+[2015-12-14 8:40:41.063364] [info] results is not a member of classObject
+[2015-12-14 8:40:41.063402] [info] totalRows is not a member of classObject
+[2015-12-14 8:40:41.063441] [info] currRow is not a member of classObject
+[2015-12-14 8:40:41.072278] [info] beanAvailable->dxHashToClass
+    suite_id: '503'
+    bedrooms: 'B'
+    floor_plan: 'index.php?action=floor_plan&suite_id=03'
+    suite_order: '36'
+    rent: '785'
+    promotion: 'One month free'
+    month: '12'
+    year: '2015'
+[2015-12-14 8:40:41.072438] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [503]
+house_id []
+month [12]
+year [2015]
+rent [785]
+promotion [One month free]
+exists []
+
+[2015-12-14 8:40:41.072484] [info] Populating available
+[2015-12-14 8:40:41.072535] [info] beanSuite->dxHashToClass
+    suite_id: '503'
+    bedrooms: 'B'
+    floor_plan: 'index.php?action=floor_plan&suite_id=03'
+    suite_order: '36'
+    rent: '785'
+    promotion: 'One month free'
+    month: '12'
+    year: '2015'
+[2015-12-14 8:40:41.072674] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [503]
+bedrooms [B]
+suite_order [36]
+floor_plan [index.php?action=floor_plan&suite_id=03]
+exists []
+
+[2015-12-14 8:40:41.072717] [info] Populating suite
+[2015-12-14 8:40:41.072757] [info] results is not a member of classObject
+[2015-12-14 8:40:41.072797] [info] totalRows is not a member of classObject
+[2015-12-14 8:40:41.072834] [info] currRow is not a member of classObject
+[2015-12-14 8:40:41.072907] [info] beanAvailable->dxHashToClass
+    suite_id: '607'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=07'
+    suite_order: '48'
+    rent: '883'
+    promotion: 'One month free'
+    month: '12'
+    year: '2015'
+[2015-12-14 8:40:41.073050] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [607]
+house_id []
+month [12]
+year [2015]
+rent [883]
+promotion [One month free]
+exists []
+
+[2015-12-14 8:40:41.073096] [info] Populating available
+[2015-12-14 8:40:41.073137] [info] beanSuite->dxHashToClass
+    suite_id: '607'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=07'
+    suite_order: '48'
+    rent: '883'
+    promotion: 'One month free'
+    month: '12'
+    year: '2015'
+[2015-12-14 8:40:41.073271] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [607]
+bedrooms [1]
+suite_order [48]
+floor_plan [index.php?action=floor_plan&suite_id=07]
+exists []
+
+[2015-12-14 8:40:41.073314] [info] Populating suite
+[2015-12-14 8:40:41.073354] [info] results is not a member of classObject
+[2015-12-14 8:40:41.073393] [info] totalRows is not a member of classObject
+[2015-12-14 8:40:41.073431] [info] currRow is not a member of classObject
+[2015-12-14 8:40:43.401103] [info] Running query: select * from House h where h.deleted != 1 order by h.street, h.house_num
+[2015-12-14 8:40:43.401204] [info] 3 rows returned.
+[2015-12-14 8:40:43.401282] [info] beanAvailable->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:40:43.401521] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [4]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2015-12-14 8:40:43.401572] [info] Populating available
+[2015-12-14 8:40:43.401616] [info] beanHouse->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:40:43.401834] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [4]
+house_num [43]
+street [Alberni]
+city [Ottawa]
+prov [ON]
+postal_code [K2J 1V8]
+bedrooms [3]
+bathrooms [1.5]
+description [NO NEIGHBOURS AT THE REAR !!
+
+3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+
+This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.]
+size []
+exists []
+
+[2015-12-14 8:40:43.401881] [info] Populating house
+[2015-12-14 8:40:43.401923] [info] beanSuite->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:40:43.402110] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2015-12-14 8:40:43.402154] [info] Populating suite
+[2015-12-14 8:40:43.402195] [info] results is not a member of classObject
+[2015-12-14 8:40:43.402235] [info] totalRows is not a member of classObject
+[2015-12-14 8:40:43.402272] [info] currRow is not a member of classObject
+[2015-12-14 8:40:43.402345] [info] beanAvailable->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:40:43.402570] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [3]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2015-12-14 8:40:43.402618] [info] Populating available
+[2015-12-14 8:40:43.402659] [info] beanHouse->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:40:43.402899] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [3]
+house_num [45]
+street [Clifford Private]
+city [Ottawa]
+prov [ON]
+postal_code [K1G 4Y3]
+bedrooms [3]
+bathrooms [2.5]
+description [ONE MONTH FREE 
+
+NEWLY RENOVATED 
+
+3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+exists []
+
+[2015-12-14 8:40:43.402945] [info] Populating house
+[2015-12-14 8:40:43.402988] [info] beanSuite->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:40:43.403192] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2015-12-14 8:40:43.403238] [info] Populating suite
+[2015-12-14 8:40:43.403278] [info] results is not a member of classObject
+[2015-12-14 8:40:43.403316] [info] totalRows is not a member of classObject
+[2015-12-14 8:40:43.403352] [info] currRow is not a member of classObject
+[2015-12-14 8:40:43.403424] [info] beanAvailable->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:40:43.403628] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [1]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2015-12-14 8:40:43.403673] [info] Populating available
+[2015-12-14 8:40:43.403716] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:40:43.403934] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [ON]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [NO NEIGHBORS AT THE REAR !!
+
+3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.]
+size []
+exists []
+
+[2015-12-14 8:40:43.403981] [info] Populating house
+[2015-12-14 8:40:43.404023] [info] beanSuite->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:40:43.404211] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2015-12-14 8:40:43.404254] [info] Populating suite
+[2015-12-14 8:40:43.404294] [info] results is not a member of classObject
+[2015-12-14 8:40:43.404333] [info] totalRows is not a member of classObject
+[2015-12-14 8:40:43.404371] [info] currRow is not a member of classObject
+[2015-12-14 8:40:45.982703] [info] edit_house.php
+[2015-12-14 8:40:45.982793] [info] -->_REQUEST 3
+[2015-12-14 8:40:45.982841] [info] -->_POST 
+[2015-12-14 8:40:45.982882] [info] -->_POST[add_photos] 
+[2015-12-14 8:40:45.982923] [info] -->_POST[save] 
+[2015-12-14 8:40:45.983623] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id='3'
+[2015-12-14 8:40:45.983685] [info] 1 rows returned.
+[2015-12-14 8:40:45.983728] [info] Results: 1
+[2015-12-14 8:40:45.983782] [info] beanHouse->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:40:45.984051] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [3]
+house_num [45]
+street [Clifford Private]
+city [Ottawa]
+prov [ON]
+postal_code [K1G 4Y3]
+bedrooms [3]
+bathrooms [2.5]
+description [ONE MONTH FREE 
+
+NEWLY RENOVATED 
+
+3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+exists [1]
+
+[2015-12-14 8:40:45.984781] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=3
+[2015-12-14 8:40:45.984842] [info] 1 rows returned.
+[2015-12-14 8:40:45.985738] [info] Gallery exists 13
+[2015-12-14 8:40:45.986058] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='13'
+[2015-12-14 8:40:45.986116] [info] 1 rows returned.
+[2015-12-14 8:40:45.986160] [info] Results: 1
+[2015-12-14 8:40:45.986206] [info] beanGallery->dxHashToClass
+    gallery_id: '13'
+    code: '45CliffordPrivate'
+    description: '45 Clifford Private'
+[2015-12-14 8:40:45.986325] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [13]
+code [45CliffordPrivate]
+description [45 Clifford Private]
+exists [1]
+
+[2015-12-14 8:40:45.986380] [info] gallery: 1
+[2015-12-14 8:40:45.986428] [info] __doLoadPhotos
+[2015-12-14 8:40:45.986485] [info] -->this: 1
+[2015-12-14 8:40:45.986525] [info] -->gallery: 1
+[2015-12-14 8:40:45.986903] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 13 and gp.photo_id = p.photo_id
+[2015-12-14 8:40:45.986964] [info] 12 rows returned.
+[2015-12-14 8:40:45.987010] [info] Results: 12
+[2015-12-14 8:40:45.987107] [info] 124
+[2015-12-14 8:40:45.987149] [info] 125
+[2015-12-14 8:40:45.987185] [info] 126
+[2015-12-14 8:40:45.987221] [info] 127
+[2015-12-14 8:40:45.987257] [info] 128
+[2015-12-14 8:40:45.987292] [info] 129
+[2015-12-14 8:40:45.987328] [info] 130
+[2015-12-14 8:40:45.987363] [info] 131
+[2015-12-14 8:40:45.987397] [info] 132
+[2015-12-14 8:40:45.987432] [info] 133
+[2015-12-14 8:40:45.987483] [info] 134
+[2015-12-14 8:40:45.987519] [info] 135
+[2015-12-14 8:40:45.987556] [info] images/imggal/45CliffordPrivate/thumb/1.jpg
+[2015-12-14 8:40:45.987593] [info] images/imggal/45CliffordPrivate/thumb/2.jpg
+[2015-12-14 8:40:45.987629] [info] images/imggal/45CliffordPrivate/thumb/3.jpg
+[2015-12-14 8:40:45.987664] [info] images/imggal/45CliffordPrivate/thumb/4.jpg
+[2015-12-14 8:40:45.987700] [info] images/imggal/45CliffordPrivate/thumb/5.jpg
+[2015-12-14 8:40:45.987799] [info] images/imggal/45CliffordPrivate/thumb/6.jpg
+[2015-12-14 8:40:45.987843] [info] images/imggal/45CliffordPrivate/thumb/7.jpg
+[2015-12-14 8:40:45.987880] [info] images/imggal/45CliffordPrivate/thumb/8.jpg
+[2015-12-14 8:40:45.987916] [info] images/imggal/45CliffordPrivate/thumb/9.jpg
+[2015-12-14 8:40:45.987952] [info] images/imggal/45CliffordPrivate/thumb/10.jpg
+[2015-12-14 8:40:45.987987] [info] images/imggal/45CliffordPrivate/thumb/11.jpg
+[2015-12-14 8:40:45.988023] [info] images/imggal/45CliffordPrivate/thumb/12.jpg
+[2015-12-14 8:40:45.988063] [info] images/imggal/45CliffordPrivate/med/1.jpg
+[2015-12-14 8:40:45.988100] [info] images/imggal/45CliffordPrivate/med/2.jpg
+[2015-12-14 8:40:45.988135] [info] images/imggal/45CliffordPrivate/med/3.jpg
+[2015-12-14 8:40:45.988169] [info] images/imggal/45CliffordPrivate/med/4.jpg
+[2015-12-14 8:40:45.988205] [info] images/imggal/45CliffordPrivate/med/5.jpg
+[2015-12-14 8:40:45.988240] [info] images/imggal/45CliffordPrivate/med/6.jpg
+[2015-12-14 8:40:45.988276] [info] images/imggal/45CliffordPrivate/med/7.jpg
+[2015-12-14 8:40:45.988311] [info] images/imggal/45CliffordPrivate/med/8.jpg
+[2015-12-14 8:40:45.988346] [info] images/imggal/45CliffordPrivate/med/9.jpg
+[2015-12-14 8:40:45.988380] [info] images/imggal/45CliffordPrivate/med/10.jpg
+[2015-12-14 8:40:45.988415] [info] images/imggal/45CliffordPrivate/med/11.jpg
+[2015-12-14 8:40:45.988466] [info] images/imggal/45CliffordPrivate/med/12.jpg
+[2015-12-14 8:40:45.988506] [info] images/imggal/45CliffordPrivate/full/1.jpg
+[2015-12-14 8:40:45.988543] [info] images/imggal/45CliffordPrivate/full/2.jpg
+[2015-12-14 8:40:45.988639] [info] images/imggal/45CliffordPrivate/full/3.jpg
+[2015-12-14 8:40:45.988682] [info] images/imggal/45CliffordPrivate/full/4.jpg
+[2015-12-14 8:40:45.988779] [info] images/imggal/45CliffordPrivate/full/5.jpg
+[2015-12-14 8:40:45.988822] [info] images/imggal/45CliffordPrivate/full/6.jpg
+[2015-12-14 8:40:45.988864] [info] images/imggal/45CliffordPrivate/full/7.jpg
+[2015-12-14 8:40:45.988907] [info] images/imggal/45CliffordPrivate/full/8.jpg
+[2015-12-14 8:40:45.988944] [info] images/imggal/45CliffordPrivate/full/9.jpg
+[2015-12-14 8:40:45.988980] [info] images/imggal/45CliffordPrivate/full/10.jpg
+[2015-12-14 8:40:45.989015] [info] images/imggal/45CliffordPrivate/full/11.jpg
+[2015-12-14 8:40:45.989051] [info] images/imggal/45CliffordPrivate/full/12.jpg
+[2015-12-14 8:40:45.989445] [info] buildSelect: 
+[2015-12-14 8:40:45.989535] [info] buildImageUpload
+[2015-12-14 8:41:34.196021] [info] Running query: select * from House h where h.deleted != 1 order by h.street, h.house_num
+[2015-12-14 8:41:34.196130] [info] 3 rows returned.
+[2015-12-14 8:41:34.196209] [info] beanAvailable->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:41:34.196432] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [4]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2015-12-14 8:41:34.196492] [info] Populating available
+[2015-12-14 8:41:34.196536] [info] beanHouse->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:41:34.196763] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [4]
+house_num [43]
+street [Alberni]
+city [Ottawa]
+prov [ON]
+postal_code [K2J 1V8]
+bedrooms [3]
+bathrooms [1.5]
+description [NO NEIGHBOURS AT THE REAR !!
+
+3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+
+This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.]
+size []
+exists []
+
+[2015-12-14 8:41:34.196810] [info] Populating house
+[2015-12-14 8:41:34.196852] [info] beanSuite->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:41:34.197038] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2015-12-14 8:41:34.197084] [info] Populating suite
+[2015-12-14 8:41:34.197125] [info] results is not a member of classObject
+[2015-12-14 8:41:34.197165] [info] totalRows is not a member of classObject
+[2015-12-14 8:41:34.197202] [info] currRow is not a member of classObject
+[2015-12-14 8:41:34.197278] [info] beanAvailable->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:41:34.197510] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [3]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2015-12-14 8:41:34.197560] [info] Populating available
+[2015-12-14 8:41:34.197602] [info] beanHouse->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:41:34.197835] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [3]
+house_num [45]
+street [Clifford Private]
+city [Ottawa]
+prov [ON]
+postal_code [K1G 4Y3]
+bedrooms [3]
+bathrooms [2.5]
+description [ONE MONTH FREE 
+
+NEWLY RENOVATED 
+
+3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+exists []
+
+[2015-12-14 8:41:34.197881] [info] Populating house
+[2015-12-14 8:41:34.197923] [info] beanSuite->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:41:34.198128] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2015-12-14 8:41:34.198173] [info] Populating suite
+[2015-12-14 8:41:34.198213] [info] results is not a member of classObject
+[2015-12-14 8:41:34.198251] [info] totalRows is not a member of classObject
+[2015-12-14 8:41:34.198290] [info] currRow is not a member of classObject
+[2015-12-14 8:41:34.198358] [info] beanAvailable->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:41:34.198570] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [1]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2015-12-14 8:41:34.198618] [info] Populating available
+[2015-12-14 8:41:34.198661] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:41:34.198875] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [ON]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [NO NEIGHBORS AT THE REAR !!
+
+3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.]
+size []
+exists []
+
+[2015-12-14 8:41:34.198930] [info] Populating house
+[2015-12-14 8:41:34.198972] [info] beanSuite->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:41:34.199160] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2015-12-14 8:41:34.199204] [info] Populating suite
+[2015-12-14 8:41:34.199244] [info] results is not a member of classObject
+[2015-12-14 8:41:34.199282] [info] totalRows is not a member of classObject
+[2015-12-14 8:41:34.199321] [info] currRow is not a member of classObject
+[2015-12-14 8:41:36.880536] [info] edit_house.php
+[2015-12-14 8:41:36.880637] [info] -->_REQUEST 3
+[2015-12-14 8:41:36.880688] [info] -->_POST 
+[2015-12-14 8:41:36.880729] [info] -->_POST[add_photos] 
+[2015-12-14 8:41:36.880769] [info] -->_POST[save] 
+[2015-12-14 8:41:36.881489] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id='3'
+[2015-12-14 8:41:36.881551] [info] 1 rows returned.
+[2015-12-14 8:41:36.881594] [info] Results: 1
+[2015-12-14 8:41:36.881649] [info] beanHouse->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:41:36.881932] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [3]
+house_num [45]
+street [Clifford Private]
+city [Ottawa]
+prov [ON]
+postal_code [K1G 4Y3]
+bedrooms [3]
+bathrooms [2.5]
+description [ONE MONTH FREE 
+
+NEWLY RENOVATED 
+
+3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+exists [1]
+
+[2015-12-14 8:41:36.882987] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=3
+[2015-12-14 8:41:36.883049] [info] 1 rows returned.
+[2015-12-14 8:41:36.908571] [info] Gallery exists 13
+[2015-12-14 8:41:36.909009] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='13'
+[2015-12-14 8:41:36.909079] [info] 1 rows returned.
+[2015-12-14 8:41:36.909125] [info] Results: 1
+[2015-12-14 8:41:36.909215] [info] beanGallery->dxHashToClass
+    gallery_id: '13'
+    code: '45CliffordPrivate'
+    description: '45 Clifford Private'
+[2015-12-14 8:41:36.909357] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [13]
+code [45CliffordPrivate]
+description [45 Clifford Private]
+exists [1]
+
+[2015-12-14 8:41:36.909418] [info] gallery: 1
+[2015-12-14 8:41:36.909480] [info] __doLoadPhotos
+[2015-12-14 8:41:36.909523] [info] -->this: 1
+[2015-12-14 8:41:36.909562] [info] -->gallery: 1
+[2015-12-14 8:41:36.909982] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 13 and gp.photo_id = p.photo_id
+[2015-12-14 8:41:36.910108] [info] 12 rows returned.
+[2015-12-14 8:41:36.910155] [info] Results: 12
+[2015-12-14 8:41:36.910264] [info] 124
+[2015-12-14 8:41:36.910309] [info] 125
+[2015-12-14 8:41:36.910346] [info] 126
+[2015-12-14 8:41:36.910382] [info] 127
+[2015-12-14 8:41:36.910418] [info] 128
+[2015-12-14 8:41:36.910465] [info] 129
+[2015-12-14 8:41:36.910537] [info] 130
+[2015-12-14 8:41:36.910583] [info] 131
+[2015-12-14 8:41:36.910619] [info] 132
+[2015-12-14 8:41:36.910655] [info] 133
+[2015-12-14 8:41:36.910691] [info] 134
+[2015-12-14 8:41:36.910726] [info] 135
+[2015-12-14 8:41:36.910764] [info] images/imggal/45CliffordPrivate/thumb/1.jpg
+[2015-12-14 8:41:36.910801] [info] images/imggal/45CliffordPrivate/thumb/2.jpg
+[2015-12-14 8:41:36.910836] [info] images/imggal/45CliffordPrivate/thumb/3.jpg
+[2015-12-14 8:41:36.910877] [info] images/imggal/45CliffordPrivate/thumb/4.jpg
+[2015-12-14 8:41:36.910913] [info] images/imggal/45CliffordPrivate/thumb/5.jpg
+[2015-12-14 8:41:36.910948] [info] images/imggal/45CliffordPrivate/thumb/6.jpg
+[2015-12-14 8:41:36.910984] [info] images/imggal/45CliffordPrivate/thumb/7.jpg
+[2015-12-14 8:41:36.911020] [info] images/imggal/45CliffordPrivate/thumb/8.jpg
+[2015-12-14 8:41:36.911055] [info] images/imggal/45CliffordPrivate/thumb/9.jpg
+[2015-12-14 8:41:36.911091] [info] images/imggal/45CliffordPrivate/thumb/10.jpg
+[2015-12-14 8:41:36.911125] [info] images/imggal/45CliffordPrivate/thumb/11.jpg
+[2015-12-14 8:41:36.911197] [info] images/imggal/45CliffordPrivate/thumb/12.jpg
+[2015-12-14 8:41:36.911247] [info] images/imggal/45CliffordPrivate/med/1.jpg
+[2015-12-14 8:41:36.911286] [info] images/imggal/45CliffordPrivate/med/2.jpg
+[2015-12-14 8:41:36.911323] [info] images/imggal/45CliffordPrivate/med/3.jpg
+[2015-12-14 8:41:36.911359] [info] images/imggal/45CliffordPrivate/med/4.jpg
+[2015-12-14 8:41:36.911403] [info] images/imggal/45CliffordPrivate/med/5.jpg
+[2015-12-14 8:41:36.911456] [info] images/imggal/45CliffordPrivate/med/6.jpg
+[2015-12-14 8:41:36.911494] [info] images/imggal/45CliffordPrivate/med/7.jpg
+[2015-12-14 8:41:36.911530] [info] images/imggal/45CliffordPrivate/med/8.jpg
+[2015-12-14 8:41:36.911566] [info] images/imggal/45CliffordPrivate/med/9.jpg
+[2015-12-14 8:41:36.911601] [info] images/imggal/45CliffordPrivate/med/10.jpg
+[2015-12-14 8:41:36.911679] [info] images/imggal/45CliffordPrivate/med/11.jpg
+[2015-12-14 8:41:36.911756] [info] images/imggal/45CliffordPrivate/med/12.jpg
+[2015-12-14 8:41:36.911798] [info] images/imggal/45CliffordPrivate/full/1.jpg
+[2015-12-14 8:41:36.911834] [info] images/imggal/45CliffordPrivate/full/2.jpg
+[2015-12-14 8:41:36.911870] [info] images/imggal/45CliffordPrivate/full/3.jpg
+[2015-12-14 8:41:36.911906] [info] images/imggal/45CliffordPrivate/full/4.jpg
+[2015-12-14 8:41:36.911942] [info] images/imggal/45CliffordPrivate/full/5.jpg
+[2015-12-14 8:41:36.911977] [info] images/imggal/45CliffordPrivate/full/6.jpg
+[2015-12-14 8:41:36.912013] [info] images/imggal/45CliffordPrivate/full/7.jpg
+[2015-12-14 8:41:36.912053] [info] images/imggal/45CliffordPrivate/full/8.jpg
+[2015-12-14 8:41:36.912090] [info] images/imggal/45CliffordPrivate/full/9.jpg
+[2015-12-14 8:41:36.912126] [info] images/imggal/45CliffordPrivate/full/10.jpg
+[2015-12-14 8:41:36.912162] [info] images/imggal/45CliffordPrivate/full/11.jpg
+[2015-12-14 8:41:36.912197] [info] images/imggal/45CliffordPrivate/full/12.jpg
+[2015-12-14 8:41:36.912698] [info] buildSelect: 
+[2015-12-14 8:41:36.912823] [info] buildImageUpload
+[2015-12-14 8:41:39.620268] [info] Running query: SELECT * FROM senatorapts.Photos WHERE photo_id='127'
+[2015-12-14 8:41:39.620367] [info] 1 rows returned.
+[2015-12-14 8:41:39.620414] [info] Results: 1
+[2015-12-14 8:41:39.620465] [info] beanPhotos->dxHashToClass
+    photo_id: '127'
+    thumb: 'images/imggal/45CliffordPrivate/thumb/4.jpg'
+    med: 'images/imggal/45CliffordPrivate/med/4.jpg'
+    full: 'images/imggal/45CliffordPrivate/full/4.jpg'
+[2015-12-14 8:41:39.620623] [info] tblName [Photos]
+tblIndex [Array]
+schema [senatorapts]
+photo_id [127]
+thumb [images/imggal/45CliffordPrivate/thumb/4.jpg]
+med [images/imggal/45CliffordPrivate/med/4.jpg]
+full [images/imggal/45CliffordPrivate/full/4.jpg]
+exists [1]
+
+[2015-12-14 8:41:39.690279] [info] buildImageUpload
+[2015-12-14 8:41:44.896348] [info] Running query: select * from House h where h.deleted != 1 order by h.street, h.house_num
+[2015-12-14 8:41:44.896456] [info] 3 rows returned.
+[2015-12-14 8:41:44.896547] [info] beanAvailable->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:41:44.896769] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [4]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2015-12-14 8:41:44.896816] [info] Populating available
+[2015-12-14 8:41:44.896857] [info] beanHouse->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:41:44.897082] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [4]
+house_num [43]
+street [Alberni]
+city [Ottawa]
+prov [ON]
+postal_code [K2J 1V8]
+bedrooms [3]
+bathrooms [1.5]
+description [NO NEIGHBOURS AT THE REAR !!
+
+3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+
+This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.]
+size []
+exists []
+
+[2015-12-14 8:41:44.897133] [info] Populating house
+[2015-12-14 8:41:44.897176] [info] beanSuite->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:41:44.897361] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2015-12-14 8:41:44.897407] [info] Populating suite
+[2015-12-14 8:41:44.897447] [info] results is not a member of classObject
+[2015-12-14 8:41:44.897499] [info] totalRows is not a member of classObject
+[2015-12-14 8:41:44.897538] [info] currRow is not a member of classObject
+[2015-12-14 8:41:44.897610] [info] beanAvailable->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:41:44.897823] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [3]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2015-12-14 8:41:44.897870] [info] Populating available
+[2015-12-14 8:41:44.897911] [info] beanHouse->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:41:44.898144] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [3]
+house_num [45]
+street [Clifford Private]
+city [Ottawa]
+prov [ON]
+postal_code [K1G 4Y3]
+bedrooms [3]
+bathrooms [2.5]
+description [ONE MONTH FREE 
+
+NEWLY RENOVATED 
+
+3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+exists []
+
+[2015-12-14 8:41:44.898195] [info] Populating house
+[2015-12-14 8:41:44.898238] [info] beanSuite->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:41:44.898446] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2015-12-14 8:41:44.898499] [info] Populating suite
+[2015-12-14 8:41:44.898541] [info] results is not a member of classObject
+[2015-12-14 8:41:44.898581] [info] totalRows is not a member of classObject
+[2015-12-14 8:41:44.898618] [info] currRow is not a member of classObject
+[2015-12-14 8:41:44.898686] [info] beanAvailable->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:41:44.898880] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [1]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2015-12-14 8:41:44.898925] [info] Populating available
+[2015-12-14 8:41:44.898966] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:41:44.899178] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [ON]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [NO NEIGHBORS AT THE REAR !!
+
+3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.]
+size []
+exists []
+
+[2015-12-14 8:41:44.899224] [info] Populating house
+[2015-12-14 8:41:44.899265] [info] beanSuite->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:41:44.899457] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2015-12-14 8:41:44.899514] [info] Populating suite
+[2015-12-14 8:41:44.899557] [info] results is not a member of classObject
+[2015-12-14 8:41:44.899595] [info] totalRows is not a member of classObject
+[2015-12-14 8:41:44.899632] [info] currRow is not a member of classObject
+[2015-12-14 8:41:49.823304] [info] edit_house.php
+[2015-12-14 8:41:49.823405] [info] -->_REQUEST 4
+[2015-12-14 8:41:49.823467] [info] -->_POST 
+[2015-12-14 8:41:49.823509] [info] -->_POST[add_photos] 
+[2015-12-14 8:41:49.823549] [info] -->_POST[save] 
+[2015-12-14 8:41:49.824822] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id='4'
+[2015-12-14 8:41:49.824887] [info] 1 rows returned.
+[2015-12-14 8:41:49.824930] [info] Results: 1
+[2015-12-14 8:41:49.824985] [info] beanHouse->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:41:49.825234] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [4]
+house_num [43]
+street [Alberni]
+city [Ottawa]
+prov [ON]
+postal_code [K2J 1V8]
+bedrooms [3]
+bathrooms [1.5]
+description [NO NEIGHBOURS AT THE REAR !!
+
+3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+
+This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.]
+size []
+exists [1]
+
+[2015-12-14 8:41:49.826160] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=4
+[2015-12-14 8:41:49.826220] [info] 1 rows returned.
+[2015-12-14 8:41:49.827044] [info] Gallery exists 14
+[2015-12-14 8:41:49.827511] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='14'
+[2015-12-14 8:41:49.827569] [info] 1 rows returned.
+[2015-12-14 8:41:49.827647] [info] Results: 1
+[2015-12-14 8:41:49.827709] [info] beanGallery->dxHashToClass
+    gallery_id: '14'
+    code: '43Alberni'
+    description: '43 Alberni'
+[2015-12-14 8:41:49.827826] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [14]
+code [43Alberni]
+description [43 Alberni]
+exists [1]
+
+[2015-12-14 8:41:49.827883] [info] gallery: 1
+[2015-12-14 8:41:49.827930] [info] __doLoadPhotos
+[2015-12-14 8:41:49.827970] [info] -->this: 1
+[2015-12-14 8:41:49.828008] [info] -->gallery: 1
+[2015-12-14 8:41:49.828660] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 14 and gp.photo_id = p.photo_id
+[2015-12-14 8:41:49.828727] [info] 10 rows returned.
+[2015-12-14 8:41:49.828773] [info] Results: 10
+[2015-12-14 8:41:49.828864] [info] 112
+[2015-12-14 8:41:49.828905] [info] 122
+[2015-12-14 8:41:49.828942] [info] 123
+[2015-12-14 8:41:49.828978] [info] 144
+[2015-12-14 8:41:49.829013] [info] 145
+[2015-12-14 8:41:49.829047] [info] 146
+[2015-12-14 8:41:49.829092] [info] 147
+[2015-12-14 8:41:49.829128] [info] 148
+[2015-12-14 8:41:49.829164] [info] 149
+[2015-12-14 8:41:49.829199] [info] 150
+[2015-12-14 8:41:49.829236] [info] images/imggal/43Alberni/thumb/1.JPG
+[2015-12-14 8:41:49.829272] [info] images/imggal/43Alberni/thumb/2.JPG
+[2015-12-14 8:41:49.829308] [info] images/imggal/43Alberni/thumb/3.JPG
+[2015-12-14 8:41:49.829343] [info] images/imggal/43Alberni/thumb/4.JPG
+[2015-12-14 8:41:49.829377] [info] images/imggal//thumb/1.JPG
+[2015-12-14 8:41:49.829413] [info] images/imggal/43Alberni/thumb/5.JPG
+[2015-12-14 8:41:49.829448] [info] images/imggal/43Alberni/thumb/6.JPG
+[2015-12-14 8:41:49.829494] [info] images/imggal/43Alberni/thumb/7.JPG
+[2015-12-14 8:41:49.829530] [info] images/imggal/43Alberni/thumb/8.JPG
+[2015-12-14 8:41:49.829566] [info] images/imggal/43Alberni/thumb/9.JPG
+[2015-12-14 8:41:49.829603] [info] images/imggal/43Alberni/med/1.JPG
+[2015-12-14 8:41:49.829638] [info] images/imggal/43Alberni/med/2.JPG
+[2015-12-14 8:41:49.829674] [info] images/imggal/43Alberni/med/3.JPG
+[2015-12-14 8:41:49.829709] [info] images/imggal/43Alberni/med/4.JPG
+[2015-12-14 8:41:49.829744] [info] images/imggal//med/1.JPG
+[2015-12-14 8:41:49.829778] [info] images/imggal/43Alberni/med/5.JPG
+[2015-12-14 8:41:49.829814] [info] images/imggal/43Alberni/med/6.JPG
+[2015-12-14 8:41:49.829849] [info] images/imggal/43Alberni/med/7.JPG
+[2015-12-14 8:41:49.829884] [info] images/imggal/43Alberni/med/8.JPG
+[2015-12-14 8:41:49.829919] [info] images/imggal/43Alberni/med/9.JPG
+[2015-12-14 8:41:49.829956] [info] images/imggal/43Alberni/full/1.JPG
+[2015-12-14 8:41:49.829992] [info] images/imggal/43Alberni/full/2.JPG
+[2015-12-14 8:41:49.830027] [info] images/imggal/43Alberni/full/3.JPG
+[2015-12-14 8:41:49.830061] [info] images/imggal/43Alberni/full/4.JPG
+[2015-12-14 8:41:49.830096] [info] images/imggal//full/1.JPG
+[2015-12-14 8:41:49.830131] [info] images/imggal/43Alberni/full/5.JPG
+[2015-12-14 8:41:49.830166] [info] images/imggal/43Alberni/full/6.JPG
+[2015-12-14 8:41:49.830199] [info] images/imggal/43Alberni/full/7.JPG
+[2015-12-14 8:41:49.830235] [info] images/imggal/43Alberni/full/8.JPG
+[2015-12-14 8:41:49.830270] [info] images/imggal/43Alberni/full/9.JPG
+[2015-12-14 8:41:49.831584] [info] buildSelect: 
+[2015-12-14 8:41:49.831680] [info] buildImageUpload
+[2015-12-14 8:48:57.719758] [info] rotate_photo 144 14
+[2015-12-14 8:48:57.737382] [info] __rotatePhoto
+[2015-12-14 8:48:57.738528] [info] Running query: SELECT * FROM senatorapts.Photos WHERE photo_id='144'
+[2015-12-14 8:48:57.738595] [info] 1 rows returned.
+[2015-12-14 8:48:57.738641] [info] Results: 1
+[2015-12-14 8:48:57.738693] [info] beanPhotos->dxHashToClass
+    photo_id: '144'
+    thumb: 'images/imggal/43Alberni/thumb/4.JPG'
+    med: 'images/imggal/43Alberni/med/4.JPG'
+    full: 'images/imggal/43Alberni/full/4.JPG'
+[2015-12-14 8:48:57.738840] [info] tblName [Photos]
+tblIndex [Array]
+schema [senatorapts]
+photo_id [144]
+thumb [images/imggal/43Alberni/thumb/4.JPG]
+med [images/imggal/43Alberni/med/4.JPG]
+full [images/imggal/43Alberni/full/4.JPG]
+exists [1]
+
+[2015-12-14 8:48:57.811752] [info] buildImageUpload
+[2015-12-14 8:52:57.311539] [info] Running query: select * from House h where h.deleted != 1 order by h.street, h.house_num
+[2015-12-14 8:52:57.311651] [info] 3 rows returned.
+[2015-12-14 8:52:57.311736] [info] beanAvailable->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:52:57.311959] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [4]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2015-12-14 8:52:57.312012] [info] Populating available
+[2015-12-14 8:52:57.312057] [info] beanHouse->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:52:57.312278] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [4]
+house_num [43]
+street [Alberni]
+city [Ottawa]
+prov [ON]
+postal_code [K2J 1V8]
+bedrooms [3]
+bathrooms [1.5]
+description [NO NEIGHBOURS AT THE REAR !!
+
+3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+
+This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.]
+size []
+exists []
+
+[2015-12-14 8:52:57.312325] [info] Populating house
+[2015-12-14 8:52:57.312369] [info] beanSuite->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:52:57.312568] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2015-12-14 8:52:57.312616] [info] Populating suite
+[2015-12-14 8:52:57.312657] [info] results is not a member of classObject
+[2015-12-14 8:52:57.312695] [info] totalRows is not a member of classObject
+[2015-12-14 8:52:57.312735] [info] currRow is not a member of classObject
+[2015-12-14 8:52:57.312808] [info] beanAvailable->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:52:57.313020] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [3]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2015-12-14 8:52:57.313066] [info] Populating available
+[2015-12-14 8:52:57.313108] [info] beanHouse->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:52:57.313348] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [3]
+house_num [45]
+street [Clifford Private]
+city [Ottawa]
+prov [ON]
+postal_code [K1G 4Y3]
+bedrooms [3]
+bathrooms [2.5]
+description [ONE MONTH FREE 
+
+NEWLY RENOVATED 
+
+3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+exists []
+
+[2015-12-14 8:52:57.313395] [info] Populating house
+[2015-12-14 8:52:57.313437] [info] beanSuite->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:52:57.313652] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2015-12-14 8:52:57.313699] [info] Populating suite
+[2015-12-14 8:52:57.313740] [info] results is not a member of classObject
+[2015-12-14 8:52:57.313781] [info] totalRows is not a member of classObject
+[2015-12-14 8:52:57.313821] [info] currRow is not a member of classObject
+[2015-12-14 8:52:57.313889] [info] beanAvailable->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:52:57.314083] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [1]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2015-12-14 8:52:57.314129] [info] Populating available
+[2015-12-14 8:52:57.314169] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:52:57.314383] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [ON]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [NO NEIGHBORS AT THE REAR !!
+
+3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.]
+size []
+exists []
+
+[2015-12-14 8:52:57.314435] [info] Populating house
+[2015-12-14 8:52:57.314477] [info] beanSuite->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:52:57.314682] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2015-12-14 8:52:57.314728] [info] Populating suite
+[2015-12-14 8:52:57.314769] [info] results is not a member of classObject
+[2015-12-14 8:52:57.314807] [info] totalRows is not a member of classObject
+[2015-12-14 8:52:57.314846] [info] currRow is not a member of classObject
+[2015-12-14 8:53:08.655642] [info] edit_house.php
+[2015-12-14 8:53:08.655739] [info] -->_REQUEST 3
+[2015-12-14 8:53:08.655787] [info] -->_POST 
+[2015-12-14 8:53:08.655828] [info] -->_POST[add_photos] 
+[2015-12-14 8:53:08.655869] [info] -->_POST[save] 
+[2015-12-14 8:53:08.656780] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id='3'
+[2015-12-14 8:53:08.656842] [info] 1 rows returned.
+[2015-12-14 8:53:08.656886] [info] Results: 1
+[2015-12-14 8:53:08.656939] [info] beanHouse->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:53:08.657207] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [3]
+house_num [45]
+street [Clifford Private]
+city [Ottawa]
+prov [ON]
+postal_code [K1G 4Y3]
+bedrooms [3]
+bathrooms [2.5]
+description [ONE MONTH FREE 
+
+NEWLY RENOVATED 
+
+3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+exists [1]
+
+[2015-12-14 8:53:08.658076] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=3
+[2015-12-14 8:53:08.658135] [info] 1 rows returned.
+[2015-12-14 8:53:08.663775] [info] Gallery exists 13
+[2015-12-14 8:53:08.664247] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='13'
+[2015-12-14 8:53:08.664313] [info] 1 rows returned.
+[2015-12-14 8:53:08.664356] [info] Results: 1
+[2015-12-14 8:53:08.664405] [info] beanGallery->dxHashToClass
+    gallery_id: '13'
+    code: '45CliffordPrivate'
+    description: '45 Clifford Private'
+[2015-12-14 8:53:08.664536] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [13]
+code [45CliffordPrivate]
+description [45 Clifford Private]
+exists [1]
+
+[2015-12-14 8:53:08.664594] [info] gallery: 1
+[2015-12-14 8:53:08.664643] [info] __doLoadPhotos
+[2015-12-14 8:53:08.664684] [info] -->this: 1
+[2015-12-14 8:53:08.664721] [info] -->gallery: 1
+[2015-12-14 8:53:08.665415] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 13 and gp.photo_id = p.photo_id
+[2015-12-14 8:53:08.665489] [info] 12 rows returned.
+[2015-12-14 8:53:08.665534] [info] Results: 12
+[2015-12-14 8:53:08.665682] [info] 124
+[2015-12-14 8:53:08.665771] [info] 125
+[2015-12-14 8:53:08.665815] [info] 126
+[2015-12-14 8:53:08.665851] [info] 127
+[2015-12-14 8:53:08.665887] [info] 128
+[2015-12-14 8:53:08.665923] [info] 129
+[2015-12-14 8:53:08.665957] [info] 130
+[2015-12-14 8:53:08.665992] [info] 131
+[2015-12-14 8:53:08.666028] [info] 132
+[2015-12-14 8:53:08.666064] [info] 133
+[2015-12-14 8:53:08.666099] [info] 134
+[2015-12-14 8:53:08.666135] [info] 135
+[2015-12-14 8:53:08.666172] [info] images/imggal/45CliffordPrivate/thumb/1.jpg
+[2015-12-14 8:53:08.666209] [info] images/imggal/45CliffordPrivate/thumb/2.jpg
+[2015-12-14 8:53:08.666245] [info] images/imggal/45CliffordPrivate/thumb/3.jpg
+[2015-12-14 8:53:08.666281] [info] images/imggal/45CliffordPrivate/thumb/4.jpg
+[2015-12-14 8:53:08.666378] [info] images/imggal/45CliffordPrivate/thumb/5.jpg
+[2015-12-14 8:53:08.666425] [info] images/imggal/45CliffordPrivate/thumb/6.jpg
+[2015-12-14 8:53:08.666477] [info] images/imggal/45CliffordPrivate/thumb/7.jpg
+[2015-12-14 8:53:08.666516] [info] images/imggal/45CliffordPrivate/thumb/8.jpg
+[2015-12-14 8:53:08.666552] [info] images/imggal/45CliffordPrivate/thumb/9.jpg
+[2015-12-14 8:53:08.666591] [info] images/imggal/45CliffordPrivate/thumb/10.jpg
+[2015-12-14 8:53:08.666629] [info] images/imggal/45CliffordPrivate/thumb/11.jpg
+[2015-12-14 8:53:08.666665] [info] images/imggal/45CliffordPrivate/thumb/12.jpg
+[2015-12-14 8:53:08.666703] [info] images/imggal/45CliffordPrivate/med/1.jpg
+[2015-12-14 8:53:08.666740] [info] images/imggal/45CliffordPrivate/med/2.jpg
+[2015-12-14 8:53:08.666776] [info] images/imggal/45CliffordPrivate/med/3.jpg
+[2015-12-14 8:53:08.666812] [info] images/imggal/45CliffordPrivate/med/4.jpg
+[2015-12-14 8:53:08.666848] [info] images/imggal/45CliffordPrivate/med/5.jpg
+[2015-12-14 8:53:08.666883] [info] images/imggal/45CliffordPrivate/med/6.jpg
+[2015-12-14 8:53:08.666919] [info] images/imggal/45CliffordPrivate/med/7.jpg
+[2015-12-14 8:53:08.666954] [info] images/imggal/45CliffordPrivate/med/8.jpg
+[2015-12-14 8:53:08.666990] [info] images/imggal/45CliffordPrivate/med/9.jpg
+[2015-12-14 8:53:08.667026] [info] images/imggal/45CliffordPrivate/med/10.jpg
+[2015-12-14 8:53:08.667062] [info] images/imggal/45CliffordPrivate/med/11.jpg
+[2015-12-14 8:53:08.667097] [info] images/imggal/45CliffordPrivate/med/12.jpg
+[2015-12-14 8:53:08.667135] [info] images/imggal/45CliffordPrivate/full/1.jpg
+[2015-12-14 8:53:08.667171] [info] images/imggal/45CliffordPrivate/full/2.jpg
+[2015-12-14 8:53:08.667207] [info] images/imggal/45CliffordPrivate/full/3.jpg
+[2015-12-14 8:53:08.667243] [info] images/imggal/45CliffordPrivate/full/4.jpg
+[2015-12-14 8:53:08.667279] [info] images/imggal/45CliffordPrivate/full/5.jpg
+[2015-12-14 8:53:08.667315] [info] images/imggal/45CliffordPrivate/full/6.jpg
+[2015-12-14 8:53:08.667351] [info] images/imggal/45CliffordPrivate/full/7.jpg
+[2015-12-14 8:53:08.667386] [info] images/imggal/45CliffordPrivate/full/8.jpg
+[2015-12-14 8:53:08.667422] [info] images/imggal/45CliffordPrivate/full/9.jpg
+[2015-12-14 8:53:08.667468] [info] images/imggal/45CliffordPrivate/full/10.jpg
+[2015-12-14 8:53:08.667505] [info] images/imggal/45CliffordPrivate/full/11.jpg
+[2015-12-14 8:53:08.667546] [info] images/imggal/45CliffordPrivate/full/12.jpg
+[2015-12-14 8:53:08.667983] [info] buildSelect: 
+[2015-12-14 8:53:08.668071] [info] buildImageUpload
+[2015-12-14 8:53:17.725785] [info] rotate_photo 127 13
+[2015-12-14 8:53:17.727832] [info] __rotatePhoto
+[2015-12-14 8:53:17.737180] [info] Running query: SELECT * FROM senatorapts.Photos WHERE photo_id='127'
+[2015-12-14 8:53:17.737243] [info] 1 rows returned.
+[2015-12-14 8:53:17.737287] [info] Results: 1
+[2015-12-14 8:53:17.737339] [info] beanPhotos->dxHashToClass
+    photo_id: '127'
+    thumb: 'images/imggal/45CliffordPrivate/thumb/4.jpg'
+    med: 'images/imggal/45CliffordPrivate/med/4.jpg'
+    full: 'images/imggal/45CliffordPrivate/full/4.jpg'
+[2015-12-14 8:53:17.737482] [info] tblName [Photos]
+tblIndex [Array]
+schema [senatorapts]
+photo_id [127]
+thumb [images/imggal/45CliffordPrivate/thumb/4.jpg]
+med [images/imggal/45CliffordPrivate/med/4.jpg]
+full [images/imggal/45CliffordPrivate/full/4.jpg]
+exists [1]
+
+[2015-12-14 8:53:17.986313] [info] buildImageUpload
+[2015-12-14 8:55:11.479094] [info] Running query: select * from House h where h.deleted != 1 order by h.street, h.house_num
+[2015-12-14 8:55:11.479198] [info] 3 rows returned.
+[2015-12-14 8:55:11.479278] [info] beanAvailable->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:55:11.479512] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [4]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2015-12-14 8:55:11.479562] [info] Populating available
+[2015-12-14 8:55:11.479604] [info] beanHouse->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:55:11.479821] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [4]
+house_num [43]
+street [Alberni]
+city [Ottawa]
+prov [ON]
+postal_code [K2J 1V8]
+bedrooms [3]
+bathrooms [1.5]
+description [NO NEIGHBOURS AT THE REAR !!
+
+3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+
+This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.]
+size []
+exists []
+
+[2015-12-14 8:55:11.479867] [info] Populating house
+[2015-12-14 8:55:11.479909] [info] beanSuite->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:55:11.480160] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2015-12-14 8:55:11.480211] [info] Populating suite
+[2015-12-14 8:55:11.480252] [info] results is not a member of classObject
+[2015-12-14 8:55:11.480290] [info] totalRows is not a member of classObject
+[2015-12-14 8:55:11.480377] [info] currRow is not a member of classObject
+[2015-12-14 8:55:11.480477] [info] beanAvailable->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:55:11.480695] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [3]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2015-12-14 8:55:11.480741] [info] Populating available
+[2015-12-14 8:55:11.480782] [info] beanHouse->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:55:11.481015] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [3]
+house_num [45]
+street [Clifford Private]
+city [Ottawa]
+prov [ON]
+postal_code [K1G 4Y3]
+bedrooms [3]
+bathrooms [2.5]
+description [ONE MONTH FREE 
+
+NEWLY RENOVATED 
+
+3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+exists []
+
+[2015-12-14 8:55:11.481061] [info] Populating house
+[2015-12-14 8:55:11.481102] [info] beanSuite->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:55:11.481364] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2015-12-14 8:55:11.481419] [info] Populating suite
+[2015-12-14 8:55:11.481511] [info] results is not a member of classObject
+[2015-12-14 8:55:11.481560] [info] totalRows is not a member of classObject
+[2015-12-14 8:55:11.481599] [info] currRow is not a member of classObject
+[2015-12-14 8:55:11.481669] [info] beanAvailable->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:55:11.481864] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [1]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2015-12-14 8:55:11.481909] [info] Populating available
+[2015-12-14 8:55:11.481950] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:55:11.482163] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [ON]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [NO NEIGHBORS AT THE REAR !!
+
+3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.]
+size []
+exists []
+
+[2015-12-14 8:55:11.482209] [info] Populating house
+[2015-12-14 8:55:11.482306] [info] beanSuite->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:55:11.482521] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2015-12-14 8:55:11.482568] [info] Populating suite
+[2015-12-14 8:55:11.482609] [info] results is not a member of classObject
+[2015-12-14 8:55:11.482647] [info] totalRows is not a member of classObject
+[2015-12-14 8:55:11.482685] [info] currRow is not a member of classObject
+[2015-12-14 8:55:14.990886] [info] edit_house.php
+[2015-12-14 8:55:14.990979] [info] -->_REQUEST 4
+[2015-12-14 8:55:14.991029] [info] -->_POST 
+[2015-12-14 8:55:14.991070] [info] -->_POST[add_photos] 
+[2015-12-14 8:55:14.991111] [info] -->_POST[save] 
+[2015-12-14 8:55:15.000484] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id='4'
+[2015-12-14 8:55:15.000598] [info] 1 rows returned.
+[2015-12-14 8:55:15.000652] [info] Results: 1
+[2015-12-14 8:55:15.000745] [info] beanHouse->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:55:15.001010] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [4]
+house_num [43]
+street [Alberni]
+city [Ottawa]
+prov [ON]
+postal_code [K2J 1V8]
+bedrooms [3]
+bathrooms [1.5]
+description [NO NEIGHBOURS AT THE REAR !!
+
+3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+
+This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.]
+size []
+exists [1]
+
+[2015-12-14 8:55:15.018069] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=4
+[2015-12-14 8:55:15.018138] [info] 1 rows returned.
+[2015-12-14 8:55:15.019151] [info] Gallery exists 14
+[2015-12-14 8:55:15.025161] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='14'
+[2015-12-14 8:55:15.025228] [info] 1 rows returned.
+[2015-12-14 8:55:15.025273] [info] Results: 1
+[2015-12-14 8:55:15.025321] [info] beanGallery->dxHashToClass
+    gallery_id: '14'
+    code: '43Alberni'
+    description: '43 Alberni'
+[2015-12-14 8:55:15.025485] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [14]
+code [43Alberni]
+description [43 Alberni]
+exists [1]
+
+[2015-12-14 8:55:15.025618] [info] gallery: 1
+[2015-12-14 8:55:15.025677] [info] __doLoadPhotos
+[2015-12-14 8:55:15.025728] [info] -->this: 1
+[2015-12-14 8:55:15.025772] [info] -->gallery: 1
+[2015-12-14 8:55:15.026487] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 14 and gp.photo_id = p.photo_id
+[2015-12-14 8:55:15.026618] [info] 10 rows returned.
+[2015-12-14 8:55:15.026698] [info] Results: 10
+[2015-12-14 8:55:15.026801] [info] 112
+[2015-12-14 8:55:15.026880] [info] 122
+[2015-12-14 8:55:15.026976] [info] 123
+[2015-12-14 8:55:15.027014] [info] 144
+[2015-12-14 8:55:15.027060] [info] 145
+[2015-12-14 8:55:15.027097] [info] 146
+[2015-12-14 8:55:15.027132] [info] 147
+[2015-12-14 8:55:15.027168] [info] 148
+[2015-12-14 8:55:15.027203] [info] 149
+[2015-12-14 8:55:15.027237] [info] 150
+[2015-12-14 8:55:15.027276] [info] images/imggal/43Alberni/thumb/1.JPG
+[2015-12-14 8:55:15.027360] [info] images/imggal/43Alberni/thumb/2.JPG
+[2015-12-14 8:55:15.027399] [info] images/imggal/43Alberni/thumb/3.JPG
+[2015-12-14 8:55:15.027450] [info] images/imggal/43Alberni/thumb/4.JPG
+[2015-12-14 8:55:15.027592] [info] images/imggal//thumb/1.JPG
+[2015-12-14 8:55:15.027643] [info] images/imggal/43Alberni/thumb/5.JPG
+[2015-12-14 8:55:15.027688] [info] images/imggal/43Alberni/thumb/6.JPG
+[2015-12-14 8:55:15.027724] [info] images/imggal/43Alberni/thumb/7.JPG
+[2015-12-14 8:55:15.027808] [info] images/imggal/43Alberni/thumb/8.JPG
+[2015-12-14 8:55:15.027847] [info] images/imggal/43Alberni/thumb/9.JPG
+[2015-12-14 8:55:15.027890] [info] images/imggal/43Alberni/med/1.JPG
+[2015-12-14 8:55:15.027928] [info] images/imggal/43Alberni/med/2.JPG
+[2015-12-14 8:55:15.028003] [info] images/imggal/43Alberni/med/3.JPG
+[2015-12-14 8:55:15.028081] [info] images/imggal/43Alberni/med/4.JPG
+[2015-12-14 8:55:15.028127] [info] images/imggal//med/1.JPG
+[2015-12-14 8:55:15.028165] [info] images/imggal/43Alberni/med/5.JPG
+[2015-12-14 8:55:15.028206] [info] images/imggal/43Alberni/med/6.JPG
+[2015-12-14 8:55:15.028249] [info] images/imggal/43Alberni/med/7.JPG
+[2015-12-14 8:55:15.028285] [info] images/imggal/43Alberni/med/8.JPG
+[2015-12-14 8:55:15.028321] [info] images/imggal/43Alberni/med/9.JPG
+[2015-12-14 8:55:15.028358] [info] images/imggal/43Alberni/full/1.JPG
+[2015-12-14 8:55:15.028451] [info] images/imggal/43Alberni/full/2.JPG
+[2015-12-14 8:55:15.028492] [info] images/imggal/43Alberni/full/3.JPG
+[2015-12-14 8:55:15.028534] [info] images/imggal/43Alberni/full/4.JPG
+[2015-12-14 8:55:15.028570] [info] images/imggal//full/1.JPG
+[2015-12-14 8:55:15.028606] [info] images/imggal/43Alberni/full/5.JPG
+[2015-12-14 8:55:15.028711] [info] images/imggal/43Alberni/full/6.JPG
+[2015-12-14 8:55:15.028795] [info] images/imggal/43Alberni/full/7.JPG
+[2015-12-14 8:55:15.028834] [info] images/imggal/43Alberni/full/8.JPG
+[2015-12-14 8:55:15.028902] [info] images/imggal/43Alberni/full/9.JPG
+[2015-12-14 8:55:15.029306] [info] buildSelect: 
+[2015-12-14 8:55:15.029402] [info] buildImageUpload
+[2015-12-14 8:55:23.842504] [info] Running query: select * from House h where h.deleted != 1 order by h.street, h.house_num
+[2015-12-14 8:55:23.842608] [info] 3 rows returned.
+[2015-12-14 8:55:23.842689] [info] beanAvailable->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:55:23.842967] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [4]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2015-12-14 8:55:23.843024] [info] Populating available
+[2015-12-14 8:55:23.843067] [info] beanHouse->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:55:23.843286] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [4]
+house_num [43]
+street [Alberni]
+city [Ottawa]
+prov [ON]
+postal_code [K2J 1V8]
+bedrooms [3]
+bathrooms [1.5]
+description [NO NEIGHBOURS AT THE REAR !!
+
+3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+
+This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.]
+size []
+exists []
+
+[2015-12-14 8:55:23.843333] [info] Populating house
+[2015-12-14 8:55:23.843374] [info] beanSuite->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:55:23.843575] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2015-12-14 8:55:23.843632] [info] Populating suite
+[2015-12-14 8:55:23.843674] [info] results is not a member of classObject
+[2015-12-14 8:55:23.843713] [info] totalRows is not a member of classObject
+[2015-12-14 8:55:23.843751] [info] currRow is not a member of classObject
+[2015-12-14 8:55:23.843823] [info] beanAvailable->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:55:23.844037] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [3]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2015-12-14 8:55:23.844084] [info] Populating available
+[2015-12-14 8:55:23.844124] [info] beanHouse->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:55:23.844357] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [3]
+house_num [45]
+street [Clifford Private]
+city [Ottawa]
+prov [ON]
+postal_code [K1G 4Y3]
+bedrooms [3]
+bathrooms [2.5]
+description [ONE MONTH FREE 
+
+NEWLY RENOVATED 
+
+3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+exists []
+
+[2015-12-14 8:55:23.844403] [info] Populating house
+[2015-12-14 8:55:23.844456] [info] beanSuite->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:55:23.844666] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2015-12-14 8:55:23.844717] [info] Populating suite
+[2015-12-14 8:55:23.844758] [info] results is not a member of classObject
+[2015-12-14 8:55:23.844796] [info] totalRows is not a member of classObject
+[2015-12-14 8:55:23.844834] [info] currRow is not a member of classObject
+[2015-12-14 8:55:23.844902] [info] beanAvailable->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:55:23.845094] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [1]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2015-12-14 8:55:23.845139] [info] Populating available
+[2015-12-14 8:55:23.845180] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:55:23.845393] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [ON]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [NO NEIGHBORS AT THE REAR !!
+
+3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.]
+size []
+exists []
+
+[2015-12-14 8:55:23.845453] [info] Populating house
+[2015-12-14 8:55:23.845500] [info] beanSuite->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:55:23.845689] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2015-12-14 8:55:23.845733] [info] Populating suite
+[2015-12-14 8:55:23.845773] [info] results is not a member of classObject
+[2015-12-14 8:55:23.845812] [info] totalRows is not a member of classObject
+[2015-12-14 8:55:23.845849] [info] currRow is not a member of classObject
+[2015-12-14 8:55:26.768414] [info] edit_house.php
+[2015-12-14 8:55:26.768512] [info] -->_REQUEST 3
+[2015-12-14 8:55:26.768563] [info] -->_POST 
+[2015-12-14 8:55:26.768604] [info] -->_POST[add_photos] 
+[2015-12-14 8:55:26.768644] [info] -->_POST[save] 
+[2015-12-14 8:55:26.769355] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id='3'
+[2015-12-14 8:55:26.769416] [info] 1 rows returned.
+[2015-12-14 8:55:26.769478] [info] Results: 1
+[2015-12-14 8:55:26.769535] [info] beanHouse->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:55:26.769800] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [3]
+house_num [45]
+street [Clifford Private]
+city [Ottawa]
+prov [ON]
+postal_code [K1G 4Y3]
+bedrooms [3]
+bathrooms [2.5]
+description [ONE MONTH FREE 
+
+NEWLY RENOVATED 
+
+3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+exists [1]
+
+[2015-12-14 8:55:26.770246] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=3
+[2015-12-14 8:55:26.770306] [info] 1 rows returned.
+[2015-12-14 8:55:26.770603] [info] Gallery exists 13
+[2015-12-14 8:55:26.770931] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='13'
+[2015-12-14 8:55:26.770989] [info] 1 rows returned.
+[2015-12-14 8:55:26.771032] [info] Results: 1
+[2015-12-14 8:55:26.771100] [info] beanGallery->dxHashToClass
+    gallery_id: '13'
+    code: '45CliffordPrivate'
+    description: '45 Clifford Private'
+[2015-12-14 8:55:26.771219] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [13]
+code [45CliffordPrivate]
+description [45 Clifford Private]
+exists [1]
+
+[2015-12-14 8:55:26.771275] [info] gallery: 1
+[2015-12-14 8:55:26.771322] [info] __doLoadPhotos
+[2015-12-14 8:55:26.771363] [info] -->this: 1
+[2015-12-14 8:55:26.771399] [info] -->gallery: 1
+[2015-12-14 8:55:26.771810] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 13 and gp.photo_id = p.photo_id
+[2015-12-14 8:55:26.771874] [info] 12 rows returned.
+[2015-12-14 8:55:26.771919] [info] Results: 12
+[2015-12-14 8:55:26.772017] [info] 124
+[2015-12-14 8:55:26.772059] [info] 125
+[2015-12-14 8:55:26.772097] [info] 126
+[2015-12-14 8:55:26.772131] [info] 127
+[2015-12-14 8:55:26.772167] [info] 128
+[2015-12-14 8:55:26.772203] [info] 129
+[2015-12-14 8:55:26.772238] [info] 130
+[2015-12-14 8:55:26.772274] [info] 131
+[2015-12-14 8:55:26.772310] [info] 132
+[2015-12-14 8:55:26.772346] [info] 133
+[2015-12-14 8:55:26.772382] [info] 134
+[2015-12-14 8:55:26.772417] [info] 135
+[2015-12-14 8:55:26.772468] [info] images/imggal/45CliffordPrivate/thumb/1.jpg
+[2015-12-14 8:55:26.772505] [info] images/imggal/45CliffordPrivate/thumb/2.jpg
+[2015-12-14 8:55:26.772542] [info] images/imggal/45CliffordPrivate/thumb/3.jpg
+[2015-12-14 8:55:26.772578] [info] images/imggal/45CliffordPrivate/thumb/4.jpg
+[2015-12-14 8:55:26.772613] [info] images/imggal/45CliffordPrivate/thumb/5.jpg
+[2015-12-14 8:55:26.772649] [info] images/imggal/45CliffordPrivate/thumb/6.jpg
+[2015-12-14 8:55:26.772684] [info] images/imggal/45CliffordPrivate/thumb/7.jpg
+[2015-12-14 8:55:26.772720] [info] images/imggal/45CliffordPrivate/thumb/8.jpg
+[2015-12-14 8:55:26.772756] [info] images/imggal/45CliffordPrivate/thumb/9.jpg
+[2015-12-14 8:55:26.772797] [info] images/imggal/45CliffordPrivate/thumb/10.jpg
+[2015-12-14 8:55:26.772834] [info] images/imggal/45CliffordPrivate/thumb/11.jpg
+[2015-12-14 8:55:26.772869] [info] images/imggal/45CliffordPrivate/thumb/12.jpg
+[2015-12-14 8:55:26.772907] [info] images/imggal/45CliffordPrivate/med/1.jpg
+[2015-12-14 8:55:26.772944] [info] images/imggal/45CliffordPrivate/med/2.jpg
+[2015-12-14 8:55:26.772979] [info] images/imggal/45CliffordPrivate/med/3.jpg
+[2015-12-14 8:55:26.773015] [info] images/imggal/45CliffordPrivate/med/4.jpg
+[2015-12-14 8:55:26.773051] [info] images/imggal/45CliffordPrivate/med/5.jpg
+[2015-12-14 8:55:26.773086] [info] images/imggal/45CliffordPrivate/med/6.jpg
+[2015-12-14 8:55:26.773121] [info] images/imggal/45CliffordPrivate/med/7.jpg
+[2015-12-14 8:55:26.773155] [info] images/imggal/45CliffordPrivate/med/8.jpg
+[2015-12-14 8:55:26.773191] [info] images/imggal/45CliffordPrivate/med/9.jpg
+[2015-12-14 8:55:26.773226] [info] images/imggal/45CliffordPrivate/med/10.jpg
+[2015-12-14 8:55:26.773262] [info] images/imggal/45CliffordPrivate/med/11.jpg
+[2015-12-14 8:55:26.773298] [info] images/imggal/45CliffordPrivate/med/12.jpg
+[2015-12-14 8:55:26.773335] [info] images/imggal/45CliffordPrivate/full/1.jpg
+[2015-12-14 8:55:26.773371] [info] images/imggal/45CliffordPrivate/full/2.jpg
+[2015-12-14 8:55:26.773407] [info] images/imggal/45CliffordPrivate/full/3.jpg
+[2015-12-14 8:55:26.773456] [info] images/imggal/45CliffordPrivate/full/4.jpg
+[2015-12-14 8:55:26.773494] [info] images/imggal/45CliffordPrivate/full/5.jpg
+[2015-12-14 8:55:26.773530] [info] images/imggal/45CliffordPrivate/full/6.jpg
+[2015-12-14 8:55:26.773566] [info] images/imggal/45CliffordPrivate/full/7.jpg
+[2015-12-14 8:55:26.773601] [info] images/imggal/45CliffordPrivate/full/8.jpg
+[2015-12-14 8:55:26.773637] [info] images/imggal/45CliffordPrivate/full/9.jpg
+[2015-12-14 8:55:26.773672] [info] images/imggal/45CliffordPrivate/full/10.jpg
+[2015-12-14 8:55:26.773708] [info] images/imggal/45CliffordPrivate/full/11.jpg
+[2015-12-14 8:55:26.773742] [info] images/imggal/45CliffordPrivate/full/12.jpg
+[2015-12-14 8:55:26.773855] [info] buildSelect: 
+[2015-12-14 8:55:26.773937] [info] buildImageUpload
+[2015-12-14 8:55:35.232784] [info] Running query: select * from House h where h.deleted != 1 order by h.street, h.house_num
+[2015-12-14 8:55:35.232922] [info] 3 rows returned.
+[2015-12-14 8:55:35.233006] [info] beanAvailable->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:55:35.233237] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [4]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2015-12-14 8:55:35.233288] [info] Populating available
+[2015-12-14 8:55:35.233374] [info] beanHouse->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:55:35.233630] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [4]
+house_num [43]
+street [Alberni]
+city [Ottawa]
+prov [ON]
+postal_code [K2J 1V8]
+bedrooms [3]
+bathrooms [1.5]
+description [NO NEIGHBOURS AT THE REAR !!
+
+3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+
+This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.]
+size []
+exists []
+
+[2015-12-14 8:55:35.233686] [info] Populating house
+[2015-12-14 8:55:35.233731] [info] beanSuite->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:55:35.233964] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2015-12-14 8:55:35.234011] [info] Populating suite
+[2015-12-14 8:55:35.234051] [info] results is not a member of classObject
+[2015-12-14 8:55:35.234091] [info] totalRows is not a member of classObject
+[2015-12-14 8:55:35.234128] [info] currRow is not a member of classObject
+[2015-12-14 8:55:35.234200] [info] beanAvailable->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:55:35.234463] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [3]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2015-12-14 8:55:35.234514] [info] Populating available
+[2015-12-14 8:55:35.234556] [info] beanHouse->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:55:35.234836] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [3]
+house_num [45]
+street [Clifford Private]
+city [Ottawa]
+prov [ON]
+postal_code [K1G 4Y3]
+bedrooms [3]
+bathrooms [2.5]
+description [ONE MONTH FREE 
+
+NEWLY RENOVATED 
+
+3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+exists []
+
+[2015-12-14 8:55:35.234891] [info] Populating house
+[2015-12-14 8:55:35.234935] [info] beanSuite->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:55:35.235177] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2015-12-14 8:55:35.235229] [info] Populating suite
+[2015-12-14 8:55:35.235274] [info] results is not a member of classObject
+[2015-12-14 8:55:35.235313] [info] totalRows is not a member of classObject
+[2015-12-14 8:55:35.235352] [info] currRow is not a member of classObject
+[2015-12-14 8:55:35.235420] [info] beanAvailable->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:55:35.235665] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [1]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2015-12-14 8:55:35.235718] [info] Populating available
+[2015-12-14 8:55:35.235760] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:55:35.236006] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [ON]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [NO NEIGHBORS AT THE REAR !!
+
+3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.]
+size []
+exists []
+
+[2015-12-14 8:55:35.236063] [info] Populating house
+[2015-12-14 8:55:35.236107] [info] beanSuite->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:55:35.236306] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2015-12-14 8:55:35.236352] [info] Populating suite
+[2015-12-14 8:55:35.236392] [info] results is not a member of classObject
+[2015-12-14 8:55:35.236430] [info] totalRows is not a member of classObject
+[2015-12-14 8:55:35.236522] [info] currRow is not a member of classObject
+[2015-12-14 8:55:39.120048] [info] edit_house.php
+[2015-12-14 8:55:39.120146] [info] -->_REQUEST 4
+[2015-12-14 8:55:39.120253] [info] -->_POST 
+[2015-12-14 8:55:39.120301] [info] -->_POST[add_photos] 
+[2015-12-14 8:55:39.120343] [info] -->_POST[save] 
+[2015-12-14 8:55:39.121093] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id='4'
+[2015-12-14 8:55:39.121155] [info] 1 rows returned.
+[2015-12-14 8:55:39.121198] [info] Results: 1
+[2015-12-14 8:55:39.121252] [info] beanHouse->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:55:39.121514] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [4]
+house_num [43]
+street [Alberni]
+city [Ottawa]
+prov [ON]
+postal_code [K2J 1V8]
+bedrooms [3]
+bathrooms [1.5]
+description [NO NEIGHBOURS AT THE REAR !!
+
+3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+
+This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.]
+size []
+exists [1]
+
+[2015-12-14 8:55:39.121977] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=4
+[2015-12-14 8:55:39.122035] [info] 1 rows returned.
+[2015-12-14 8:55:39.122921] [info] Gallery exists 14
+[2015-12-14 8:55:39.123276] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='14'
+[2015-12-14 8:55:39.123334] [info] 1 rows returned.
+[2015-12-14 8:55:39.123378] [info] Results: 1
+[2015-12-14 8:55:39.123425] [info] beanGallery->dxHashToClass
+    gallery_id: '14'
+    code: '43Alberni'
+    description: '43 Alberni'
+[2015-12-14 8:55:39.123553] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [14]
+code [43Alberni]
+description [43 Alberni]
+exists [1]
+
+[2015-12-14 8:55:39.123610] [info] gallery: 1
+[2015-12-14 8:55:39.123660] [info] __doLoadPhotos
+[2015-12-14 8:55:39.123701] [info] -->this: 1
+[2015-12-14 8:55:39.123739] [info] -->gallery: 1
+[2015-12-14 8:55:39.124300] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 14 and gp.photo_id = p.photo_id
+[2015-12-14 8:55:39.124370] [info] 10 rows returned.
+[2015-12-14 8:55:39.124417] [info] Results: 10
+[2015-12-14 8:55:39.124566] [info] 112
+[2015-12-14 8:55:39.124609] [info] 122
+[2015-12-14 8:55:39.124645] [info] 123
+[2015-12-14 8:55:39.124681] [info] 144
+[2015-12-14 8:55:39.124722] [info] 145
+[2015-12-14 8:55:39.124758] [info] 146
+[2015-12-14 8:55:39.124794] [info] 147
+[2015-12-14 8:55:39.124829] [info] 148
+[2015-12-14 8:55:39.124864] [info] 149
+[2015-12-14 8:55:39.124898] [info] 150
+[2015-12-14 8:55:39.124986] [info] images/imggal/43Alberni/thumb/1.JPG
+[2015-12-14 8:55:39.125031] [info] images/imggal/43Alberni/thumb/2.JPG
+[2015-12-14 8:55:39.125070] [info] images/imggal/43Alberni/thumb/3.JPG
+[2015-12-14 8:55:39.125106] [info] images/imggal/43Alberni/thumb/4.JPG
+[2015-12-14 8:55:39.125145] [info] images/imggal//thumb/1.JPG
+[2015-12-14 8:55:39.125184] [info] images/imggal/43Alberni/thumb/5.JPG
+[2015-12-14 8:55:39.125220] [info] images/imggal/43Alberni/thumb/6.JPG
+[2015-12-14 8:55:39.125255] [info] images/imggal/43Alberni/thumb/7.JPG
+[2015-12-14 8:55:39.125291] [info] images/imggal/43Alberni/thumb/8.JPG
+[2015-12-14 8:55:39.125325] [info] images/imggal/43Alberni/thumb/9.JPG
+[2015-12-14 8:55:39.125364] [info] images/imggal/43Alberni/med/1.JPG
+[2015-12-14 8:55:39.125461] [info] images/imggal/43Alberni/med/2.JPG
+[2015-12-14 8:55:39.125502] [info] images/imggal/43Alberni/med/3.JPG
+[2015-12-14 8:55:39.125538] [info] images/imggal/43Alberni/med/4.JPG
+[2015-12-14 8:55:39.125574] [info] images/imggal//med/1.JPG
+[2015-12-14 8:55:39.125608] [info] images/imggal/43Alberni/med/5.JPG
+[2015-12-14 8:55:39.125649] [info] images/imggal/43Alberni/med/6.JPG
+[2015-12-14 8:55:39.125685] [info] images/imggal/43Alberni/med/7.JPG
+[2015-12-14 8:55:39.125721] [info] images/imggal/43Alberni/med/8.JPG
+[2015-12-14 8:55:39.125802] [info] images/imggal/43Alberni/med/9.JPG
+[2015-12-14 8:55:39.125847] [info] images/imggal/43Alberni/full/1.JPG
+[2015-12-14 8:55:39.125884] [info] images/imggal/43Alberni/full/2.JPG
+[2015-12-14 8:55:39.125919] [info] images/imggal/43Alberni/full/3.JPG
+[2015-12-14 8:55:39.125955] [info] images/imggal/43Alberni/full/4.JPG
+[2015-12-14 8:55:39.125996] [info] images/imggal//full/1.JPG
+[2015-12-14 8:55:39.126032] [info] images/imggal/43Alberni/full/5.JPG
+[2015-12-14 8:55:39.126068] [info] images/imggal/43Alberni/full/6.JPG
+[2015-12-14 8:55:39.126102] [info] images/imggal/43Alberni/full/7.JPG
+[2015-12-14 8:55:39.126180] [info] images/imggal/43Alberni/full/8.JPG
+[2015-12-14 8:55:39.126224] [info] images/imggal/43Alberni/full/9.JPG
+[2015-12-14 8:55:39.126338] [info] buildSelect: 
+[2015-12-14 8:55:39.126477] [info] buildImageUpload
+[2015-12-14 8:55:45.029731] [info] delete_photo 148 14
+[2015-12-14 8:55:45.031642] [info] Attempting to remove Photo 148 from Gallery 14
+[2015-12-14 8:55:45.061939] [info] Running query: DELETE FROM senatorapts.GalleryPhotos WHERE gallery_id=14 and photo_id=148
+[2015-12-14 8:55:45.062017] [info]  rows returned.
+[2015-12-14 8:55:45.073895] [info] Running query: SELECT * FROM senatorapts.Photos WHERE photo_id='148'
+[2015-12-14 8:55:45.073961] [info] 1 rows returned.
+[2015-12-14 8:55:45.074007] [info] Results: 1
+[2015-12-14 8:55:45.074058] [info] beanPhotos->dxHashToClass
+    photo_id: '148'
+    thumb: 'images/imggal/43Alberni/thumb/7.JPG'
+    med: 'images/imggal/43Alberni/med/7.JPG'
+    full: 'images/imggal/43Alberni/full/7.JPG'
+[2015-12-14 8:55:45.074260] [info] tblName [Photos]
+tblIndex [Array]
+schema [senatorapts]
+photo_id [148]
+thumb [images/imggal/43Alberni/thumb/7.JPG]
+med [images/imggal/43Alberni/med/7.JPG]
+full [images/imggal/43Alberni/full/7.JPG]
+exists [1]
+
+[2015-12-14 8:55:45.074316] [info] Attempting to delete the following files: 
+[2015-12-14 8:55:45.074358] [info] /var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/43Alberni/thumb/7.JPG
+[2015-12-14 8:55:45.074399] [info] /var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/43Alberni/med/7.JPG
+[2015-12-14 8:55:45.074450] [info] /var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/43Alberni/full/7.JPG
+[2015-12-14 8:55:45.222775] [info] Running query: DELETE FROM senatorapts.Photos WHERE photo_id='148'
+[2015-12-14 8:55:45.222845] [info]  rows returned.
+[2015-12-14 8:55:45.222892] [info] buildImageUpload
+[2015-12-14 8:56:44.863648] [info] Running query: select * from House h where h.deleted != 1 order by h.street, h.house_num
+[2015-12-14 8:56:44.863761] [info] 3 rows returned.
+[2015-12-14 8:56:44.863842] [info] beanAvailable->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:56:44.864073] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [4]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2015-12-14 8:56:44.864121] [info] Populating available
+[2015-12-14 8:56:44.864165] [info] beanHouse->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:56:44.864382] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [4]
+house_num [43]
+street [Alberni]
+city [Ottawa]
+prov [ON]
+postal_code [K2J 1V8]
+bedrooms [3]
+bathrooms [1.5]
+description [NO NEIGHBOURS AT THE REAR !!
+
+3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+
+This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.]
+size []
+exists []
+
+[2015-12-14 8:56:44.864428] [info] Populating house
+[2015-12-14 8:56:44.864479] [info] beanSuite->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:56:44.864669] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2015-12-14 8:56:44.864713] [info] Populating suite
+[2015-12-14 8:56:44.864753] [info] results is not a member of classObject
+[2015-12-14 8:56:44.864793] [info] totalRows is not a member of classObject
+[2015-12-14 8:56:44.864830] [info] currRow is not a member of classObject
+[2015-12-14 8:56:44.864901] [info] beanAvailable->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:56:44.865112] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [3]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2015-12-14 8:56:44.865163] [info] Populating available
+[2015-12-14 8:56:44.865206] [info] beanHouse->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:56:44.865437] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [3]
+house_num [45]
+street [Clifford Private]
+city [Ottawa]
+prov [ON]
+postal_code [K1G 4Y3]
+bedrooms [3]
+bathrooms [2.5]
+description [ONE MONTH FREE 
+
+NEWLY RENOVATED 
+
+3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+exists []
+
+[2015-12-14 8:56:44.865494] [info] Populating house
+[2015-12-14 8:56:44.865537] [info] beanSuite->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    bathrooms: '2.5'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:56:44.865742] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2015-12-14 8:56:44.865787] [info] Populating suite
+[2015-12-14 8:56:44.865828] [info] results is not a member of classObject
+[2015-12-14 8:56:44.865865] [info] totalRows is not a member of classObject
+[2015-12-14 8:56:44.865904] [info] currRow is not a member of classObject
+[2015-12-14 8:56:44.865972] [info] beanAvailable->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:56:44.866163] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [1]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2015-12-14 8:56:44.866209] [info] Populating available
+[2015-12-14 8:56:44.866250] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:56:44.866481] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [ON]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [NO NEIGHBORS AT THE REAR !!
+
+3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.]
+size []
+exists []
+
+[2015-12-14 8:56:44.866530] [info] Populating house
+[2015-12-14 8:56:44.866574] [info] beanSuite->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2015-12-14 8:56:44.866761] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2015-12-14 8:56:44.866806] [info] Populating suite
+[2015-12-14 8:56:44.866846] [info] results is not a member of classObject
+[2015-12-14 8:56:44.866884] [info] totalRows is not a member of classObject
+[2015-12-14 8:56:44.866921] [info] currRow is not a member of classObject
+[2015-12-14 8:56:47.547539] [info] edit_house.php
+[2015-12-14 8:56:47.547631] [info] -->_REQUEST 4
+[2015-12-14 8:56:47.547681] [info] -->_POST 
+[2015-12-14 8:56:47.547722] [info] -->_POST[add_photos] 
+[2015-12-14 8:56:47.547761] [info] -->_POST[save] 
+[2015-12-14 8:56:47.548404] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id='4'
+[2015-12-14 8:56:47.548466] [info] 1 rows returned.
+[2015-12-14 8:56:47.548510] [info] Results: 1
+[2015-12-14 8:56:47.548573] [info] beanHouse->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    bathrooms: '1.5'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2015-12-14 8:56:47.548824] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [4]
+house_num [43]
+street [Alberni]
+city [Ottawa]
+prov [ON]
+postal_code [K2J 1V8]
+bedrooms [3]
+bathrooms [1.5]
+description [NO NEIGHBOURS AT THE REAR !!
+
+3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+
+This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.]
+size []
+exists [1]
+
+[2015-12-14 8:56:47.556098] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=4
+[2015-12-14 8:56:47.556174] [info] 1 rows returned.
+[2015-12-14 8:56:47.557065] [info] Gallery exists 14
+[2015-12-14 8:56:47.557414] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='14'
+[2015-12-14 8:56:47.557478] [info] 1 rows returned.
+[2015-12-14 8:56:47.557524] [info] Results: 1
+[2015-12-14 8:56:47.557573] [info] beanGallery->dxHashToClass
+    gallery_id: '14'
+    code: '43Alberni'
+    description: '43 Alberni'
+[2015-12-14 8:56:47.557693] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [14]
+code [43Alberni]
+description [43 Alberni]
+exists [1]
+
+[2015-12-14 8:56:47.557749] [info] gallery: 1
+[2015-12-14 8:56:47.557796] [info] __doLoadPhotos
+[2015-12-14 8:56:47.557837] [info] -->this: 1
+[2015-12-14 8:56:47.557874] [info] -->gallery: 1
+[2015-12-14 8:56:47.559031] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 14 and gp.photo_id = p.photo_id
+[2015-12-14 8:56:47.559087] [info] 9 rows returned.
+[2015-12-14 8:56:47.559130] [info] Results: 9
+[2015-12-14 8:56:47.559216] [info] 112
+[2015-12-14 8:56:47.559257] [info] 122
+[2015-12-14 8:56:47.559294] [info] 123
+[2015-12-14 8:56:47.559330] [info] 144
+[2015-12-14 8:56:47.559366] [info] 145
+[2015-12-14 8:56:47.559401] [info] 146
+[2015-12-14 8:56:47.559437] [info] 147
+[2015-12-14 8:56:47.559483] [info] 149
+[2015-12-14 8:56:47.559520] [info] 150
+[2015-12-14 8:56:47.559560] [info] images/imggal/43Alberni/thumb/1.JPG
+[2015-12-14 8:56:47.559597] [info] images/imggal/43Alberni/thumb/2.JPG
+[2015-12-14 8:56:47.559633] [info] images/imggal/43Alberni/thumb/3.JPG
+[2015-12-14 8:56:47.559669] [info] images/imggal/43Alberni/thumb/4.JPG
+[2015-12-14 8:56:47.559705] [info] images/imggal//thumb/1.JPG
+[2015-12-14 8:56:47.559741] [info] images/imggal/43Alberni/thumb/5.JPG
+[2015-12-14 8:56:47.559777] [info] images/imggal/43Alberni/thumb/6.JPG
+[2015-12-14 8:56:47.559813] [info] images/imggal/43Alberni/thumb/8.JPG
+[2015-12-14 8:56:47.559849] [info] images/imggal/43Alberni/thumb/9.JPG
+[2015-12-14 8:56:47.559886] [info] images/imggal/43Alberni/med/1.JPG
+[2015-12-14 8:56:47.559923] [info] images/imggal/43Alberni/med/2.JPG
+[2015-12-14 8:56:47.559959] [info] images/imggal/43Alberni/med/3.JPG
+[2015-12-14 8:56:47.559995] [info] images/imggal/43Alberni/med/4.JPG
+[2015-12-14 8:56:47.560031] [info] images/imggal//med/1.JPG
+[2015-12-14 8:56:47.560067] [info] images/imggal/43Alberni/med/5.JPG
+[2015-12-14 8:56:47.560103] [info] images/imggal/43Alberni/med/6.JPG
+[2015-12-14 8:56:47.560139] [info] images/imggal/43Alberni/med/8.JPG
+[2015-12-14 8:56:47.560175] [info] images/imggal/43Alberni/med/9.JPG
+[2015-12-14 8:56:47.560214] [info] images/imggal/43Alberni/full/1.JPG
+[2015-12-14 8:56:47.560250] [info] images/imggal/43Alberni/full/2.JPG
+[2015-12-14 8:56:47.560286] [info] images/imggal/43Alberni/full/3.JPG
+[2015-12-14 8:56:47.560321] [info] images/imggal/43Alberni/full/4.JPG
+[2015-12-14 8:56:47.560357] [info] images/imggal//full/1.JPG
+[2015-12-14 8:56:47.560393] [info] images/imggal/43Alberni/full/5.JPG
+[2015-12-14 8:56:47.560427] [info] images/imggal/43Alberni/full/6.JPG
+[2015-12-14 8:56:47.560463] [info] images/imggal/43Alberni/full/8.JPG
+[2015-12-14 8:56:47.560512] [info] images/imggal/43Alberni/full/9.JPG
+[2015-12-14 8:56:47.560914] [info] buildSelect: 
+[2015-12-14 8:56:47.561002] [info] buildImageUpload
+[2015-12-14 8:56:57.245604] [info] rotate_photo 112 14
+[2015-12-14 8:56:57.247317] [info] __rotatePhoto
+[2015-12-14 8:56:57.248277] [info] Running query: SELECT * FROM senatorapts.Photos WHERE photo_id='112'
+[2015-12-14 8:56:57.248338] [info] 1 rows returned.
+[2015-12-14 8:56:57.248383] [info] Results: 1
+[2015-12-14 8:56:57.248435] [info] beanPhotos->dxHashToClass
+    photo_id: '112'
+    thumb: 'images/imggal/43Alberni/thumb/1.JPG'
+    med: 'images/imggal/43Alberni/med/1.JPG'
+    full: 'images/imggal/43Alberni/full/1.JPG'
+[2015-12-14 8:56:57.248595] [info] tblName [Photos]
+tblIndex [Array]
+schema [senatorapts]
+photo_id [112]
+thumb [images/imggal/43Alberni/thumb/1.JPG]
+med [images/imggal/43Alberni/med/1.JPG]
+full [images/imggal/43Alberni/full/1.JPG]
+exists [1]
+
+[2015-12-14 8:56:57.455176] [info] __doLoadPhotos
+[2015-12-14 8:56:57.455313] [info] -->this: 
+[2015-12-14 8:56:57.455362] [info] -->gallery: 
+[2015-12-14 8:56:57.455857] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 14 and gp.photo_id = p.photo_id
+[2015-12-14 8:56:57.455975] [info] 9 rows returned.
+[2015-12-14 8:56:57.456027] [info] Results: 9
+[2015-12-14 8:56:57.456127] [info] 112
+[2015-12-14 8:56:57.456171] [info] 122
+[2015-12-14 8:56:57.456207] [info] 123
+[2015-12-14 8:56:57.456244] [info] 144
+[2015-12-14 8:56:57.456280] [info] 145
+[2015-12-14 8:56:57.456316] [info] 146
+[2015-12-14 8:56:57.456352] [info] 147
+[2015-12-14 8:56:57.456388] [info] 149
+[2015-12-14 8:56:57.456424] [info] 150
+[2015-12-14 8:56:57.456465] [info] images/imggal/43Alberni/thumb/1.JPG
+[2015-12-14 8:56:57.456511] [info] images/imggal/43Alberni/thumb/2.JPG
+[2015-12-14 8:56:57.456551] [info] images/imggal/43Alberni/thumb/3.JPG
+[2015-12-14 8:56:57.456587] [info] images/imggal/43Alberni/thumb/4.JPG
+[2015-12-14 8:56:57.456624] [info] images/imggal//thumb/1.JPG
+[2015-12-14 8:56:57.456660] [info] images/imggal/43Alberni/thumb/5.JPG
+[2015-12-14 8:56:57.456696] [info] images/imggal/43Alberni/thumb/6.JPG
+[2015-12-14 8:56:57.456732] [info] images/imggal/43Alberni/thumb/8.JPG
+[2015-12-14 8:56:57.456768] [info] images/imggal/43Alberni/thumb/9.JPG
+[2015-12-14 8:56:57.456806] [info] images/imggal/43Alberni/med/1.JPG
+[2015-12-14 8:56:57.456844] [info] images/imggal/43Alberni/med/2.JPG
+[2015-12-14 8:56:57.456881] [info] images/imggal/43Alberni/med/3.JPG
+[2015-12-14 8:56:57.456917] [info] images/imggal/43Alberni/med/4.JPG
+[2015-12-14 8:56:57.456953] [info] images/imggal//med/1.JPG
+[2015-12-14 8:56:57.456990] [info] images/imggal/43Alberni/med/5.JPG
+[2015-12-14 8:56:57.457025] [info] images/imggal/43Alberni/med/6.JPG
+[2015-12-14 8:56:57.457061] [info] images/imggal/43Alberni/med/8.JPG
+[2015-12-14 8:56:57.457097] [info] images/imggal/43Alberni/med/9.JPG
+[2015-12-14 8:56:57.457134] [info] images/imggal/43Alberni/full/1.JPG
+[2015-12-14 8:56:57.457171] [info] images/imggal/43Alberni/full/2.JPG
+[2015-12-14 8:56:57.457207] [info] images/imggal/43Alberni/full/3.JPG
+[2015-12-14 8:56:57.457243] [info] images/imggal/43Alberni/full/4.JPG
+[2015-12-14 8:56:57.457279] [info] images/imggal//full/1.JPG
+[2015-12-14 8:56:57.457315] [info] images/imggal/43Alberni/full/5.JPG
+[2015-12-14 8:56:57.457351] [info] images/imggal/43Alberni/full/6.JPG
+[2015-12-14 8:56:57.457386] [info] images/imggal/43Alberni/full/8.JPG
+[2015-12-14 8:56:57.457422] [info] images/imggal/43Alberni/full/9.JPG
+[2015-12-14 8:56:57.457464] [info] buildImageUpload

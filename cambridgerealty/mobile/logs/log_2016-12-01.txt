@@ -1,0 +1,2095 @@
+[2016-12-01 16:45:04.132360] [info] tblName [Member]
+tblIndex [Array]
+schema [senatorapts]
+member_id [-1]
+username []
+password []
+exists []
+
+[2016-12-01 16:45:04.158952] [info] Running query: SELECT * FROM senatorapts.Member WHERE username='e.674.em@gmail.com'
+[2016-12-01 16:45:04.159106] [info] 1 rows returned.
+[2016-12-01 16:45:04.159172] [info] beanMember->dxHashToClass
+    member_id: '2'
+    username: 'e.674.em@gmail.com'
+    password: 'YHKNdw3TI0lCz0WZA3Xfq6OkERPFLFHmF/brnN3G8cg='
+[2016-12-01 16:45:04.159421] [info] tblName [Member]
+tblIndex [Array]
+schema [senatorapts]
+member_id [2]
+username [e.674.em@gmail.com]
+password [YHKNdw3TI0lCz0WZA3Xfq6OkERPFLFHmF/brnN3G8cg=]
+exists [1]
+
+[2016-12-01 16:45:04.159495] [info] tblName [Member]
+tblIndex [Array]
+schema [senatorapts]
+member_id [2]
+username [e.674.em@gmail.com]
+password [YHKNdw3TI0lCz0WZA3Xfq6OkERPFLFHmF/brnN3G8cg=]
+exists [1]
+
+[2016-12-01 16:45:04.160782] [info] Decrypted password: [Pluron25] does it mathc [Pluron25]
+[2016-12-01 16:45:04.368923] [info] Running query: select * from senatorapts.Suite s, senatorapts.Available a where s.suite_id = a.suite_id  order by a.year, a.month, s.suite_order
+[2016-12-01 16:45:04.369141] [info] 2 rows returned.
+[2016-12-01 16:45:04.369235] [info] beanAvailable->dxHashToClass
+    suite_id: '604'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=04'
+    suite_order: '45'
+    rent: '905.00'
+    promotion: ''
+    month: '12'
+    year: '2016'
+[2016-12-01 16:45:04.369504] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [604]
+house_id []
+month [12]
+year [2016]
+rent [905.00]
+promotion []
+exists []
+
+[2016-12-01 16:45:04.369548] [info] Populating available
+[2016-12-01 16:45:04.369585] [info] beanSuite->dxHashToClass
+    suite_id: '604'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=04'
+    suite_order: '45'
+    rent: '905.00'
+    promotion: ''
+    month: '12'
+    year: '2016'
+[2016-12-01 16:45:04.369720] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [604]
+bedrooms [1]
+suite_order [45]
+floor_plan [index.php?action=floor_plan&suite_id=04]
+exists []
+
+[2016-12-01 16:45:04.369762] [info] Populating suite
+[2016-12-01 16:45:04.369800] [info] results is not a member of classObject
+[2016-12-01 16:45:04.369833] [info] totalRows is not a member of classObject
+[2016-12-01 16:45:04.369868] [info] currRow is not a member of classObject
+[2016-12-01 16:45:04.369985] [info] beanAvailable->dxHashToClass
+    suite_id: '904'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=04'
+    suite_order: '69'
+    rent: '910.00'
+    promotion: ''
+    month: '1'
+    year: '2017'
+[2016-12-01 16:45:04.370115] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [904]
+house_id []
+month [1]
+year [2017]
+rent [910.00]
+promotion []
+exists []
+
+[2016-12-01 16:45:04.370157] [info] Populating available
+[2016-12-01 16:45:04.370192] [info] beanSuite->dxHashToClass
+    suite_id: '904'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=04'
+    suite_order: '69'
+    rent: '910.00'
+    promotion: ''
+    month: '1'
+    year: '2017'
+[2016-12-01 16:45:04.370310] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [904]
+bedrooms [1]
+suite_order [69]
+floor_plan [index.php?action=floor_plan&suite_id=04]
+exists []
+
+[2016-12-01 16:45:04.370356] [info] Populating suite
+[2016-12-01 16:45:04.370393] [info] results is not a member of classObject
+[2016-12-01 16:45:04.370428] [info] totalRows is not a member of classObject
+[2016-12-01 16:45:04.370461] [info] currRow is not a member of classObject
+[2016-12-01 16:45:07.502482] [info] Running query: select * from senatorapts.House h, senatorapts.HouseAvailable a where h.house_id = a.house_id  and h.deleted != 1 order by a.year, a.month
+[2016-12-01 16:45:07.502645] [info] 1 rows returned.
+[2016-12-01 16:45:07.502738] [info] beanAvailable->dxHashToClass
+    house_id: '13'
+    house_num: '6529'
+    street: 'Colony Square'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 3E3'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY 
+    
+    END UNIT! 
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,350.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1295.00'
+    month: '11'
+    year: '2016'
+    promotion: 'December 2016 FREE'
+[2016-12-01 16:45:07.503050] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [13]
+month [11]
+year [2016]
+rent [1295.00]
+promotion [December 2016 FREE]
+exists []
+
+[2016-12-01 16:45:07.503093] [info] Populating available
+[2016-12-01 16:45:07.503132] [info] beanHouse->dxHashToClass
+    house_id: '13'
+    house_num: '6529'
+    street: 'Colony Square'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 3E3'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY 
+    
+    END UNIT! 
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,350.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1295.00'
+    month: '11'
+    year: '2016'
+    promotion: 'December 2016 FREE'
+[2016-12-01 16:45:07.503401] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [13]
+house_num [6529]
+street [Colony Square]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 3E3]
+bedrooms [3]
+bathrooms [1]
+powder_rooms [1]
+description [$500.00 MOVE-IN BONUS !!
+
+IMMEDIATE AVAILABILITY 
+
+END UNIT! 
+
+Call 613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,350.00 plus utilities. 
+
+This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [SEMI-DETACHED]
+exists []
+
+[2016-12-01 16:45:07.503443] [info] Populating house
+[2016-12-01 16:45:07.503483] [info] beanSuite->dxHashToClass
+    house_id: '13'
+    house_num: '6529'
+    street: 'Colony Square'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 3E3'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY 
+    
+    END UNIT! 
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,350.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1295.00'
+    month: '11'
+    year: '2016'
+    promotion: 'December 2016 FREE'
+[2016-12-01 16:45:07.503712] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2016-12-01 16:45:07.503753] [info] Populating suite
+[2016-12-01 16:45:07.503788] [info] results is not a member of classObject
+[2016-12-01 16:45:07.503823] [info] totalRows is not a member of classObject
+[2016-12-01 16:45:07.503855] [info] currRow is not a member of classObject
+[2016-12-01 16:45:11.286132] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id='13'
+[2016-12-01 16:45:11.286253] [info] 1 rows returned.
+[2016-12-01 16:45:11.286298] [info] Results: 1
+[2016-12-01 16:45:11.286351] [info] beanHouse->dxHashToClass
+    house_id: '13'
+    house_num: '6529'
+    street: 'Colony Square'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 3E3'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY 
+    
+    END UNIT! 
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,350.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:11.286663] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [13]
+house_num [6529]
+street [Colony Square]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 3E3]
+bedrooms [3]
+bathrooms [1]
+powder_rooms [1]
+description [$500.00 MOVE-IN BONUS !!
+
+IMMEDIATE AVAILABILITY 
+
+END UNIT! 
+
+Call 613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,350.00 plus utilities. 
+
+This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [SEMI-DETACHED]
+exists [1]
+
+[2016-12-01 16:45:11.287590] [info] Running query: SELECT * FROM senatorapts.HouseAvailable WHERE house_id='13'
+[2016-12-01 16:45:11.287688] [info] 1 rows returned.
+[2016-12-01 16:45:11.287728] [info] Results: 1
+[2016-12-01 16:45:11.287775] [info] beanAvailable->dxHashToClass
+    house_id: '13'
+    rent: '1295.00'
+    month: '11'
+    year: '2016'
+    promotion: 'December 2016 FREE'
+[2016-12-01 16:45:11.287925] [info] tblName [HouseAvailable]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+house_id [13]
+month [11]
+year [2016]
+rent [1295.00]
+promotion [December 2016 FREE]
+exists [1]
+
+[2016-12-01 16:45:33.235528] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id='13'
+[2016-12-01 16:45:33.235687] [info] 1 rows returned.
+[2016-12-01 16:45:33.235730] [info] Results: 1
+[2016-12-01 16:45:33.235788] [info] beanHouse->dxHashToClass
+    house_id: '13'
+    house_num: '6529'
+    street: 'Colony Square'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 3E3'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY 
+    
+    END UNIT! 
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,350.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:33.236090] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [13]
+house_num [6529]
+street [Colony Square]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 3E3]
+bedrooms [3]
+bathrooms [1]
+powder_rooms [1]
+description [$500.00 MOVE-IN BONUS !!
+
+IMMEDIATE AVAILABILITY 
+
+END UNIT! 
+
+Call 613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,350.00 plus utilities. 
+
+This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [SEMI-DETACHED]
+exists [1]
+
+[2016-12-01 16:45:33.241575] [info] Running query: SELECT * FROM senatorapts.HouseAvailable WHERE house_id='13'
+[2016-12-01 16:45:33.241838] [info] 1 rows returned.
+[2016-12-01 16:45:33.241883] [info] Results: 1
+[2016-12-01 16:45:33.241936] [info] beanAvailable->dxHashToClass
+    house_id: '13'
+    rent: '1295.00'
+    month: '11'
+    year: '2016'
+    promotion: 'December 2016 FREE'
+[2016-12-01 16:45:33.242108] [info] tblName [HouseAvailable]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+house_id [13]
+month [11]
+year [2016]
+rent [1295.00]
+promotion [December 2016 FREE]
+exists [1]
+
+[2016-12-01 16:45:33.242211] [info] beanAvailable->__doSave
+[2016-12-01 16:45:33.242279] [info] tblName [HouseAvailable]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+house_id [13]
+month [12]
+year [2016]
+rent [1295.00]
+promotion [$500.00 MOVE-IN BONUS]
+exists [1]
+
+[2016-12-01 16:45:33.253319] [info] Running query: UPDATE senatorapts.HouseAvailable SET  month='12', year='2016', rent='1295.00', promotion='$500.00 MOVE-IN BONUS' WHERE house_id='13'
+[2016-12-01 16:45:33.253480] [info]  rows returned.
+[2016-12-01 16:45:33.253525] [info] Saved available 1
+[2016-12-01 16:45:33.273016] [info] Running query: select * from senatorapts.House h, senatorapts.HouseAvailable a where h.house_id = a.house_id  and h.deleted != 1 order by a.year, a.month
+[2016-12-01 16:45:33.273169] [info] 1 rows returned.
+[2016-12-01 16:45:33.273267] [info] beanAvailable->dxHashToClass
+    house_id: '13'
+    house_num: '6529'
+    street: 'Colony Square'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 3E3'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY 
+    
+    END UNIT! 
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,350.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1295.00'
+    month: '12'
+    year: '2016'
+    promotion: '$500.00 MOVE-IN BONUS'
+[2016-12-01 16:45:33.273587] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [13]
+month [12]
+year [2016]
+rent [1295.00]
+promotion [$500.00 MOVE-IN BONUS]
+exists []
+
+[2016-12-01 16:45:33.273654] [info] Populating available
+[2016-12-01 16:45:33.273695] [info] beanHouse->dxHashToClass
+    house_id: '13'
+    house_num: '6529'
+    street: 'Colony Square'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 3E3'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY 
+    
+    END UNIT! 
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,350.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1295.00'
+    month: '12'
+    year: '2016'
+    promotion: '$500.00 MOVE-IN BONUS'
+[2016-12-01 16:45:33.273971] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [13]
+house_num [6529]
+street [Colony Square]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 3E3]
+bedrooms [3]
+bathrooms [1]
+powder_rooms [1]
+description [$500.00 MOVE-IN BONUS !!
+
+IMMEDIATE AVAILABILITY 
+
+END UNIT! 
+
+Call 613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,350.00 plus utilities. 
+
+This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [SEMI-DETACHED]
+exists []
+
+[2016-12-01 16:45:33.274017] [info] Populating house
+[2016-12-01 16:45:33.274055] [info] beanSuite->dxHashToClass
+    house_id: '13'
+    house_num: '6529'
+    street: 'Colony Square'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 3E3'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY 
+    
+    END UNIT! 
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,350.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '1295.00'
+    month: '12'
+    year: '2016'
+    promotion: '$500.00 MOVE-IN BONUS'
+[2016-12-01 16:45:33.274291] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2016-12-01 16:45:33.274333] [info] Populating suite
+[2016-12-01 16:45:33.274370] [info] results is not a member of classObject
+[2016-12-01 16:45:33.274405] [info] totalRows is not a member of classObject
+[2016-12-01 16:45:33.274451] [info] currRow is not a member of classObject
+[2016-12-01 16:45:39.378228] [info] Running query: select * from House h where h.deleted != 1 order by h.street, h.house_num
+[2016-12-01 16:45:39.378400] [info] 10 rows returned.
+[2016-12-01 16:45:39.378492] [info] beanAvailable->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:39.378737] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [4]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2016-12-01 16:45:39.378783] [info] Populating available
+[2016-12-01 16:45:39.378823] [info] beanHouse->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:39.379043] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [4]
+house_num [43]
+street [Alberni]
+city [Ottawa]
+prov [ON]
+postal_code [K2J 1V8]
+bedrooms [3]
+bathrooms [1]
+powder_rooms [1]
+description [NO NEIGHBOURS AT THE REAR !!
+
+3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+
+This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.]
+size []
+type [SEMI-DETACHED]
+exists []
+
+[2016-12-01 16:45:39.379086] [info] Populating house
+[2016-12-01 16:45:39.379123] [info] beanSuite->dxHashToClass
+    house_id: '4'
+    house_num: '43'
+    street: 'Alberni'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1V8'
+    description: 'NO NEIGHBOURS AT THE REAR !!
+    
+    3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, dining room, living room, breakfast nook, storage, yard, patio, garage. $1,280.00 plus utilities.
+    
+    This townhouse has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:39.379313] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2016-12-01 16:45:39.379359] [info] Populating suite
+[2016-12-01 16:45:39.379410] [info] results is not a member of classObject
+[2016-12-01 16:45:39.379446] [info] totalRows is not a member of classObject
+[2016-12-01 16:45:39.379478] [info] currRow is not a member of classObject
+[2016-12-01 16:45:39.379560] [info] beanAvailable->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2016-12-01 16:45:39.379780] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [3]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2016-12-01 16:45:39.379825] [info] Populating available
+[2016-12-01 16:45:39.379862] [info] beanHouse->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2016-12-01 16:45:39.380093] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [3]
+house_num [45]
+street [Clifford Private]
+city [Ottawa]
+prov [ON]
+postal_code [K1G 4Y3]
+bedrooms [3]
+bathrooms [2]
+powder_rooms [1]
+description [ONE MONTH FREE 
+
+NEWLY RENOVATED 
+
+3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [DETACHED]
+exists []
+
+[2016-12-01 16:45:39.380136] [info] Populating house
+[2016-12-01 16:45:39.380183] [info] beanSuite->dxHashToClass
+    house_id: '3'
+    house_num: '45'
+    street: 'Clifford Private'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1G 4Y3'
+    description: 'ONE MONTH FREE 
+    
+    NEWLY RENOVATED 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk-in closet, dining room, living room, large entrance, partly finished basement, storage, yard, patio, garage. $1,320.00 plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2016-12-01 16:45:39.391539] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2016-12-01 16:45:39.391644] [info] Populating suite
+[2016-12-01 16:45:39.391685] [info] results is not a member of classObject
+[2016-12-01 16:45:39.391721] [info] totalRows is not a member of classObject
+[2016-12-01 16:45:39.391758] [info] currRow is not a member of classObject
+[2016-12-01 16:45:39.391860] [info] beanAvailable->dxHashToClass
+    house_id: '13'
+    house_num: '6529'
+    street: 'Colony Square'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 3E3'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY 
+    
+    END UNIT! 
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,350.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:39.392167] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [13]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2016-12-01 16:45:39.392220] [info] Populating available
+[2016-12-01 16:45:39.392260] [info] beanHouse->dxHashToClass
+    house_id: '13'
+    house_num: '6529'
+    street: 'Colony Square'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 3E3'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY 
+    
+    END UNIT! 
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,350.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:39.392509] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [13]
+house_num [6529]
+street [Colony Square]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 3E3]
+bedrooms [3]
+bathrooms [1]
+powder_rooms [1]
+description [$500.00 MOVE-IN BONUS !!
+
+IMMEDIATE AVAILABILITY 
+
+END UNIT! 
+
+Call 613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,350.00 plus utilities. 
+
+This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [SEMI-DETACHED]
+exists []
+
+[2016-12-01 16:45:39.392551] [info] Populating house
+[2016-12-01 16:45:39.392589] [info] beanSuite->dxHashToClass
+    house_id: '13'
+    house_num: '6529'
+    street: 'Colony Square'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 3E3'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY 
+    
+    END UNIT! 
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,350.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:39.392787] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2016-12-01 16:45:39.392827] [info] Populating suite
+[2016-12-01 16:45:39.392863] [info] results is not a member of classObject
+[2016-12-01 16:45:39.392896] [info] totalRows is not a member of classObject
+[2016-12-01 16:45:39.392930] [info] currRow is not a member of classObject
+[2016-12-01 16:45:39.392999] [info] beanAvailable->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    type: 'DETACHED'
+    bathrooms: '1'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2016-12-01 16:45:39.393188] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [1]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2016-12-01 16:45:39.393229] [info] Populating available
+[2016-12-01 16:45:39.393265] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    type: 'DETACHED'
+    bathrooms: '1'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2016-12-01 16:45:39.393487] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [ON]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+powder_rooms [1]
+description [NO NEIGHBORS AT THE REAR !!
+
+3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.]
+size []
+type [DETACHED]
+exists []
+
+[2016-12-01 16:45:39.393531] [info] Populating house
+[2016-12-01 16:45:39.393567] [info] beanSuite->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1E 3L8'
+    description: 'NO NEIGHBORS AT THE REAR !!
+    
+    3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage. $1,299.00                                               plus utilities.
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, providing young families or professionals with an affordable suburban lifestyle.'
+    type: 'DETACHED'
+    bathrooms: '1'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: ''
+    deleted: '0'
+[2016-12-01 16:45:39.393740] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2016-12-01 16:45:39.393780] [info] Populating suite
+[2016-12-01 16:45:39.393815] [info] results is not a member of classObject
+[2016-12-01 16:45:39.393850] [info] totalRows is not a member of classObject
+[2016-12-01 16:45:39.393882] [info] currRow is not a member of classObject
+[2016-12-01 16:45:39.393958] [info] beanAvailable->dxHashToClass
+    house_id: '8'
+    house_num: '1A'
+    street: 'Foxhill Way'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1J8'
+    description: '3 Bedroom townhouse,one full and two half bathrooms, 5 appliances, air conditioning, storage, patio, fenced yard, shed, parking.'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '2'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:39.394150] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [8]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2016-12-01 16:45:39.394208] [info] Populating available
+[2016-12-01 16:45:39.394253] [info] beanHouse->dxHashToClass
+    house_id: '8'
+    house_num: '1A'
+    street: 'Foxhill Way'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1J8'
+    description: '3 Bedroom townhouse,one full and two half bathrooms, 5 appliances, air conditioning, storage, patio, fenced yard, shed, parking.'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '2'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:39.394524] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [8]
+house_num [1A]
+street [Foxhill Way]
+city [Ottawa]
+prov [ON]
+postal_code [K2J 1J8]
+bedrooms [3]
+bathrooms [1]
+powder_rooms [2]
+description [3 Bedroom townhouse,one full and two half bathrooms, 5 appliances, air conditioning, storage, patio, fenced yard, shed, parking.]
+size []
+type [SEMI-DETACHED]
+exists []
+
+[2016-12-01 16:45:39.394589] [info] Populating house
+[2016-12-01 16:45:39.394635] [info] beanSuite->dxHashToClass
+    house_id: '8'
+    house_num: '1A'
+    street: 'Foxhill Way'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1J8'
+    description: '3 Bedroom townhouse,one full and two half bathrooms, 5 appliances, air conditioning, storage, patio, fenced yard, shed, parking.'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '2'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:39.394830] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2016-12-01 16:45:39.394884] [info] Populating suite
+[2016-12-01 16:45:39.394922] [info] results is not a member of classObject
+[2016-12-01 16:45:39.394959] [info] totalRows is not a member of classObject
+[2016-12-01 16:45:39.394994] [info] currRow is not a member of classObject
+[2016-12-01 16:45:39.395085] [info] beanAvailable->dxHashToClass
+    house_id: '11'
+    house_num: '1985'
+    street: 'Greenvale Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 6E'
+    description: '$500.00 MOVE-IN BONUS 
+    
+    NEWLY RENOVATED 
+    
+    613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:39.395340] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [11]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2016-12-01 16:45:39.395425] [info] Populating available
+[2016-12-01 16:45:39.395472] [info] beanHouse->dxHashToClass
+    house_id: '11'
+    house_num: '1985'
+    street: 'Greenvale Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 6E'
+    description: '$500.00 MOVE-IN BONUS 
+    
+    NEWLY RENOVATED 
+    
+    613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:39.395750] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [11]
+house_num [1985]
+street [Greenvale Lane]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 6E]
+bedrooms [3]
+bathrooms [2]
+powder_rooms [1]
+description [$500.00 MOVE-IN BONUS 
+
+NEWLY RENOVATED 
+
+613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+
+This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [DETACHED]
+exists []
+
+[2016-12-01 16:45:39.395828] [info] Populating house
+[2016-12-01 16:45:39.395875] [info] beanSuite->dxHashToClass
+    house_id: '11'
+    house_num: '1985'
+    street: 'Greenvale Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 6E'
+    description: '$500.00 MOVE-IN BONUS 
+    
+    NEWLY RENOVATED 
+    
+    613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom house, 2.5 bathrooms, 5 appliances, breakfast nook, master bedroom with ensuite bathroom and walk in closet, dining room, living room, storage, yard, patio, parking. $1,250.00 plus utilities. 
+    
+    This house has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:39.396116] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2016-12-01 16:45:39.396177] [info] Populating suite
+[2016-12-01 16:45:39.396218] [info] results is not a member of classObject
+[2016-12-01 16:45:39.396256] [info] totalRows is not a member of classObject
+[2016-12-01 16:45:39.396295] [info] currRow is not a member of classObject
+[2016-12-01 16:45:39.396415] [info] beanAvailable->dxHashToClass
+    house_id: '9'
+    house_num: '10C'
+    street: 'Knollsbrook Dr.'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1L7'
+    description: '3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, storage, yard, parking, water included. $1,200.00 plus gas and electricity.'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:39.396634] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [9]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2016-12-01 16:45:39.396687] [info] Populating available
+[2016-12-01 16:45:39.396730] [info] beanHouse->dxHashToClass
+    house_id: '9'
+    house_num: '10C'
+    street: 'Knollsbrook Dr.'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1L7'
+    description: '3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, storage, yard, parking, water included. $1,200.00 plus gas and electricity.'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:39.396951] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [9]
+house_num [10C]
+street [Knollsbrook Dr.]
+city [Ottawa]
+prov [ON]
+postal_code [K2J 1L7]
+bedrooms [3]
+bathrooms [1]
+powder_rooms [1]
+description [3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, storage, yard, parking, water included. $1,200.00 plus gas and electricity.]
+size []
+type [SEMI-DETACHED]
+exists []
+
+[2016-12-01 16:45:39.397008] [info] Populating house
+[2016-12-01 16:45:39.397053] [info] beanSuite->dxHashToClass
+    house_id: '9'
+    house_num: '10C'
+    street: 'Knollsbrook Dr.'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1L7'
+    description: '3 Bedroom townhouse, 1.5 bathrooms, 5 appliances, storage, yard, parking, water included. $1,200.00 plus gas and electricity.'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:39.397259] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2016-12-01 16:45:39.397317] [info] Populating suite
+[2016-12-01 16:45:39.397357] [info] results is not a member of classObject
+[2016-12-01 16:45:39.397424] [info] totalRows is not a member of classObject
+[2016-12-01 16:45:39.397461] [info] currRow is not a member of classObject
+[2016-12-01 16:45:39.397557] [info] beanAvailable->dxHashToClass
+    house_id: '12'
+    house_num: '66'
+    street: 'Sundback Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2L 2W8'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY 
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom townhouse, 1 full and 2 half bathrooms, the master bedroom features one of the half bathrooms as an ensuite as well as a walk-in closet, air-conditioning, 5 appliances, eat-in kitchen, dining room, living room, fireplace, large entrance, storage, fenced yard, shed, patio, garage. $1,395.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '2'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:39.397831] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [12]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2016-12-01 16:45:39.397893] [info] Populating available
+[2016-12-01 16:45:39.397938] [info] beanHouse->dxHashToClass
+    house_id: '12'
+    house_num: '66'
+    street: 'Sundback Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2L 2W8'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY 
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom townhouse, 1 full and 2 half bathrooms, the master bedroom features one of the half bathrooms as an ensuite as well as a walk-in closet, air-conditioning, 5 appliances, eat-in kitchen, dining room, living room, fireplace, large entrance, storage, fenced yard, shed, patio, garage. $1,395.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '2'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:39.398237] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [12]
+house_num [66]
+street [Sundback Lane]
+city [Ottawa]
+prov [ON]
+postal_code [K2L 2W8]
+bedrooms [3]
+bathrooms [1]
+powder_rooms [2]
+description [$500.00 MOVE-IN BONUS !!
+
+IMMEDIATE AVAILABILITY 
+
+Call 613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom townhouse, 1 full and 2 half bathrooms, the master bedroom features one of the half bathrooms as an ensuite as well as a walk-in closet, air-conditioning, 5 appliances, eat-in kitchen, dining room, living room, fireplace, large entrance, storage, fenced yard, shed, patio, garage. $1,395.00 plus utilities. 
+
+This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [SEMI-DETACHED]
+exists []
+
+[2016-12-01 16:45:39.398303] [info] Populating house
+[2016-12-01 16:45:39.398348] [info] beanSuite->dxHashToClass
+    house_id: '12'
+    house_num: '66'
+    street: 'Sundback Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2L 2W8'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY 
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom townhouse, 1 full and 2 half bathrooms, the master bedroom features one of the half bathrooms as an ensuite as well as a walk-in closet, air-conditioning, 5 appliances, eat-in kitchen, dining room, living room, fireplace, large entrance, storage, fenced yard, shed, patio, garage. $1,395.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '2'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:39.398644] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2016-12-01 16:45:39.398708] [info] Populating suite
+[2016-12-01 16:45:39.398749] [info] results is not a member of classObject
+[2016-12-01 16:45:39.398786] [info] totalRows is not a member of classObject
+[2016-12-01 16:45:39.398823] [info] currRow is not a member of classObject
+[2016-12-01 16:45:39.398921] [info] beanAvailable->dxHashToClass
+    house_id: '10'
+    house_num: '11'
+    street: 'Trafford Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1X6'
+    description: '3 Bedroom townhouse, 2.5 bathrooms, 5 appliances, fireplace, walk in closet, partly finished basement, storage, fenced yard, patio, garage, garage door opener. $1,195.00 plus utilities.
+            
+    This well maintained home is located close to parks, bus routes, schools, and shopping. It's ideal for a family.
+            
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396.'
+    type: 'SEMI-DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:39.399180] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [10]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2016-12-01 16:45:39.399238] [info] Populating available
+[2016-12-01 16:45:39.399282] [info] beanHouse->dxHashToClass
+    house_id: '10'
+    house_num: '11'
+    street: 'Trafford Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1X6'
+    description: '3 Bedroom townhouse, 2.5 bathrooms, 5 appliances, fireplace, walk in closet, partly finished basement, storage, fenced yard, patio, garage, garage door opener. $1,195.00 plus utilities.
+            
+    This well maintained home is located close to parks, bus routes, schools, and shopping. It's ideal for a family.
+            
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396.'
+    type: 'SEMI-DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:39.399566] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [10]
+house_num [11]
+street [Trafford Lane]
+city [Ottawa]
+prov [ON]
+postal_code [K2J 1X6]
+bedrooms [3]
+bathrooms [2]
+powder_rooms [1]
+description [3 Bedroom townhouse, 2.5 bathrooms, 5 appliances, fireplace, walk in closet, partly finished basement, storage, fenced yard, patio, garage, garage door opener. $1,195.00 plus utilities.
+    
+This well maintained home is located close to parks, bus routes, schools, and shopping. It's ideal for a family.
+    
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396.]
+size []
+type [SEMI-DETACHED]
+exists []
+
+[2016-12-01 16:45:39.399631] [info] Populating house
+[2016-12-01 16:45:39.399673] [info] beanSuite->dxHashToClass
+    house_id: '10'
+    house_num: '11'
+    street: 'Trafford Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1X6'
+    description: '3 Bedroom townhouse, 2.5 bathrooms, 5 appliances, fireplace, walk in closet, partly finished basement, storage, fenced yard, patio, garage, garage door opener. $1,195.00 plus utilities.
+            
+    This well maintained home is located close to parks, bus routes, schools, and shopping. It's ideal for a family.
+            
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396.'
+    type: 'SEMI-DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:39.399914] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2016-12-01 16:45:39.399971] [info] Populating suite
+[2016-12-01 16:45:39.400012] [info] results is not a member of classObject
+[2016-12-01 16:45:39.400048] [info] totalRows is not a member of classObject
+[2016-12-01 16:45:39.400085] [info] currRow is not a member of classObject
+[2016-12-01 16:45:39.400180] [info] beanAvailable->dxHashToClass
+    house_id: '14'
+    house_num: '21'
+    street: 'Trafford Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1X6'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom single family home, 2.5 bathrooms, master bedroom featuring a sitting area and an ensuite bathroom, 5 appliances, eat-in kitchen, dining room, living room, fireplace, finished rec room in the basement, storage, yard, garage. $1,390.00 plus utilities.
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+     
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:39.400475] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [14]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2016-12-01 16:45:39.400537] [info] Populating available
+[2016-12-01 16:45:39.400580] [info] beanHouse->dxHashToClass
+    house_id: '14'
+    house_num: '21'
+    street: 'Trafford Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1X6'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom single family home, 2.5 bathrooms, master bedroom featuring a sitting area and an ensuite bathroom, 5 appliances, eat-in kitchen, dining room, living room, fireplace, finished rec room in the basement, storage, yard, garage. $1,390.00 plus utilities.
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+     
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:39.400872] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [14]
+house_num [21]
+street [Trafford Lane]
+city [Ottawa]
+prov [ON]
+postal_code [K2J 1X6]
+bedrooms [3]
+bathrooms [2]
+powder_rooms [1]
+description [$500.00 MOVE-IN BONUS !!
+
+IMMEDIATE AVAILABILITY
+
+Call 613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom single family home, 2.5 bathrooms, master bedroom featuring a sitting area and an ensuite bathroom, 5 appliances, eat-in kitchen, dining room, living room, fireplace, finished rec room in the basement, storage, yard, garage. $1,390.00 plus utilities.
+
+This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+ 
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [DETACHED]
+exists []
+
+[2016-12-01 16:45:39.400954] [info] Populating house
+[2016-12-01 16:45:39.401000] [info] beanSuite->dxHashToClass
+    house_id: '14'
+    house_num: '21'
+    street: 'Trafford Lane'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K2J 1X6'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom single family home, 2.5 bathrooms, master bedroom featuring a sitting area and an ensuite bathroom, 5 appliances, eat-in kitchen, dining room, living room, fireplace, finished rec room in the basement, storage, yard, garage. $1,390.00 plus utilities.
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+     
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:39.401256] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2016-12-01 16:45:39.401314] [info] Populating suite
+[2016-12-01 16:45:39.401357] [info] results is not a member of classObject
+[2016-12-01 16:45:39.401427] [info] totalRows is not a member of classObject
+[2016-12-01 16:45:39.401467] [info] currRow is not a member of classObject
+[2016-12-01 16:45:44.341552] [info] edit_house.php
+[2016-12-01 16:45:44.341667] [info] -->_REQUEST 13
+[2016-12-01 16:45:44.341715] [info] -->_POST 
+[2016-12-01 16:45:44.341753] [info] -->_POST[add_photos] 
+[2016-12-01 16:45:44.341789] [info] -->_POST[save] 
+[2016-12-01 16:45:44.413243] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id='13'
+[2016-12-01 16:45:44.413398] [info] 1 rows returned.
+[2016-12-01 16:45:44.413454] [info] Results: 1
+[2016-12-01 16:45:44.413516] [info] beanHouse->dxHashToClass
+    house_id: '13'
+    house_num: '6529'
+    street: 'Colony Square'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 3E3'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY 
+    
+    END UNIT! 
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,350.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:45:44.413858] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [13]
+house_num [6529]
+street [Colony Square]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 3E3]
+bedrooms [3]
+bathrooms [1]
+powder_rooms [1]
+description [$500.00 MOVE-IN BONUS !!
+
+IMMEDIATE AVAILABILITY 
+
+END UNIT! 
+
+Call 613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,350.00 plus utilities. 
+
+This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [SEMI-DETACHED]
+exists [1]
+
+[2016-12-01 16:45:44.435043] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=13
+[2016-12-01 16:45:44.435188] [info] 1 rows returned.
+[2016-12-01 16:45:44.451875] [info] Gallery exists 114
+[2016-12-01 16:45:44.461364] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='114'
+[2016-12-01 16:45:44.461430] [info] 1 rows returned.
+[2016-12-01 16:45:44.461469] [info] Results: 1
+[2016-12-01 16:45:44.461514] [info] beanGallery->dxHashToClass
+    gallery_id: '114'
+    code: '6529ColonySquare'
+    description: '6529 Colony Square'
+[2016-12-01 16:45:44.461642] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [114]
+code [6529ColonySquare]
+description [6529 Colony Square]
+exists [1]
+
+[2016-12-01 16:45:44.461694] [info] gallery: 1
+[2016-12-01 16:45:44.486468] [info] Running query: select f.feature_id, f.feature from senatorapts.HouseFeatures f where f.house_id = 13
+[2016-12-01 16:45:44.486610] [info] 0 rows returned.
+[2016-12-01 16:45:44.486665] [info] __doLoadPhotos
+[2016-12-01 16:45:44.486701] [info] -->this: 1
+[2016-12-01 16:45:44.486737] [info] -->gallery: 1
+[2016-12-01 16:45:44.520370] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 114 and gp.photo_id = p.photo_id
+[2016-12-01 16:45:44.520574] [info] 7 rows returned.
+[2016-12-01 16:45:44.520617] [info] Results: 7
+[2016-12-01 16:45:44.520706] [info] 244
+[2016-12-01 16:45:44.520744] [info] 245
+[2016-12-01 16:45:44.520859] [info] 246
+[2016-12-01 16:45:44.520920] [info] 247
+[2016-12-01 16:45:44.520953] [info] 248
+[2016-12-01 16:45:44.520987] [info] 249
+[2016-12-01 16:45:44.521018] [info] 250
+[2016-12-01 16:45:44.521164] [info] images/imggal/6529ColonySquare/thumb/1.jpg
+[2016-12-01 16:45:44.521209] [info] images/imggal/6529ColonySquare/thumb/2.jpg
+[2016-12-01 16:45:44.521243] [info] images/imggal/6529ColonySquare/thumb/3.jpg
+[2016-12-01 16:45:44.521274] [info] images/imggal/6529ColonySquare/thumb/4.jpg
+[2016-12-01 16:45:44.521305] [info] images/imggal/6529ColonySquare/thumb/5.jpg
+[2016-12-01 16:45:44.521336] [info] images/imggal/6529ColonySquare/thumb/6.jpg
+[2016-12-01 16:45:44.521375] [info] images/imggal/6529ColonySquare/thumb/7.jpg
+[2016-12-01 16:45:44.521420] [info] images/imggal/6529ColonySquare/med/1.jpg
+[2016-12-01 16:45:44.521452] [info] images/imggal/6529ColonySquare/med/2.jpg
+[2016-12-01 16:45:44.521491] [info] images/imggal/6529ColonySquare/med/3.jpg
+[2016-12-01 16:45:44.521523] [info] images/imggal/6529ColonySquare/med/4.jpg
+[2016-12-01 16:45:44.521554] [info] images/imggal/6529ColonySquare/med/5.jpg
+[2016-12-01 16:45:44.521585] [info] images/imggal/6529ColonySquare/med/6.jpg
+[2016-12-01 16:45:44.521617] [info] images/imggal/6529ColonySquare/med/7.jpg
+[2016-12-01 16:45:44.521651] [info] images/imggal/6529ColonySquare/full/1.jpg
+[2016-12-01 16:45:44.521682] [info] images/imggal/6529ColonySquare/full/2.jpg
+[2016-12-01 16:45:44.521713] [info] images/imggal/6529ColonySquare/full/3.jpg
+[2016-12-01 16:45:44.521744] [info] images/imggal/6529ColonySquare/full/4.jpg
+[2016-12-01 16:45:44.521775] [info] images/imggal/6529ColonySquare/full/5.jpg
+[2016-12-01 16:45:44.521806] [info] images/imggal/6529ColonySquare/full/6.jpg
+[2016-12-01 16:45:44.521842] [info] images/imggal/6529ColonySquare/full/7.jpg
+[2016-12-01 16:45:44.528027] [info] buildImageUpload
+[2016-12-01 16:47:07.594453] [info] edit_house.php
+[2016-12-01 16:47:07.594587] [info] -->_REQUEST 13
+[2016-12-01 16:47:07.594626] [info] -->_POST 13
+[2016-12-01 16:47:07.594669] [info] -->_POST[add_photos] 
+[2016-12-01 16:47:07.594702] [info] -->_POST[save] Save
+[2016-12-01 16:47:07.599370] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id='13'
+[2016-12-01 16:47:07.599517] [info] 1 rows returned.
+[2016-12-01 16:47:07.599559] [info] Results: 1
+[2016-12-01 16:47:07.599615] [info] beanHouse->dxHashToClass
+    house_id: '13'
+    house_num: '6529'
+    street: 'Colony Square'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 3E3'
+    description: '$500.00 MOVE-IN BONUS !!
+    
+    IMMEDIATE AVAILABILITY 
+    
+    END UNIT! 
+    
+    Call 613-232-2396 for more information or to arrange a showing. 
+    
+    3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,350.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bathrooms: '1'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2016-12-01 16:47:07.599940] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [13]
+house_num [6529]
+street [Colony Square]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 3E3]
+bedrooms [3]
+bathrooms [1]
+powder_rooms [1]
+description [$500.00 MOVE-IN BONUS !!
+
+IMMEDIATE AVAILABILITY 
+
+END UNIT! 
+
+Call 613-232-2396 for more information or to arrange a showing. 
+
+3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,350.00 plus utilities. 
+
+This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [SEMI-DETACHED]
+exists [1]
+
+[2016-12-01 16:47:07.600305] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=13
+[2016-12-01 16:47:07.600370] [info] 1 rows returned.
+[2016-12-01 16:47:07.601609] [info] Gallery exists 114
+[2016-12-01 16:47:07.602224] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='114'
+[2016-12-01 16:47:07.602282] [info] 1 rows returned.
+[2016-12-01 16:47:07.602319] [info] Results: 1
+[2016-12-01 16:47:07.602372] [info] beanGallery->dxHashToClass
+    gallery_id: '114'
+    code: '6529ColonySquare'
+    description: '6529 Colony Square'
+[2016-12-01 16:47:07.602530] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [114]
+code [6529ColonySquare]
+description [6529 Colony Square]
+exists [1]
+
+[2016-12-01 16:47:07.602581] [info] gallery: 1
+[2016-12-01 16:47:07.602899] [info] Running query: select f.feature_id, f.feature from senatorapts.HouseFeatures f where f.house_id = 13
+[2016-12-01 16:47:07.602952] [info] 0 rows returned.
+[2016-12-01 16:47:07.602998] [info] beanHouse->dxHashToClass
+    house_id: '13'
+    house_num: '6529'
+    street: 'Colony Square'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 3E3'
+    description: '$500.00 MOVE-IN BONUS !!           END UNIT! 
+    
+    613-232-2396 
+    
+    Holiday Special! 
+    We want to make your move during the holidays as easy as possible. If you were planning to move-in in January, now you can take your time! Move-in early in December at no extra cost. 
+    
+    3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,295.00 plus utilities. 
+    
+    This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+    
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'SEMI-DETACHED'
+    bedrooms: '3'
+    bathrooms: '1'
+    powder_rooms: '1'
+    save: 'Save'
+    new_feature: ''
+[2016-12-01 16:47:07.603286] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [13]
+house_num [6529]
+street [Colony Square]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 3E3]
+bedrooms [3]
+bathrooms [1]
+powder_rooms [1]
+description [$500.00 MOVE-IN BONUS !!           END UNIT! 
+
+613-232-2396 
+
+Holiday Special! 
+We want to make your move during the holidays as easy as possible. If you were planning to move-in in January, now you can take your time! Move-in early in December at no extra cost. 
+
+3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,295.00 plus utilities. 
+
+This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [SEMI-DETACHED]
+exists [1]
+
+[2016-12-01 16:47:07.603369] [info] beanHouse->__doSave
+[2016-12-01 16:47:07.603445] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [13]
+house_num [6529]
+street [Colony Square]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 3E3]
+bedrooms [3]
+bathrooms [1]
+powder_rooms [1]
+description [$500.00 MOVE-IN BONUS !!           END UNIT! 
+
+613-232-2396 
+
+Holiday Special! 
+We want to make your move during the holidays as easy as possible. If you were planning to move-in in January, now you can take your time! Move-in early in December at no extra cost. 
+
+3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,295.00 plus utilities. 
+
+This beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. 
+
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [SEMI-DETACHED]
+exists [1]
+
+[2016-12-01 16:47:07.604581] [info] Running query: UPDATE senatorapts.House SET  house_num='6529', street='Colony Square', city='Ottawa', prov='ON', postal_code='K1C 3E3', bedrooms='3', bathrooms='1', powder_rooms='1', description='$500.00 MOVE-IN BONUS !!           END UNIT! \r\n\r\n613-232-2396 \r\n\r\nHoliday Special! \r\nWe want to make your move during the holidays as easy as possible. If you were planning to move-in in January, now you can take your time! Move-in early in December at no extra cost. \r\n\r\n3 Bedroom townhouse, 1.5 bathrooms, master bedroom, 5 appliances, eat-in kitchen, dining room, living room, finished rec room in the basement, storage, fenced yard, deck, garage. $1,295.00 plus utilities. \r\n\r\nThis beautiful family home has a great location, only minutes from schools, parks, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle. \r\n\r\nFor more information or to arrange a showing please contact our Rental Agent at 613-232-2396', type='SEMI-DETACHED' WHERE house_id='13'
+[2016-12-01 16:47:07.604661] [info]  rows returned.
+[2016-12-01 16:47:07.604701] [info] Saved house 1
+[2016-12-01 16:47:07.604744] [info] __doLoadPhotos
+[2016-12-01 16:47:07.604779] [info] -->this: 1
+[2016-12-01 16:47:07.604815] [info] -->gallery: 1
+[2016-12-01 16:47:07.605230] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 114 and gp.photo_id = p.photo_id
+[2016-12-01 16:47:07.605292] [info] 7 rows returned.
+[2016-12-01 16:47:07.605330] [info] Results: 7
+[2016-12-01 16:47:07.605720] [info] 244
+[2016-12-01 16:47:07.605771] [info] 245
+[2016-12-01 16:47:07.605804] [info] 246
+[2016-12-01 16:47:07.605837] [info] 247
+[2016-12-01 16:47:07.605869] [info] 248
+[2016-12-01 16:47:07.605901] [info] 249
+[2016-12-01 16:47:07.605931] [info] 250
+[2016-12-01 16:47:07.605967] [info] images/imggal/6529ColonySquare/thumb/1.jpg
+[2016-12-01 16:47:07.605999] [info] images/imggal/6529ColonySquare/thumb/2.jpg
+[2016-12-01 16:47:07.606033] [info] images/imggal/6529ColonySquare/thumb/3.jpg
+[2016-12-01 16:47:07.606065] [info] images/imggal/6529ColonySquare/thumb/4.jpg
+[2016-12-01 16:47:07.606097] [info] images/imggal/6529ColonySquare/thumb/5.jpg
+[2016-12-01 16:47:07.606138] [info] images/imggal/6529ColonySquare/thumb/6.jpg
+[2016-12-01 16:47:07.606173] [info] images/imggal/6529ColonySquare/thumb/7.jpg
+[2016-12-01 16:47:07.606208] [info] images/imggal/6529ColonySquare/med/1.jpg
+[2016-12-01 16:47:07.606241] [info] images/imggal/6529ColonySquare/med/2.jpg
+[2016-12-01 16:47:07.606273] [info] images/imggal/6529ColonySquare/med/3.jpg
+[2016-12-01 16:47:07.606306] [info] images/imggal/6529ColonySquare/med/4.jpg
+[2016-12-01 16:47:07.606338] [info] images/imggal/6529ColonySquare/med/5.jpg
+[2016-12-01 16:47:07.606380] [info] images/imggal/6529ColonySquare/med/6.jpg
+[2016-12-01 16:47:07.606414] [info] images/imggal/6529ColonySquare/med/7.jpg
+[2016-12-01 16:47:07.606447] [info] images/imggal/6529ColonySquare/full/1.jpg
+[2016-12-01 16:47:07.606481] [info] images/imggal/6529ColonySquare/full/2.jpg
+[2016-12-01 16:47:07.606513] [info] images/imggal/6529ColonySquare/full/3.jpg
+[2016-12-01 16:47:07.606545] [info] images/imggal/6529ColonySquare/full/4.jpg
+[2016-12-01 16:47:07.606578] [info] images/imggal/6529ColonySquare/full/5.jpg
+[2016-12-01 16:47:07.606610] [info] images/imggal/6529ColonySquare/full/6.jpg
+[2016-12-01 16:47:07.606642] [info] images/imggal/6529ColonySquare/full/7.jpg
+[2016-12-01 16:47:07.607860] [info] buildImageUpload
+[2016-12-01 16:48:47.368283] [info] Running query: select * from senatorapts.Suite s, senatorapts.Available a where s.suite_id = a.suite_id  order by a.year, a.month, s.suite_order
+[2016-12-01 16:48:47.368433] [info] 2 rows returned.
+[2016-12-01 16:48:47.368510] [info] beanAvailable->dxHashToClass
+    suite_id: '604'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=04'
+    suite_order: '45'
+    rent: '905.00'
+    promotion: ''
+    month: '12'
+    year: '2016'
+[2016-12-01 16:48:47.368679] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [604]
+house_id []
+month [12]
+year [2016]
+rent [905.00]
+promotion []
+exists []
+
+[2016-12-01 16:48:47.368720] [info] Populating available
+[2016-12-01 16:48:47.368756] [info] beanSuite->dxHashToClass
+    suite_id: '604'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=04'
+    suite_order: '45'
+    rent: '905.00'
+    promotion: ''
+    month: '12'
+    year: '2016'
+[2016-12-01 16:48:47.368879] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [604]
+bedrooms [1]
+suite_order [45]
+floor_plan [index.php?action=floor_plan&suite_id=04]
+exists []
+
+[2016-12-01 16:48:47.368917] [info] Populating suite
+[2016-12-01 16:48:47.368952] [info] results is not a member of classObject
+[2016-12-01 16:48:47.368987] [info] totalRows is not a member of classObject
+[2016-12-01 16:48:47.369019] [info] currRow is not a member of classObject
+[2016-12-01 16:48:47.369097] [info] beanAvailable->dxHashToClass
+    suite_id: '904'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=04'
+    suite_order: '69'
+    rent: '910.00'
+    promotion: ''
+    month: '1'
+    year: '2017'
+[2016-12-01 16:48:47.369223] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [904]
+house_id []
+month [1]
+year [2017]
+rent [910.00]
+promotion []
+exists []
+
+[2016-12-01 16:48:47.369261] [info] Populating available
+[2016-12-01 16:48:47.369297] [info] beanSuite->dxHashToClass
+    suite_id: '904'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=04'
+    suite_order: '69'
+    rent: '910.00'
+    promotion: ''
+    month: '1'
+    year: '2017'
+[2016-12-01 16:48:47.369424] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [904]
+bedrooms [1]
+suite_order [69]
+floor_plan [index.php?action=floor_plan&suite_id=04]
+exists []
+
+[2016-12-01 16:48:47.369463] [info] Populating suite
+[2016-12-01 16:48:47.369498] [info] results is not a member of classObject
+[2016-12-01 16:48:47.369532] [info] totalRows is not a member of classObject
+[2016-12-01 16:48:47.369565] [info] currRow is not a member of classObject

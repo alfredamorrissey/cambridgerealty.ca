@@ -1,0 +1,4186 @@
+[2015-12-02 8:11:24.352140] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 8:11:24.352318] [info] 1 rows returned.
+[2015-12-02 8:11:24.352363] [info] Results: 1
+[2015-12-02 8:11:24.352427] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 8:11:24.352679] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 8:11:24.417752] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 8:11:24.417893] [info] 1 rows returned.
+[2015-12-02 8:11:24.430332] [info] Running query: SELECT * FROM senatorapts.GalleryPhotos WHERE gallery_id='12'
+[2015-12-02 8:11:24.430444] [info] 0 rows returned.
+[2015-12-02 8:11:24.430486] [info] Results: 0
+[2015-12-02 8:11:26.887564] [info] tblName [Member]
+tblIndex [Array]
+schema [senatorapts]
+member_id [-1]
+username []
+password []
+exists []
+
+[2015-12-02 8:11:26.892991] [info] Running query: SELECT * FROM senatorapts.Member WHERE username='e.674.em@gmail.com'
+[2015-12-02 8:11:26.893053] [info] 1 rows returned.
+[2015-12-02 8:11:26.893100] [info] beanMember->dxHashToClass
+    member_id: '2'
+    username: 'e.674.em@gmail.com'
+    password: 'YHKNdw3TI0lCz0WZA3Xfq6OkERPFLFHmF/brnN3G8cg='
+[2015-12-02 8:11:26.893219] [info] tblName [Member]
+tblIndex [Array]
+schema [senatorapts]
+member_id [2]
+username [e.674.em@gmail.com]
+password [YHKNdw3TI0lCz0WZA3Xfq6OkERPFLFHmF/brnN3G8cg=]
+exists [1]
+
+[2015-12-02 8:11:26.893280] [info] tblName [Member]
+tblIndex [Array]
+schema [senatorapts]
+member_id [2]
+username [e.674.em@gmail.com]
+password [YHKNdw3TI0lCz0WZA3Xfq6OkERPFLFHmF/brnN3G8cg=]
+exists [1]
+
+[2015-12-02 8:11:26.893836] [info] Decrypted password: [Pluron25] does it mathc [Pluron25]
+[2015-12-02 8:11:27.085016] [info] Running query: select * from senatorapts.Suite s, senatorapts.Available a where s.suite_id = a.suite_id  order by a.year, a.month, s.suite_order
+[2015-12-02 8:11:27.085222] [info] 3 rows returned.
+[2015-12-02 8:11:27.085309] [info] beanAvailable->dxHashToClass
+    suite_id: '101'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=01'
+    suite_order: '4'
+    rent: '855'
+    promotion: 'One month free'
+    month: '12'
+    year: '2015'
+[2015-12-02 8:11:27.085493] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [101]
+house_id []
+month [12]
+year [2015]
+rent [855]
+promotion [One month free]
+exists []
+
+[2015-12-02 8:11:27.085535] [info] Populating available
+[2015-12-02 8:11:27.085572] [info] beanSuite->dxHashToClass
+    suite_id: '101'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=01'
+    suite_order: '4'
+    rent: '855'
+    promotion: 'One month free'
+    month: '12'
+    year: '2015'
+[2015-12-02 8:11:27.085700] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [101]
+bedrooms [1]
+suite_order [4]
+floor_plan [index.php?action=floor_plan&suite_id=01]
+exists []
+
+[2015-12-02 8:11:27.085808] [info] Populating suite
+[2015-12-02 8:11:27.085848] [info] results is not a member of classObject
+[2015-12-02 8:11:27.085887] [info] totalRows is not a member of classObject
+[2015-12-02 8:11:27.085922] [info] currRow is not a member of classObject
+[2015-12-02 8:11:27.096719] [info] beanAvailable->dxHashToClass
+    suite_id: '503'
+    bedrooms: 'B'
+    floor_plan: 'index.php?action=floor_plan&suite_id=03'
+    suite_order: '36'
+    rent: '785'
+    promotion: 'One month free'
+    month: '12'
+    year: '2015'
+[2015-12-02 8:11:27.096975] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [503]
+house_id []
+month [12]
+year [2015]
+rent [785]
+promotion [One month free]
+exists []
+
+[2015-12-02 8:11:27.097031] [info] Populating available
+[2015-12-02 8:11:27.097069] [info] beanSuite->dxHashToClass
+    suite_id: '503'
+    bedrooms: 'B'
+    floor_plan: 'index.php?action=floor_plan&suite_id=03'
+    suite_order: '36'
+    rent: '785'
+    promotion: 'One month free'
+    month: '12'
+    year: '2015'
+[2015-12-02 8:11:27.097213] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [503]
+bedrooms [B]
+suite_order [36]
+floor_plan [index.php?action=floor_plan&suite_id=03]
+exists []
+
+[2015-12-02 8:11:27.097254] [info] Populating suite
+[2015-12-02 8:11:27.097290] [info] results is not a member of classObject
+[2015-12-02 8:11:27.097325] [info] totalRows is not a member of classObject
+[2015-12-02 8:11:27.097358] [info] currRow is not a member of classObject
+[2015-12-02 8:11:27.097436] [info] beanAvailable->dxHashToClass
+    suite_id: '607'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=07'
+    suite_order: '48'
+    rent: '883'
+    promotion: 'One month free'
+    month: '12'
+    year: '2015'
+[2015-12-02 8:11:27.097590] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id [607]
+house_id []
+month [12]
+year [2015]
+rent [883]
+promotion [One month free]
+exists []
+
+[2015-12-02 8:11:27.097630] [info] Populating available
+[2015-12-02 8:11:27.097666] [info] beanSuite->dxHashToClass
+    suite_id: '607'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&suite_id=07'
+    suite_order: '48'
+    rent: '883'
+    promotion: 'One month free'
+    month: '12'
+    year: '2015'
+[2015-12-02 8:11:27.097786] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id [607]
+bedrooms [1]
+suite_order [48]
+floor_plan [index.php?action=floor_plan&suite_id=07]
+exists []
+
+[2015-12-02 8:11:27.097826] [info] Populating suite
+[2015-12-02 8:11:27.097862] [info] results is not a member of classObject
+[2015-12-02 8:11:27.097896] [info] totalRows is not a member of classObject
+[2015-12-02 8:11:27.097929] [info] currRow is not a member of classObject
+[2015-12-02 8:11:33.439465] [info] Running query: select * from House h order by h.street, h.house_num
+[2015-12-02 8:11:33.439594] [info] 1 rows returned.
+[2015-12-02 8:11:33.439672] [info] beanAvailable->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 8:11:33.439856] [info] tblName []
+tblIndex [Available]
+schema [senatorapts]
+suite_id []
+house_id [1]
+month []
+year []
+rent []
+promotion []
+exists []
+
+[2015-12-02 8:11:33.439897] [info] Populating available
+[2015-12-02 8:11:33.439933] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 8:11:33.440100] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists []
+
+[2015-12-02 8:11:33.440140] [info] Populating house
+[2015-12-02 8:11:33.440177] [info] beanSuite->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 8:11:33.440318] [info] tblName [Suite]
+tblIndex [Array]
+schema [senatorapts]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+exists []
+
+[2015-12-02 8:11:33.440362] [info] Populating suite
+[2015-12-02 8:11:33.440399] [info] results is not a member of classObject
+[2015-12-02 8:11:33.440433] [info] totalRows is not a member of classObject
+[2015-12-02 8:11:33.440466] [info] currRow is not a member of classObject
+[2015-12-02 8:11:35.829180] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 8:11:35.829287] [info] 1 rows returned.
+[2015-12-02 8:11:35.829329] [info] Results: 1
+[2015-12-02 8:11:35.829376] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 8:11:35.829591] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 8:11:35.830360] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 8:11:35.830419] [info] 1 rows returned.
+[2015-12-02 8:11:35.831809] [info] Running query: SELECT * FROM senatorapts.GalleryPhotos WHERE gallery_id='12'
+[2015-12-02 8:11:35.831876] [info] 0 rows returned.
+[2015-12-02 8:11:35.831914] [info] Results: 0
+[2015-12-02 8:11:41.867392] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 8:11:41.867501] [info] 1 rows returned.
+[2015-12-02 8:11:41.867542] [info] Results: 1
+[2015-12-02 8:11:41.867592] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 8:11:41.867794] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 8:11:41.869445] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 8:11:41.869498] [info] 1 rows returned.
+[2015-12-02 8:11:41.870424] [info] Running query: SELECT * FROM senatorapts.GalleryPhotos WHERE gallery_id='12'
+[2015-12-02 8:11:41.870477] [info] 0 rows returned.
+[2015-12-02 8:11:41.870516] [info] Results: 0
+[2015-12-02 8:11:41.870563] [info] beanHouse->dxHashToClass
+    action: 'upload_photos'
+    house_id: '1'
+[2015-12-02 8:11:41.870673] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 8:11:41.870718] [info] beanHouse->__doSave
+[2015-12-02 8:11:41.870779] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 8:11:41.872198] [info] Running query: UPDATE senatorapts.House SET  house_num='301', street='Cote Royal', city='Ottawa', prov='BC', postal_code='K1E 3L8', bedrooms='3', bathrooms='1', description='3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.', size='' WHERE house_id=1
+[2015-12-02 8:11:41.872261] [info]  rows returned.
+[2015-12-02 8:11:41.872298] [info] Saved house 1
+[2015-12-02 8:11:41.872337] [info] Uploading  to 
+[2015-12-02 8:11:41.894242] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 8:11:41.894387] [info] 1 rows returned.
+[2015-12-02 8:11:41.894438] [info] Results: 1
+[2015-12-02 8:11:41.894490] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 8:11:41.894634] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 8:11:41.894685] [info] Creating path /var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale
+[2015-12-02 8:12:18.070732] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 8:12:18.070846] [info] 1 rows returned.
+[2015-12-02 8:12:18.070888] [info] Results: 1
+[2015-12-02 8:12:18.070938] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 8:12:18.071157] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 8:12:18.071901] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 8:12:18.072022] [info] 1 rows returned.
+[2015-12-02 8:12:18.072890] [info] Running query: SELECT * FROM senatorapts.GalleryPhotos WHERE gallery_id='12'
+[2015-12-02 8:12:18.072968] [info] 0 rows returned.
+[2015-12-02 8:12:18.073008] [info] Results: 0
+[2015-12-02 8:12:18.073060] [info] beanHouse->dxHashToClass
+    action: 'upload_photos'
+    house_id: '1'
+[2015-12-02 8:12:18.073482] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 8:12:18.073539] [info] beanHouse->__doSave
+[2015-12-02 8:12:18.073615] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 8:12:18.074748] [info] Running query: UPDATE senatorapts.House SET  house_num='301', street='Cote Royal', city='Ottawa', prov='BC', postal_code='K1E 3L8', bedrooms='3', bathrooms='1', description='3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.', size='' WHERE house_id=1
+[2015-12-02 8:12:18.074831] [info]  rows returned.
+[2015-12-02 8:12:18.074870] [info] Saved house 1
+[2015-12-02 8:12:18.074911] [info] Uploading ig_full_301CoteRoyale_1.jpg to /tmp/phpb4cNvk
+[2015-12-02 8:12:18.076369] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 8:12:18.076469] [info] 1 rows returned.
+[2015-12-02 8:12:18.076508] [info] Results: 1
+[2015-12-02 8:12:18.076554] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 8:12:18.076683] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 8:12:18.076747] [info] Creating path /var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale
+[2015-12-02 8:12:18.077974] [info] Processing ig_full_301CoteRoyale_1.jpg
+[2015-12-02 8:12:18.095959] [info] Creating new file: 1.jpg
+[2015-12-02 8:12:18.111135] [info] Creating path images/imggal/301CoteRoyale/thumb/1.jpg
+[2015-12-02 8:12:18.198771] [info] Creating path images/imggal/301CoteRoyale/med/1.jpg
+[2015-12-02 8:12:18.291661] [info] beanGalleryPhotos->__doSave
+[2015-12-02 8:12:18.291815] [info] tblName [GalleryPhotos]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+thumb [images/imggal/301CoteRoyale/thumb/1.jpg]
+med [images/imggal/301CoteRoyale/med/1.jpg]
+full [/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/1.jpg]
+exists []
+
+[2015-12-02 8:12:18.292859] [info] Running query: INSERT INTO senatorapts.GalleryPhotos ( gallery_id ,thumb ,med ,full ) VALUES ('12' ,'images/imggal/301CoteRoyale/thumb/1.jpg' ,'images/imggal/301CoteRoyale/med/1.jpg' ,'/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/1.jpg' );
+[2015-12-02 8:12:18.292912] [info]  rows returned.
+[2015-12-02 8:12:18.292970] [info] Processing ig_full_301CoteRoyale_2.jpg
+[2015-12-02 8:12:18.293349] [info] Creating new file: 2.jpg
+[2015-12-02 8:12:18.338646] [info] Creating path images/imggal/301CoteRoyale/thumb/2.jpg
+[2015-12-02 8:12:18.447561] [info] Creating path images/imggal/301CoteRoyale/med/2.jpg
+[2015-12-02 8:12:18.544228] [info] beanGalleryPhotos->__doSave
+[2015-12-02 8:12:18.544358] [info] tblName [GalleryPhotos]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+thumb [images/imggal/301CoteRoyale/thumb/2.jpg]
+med [images/imggal/301CoteRoyale/med/2.jpg]
+full [/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/2.jpg]
+exists []
+
+[2015-12-02 8:12:18.545190] [info] Running query: INSERT INTO senatorapts.GalleryPhotos ( gallery_id ,thumb ,med ,full ) VALUES ('12' ,'images/imggal/301CoteRoyale/thumb/2.jpg' ,'images/imggal/301CoteRoyale/med/2.jpg' ,'/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/2.jpg' );
+[2015-12-02 8:12:18.545249] [info]  rows returned.
+[2015-12-02 8:12:18.545300] [info] Processing ig_full_301CoteRoyale_3.jpg
+[2015-12-02 8:12:18.545753] [info] Creating new file: 3.jpg
+[2015-12-02 8:12:18.557948] [info] Creating path images/imggal/301CoteRoyale/thumb/3.jpg
+[2015-12-02 8:12:18.661257] [info] Creating path images/imggal/301CoteRoyale/med/3.jpg
+[2015-12-02 8:12:18.761444] [info] beanGalleryPhotos->__doSave
+[2015-12-02 8:12:18.761579] [info] tblName [GalleryPhotos]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+thumb [images/imggal/301CoteRoyale/thumb/3.jpg]
+med [images/imggal/301CoteRoyale/med/3.jpg]
+full [/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/3.jpg]
+exists []
+
+[2015-12-02 8:12:18.762329] [info] Running query: INSERT INTO senatorapts.GalleryPhotos ( gallery_id ,thumb ,med ,full ) VALUES ('12' ,'images/imggal/301CoteRoyale/thumb/3.jpg' ,'images/imggal/301CoteRoyale/med/3.jpg' ,'/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/3.jpg' );
+[2015-12-02 8:12:18.762379] [info]  rows returned.
+[2015-12-02 8:12:18.762434] [info] Uploading ig_full_301CoteRoyale_2.jpg to /tmp/phpqOXB8r
+[2015-12-02 8:12:18.762752] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 8:12:18.762803] [info] 1 rows returned.
+[2015-12-02 8:12:18.762840] [info] Results: 1
+[2015-12-02 8:12:18.762881] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 8:12:18.762995] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 8:12:18.763042] [info] Creating path /var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale
+[2015-12-02 8:12:18.763159] [info] Processing ig_full_301CoteRoyale_1.jpg
+[2015-12-02 8:12:18.763550] [info] Creating new file: 4.jpg
+[2015-12-02 8:12:18.763602] [info] Creating path images/imggal/301CoteRoyale/thumb/4.jpg
+[2015-12-02 8:12:18.764085] [info] Creating path images/imggal/301CoteRoyale/med/4.jpg
+[2015-12-02 8:12:18.764653] [info] beanGalleryPhotos->__doSave
+[2015-12-02 8:12:18.764720] [info] tblName [GalleryPhotos]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+thumb [images/imggal/301CoteRoyale/thumb/4.jpg]
+med [images/imggal/301CoteRoyale/med/4.jpg]
+full []
+exists []
+
+[2015-12-02 8:12:18.765124] [info] Running query: INSERT INTO senatorapts.GalleryPhotos ( gallery_id ,thumb ,med ,full ) VALUES ('12' ,'images/imggal/301CoteRoyale/thumb/4.jpg' ,'images/imggal/301CoteRoyale/med/4.jpg' ,'' );
+[2015-12-02 8:12:18.765172] [info]  rows returned.
+[2015-12-02 8:12:18.765216] [info] Processing ig_full_301CoteRoyale_2.jpg
+[2015-12-02 8:12:18.765338] [info] Creating new file: 4.jpg
+[2015-12-02 8:12:18.765381] [info] Creating path images/imggal/301CoteRoyale/thumb/4.jpg
+[2015-12-02 8:12:18.765548] [info] Creating path images/imggal/301CoteRoyale/med/4.jpg
+[2015-12-02 8:12:18.765711] [info] beanGalleryPhotos->__doSave
+[2015-12-02 8:12:18.765773] [info] tblName [GalleryPhotos]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+thumb [images/imggal/301CoteRoyale/thumb/4.jpg]
+med [images/imggal/301CoteRoyale/med/4.jpg]
+full []
+exists []
+
+[2015-12-02 8:12:18.766160] [info] Running query: INSERT INTO senatorapts.GalleryPhotos ( gallery_id ,thumb ,med ,full ) VALUES ('12' ,'images/imggal/301CoteRoyale/thumb/4.jpg' ,'images/imggal/301CoteRoyale/med/4.jpg' ,'' );
+[2015-12-02 8:12:18.766210] [info]  rows returned.
+[2015-12-02 8:12:18.766252] [info] Processing ig_full_301CoteRoyale_3.jpg
+[2015-12-02 8:12:18.766375] [info] Creating new file: 4.jpg
+[2015-12-02 8:12:18.766423] [info] Creating path images/imggal/301CoteRoyale/thumb/4.jpg
+[2015-12-02 8:12:18.766587] [info] Creating path images/imggal/301CoteRoyale/med/4.jpg
+[2015-12-02 8:12:18.766769] [info] beanGalleryPhotos->__doSave
+[2015-12-02 8:12:18.766834] [info] tblName [GalleryPhotos]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+thumb [images/imggal/301CoteRoyale/thumb/4.jpg]
+med [images/imggal/301CoteRoyale/med/4.jpg]
+full []
+exists []
+
+[2015-12-02 8:12:18.767194] [info] Running query: INSERT INTO senatorapts.GalleryPhotos ( gallery_id ,thumb ,med ,full ) VALUES ('12' ,'images/imggal/301CoteRoyale/thumb/4.jpg' ,'images/imggal/301CoteRoyale/med/4.jpg' ,'' );
+[2015-12-02 8:12:18.767244] [info]  rows returned.
+[2015-12-02 8:12:18.767282] [info] Uploading ig_full_301CoteRoyale_3.jpg to /tmp/phpHzuSLz
+[2015-12-02 8:12:18.767554] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 8:12:18.767602] [info] 1 rows returned.
+[2015-12-02 8:12:18.767640] [info] Results: 1
+[2015-12-02 8:12:18.767679] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 8:12:18.767780] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 8:12:18.767826] [info] Creating path /var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale
+[2015-12-02 8:12:18.767923] [info] Processing ig_full_301CoteRoyale_1.jpg
+[2015-12-02 8:12:18.768044] [info] Creating new file: 4.jpg
+[2015-12-02 8:12:18.768085] [info] Creating path images/imggal/301CoteRoyale/thumb/4.jpg
+[2015-12-02 8:12:18.768244] [info] Creating path images/imggal/301CoteRoyale/med/4.jpg
+[2015-12-02 8:12:18.768413] [info] beanGalleryPhotos->__doSave
+[2015-12-02 8:12:18.768476] [info] tblName [GalleryPhotos]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+thumb [images/imggal/301CoteRoyale/thumb/4.jpg]
+med [images/imggal/301CoteRoyale/med/4.jpg]
+full []
+exists []
+
+[2015-12-02 8:12:18.768894] [info] Running query: INSERT INTO senatorapts.GalleryPhotos ( gallery_id ,thumb ,med ,full ) VALUES ('12' ,'images/imggal/301CoteRoyale/thumb/4.jpg' ,'images/imggal/301CoteRoyale/med/4.jpg' ,'' );
+[2015-12-02 8:12:18.768949] [info]  rows returned.
+[2015-12-02 8:12:18.768992] [info] Processing ig_full_301CoteRoyale_2.jpg
+[2015-12-02 8:12:18.769117] [info] Creating new file: 4.jpg
+[2015-12-02 8:12:18.769159] [info] Creating path images/imggal/301CoteRoyale/thumb/4.jpg
+[2015-12-02 8:12:18.769316] [info] Creating path images/imggal/301CoteRoyale/med/4.jpg
+[2015-12-02 8:12:18.769493] [info] beanGalleryPhotos->__doSave
+[2015-12-02 8:12:18.769556] [info] tblName [GalleryPhotos]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+thumb [images/imggal/301CoteRoyale/thumb/4.jpg]
+med [images/imggal/301CoteRoyale/med/4.jpg]
+full []
+exists []
+
+[2015-12-02 8:12:18.769944] [info] Running query: INSERT INTO senatorapts.GalleryPhotos ( gallery_id ,thumb ,med ,full ) VALUES ('12' ,'images/imggal/301CoteRoyale/thumb/4.jpg' ,'images/imggal/301CoteRoyale/med/4.jpg' ,'' );
+[2015-12-02 8:12:18.769994] [info]  rows returned.
+[2015-12-02 8:12:18.770035] [info] Processing ig_full_301CoteRoyale_3.jpg
+[2015-12-02 8:12:18.770163] [info] Creating new file: 4.jpg
+[2015-12-02 8:12:18.770205] [info] Creating path images/imggal/301CoteRoyale/thumb/4.jpg
+[2015-12-02 8:12:18.770376] [info] Creating path images/imggal/301CoteRoyale/med/4.jpg
+[2015-12-02 8:12:18.770549] [info] beanGalleryPhotos->__doSave
+[2015-12-02 8:12:18.770612] [info] tblName [GalleryPhotos]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+thumb [images/imggal/301CoteRoyale/thumb/4.jpg]
+med [images/imggal/301CoteRoyale/med/4.jpg]
+full []
+exists []
+
+[2015-12-02 8:12:18.770984] [info] Running query: INSERT INTO senatorapts.GalleryPhotos ( gallery_id ,thumb ,med ,full ) VALUES ('12' ,'images/imggal/301CoteRoyale/thumb/4.jpg' ,'images/imggal/301CoteRoyale/med/4.jpg' ,'' );
+[2015-12-02 8:12:18.771035] [info]  rows returned.
+[2015-12-02 8:16:24.946438] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 8:16:24.946572] [info] 1 rows returned.
+[2015-12-02 8:16:24.946614] [info] Results: 1
+[2015-12-02 8:16:24.946666] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 8:16:24.946877] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 8:16:24.963707] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 8:16:24.963835] [info] 1 rows returned.
+[2015-12-02 8:16:24.964904] [info] Running query: SELECT * FROM senatorapts.GalleryPhotos WHERE gallery_id='12'
+[2015-12-02 8:16:24.964983] [info] 0 rows returned.
+[2015-12-02 8:16:24.965023] [info] Results: 0
+[2015-12-02 8:16:52.687176] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 8:16:52.687283] [info] 1 rows returned.
+[2015-12-02 8:16:52.687325] [info] Results: 1
+[2015-12-02 8:16:52.687374] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 8:16:52.687592] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 8:16:52.688433] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 8:16:52.688512] [info] 1 rows returned.
+[2015-12-02 8:16:52.688958] [info] Running query: SELECT * FROM senatorapts.GalleryPhotos WHERE gallery_id='12'
+[2015-12-02 8:16:52.689021] [info] 0 rows returned.
+[2015-12-02 8:16:52.689060] [info] Results: 0
+[2015-12-02 8:16:52.689110] [info] beanHouse->dxHashToClass
+    action: 'upload_photos'
+    house_id: '1'
+[2015-12-02 8:16:52.689229] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 8:16:52.689274] [info] beanHouse->__doSave
+[2015-12-02 8:16:52.689336] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 8:16:52.690082] [info] Running query: UPDATE senatorapts.House SET  house_num='301', street='Cote Royal', city='Ottawa', prov='BC', postal_code='K1E 3L8', bedrooms='3', bathrooms='1', description='3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.', size='' WHERE house_id=1
+[2015-12-02 8:16:52.690155] [info]  rows returned.
+[2015-12-02 8:16:52.690192] [info] Saved house 1
+[2015-12-02 8:16:52.691137] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 8:16:52.691204] [info] 1 rows returned.
+[2015-12-02 8:16:52.691242] [info] Results: 1
+[2015-12-02 8:16:52.691286] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 8:16:52.691415] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 8:16:52.691466] [info] Creating path /var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale
+[2015-12-02 8:16:52.722201] [info] Processing ig_full_301CoteRoyale_1.jpg
+[2015-12-02 8:16:52.741884] [info] Creating new file: 1.jpg
+[2015-12-02 8:16:52.757680] [info] Creating path images/imggal/301CoteRoyale/thumb/1.jpg
+[2015-12-02 8:16:52.860593] [info] Creating path images/imggal/301CoteRoyale/med/1.jpg
+[2015-12-02 8:16:52.997896] [info] beanGalleryPhotos->__doSave
+[2015-12-02 8:16:52.998070] [info] tblName [GalleryPhotos]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+thumb [images/imggal/301CoteRoyale/thumb/1.jpg]
+med [images/imggal/301CoteRoyale/med/1.jpg]
+full [/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/1.jpg]
+exists []
+
+[2015-12-02 8:16:52.999222] [info] Running query: INSERT INTO senatorapts.GalleryPhotos ( gallery_id ,thumb ,med ,full ) VALUES ('12' ,'images/imggal/301CoteRoyale/thumb/1.jpg' ,'images/imggal/301CoteRoyale/med/1.jpg' ,'/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/1.jpg' );
+[2015-12-02 8:16:52.999279] [info]  rows returned.
+[2015-12-02 8:16:52.999331] [info] Processing ig_full_301CoteRoyale_2.jpg
+[2015-12-02 8:16:53.004765] [info] Creating new file: 2.jpg
+[2015-12-02 8:16:53.049974] [info] Creating path images/imggal/301CoteRoyale/thumb/2.jpg
+[2015-12-02 8:16:53.163789] [info] Creating path images/imggal/301CoteRoyale/med/2.jpg
+[2015-12-02 8:16:53.283334] [info] beanGalleryPhotos->__doSave
+[2015-12-02 8:16:53.283473] [info] tblName [GalleryPhotos]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+thumb [images/imggal/301CoteRoyale/thumb/2.jpg]
+med [images/imggal/301CoteRoyale/med/2.jpg]
+full [/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/2.jpg]
+exists []
+
+[2015-12-02 8:16:53.285079] [info] Running query: INSERT INTO senatorapts.GalleryPhotos ( gallery_id ,thumb ,med ,full ) VALUES ('12' ,'images/imggal/301CoteRoyale/thumb/2.jpg' ,'images/imggal/301CoteRoyale/med/2.jpg' ,'/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/2.jpg' );
+[2015-12-02 8:16:53.285140] [info]  rows returned.
+[2015-12-02 8:16:53.285192] [info] Processing ig_full_301CoteRoyale_3.jpg
+[2015-12-02 8:16:53.285650] [info] Creating new file: 3.jpg
+[2015-12-02 8:16:53.298387] [info] Creating path images/imggal/301CoteRoyale/thumb/3.jpg
+[2015-12-02 8:16:53.392249] [info] Creating path images/imggal/301CoteRoyale/med/3.jpg
+[2015-12-02 8:16:53.505863] [info] beanGalleryPhotos->__doSave
+[2015-12-02 8:16:53.506037] [info] tblName [GalleryPhotos]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+thumb [images/imggal/301CoteRoyale/thumb/3.jpg]
+med [images/imggal/301CoteRoyale/med/3.jpg]
+full [/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/3.jpg]
+exists []
+
+[2015-12-02 8:16:53.506947] [info] Running query: INSERT INTO senatorapts.GalleryPhotos ( gallery_id ,thumb ,med ,full ) VALUES ('12' ,'images/imggal/301CoteRoyale/thumb/3.jpg' ,'images/imggal/301CoteRoyale/med/3.jpg' ,'/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/3.jpg' );
+[2015-12-02 8:16:53.507034] [info]  rows returned.
+[2015-12-02 8:16:53.507093] [info] Processing ig_full_301CoteRoyale_4.jpg
+[2015-12-02 8:16:53.507595] [info] Creating new file: 4.jpg
+[2015-12-02 8:16:53.543019] [info] Creating path images/imggal/301CoteRoyale/thumb/4.jpg
+[2015-12-02 8:16:53.647572] [info] Creating path images/imggal/301CoteRoyale/med/4.jpg
+[2015-12-02 8:16:53.934737] [info] beanGalleryPhotos->__doSave
+[2015-12-02 8:16:53.934875] [info] tblName [GalleryPhotos]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+thumb [images/imggal/301CoteRoyale/thumb/4.jpg]
+med [images/imggal/301CoteRoyale/med/4.jpg]
+full [/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/4.jpg]
+exists []
+
+[2015-12-02 8:16:53.935445] [info] Running query: INSERT INTO senatorapts.GalleryPhotos ( gallery_id ,thumb ,med ,full ) VALUES ('12' ,'images/imggal/301CoteRoyale/thumb/4.jpg' ,'images/imggal/301CoteRoyale/med/4.jpg' ,'/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/4.jpg' );
+[2015-12-02 8:16:53.935498] [info]  rows returned.
+[2015-12-02 8:16:53.935549] [info] Processing ig_full_301CoteRoyale_5.jpg
+[2015-12-02 8:16:53.936429] [info] Creating new file: 5.jpg
+[2015-12-02 8:16:53.950850] [info] Creating path images/imggal/301CoteRoyale/thumb/5.jpg
+[2015-12-02 8:16:54.041618] [info] Creating path images/imggal/301CoteRoyale/med/5.jpg
+[2015-12-02 8:16:54.136982] [info] beanGalleryPhotos->__doSave
+[2015-12-02 8:16:54.137115] [info] tblName [GalleryPhotos]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+thumb [images/imggal/301CoteRoyale/thumb/5.jpg]
+med [images/imggal/301CoteRoyale/med/5.jpg]
+full [/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/5.jpg]
+exists []
+
+[2015-12-02 8:16:54.137659] [info] Running query: INSERT INTO senatorapts.GalleryPhotos ( gallery_id ,thumb ,med ,full ) VALUES ('12' ,'images/imggal/301CoteRoyale/thumb/5.jpg' ,'images/imggal/301CoteRoyale/med/5.jpg' ,'/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/5.jpg' );
+[2015-12-02 8:16:54.137711] [info]  rows returned.
+[2015-12-02 8:16:54.137759] [info] Processing ig_full_301CoteRoyale_6.jpg
+[2015-12-02 8:16:54.138257] [info] Creating new file: 6.jpg
+[2015-12-02 8:16:54.152101] [info] Creating path images/imggal/301CoteRoyale/thumb/6.jpg
+[2015-12-02 8:16:54.249672] [info] Creating path images/imggal/301CoteRoyale/med/6.jpg
+[2015-12-02 8:16:54.368161] [info] beanGalleryPhotos->__doSave
+[2015-12-02 8:16:54.368331] [info] tblName [GalleryPhotos]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+thumb [images/imggal/301CoteRoyale/thumb/6.jpg]
+med [images/imggal/301CoteRoyale/med/6.jpg]
+full [/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/6.jpg]
+exists []
+
+[2015-12-02 8:16:54.368974] [info] Running query: INSERT INTO senatorapts.GalleryPhotos ( gallery_id ,thumb ,med ,full ) VALUES ('12' ,'images/imggal/301CoteRoyale/thumb/6.jpg' ,'images/imggal/301CoteRoyale/med/6.jpg' ,'/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/6.jpg' );
+[2015-12-02 8:16:54.369040] [info]  rows returned.
+[2015-12-02 8:16:54.369095] [info] Processing ig_full_301CoteRoyale_7.jpg
+[2015-12-02 8:16:54.369574] [info] Creating new file: 7.jpg
+[2015-12-02 8:16:54.410434] [info] Creating path images/imggal/301CoteRoyale/thumb/7.jpg
+[2015-12-02 8:16:54.537291] [info] Creating path images/imggal/301CoteRoyale/med/7.jpg
+[2015-12-02 8:16:54.657114] [info] beanGalleryPhotos->__doSave
+[2015-12-02 8:16:54.657243] [info] tblName [GalleryPhotos]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+thumb [images/imggal/301CoteRoyale/thumb/7.jpg]
+med [images/imggal/301CoteRoyale/med/7.jpg]
+full [/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/7.jpg]
+exists []
+
+[2015-12-02 8:16:54.658098] [info] Running query: INSERT INTO senatorapts.GalleryPhotos ( gallery_id ,thumb ,med ,full ) VALUES ('12' ,'images/imggal/301CoteRoyale/thumb/7.jpg' ,'images/imggal/301CoteRoyale/med/7.jpg' ,'/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/7.jpg' );
+[2015-12-02 8:16:54.658162] [info]  rows returned.
+[2015-12-02 8:16:54.658210] [info] Processing ig_full_301CoteRoyale_8.jpg
+[2015-12-02 8:16:54.658760] [info] Creating new file: 8.jpg
+[2015-12-02 8:16:54.678052] [info] Creating path images/imggal/301CoteRoyale/thumb/8.jpg
+[2015-12-02 8:16:54.786535] [info] Creating path images/imggal/301CoteRoyale/med/8.jpg
+[2015-12-02 8:16:54.913028] [info] beanGalleryPhotos->__doSave
+[2015-12-02 8:16:54.913184] [info] tblName [GalleryPhotos]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+thumb [images/imggal/301CoteRoyale/thumb/8.jpg]
+med [images/imggal/301CoteRoyale/med/8.jpg]
+full [/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/8.jpg]
+exists []
+
+[2015-12-02 8:16:54.913861] [info] Running query: INSERT INTO senatorapts.GalleryPhotos ( gallery_id ,thumb ,med ,full ) VALUES ('12' ,'images/imggal/301CoteRoyale/thumb/8.jpg' ,'images/imggal/301CoteRoyale/med/8.jpg' ,'/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/8.jpg' );
+[2015-12-02 8:16:54.913983] [info]  rows returned.
+[2015-12-02 8:17:07.003390] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 8:17:07.003484] [info] 1 rows returned.
+[2015-12-02 8:17:07.003535] [info] Results: 1
+[2015-12-02 8:17:07.003582] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 8:17:07.003777] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 8:17:07.004201] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 8:17:07.004252] [info] 1 rows returned.
+[2015-12-02 8:17:07.005053] [info] Running query: SELECT * FROM senatorapts.GalleryPhotos WHERE gallery_id='12'
+[2015-12-02 8:17:07.005106] [info] 8 rows returned.
+[2015-12-02 8:17:07.005146] [info] Results: 8
+[2015-12-02 8:34:07.139888] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 8:34:07.140024] [info] 1 rows returned.
+[2015-12-02 8:34:07.140077] [info] Results: 1
+[2015-12-02 8:34:07.140130] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 8:34:07.140342] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 8:34:07.230281] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 8:34:07.230417] [info] 1 rows returned.
+[2015-12-02 8:34:07.231829] [info] Running query: SELECT * FROM senatorapts.GalleryPhotos WHERE gallery_id='12'
+[2015-12-02 8:34:07.231904] [info] 8 rows returned.
+[2015-12-02 8:34:07.231946] [info] Results: 8
+[2015-12-02 8:42:52.608341] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 8:42:52.608443] [info] 1 rows returned.
+[2015-12-02 8:42:52.608486] [info] Results: 1
+[2015-12-02 8:42:52.608535] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 8:42:52.608731] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 8:42:52.648623] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 8:42:52.648678] [info] 1 rows returned.
+[2015-12-02 8:42:52.653738] [info] Running query: SELECT * FROM senatorapts.GalleryPhotos WHERE gallery_id='12'
+[2015-12-02 8:42:52.653790] [info] 8 rows returned.
+[2015-12-02 8:42:52.653829] [info] Results: 8
+[2015-12-02 8:46:18.683377] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 8:46:18.683506] [info] 1 rows returned.
+[2015-12-02 8:46:18.683548] [info] Results: 1
+[2015-12-02 8:46:18.683599] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 8:46:18.683809] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 8:46:18.698052] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 8:46:18.698168] [info] 1 rows returned.
+[2015-12-02 8:46:18.698931] [info] Running query: SELECT * FROM senatorapts.GalleryPhotos WHERE gallery_id='12'
+[2015-12-02 8:46:18.698992] [info] 8 rows returned.
+[2015-12-02 8:46:18.699033] [info] Results: 8
+[2015-12-02 9:48:02.796655] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 9:48:02.796840] [info] 1 rows returned.
+[2015-12-02 9:48:02.796885] [info] Results: 1
+[2015-12-02 9:48:02.796943] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 9:48:02.797210] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 9:48:02.932403] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 9:48:02.932545] [info] 1 rows returned.
+[2015-12-02 9:48:02.993042] [info] Running query: SELECT * FROM senatorapts.GalleryPhotos WHERE gallery_id='12'
+[2015-12-02 9:48:02.993172] [info] 8 rows returned.
+[2015-12-02 9:48:02.993215] [info] Results: 8
+[2015-12-02 9:48:40.956760] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 9:48:40.956861] [info] 1 rows returned.
+[2015-12-02 9:48:40.956902] [info] Results: 1
+[2015-12-02 9:48:40.956952] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 9:48:40.957156] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 9:48:40.957562] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 9:48:40.957622] [info] 1 rows returned.
+[2015-12-02 9:48:40.958400] [info] Running query: SELECT * FROM senatorapts.GalleryPhotos WHERE gallery_id='12'
+[2015-12-02 9:48:40.958456] [info] 8 rows returned.
+[2015-12-02 9:48:40.958496] [info] Results: 8
+[2015-12-02 9:49:44.522376] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 9:49:44.522505] [info] 1 rows returned.
+[2015-12-02 9:49:44.522547] [info] Results: 1
+[2015-12-02 9:49:44.522597] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 9:49:44.522803] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 9:49:44.538106] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 9:49:44.538166] [info] 1 rows returned.
+[2015-12-02 9:49:44.539680] [info] Running query: SELECT * FROM senatorapts.GalleryPhotos WHERE gallery_id='12'
+[2015-12-02 9:49:44.539732] [info] 8 rows returned.
+[2015-12-02 9:49:44.539772] [info] Results: 8
+[2015-12-02 9:50:23.544934] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 9:50:23.545037] [info] 1 rows returned.
+[2015-12-02 9:50:23.545077] [info] Results: 1
+[2015-12-02 9:50:23.545124] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 9:50:23.545319] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 9:50:23.545758] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 9:50:23.545821] [info] 1 rows returned.
+[2015-12-02 9:50:23.546700] [info] Running query: SELECT * FROM senatorapts.GalleryPhotos WHERE gallery_id='12'
+[2015-12-02 9:50:23.546758] [info] 8 rows returned.
+[2015-12-02 9:50:23.546797] [info] Results: 8
+[2015-12-02 9:52:23.987472] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 9:52:23.987591] [info] 1 rows returned.
+[2015-12-02 9:52:23.987633] [info] Results: 1
+[2015-12-02 9:52:23.987687] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 9:52:23.987898] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 9:52:24.016170] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 9:52:24.016282] [info] 1 rows returned.
+[2015-12-02 9:52:24.019527] [info] Running query: SELECT * FROM senatorapts.GalleryPhotos WHERE gallery_id='12'
+[2015-12-02 9:52:24.019582] [info] 8 rows returned.
+[2015-12-02 9:52:24.019625] [info] Results: 8
+[2015-12-02 9:54:05.724014] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 9:54:05.724114] [info] 1 rows returned.
+[2015-12-02 9:54:05.724157] [info] Results: 1
+[2015-12-02 9:54:05.724205] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 9:54:05.724402] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 9:54:05.731592] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 9:54:05.731683] [info] 1 rows returned.
+[2015-12-02 9:54:05.732610] [info] Running query: SELECT * FROM senatorapts.GalleryPhotos WHERE gallery_id='12'
+[2015-12-02 9:54:05.732669] [info] 8 rows returned.
+[2015-12-02 9:54:05.732707] [info] Results: 8
+[2015-12-02 11:49:32.989298] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 11:49:32.989485] [info] 1 rows returned.
+[2015-12-02 11:49:32.989531] [info] Results: 1
+[2015-12-02 11:49:32.989588] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 11:49:32.989835] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 11:49:33.021395] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 11:49:33.021506] [info] 1 rows returned.
+[2015-12-02 11:49:33.039604] [info] Running query: SELECT * FROM senatorapts.GalleryPhotos WHERE gallery_id='12'
+[2015-12-02 11:49:33.039731] [info] 8 rows returned.
+[2015-12-02 11:49:33.039772] [info] Results: 8
+[2015-12-02 11:50:05.046786] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 11:50:05.046886] [info] 1 rows returned.
+[2015-12-02 11:50:05.046927] [info] Results: 1
+[2015-12-02 11:50:05.046976] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 11:50:05.047177] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 11:50:05.047559] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 11:50:05.047610] [info] 1 rows returned.
+[2015-12-02 11:50:05.048118] [info] Running query: SELECT * FROM senatorapts.GalleryPhotos WHERE gallery_id='12'
+[2015-12-02 11:50:05.048182] [info] 8 rows returned.
+[2015-12-02 11:50:05.048224] [info] Results: 8
+[2015-12-02 11:50:39.939532] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 11:50:39.939635] [info] 1 rows returned.
+[2015-12-02 11:50:39.939675] [info] Results: 1
+[2015-12-02 11:50:39.939723] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 11:50:39.939929] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 11:50:39.940613] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 11:50:39.940677] [info] 1 rows returned.
+[2015-12-02 11:50:39.942125] [info] Running query: SELECT * FROM senatorapts.GalleryPhotos WHERE gallery_id='12'
+[2015-12-02 11:50:39.942182] [info] 8 rows returned.
+[2015-12-02 11:50:39.942220] [info] Results: 8
+[2015-12-02 11:51:59.285073] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 11:51:59.285175] [info] 1 rows returned.
+[2015-12-02 11:51:59.285216] [info] Results: 1
+[2015-12-02 11:51:59.285264] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 11:51:59.285476] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 11:51:59.286331] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 11:51:59.286408] [info] 1 rows returned.
+[2015-12-02 11:51:59.287156] [info] Running query: SELECT * FROM senatorapts.GalleryPhotos WHERE gallery_id='12'
+[2015-12-02 11:51:59.287209] [info] 8 rows returned.
+[2015-12-02 11:51:59.287254] [info] Results: 8
+[2015-12-02 11:52:21.053240] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 11:52:21.053344] [info] 1 rows returned.
+[2015-12-02 11:52:21.053386] [info] Results: 1
+[2015-12-02 11:52:21.053446] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 11:52:21.053654] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 11:52:21.056780] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 11:52:21.056833] [info] 1 rows returned.
+[2015-12-02 11:52:21.065083] [info] Running query: SELECT * FROM senatorapts.GalleryPhotos WHERE gallery_id='12'
+[2015-12-02 11:52:21.065145] [info] 8 rows returned.
+[2015-12-02 11:52:21.065185] [info] Results: 8
+[2015-12-02 14:30:30.252197] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:30:30.252346] [info] 1 rows returned.
+[2015-12-02 14:30:30.252392] [info] Results: 1
+[2015-12-02 14:30:30.252444] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:30:30.252655] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:30:30.288172] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:30:30.288284] [info] 1 rows returned.
+[2015-12-02 14:30:30.321803] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:30:30.321928] [info] 1 rows returned.
+[2015-12-02 14:30:30.321969] [info] Results: 1
+[2015-12-02 14:30:30.322016] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:30:30.322154] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:30:30.328824] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:30:30.328936] [info] 8 rows returned.
+[2015-12-02 14:30:30.328975] [info] Results: 8
+[2015-12-02 14:30:49.430150] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:30:49.430274] [info] 1 rows returned.
+[2015-12-02 14:30:49.430318] [info] Results: 1
+[2015-12-02 14:30:49.430377] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:30:49.430584] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:30:49.431296] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:30:49.431370] [info] 1 rows returned.
+[2015-12-02 14:30:49.432110] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:30:49.432168] [info] 1 rows returned.
+[2015-12-02 14:30:49.432207] [info] Results: 1
+[2015-12-02 14:30:49.432249] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:30:49.432368] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:30:49.432744] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:30:49.432800] [info] 8 rows returned.
+[2015-12-02 14:30:49.432837] [info] Results: 8
+[2015-12-02 14:31:50.736766] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:31:50.736879] [info] 1 rows returned.
+[2015-12-02 14:31:50.736921] [info] Results: 1
+[2015-12-02 14:31:50.736968] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:31:50.737176] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:31:50.737941] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:31:50.737998] [info] 1 rows returned.
+[2015-12-02 14:31:50.742610] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:31:50.742723] [info] 1 rows returned.
+[2015-12-02 14:31:50.742764] [info] Results: 1
+[2015-12-02 14:31:50.742810] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:31:50.742938] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:31:50.743566] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:31:50.743624] [info] 8 rows returned.
+[2015-12-02 14:31:50.743664] [info] Results: 8
+[2015-12-02 14:32:01.026655] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:32:01.026760] [info] 1 rows returned.
+[2015-12-02 14:32:01.026801] [info] Results: 1
+[2015-12-02 14:32:01.026849] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:32:01.027050] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:32:01.027437] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:32:01.027489] [info] 1 rows returned.
+[2015-12-02 14:32:01.030061] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:32:01.030117] [info] 1 rows returned.
+[2015-12-02 14:32:01.030154] [info] Results: 1
+[2015-12-02 14:32:01.030195] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:32:01.030308] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:32:01.030668] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:32:01.030718] [info] 8 rows returned.
+[2015-12-02 14:32:01.030761] [info] Results: 8
+[2015-12-02 14:33:27.340517] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:33:27.340632] [info] 1 rows returned.
+[2015-12-02 14:33:27.340672] [info] Results: 1
+[2015-12-02 14:33:27.340720] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:33:27.340924] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:33:27.341614] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:33:27.341665] [info] 1 rows returned.
+[2015-12-02 14:33:27.344640] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:33:27.344698] [info] 1 rows returned.
+[2015-12-02 14:33:27.344737] [info] Results: 1
+[2015-12-02 14:33:27.344778] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:33:27.344883] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:33:27.345227] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:33:27.345277] [info] 8 rows returned.
+[2015-12-02 14:33:27.345314] [info] Results: 8
+[2015-12-02 14:34:02.581376] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:34:02.581482] [info] 1 rows returned.
+[2015-12-02 14:34:02.581523] [info] Results: 1
+[2015-12-02 14:34:02.581572] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:34:02.581764] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:34:02.582186] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:34:02.582251] [info] 1 rows returned.
+[2015-12-02 14:34:02.584872] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:34:02.584944] [info] 1 rows returned.
+[2015-12-02 14:34:02.584983] [info] Results: 1
+[2015-12-02 14:34:02.585025] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:34:02.585144] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:34:02.585551] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:34:02.585599] [info] 8 rows returned.
+[2015-12-02 14:34:02.585638] [info] Results: 8
+[2015-12-02 14:34:17.429373] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:34:17.429485] [info] 1 rows returned.
+[2015-12-02 14:34:17.429526] [info] Results: 1
+[2015-12-02 14:34:17.429574] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:34:17.429848] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:34:17.430922] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:34:17.430975] [info] 1 rows returned.
+[2015-12-02 14:34:17.433386] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:34:17.433516] [info] 1 rows returned.
+[2015-12-02 14:34:17.433562] [info] Results: 1
+[2015-12-02 14:34:17.433604] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:34:17.433722] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:34:17.434124] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:34:17.434212] [info] 8 rows returned.
+[2015-12-02 14:34:17.434261] [info] Results: 8
+[2015-12-02 14:36:04.154613] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:36:04.154721] [info] 1 rows returned.
+[2015-12-02 14:36:04.154762] [info] Results: 1
+[2015-12-02 14:36:04.154809] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:36:04.155006] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:36:04.158477] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:36:04.158533] [info] 1 rows returned.
+[2015-12-02 14:36:04.161897] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:36:04.161967] [info] 1 rows returned.
+[2015-12-02 14:36:04.162007] [info] Results: 1
+[2015-12-02 14:36:04.162049] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:36:04.162161] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:36:04.163077] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:36:04.163126] [info] 8 rows returned.
+[2015-12-02 14:36:04.163165] [info] Results: 8
+[2015-12-02 14:36:37.055325] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:36:37.055433] [info] 1 rows returned.
+[2015-12-02 14:36:37.055474] [info] Results: 1
+[2015-12-02 14:36:37.055522] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:36:37.055717] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:36:37.056091] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:36:37.056149] [info] 1 rows returned.
+[2015-12-02 14:36:37.058576] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:36:37.058636] [info] 1 rows returned.
+[2015-12-02 14:36:37.058676] [info] Results: 1
+[2015-12-02 14:36:37.058715] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:36:37.058820] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:36:37.059190] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:36:37.059242] [info] 8 rows returned.
+[2015-12-02 14:36:37.059284] [info] Results: 8
+[2015-12-02 14:36:54.039056] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:36:54.039159] [info] 1 rows returned.
+[2015-12-02 14:36:54.039200] [info] Results: 1
+[2015-12-02 14:36:54.039247] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:36:54.039455] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:36:54.039848] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:36:54.039905] [info] 1 rows returned.
+[2015-12-02 14:36:54.072930] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:36:54.073039] [info] 1 rows returned.
+[2015-12-02 14:36:54.073120] [info] Results: 1
+[2015-12-02 14:36:54.073168] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:36:54.073302] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:36:54.073666] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:36:54.073724] [info] 8 rows returned.
+[2015-12-02 14:36:54.073762] [info] Results: 8
+[2015-12-02 14:37:17.375664] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:37:17.375772] [info] 1 rows returned.
+[2015-12-02 14:37:17.375813] [info] Results: 1
+[2015-12-02 14:37:17.375861] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:37:17.376072] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:37:17.376789] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:37:17.376847] [info] 1 rows returned.
+[2015-12-02 14:37:17.379710] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:37:17.379931] [info] 1 rows returned.
+[2015-12-02 14:37:17.379981] [info] Results: 1
+[2015-12-02 14:37:17.380028] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:37:17.380189] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:37:17.380562] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:37:17.380624] [info] 8 rows returned.
+[2015-12-02 14:37:17.380703] [info] Results: 8
+[2015-12-02 14:37:48.101275] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:37:48.101387] [info] 1 rows returned.
+[2015-12-02 14:37:48.101428] [info] Results: 1
+[2015-12-02 14:37:48.101475] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:37:48.101675] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:37:48.102050] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:37:48.102108] [info] 1 rows returned.
+[2015-12-02 14:37:48.104576] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:37:48.104636] [info] 1 rows returned.
+[2015-12-02 14:37:48.104676] [info] Results: 1
+[2015-12-02 14:37:48.104716] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:37:48.104820] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:37:48.105206] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:37:48.105257] [info] 8 rows returned.
+[2015-12-02 14:37:48.105309] [info] Results: 8
+[2015-12-02 14:39:36.993899] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:39:36.994021] [info] 1 rows returned.
+[2015-12-02 14:39:36.994062] [info] Results: 1
+[2015-12-02 14:39:36.994113] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:39:36.994329] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:39:37.026424] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:39:37.026549] [info] 1 rows returned.
+[2015-12-02 14:39:37.029825] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:39:37.029881] [info] 1 rows returned.
+[2015-12-02 14:39:37.029918] [info] Results: 1
+[2015-12-02 14:39:37.029963] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:39:37.030087] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:39:37.030493] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:39:37.030543] [info] 8 rows returned.
+[2015-12-02 14:39:37.030580] [info] Results: 8
+[2015-12-02 14:39:52.050229] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:39:52.050339] [info] 1 rows returned.
+[2015-12-02 14:39:52.050381] [info] Results: 1
+[2015-12-02 14:39:52.050430] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:39:52.050631] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:39:52.050987] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:39:52.051039] [info] 1 rows returned.
+[2015-12-02 14:39:52.055131] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:39:52.055211] [info] 1 rows returned.
+[2015-12-02 14:39:52.055249] [info] Results: 1
+[2015-12-02 14:39:52.055291] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:39:52.055418] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:39:52.055772] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:39:52.055820] [info] 8 rows returned.
+[2015-12-02 14:39:52.055857] [info] Results: 8
+[2015-12-02 14:40:32.332772] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:40:32.332875] [info] 1 rows returned.
+[2015-12-02 14:40:32.332916] [info] Results: 1
+[2015-12-02 14:40:32.332964] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:40:32.333162] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:40:32.333556] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:40:32.333616] [info] 1 rows returned.
+[2015-12-02 14:40:32.334520] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:40:32.334588] [info] 1 rows returned.
+[2015-12-02 14:40:32.334628] [info] Results: 1
+[2015-12-02 14:40:32.334666] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:40:32.334772] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:40:32.335150] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:40:32.335201] [info] 8 rows returned.
+[2015-12-02 14:40:32.335244] [info] Results: 8
+[2015-12-02 14:40:35.636396] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:40:35.636497] [info] 1 rows returned.
+[2015-12-02 14:40:35.636538] [info] Results: 1
+[2015-12-02 14:40:35.636585] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:40:35.636785] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:40:35.637141] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:40:35.637237] [info] 1 rows returned.
+[2015-12-02 14:40:35.637761] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:40:35.637814] [info] 1 rows returned.
+[2015-12-02 14:40:35.637851] [info] Results: 1
+[2015-12-02 14:40:35.637892] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:40:35.637995] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:40:35.638361] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:40:35.638411] [info] 8 rows returned.
+[2015-12-02 14:40:35.638454] [info] Results: 8
+[2015-12-02 14:41:14.228557] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:41:14.228674] [info] 1 rows returned.
+[2015-12-02 14:41:14.228715] [info] Results: 1
+[2015-12-02 14:41:14.228765] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:41:14.228969] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:41:14.262794] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:41:14.262922] [info] 1 rows returned.
+[2015-12-02 14:41:14.272159] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:41:14.272269] [info] 1 rows returned.
+[2015-12-02 14:41:14.272308] [info] Results: 1
+[2015-12-02 14:41:14.272365] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:41:14.272494] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:41:14.272937] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:41:14.272988] [info] 8 rows returned.
+[2015-12-02 14:41:14.273025] [info] Results: 8
+[2015-12-02 14:42:57.347240] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:42:57.347436] [info] 1 rows returned.
+[2015-12-02 14:42:57.347481] [info] Results: 1
+[2015-12-02 14:42:57.347532] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:42:57.347841] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:42:57.363303] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:42:57.363404] [info] 1 rows returned.
+[2015-12-02 14:42:57.364505] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:42:57.364563] [info] 1 rows returned.
+[2015-12-02 14:42:57.364603] [info] Results: 1
+[2015-12-02 14:42:57.364645] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:42:57.364765] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:42:57.365140] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:42:57.365190] [info] 8 rows returned.
+[2015-12-02 14:42:57.365232] [info] Results: 8
+[2015-12-02 14:42:58.658479] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:42:58.658584] [info] 1 rows returned.
+[2015-12-02 14:42:58.658623] [info] Results: 1
+[2015-12-02 14:42:58.658672] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:42:58.658871] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:42:58.659231] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:42:58.659291] [info] 1 rows returned.
+[2015-12-02 14:42:58.660451] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:42:58.660510] [info] 1 rows returned.
+[2015-12-02 14:42:58.660550] [info] Results: 1
+[2015-12-02 14:42:58.660589] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:42:58.660693] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:42:58.661087] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:42:58.661139] [info] 8 rows returned.
+[2015-12-02 14:42:58.661180] [info] Results: 8
+[2015-12-02 14:43:00.476344] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:43:00.476444] [info] 1 rows returned.
+[2015-12-02 14:43:00.476485] [info] Results: 1
+[2015-12-02 14:43:00.476532] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:43:00.476723] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:43:00.483644] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:43:00.483706] [info] 1 rows returned.
+[2015-12-02 14:43:00.490930] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:43:00.490992] [info] 1 rows returned.
+[2015-12-02 14:43:00.491029] [info] Results: 1
+[2015-12-02 14:43:00.491070] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:43:00.491170] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:43:00.499170] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:43:00.499223] [info] 8 rows returned.
+[2015-12-02 14:43:00.499260] [info] Results: 8
+[2015-12-02 14:43:15.855675] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:43:15.855799] [info] 1 rows returned.
+[2015-12-02 14:43:15.855842] [info] Results: 1
+[2015-12-02 14:43:15.855891] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:43:15.856152] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:43:15.856599] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:43:15.856663] [info] 1 rows returned.
+[2015-12-02 14:43:15.857207] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:43:15.857273] [info] 1 rows returned.
+[2015-12-02 14:43:15.857321] [info] Results: 1
+[2015-12-02 14:43:15.857367] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:43:15.857481] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:43:15.857954] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:43:15.858019] [info] 8 rows returned.
+[2015-12-02 14:43:15.858059] [info] Results: 8
+[2015-12-02 14:43:36.597031] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:43:36.597137] [info] 1 rows returned.
+[2015-12-02 14:43:36.597178] [info] Results: 1
+[2015-12-02 14:43:36.597228] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:43:36.597448] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:43:36.601452] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:43:36.601527] [info] 1 rows returned.
+[2015-12-02 14:43:36.609174] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:43:36.609232] [info] 1 rows returned.
+[2015-12-02 14:43:36.609272] [info] Results: 1
+[2015-12-02 14:43:36.609325] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:43:36.609436] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:43:36.610132] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:43:36.610183] [info] 8 rows returned.
+[2015-12-02 14:43:36.610225] [info] Results: 8
+[2015-12-02 14:52:10.872922] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:52:10.873047] [info] 1 rows returned.
+[2015-12-02 14:52:10.873090] [info] Results: 1
+[2015-12-02 14:52:10.873138] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:52:10.873346] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:52:10.883656] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:52:10.883735] [info] 1 rows returned.
+[2015-12-02 14:52:10.900945] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:52:10.901067] [info] 1 rows returned.
+[2015-12-02 14:52:10.901113] [info] Results: 1
+[2015-12-02 14:52:10.901159] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:52:10.901374] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:52:10.906250] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:52:10.906325] [info] 8 rows returned.
+[2015-12-02 14:52:10.906367] [info] Results: 8
+[2015-12-02 14:52:26.489394] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:52:26.489495] [info] 1 rows returned.
+[2015-12-02 14:52:26.489535] [info] Results: 1
+[2015-12-02 14:52:26.489582] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:52:26.489780] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:52:26.490159] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:52:26.490211] [info] 1 rows returned.
+[2015-12-02 14:52:26.490988] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:52:26.491044] [info] 1 rows returned.
+[2015-12-02 14:52:26.491081] [info] Results: 1
+[2015-12-02 14:52:26.491122] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:52:26.491225] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:52:26.491590] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:52:26.491641] [info] 8 rows returned.
+[2015-12-02 14:52:26.491677] [info] Results: 8
+[2015-12-02 14:53:26.343612] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:53:26.343715] [info] 1 rows returned.
+[2015-12-02 14:53:26.343755] [info] Results: 1
+[2015-12-02 14:53:26.343802] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:53:26.344003] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:53:26.345907] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:53:26.345959] [info] 1 rows returned.
+[2015-12-02 14:53:26.354593] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:53:26.354671] [info] 1 rows returned.
+[2015-12-02 14:53:26.354710] [info] Results: 1
+[2015-12-02 14:53:26.354752] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:53:26.354867] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:53:26.355560] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:53:26.355608] [info] 8 rows returned.
+[2015-12-02 14:53:26.355647] [info] Results: 8
+[2015-12-02 14:53:36.148607] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 14:53:36.148705] [info] 1 rows returned.
+[2015-12-02 14:53:36.148746] [info] Results: 1
+[2015-12-02 14:53:36.148792] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 14:53:36.148988] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 14:53:36.149390] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 14:53:36.149454] [info] 1 rows returned.
+[2015-12-02 14:53:36.150379] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 14:53:36.150449] [info] 1 rows returned.
+[2015-12-02 14:53:36.150486] [info] Results: 1
+[2015-12-02 14:53:36.150527] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 14:53:36.150628] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 14:53:36.151001] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 14:53:36.151060] [info] 8 rows returned.
+[2015-12-02 14:53:36.151097] [info] Results: 8
+[2015-12-02 15:06:34.775589] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 15:06:34.775712] [info] 1 rows returned.
+[2015-12-02 15:06:34.775754] [info] Results: 1
+[2015-12-02 15:06:34.775804] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 15:06:34.776009] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:06:34.795701] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 15:06:34.795829] [info] 1 rows returned.
+[2015-12-02 15:06:34.817888] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 15:06:34.818018] [info] 1 rows returned.
+[2015-12-02 15:06:34.818059] [info] Results: 1
+[2015-12-02 15:06:34.818109] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 15:06:34.818250] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 15:06:34.823398] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 15:06:34.823522] [info] 8 rows returned.
+[2015-12-02 15:06:34.823564] [info] Results: 8
+[2015-12-02 15:06:42.702231] [info] delete_photo.php
+[2015-12-02 15:06:42.702328] [info] Attempting to remove Photo 51 from Gallery 12
+[2015-12-02 15:06:42.742301] [info] Running query: DELETE FROM senatorapts.GalleryPhotos WHERE gallery_id='12' and photo_id='51'
+[2015-12-02 15:06:42.742415] [info]  rows returned.
+[2015-12-02 15:06:42.768636] [info] Running query: DELETE FROM senatorapts.Photos WHERE photo_id='51'
+[2015-12-02 15:06:42.768717] [info]  rows returned.
+[2015-12-02 15:06:42.773228] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 15:06:42.773289] [info] 1 rows returned.
+[2015-12-02 15:06:42.773339] [info] Results: 1
+[2015-12-02 15:06:42.773386] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 15:06:42.773519] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 15:06:42.781708] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 15:06:42.781805] [info] 7 rows returned.
+[2015-12-02 15:06:42.781845] [info] Results: 7
+[2015-12-02 15:12:11.259376] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 15:12:11.259505] [info] 1 rows returned.
+[2015-12-02 15:12:11.259546] [info] Results: 1
+[2015-12-02 15:12:11.259641] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 15:12:11.259854] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:12:11.275274] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 15:12:11.275403] [info] 1 rows returned.
+[2015-12-02 15:12:11.276667] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 15:12:11.276732] [info] 1 rows returned.
+[2015-12-02 15:12:11.276772] [info] Results: 1
+[2015-12-02 15:12:11.276818] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 15:12:11.276946] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 15:12:11.277611] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 15:12:11.277676] [info] 7 rows returned.
+[2015-12-02 15:12:11.277714] [info] Results: 7
+[2015-12-02 15:12:11.277802] [info] beanHouse->dxHashToClass
+    action: 'upload_photos'
+    house_id: '1'
+[2015-12-02 15:12:11.277919] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:12:11.277966] [info] beanHouse->__doSave
+[2015-12-02 15:12:11.278028] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:12:11.278903] [info] Running query: UPDATE senatorapts.House SET  house_num='301', street='Cote Royal', city='Ottawa', prov='BC', postal_code='K1E 3L8', bedrooms='3', bathrooms='1', description='3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.', size='' WHERE house_id=1
+[2015-12-02 15:12:11.278971] [info]  rows returned.
+[2015-12-02 15:12:11.279011] [info] Saved house 1
+[2015-12-02 15:12:11.279053] [info] Creating path /var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale
+[2015-12-02 15:12:11.281337] [info] Processing ig_full_301CoteRoyale_8.jpg
+[2015-12-02 15:12:11.284281] [info] Creating new file: 8.jpg
+[2015-12-02 15:13:53.440522] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 15:13:53.440710] [info] 1 rows returned.
+[2015-12-02 15:13:53.440756] [info] Results: 1
+[2015-12-02 15:13:53.440812] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 15:13:53.441067] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:13:53.466125] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 15:13:53.466248] [info] 1 rows returned.
+[2015-12-02 15:13:53.481539] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 15:13:53.481646] [info] 1 rows returned.
+[2015-12-02 15:13:53.481687] [info] Results: 1
+[2015-12-02 15:13:53.481730] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 15:13:53.481853] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 15:13:53.482228] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 15:13:53.482286] [info] 7 rows returned.
+[2015-12-02 15:13:53.482331] [info] Results: 7
+[2015-12-02 15:13:53.726438] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 15:13:53.726541] [info] 1 rows returned.
+[2015-12-02 15:13:53.726583] [info] Results: 1
+[2015-12-02 15:13:53.726629] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 15:13:53.726830] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:13:53.727263] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 15:13:53.727338] [info] 1 rows returned.
+[2015-12-02 15:13:53.727897] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 15:13:53.727957] [info] 1 rows returned.
+[2015-12-02 15:13:53.727993] [info] Results: 1
+[2015-12-02 15:13:53.728080] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 15:13:53.728192] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 15:13:53.728565] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 15:13:53.728676] [info] 7 rows returned.
+[2015-12-02 15:13:53.728718] [info] Results: 7
+[2015-12-02 15:17:52.559830] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 15:17:52.559978] [info] 1 rows returned.
+[2015-12-02 15:17:52.560020] [info] Results: 1
+[2015-12-02 15:17:52.560266] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 15:17:52.560900] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:17:52.567401] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 15:17:52.567495] [info] 1 rows returned.
+[2015-12-02 15:17:52.595820] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 15:17:52.595952] [info] 1 rows returned.
+[2015-12-02 15:17:52.595993] [info] Results: 1
+[2015-12-02 15:17:52.596045] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 15:17:52.596200] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 15:17:52.602900] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 15:17:52.603017] [info] 7 rows returned.
+[2015-12-02 15:17:52.603060] [info] Results: 7
+[2015-12-02 15:17:52.603161] [info] beanHouse->dxHashToClass
+    action: 'upload_photos'
+    house_id: '1'
+[2015-12-02 15:17:52.603312] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:17:52.603385] [info] beanHouse->__doSave
+[2015-12-02 15:17:52.603451] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:17:52.604168] [info] Running query: UPDATE senatorapts.House SET  house_num='301', street='Cote Royal', city='Ottawa', prov='BC', postal_code='K1E 3L8', bedrooms='3', bathrooms='1', description='3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.', size='' WHERE house_id=1
+[2015-12-02 15:17:52.604222] [info]  rows returned.
+[2015-12-02 15:17:52.604259] [info] Saved house 1
+[2015-12-02 15:17:52.604300] [info] Creating path /var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale
+[2015-12-02 15:17:52.653784] [info] Processing ig_full_301CoteRoyale_8.jpg
+[2015-12-02 15:17:52.664627] [info] Creating new file: 9.jpg
+[2015-12-02 15:19:31.007564] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 15:19:31.007683] [info] 1 rows returned.
+[2015-12-02 15:19:31.007725] [info] Results: 1
+[2015-12-02 15:19:31.007772] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 15:19:31.007982] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:19:31.008666] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 15:19:31.008723] [info] 1 rows returned.
+[2015-12-02 15:19:31.020824] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 15:19:31.020930] [info] 1 rows returned.
+[2015-12-02 15:19:31.020970] [info] Results: 1
+[2015-12-02 15:19:31.021013] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 15:19:31.021563] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 15:19:31.021996] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 15:19:31.022057] [info] 7 rows returned.
+[2015-12-02 15:19:31.022098] [info] Results: 7
+[2015-12-02 15:19:31.204921] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 15:19:31.205023] [info] 1 rows returned.
+[2015-12-02 15:19:31.205070] [info] Results: 1
+[2015-12-02 15:19:31.205117] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 15:19:31.205369] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:19:31.205779] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 15:19:31.205831] [info] 1 rows returned.
+[2015-12-02 15:19:31.206371] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 15:19:31.206423] [info] 1 rows returned.
+[2015-12-02 15:19:31.206460] [info] Results: 1
+[2015-12-02 15:19:31.206501] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 15:19:31.206604] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 15:19:31.207020] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 15:19:31.207077] [info] 7 rows returned.
+[2015-12-02 15:19:31.207118] [info] Results: 7
+[2015-12-02 15:19:51.391932] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 15:19:51.392020] [info] 1 rows returned.
+[2015-12-02 15:19:51.392060] [info] Results: 1
+[2015-12-02 15:19:51.392107] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 15:19:51.392302] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:19:51.396795] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 15:19:51.396847] [info] 1 rows returned.
+[2015-12-02 15:19:51.398528] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 15:19:51.398581] [info] 1 rows returned.
+[2015-12-02 15:19:51.398617] [info] Results: 1
+[2015-12-02 15:19:51.398658] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 15:19:51.398761] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 15:19:51.399254] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 15:19:51.399302] [info] 7 rows returned.
+[2015-12-02 15:19:51.399348] [info] Results: 7
+[2015-12-02 15:19:51.399427] [info] beanHouse->dxHashToClass
+    action: 'upload_photos'
+    house_id: '1'
+[2015-12-02 15:19:51.399533] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:19:51.399576] [info] beanHouse->__doSave
+[2015-12-02 15:19:51.399646] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:19:51.598181] [info] Running query: UPDATE senatorapts.House SET  house_num='301', street='Cote Royal', city='Ottawa', prov='BC', postal_code='K1E 3L8', bedrooms='3', bathrooms='1', description='3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.', size='' WHERE house_id=1
+[2015-12-02 15:19:51.598278] [info]  rows returned.
+[2015-12-02 15:19:51.598316] [info] Saved house 1
+[2015-12-02 15:19:51.598368] [info] Creating path /var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale
+[2015-12-02 15:19:51.610685] [info] Processing ig_full_301CoteRoyale_1.jpg
+[2015-12-02 15:19:51.615824] [info] Creating new file: 8.jpg
+[2015-12-02 15:19:51.655713] [info] Creating path images/imggal/301CoteRoyale/thumb/8.jpg
+[2015-12-02 15:19:51.776791] [info] Creating path images/imggal/301CoteRoyale/med/8.jpg
+[2015-12-02 15:19:51.876930] [info] beanPhotos->__doSave
+[2015-12-02 15:19:51.877069] [info] tblName [Photos]
+tblIndex [Array]
+schema [senatorapts]
+photo_id [-1]
+thumb [images/imggal/301CoteRoyale/thumb/8.jpg]
+med [images/imggal/301CoteRoyale/med/8.jpg]
+full [/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/8.jpg]
+exists []
+
+[2015-12-02 15:19:51.950195] [info] Running query: INSERT INTO senatorapts.Photos ( photo_id ,thumb ,med ,full ) VALUES (-1 ,'images/imggal/301CoteRoyale/thumb/8.jpg' ,'images/imggal/301CoteRoyale/med/8.jpg' ,'/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/8.jpg' );
+[2015-12-02 15:19:51.950330] [info]  rows returned.
+[2015-12-02 15:31:07.051492] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 15:31:07.051625] [info] 1 rows returned.
+[2015-12-02 15:31:07.051670] [info] Results: 1
+[2015-12-02 15:31:07.051721] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 15:31:07.051963] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:31:07.100975] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 15:31:07.101087] [info] 1 rows returned.
+[2015-12-02 15:31:07.127300] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 15:31:07.127401] [info] 1 rows returned.
+[2015-12-02 15:31:07.127443] [info] Results: 1
+[2015-12-02 15:31:07.127487] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 15:31:07.127615] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 15:31:07.128288] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 15:31:07.128346] [info] 7 rows returned.
+[2015-12-02 15:31:07.128387] [info] Results: 7
+[2015-12-02 15:31:07.217542] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 15:31:07.217688] [info] 1 rows returned.
+[2015-12-02 15:31:07.217731] [info] Results: 1
+[2015-12-02 15:31:07.217788] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 15:31:07.218066] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:31:07.218653] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 15:31:07.218712] [info] 1 rows returned.
+[2015-12-02 15:31:07.220176] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 15:31:07.220235] [info] 1 rows returned.
+[2015-12-02 15:31:07.220273] [info] Results: 1
+[2015-12-02 15:31:07.220314] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 15:31:07.220434] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 15:31:07.220833] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 15:31:07.220881] [info] 7 rows returned.
+[2015-12-02 15:31:07.220918] [info] Results: 7
+[2015-12-02 15:32:45.501230] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 15:32:45.501354] [info] 1 rows returned.
+[2015-12-02 15:32:45.501399] [info] Results: 1
+[2015-12-02 15:32:45.501450] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 15:32:45.501657] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:32:45.519128] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 15:32:45.519251] [info] 1 rows returned.
+[2015-12-02 15:32:45.520401] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 15:32:45.520467] [info] 1 rows returned.
+[2015-12-02 15:32:45.520505] [info] Results: 1
+[2015-12-02 15:32:45.520550] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 15:32:45.520680] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 15:32:45.521038] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 15:32:45.521095] [info] 7 rows returned.
+[2015-12-02 15:32:45.521132] [info] Results: 7
+[2015-12-02 15:32:45.521219] [info] beanHouse->dxHashToClass
+    action: 'upload_photos'
+    house_id: '1'
+[2015-12-02 15:32:45.521337] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:32:45.521392] [info] beanHouse->__doSave
+[2015-12-02 15:32:45.521460] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:32:45.523823] [info] Running query: UPDATE senatorapts.House SET  house_num='301', street='Cote Royal', city='Ottawa', prov='BC', postal_code='K1E 3L8', bedrooms='3', bathrooms='1', description='3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.', size='' WHERE house_id=1
+[2015-12-02 15:32:45.523914] [info]  rows returned.
+[2015-12-02 15:32:45.523951] [info] Saved house 1
+[2015-12-02 15:32:45.523994] [info] Creating path /var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale
+[2015-12-02 15:32:45.569602] [info] Processing ig_full_301CoteRoyale_8.jpg
+[2015-12-02 15:32:45.611500] [info] Creating new file: 8.jpg
+[2015-12-02 15:32:45.658204] [info] Creating path images/imggal/301CoteRoyale/thumb/8.jpg
+[2015-12-02 15:32:45.773339] [info] Creating path images/imggal/301CoteRoyale/med/8.jpg
+[2015-12-02 15:32:45.884691] [info] beanPhotos->__doSave
+[2015-12-02 15:32:45.884843] [info] tblName [Photos]
+tblIndex [Array]
+schema [senatorapts]
+photo_id [-1]
+thumb [images/imggal/301CoteRoyale/thumb/8.jpg]
+med [images/imggal/301CoteRoyale/med/8.jpg]
+full [/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/8.jpg]
+exists []
+
+[2015-12-02 15:32:45.885402] [info] Running query: INSERT INTO senatorapts.Photos ( photo_id ,thumb ,med ,full ) VALUES (-1 ,'images/imggal/301CoteRoyale/thumb/8.jpg' ,'images/imggal/301CoteRoyale/med/8.jpg' ,'/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/8.jpg' );
+[2015-12-02 15:32:45.885457] [info]  rows returned.
+[2015-12-02 15:39:01.193080] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 15:39:01.193218] [info] 1 rows returned.
+[2015-12-02 15:39:01.193260] [info] Results: 1
+[2015-12-02 15:39:01.193315] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 15:39:01.193542] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:39:01.225385] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 15:39:01.225517] [info] 1 rows returned.
+[2015-12-02 15:39:01.238343] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 15:39:01.238440] [info] 1 rows returned.
+[2015-12-02 15:39:01.238481] [info] Results: 1
+[2015-12-02 15:39:01.238528] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 15:39:01.238667] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 15:39:01.276752] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 15:39:01.276890] [info] 7 rows returned.
+[2015-12-02 15:39:01.276932] [info] Results: 7
+[2015-12-02 15:39:02.639750] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 15:39:02.639853] [info] 1 rows returned.
+[2015-12-02 15:39:02.639894] [info] Results: 1
+[2015-12-02 15:39:02.639942] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 15:39:02.640152] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:39:02.640530] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 15:39:02.640583] [info] 1 rows returned.
+[2015-12-02 15:39:02.641792] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 15:39:02.641845] [info] 1 rows returned.
+[2015-12-02 15:39:02.641882] [info] Results: 1
+[2015-12-02 15:39:02.641925] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 15:39:02.642031] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 15:39:02.642571] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 15:39:02.642637] [info] 7 rows returned.
+[2015-12-02 15:39:02.642678] [info] Results: 7
+[2015-12-02 15:39:16.812652] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 15:39:16.812746] [info] 1 rows returned.
+[2015-12-02 15:39:16.812787] [info] Results: 1
+[2015-12-02 15:39:16.812834] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 15:39:16.813035] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:39:16.813451] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 15:39:16.813503] [info] 1 rows returned.
+[2015-12-02 15:39:16.814059] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 15:39:16.814116] [info] 1 rows returned.
+[2015-12-02 15:39:16.814155] [info] Results: 1
+[2015-12-02 15:39:16.814194] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 15:39:16.814311] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 15:39:16.814722] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 15:39:16.814771] [info] 7 rows returned.
+[2015-12-02 15:39:16.814815] [info] Results: 7
+[2015-12-02 15:39:16.814894] [info] beanHouse->dxHashToClass
+    action: 'upload_photos'
+    house_id: '1'
+[2015-12-02 15:39:16.815002] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:39:16.815047] [info] beanHouse->__doSave
+[2015-12-02 15:39:16.815110] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:39:16.815814] [info] Running query: UPDATE senatorapts.House SET  house_num='301', street='Cote Royal', city='Ottawa', prov='BC', postal_code='K1E 3L8', bedrooms='3', bathrooms='1', description='3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.', size='' WHERE house_id=1
+[2015-12-02 15:39:16.815872] [info]  rows returned.
+[2015-12-02 15:39:16.815910] [info] Saved house 1
+[2015-12-02 15:39:16.815948] [info] Creating path /var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale
+[2015-12-02 15:39:16.816941] [info] Processing ig_full_301CoteRoyale_8.jpg
+[2015-12-02 15:39:16.842780] [info] Creating new file: 8.jpg
+[2015-12-02 15:39:16.887820] [info] Creating path images/imggal/301CoteRoyale/thumb/8.jpg
+[2015-12-02 15:39:17.026758] [info] Creating path images/imggal/301CoteRoyale/med/8.jpg
+[2015-12-02 15:39:17.159377] [info] beanPhotos->__doSave
+[2015-12-02 15:39:17.159528] [info] tblName [Photos]
+tblIndex [Array]
+schema [senatorapts]
+photo_id [-1]
+thumb [images/imggal/301CoteRoyale/thumb/8.jpg]
+med [images/imggal/301CoteRoyale/med/8.jpg]
+full [/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/8.jpg]
+exists []
+
+[2015-12-02 15:39:17.160269] [info] Running query: INSERT INTO senatorapts.Photos ( thumb ,med ,full ) VALUES ('images/imggal/301CoteRoyale/thumb/8.jpg' ,'images/imggal/301CoteRoyale/med/8.jpg' ,'/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/8.jpg' );
+[2015-12-02 15:39:17.160337] [info]  rows returned.
+[2015-12-02 15:46:39.377813] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 15:46:39.377938] [info] 1 rows returned.
+[2015-12-02 15:46:39.377981] [info] Results: 1
+[2015-12-02 15:46:39.378031] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 15:46:39.378245] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:46:39.399828] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 15:46:39.400015] [info] 1 rows returned.
+[2015-12-02 15:46:39.415994] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 15:46:39.416109] [info] 1 rows returned.
+[2015-12-02 15:46:39.416150] [info] Results: 1
+[2015-12-02 15:46:39.416196] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 15:46:39.416340] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 15:46:39.417009] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 15:46:39.417061] [info] 8 rows returned.
+[2015-12-02 15:46:39.417098] [info] Results: 8
+[2015-12-02 15:46:39.529006] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 15:46:39.529105] [info] 1 rows returned.
+[2015-12-02 15:46:39.529145] [info] Results: 1
+[2015-12-02 15:46:39.529194] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 15:46:39.529416] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:46:39.529933] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 15:46:39.529984] [info] 1 rows returned.
+[2015-12-02 15:46:39.530503] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 15:46:39.530555] [info] 1 rows returned.
+[2015-12-02 15:46:39.530591] [info] Results: 1
+[2015-12-02 15:46:39.530632] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 15:46:39.530735] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 15:46:39.531106] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 15:46:39.531157] [info] 8 rows returned.
+[2015-12-02 15:46:39.531199] [info] Results: 8
+[2015-12-02 15:46:42.731123] [info] delete_photo.php
+[2015-12-02 15:46:42.731220] [info] Attempting to remove Photo 52 from Gallery 12
+[2015-12-02 15:46:42.755597] [info] Running query: DELETE FROM senatorapts.GalleryPhotos WHERE gallery_id='12' and photo_id='52'
+[2015-12-02 15:46:42.755661] [info]  rows returned.
+[2015-12-02 15:46:42.774266] [info] Running query: SELECT * FROM senatorapts.Photos WHERE photo_id='52'
+[2015-12-02 15:46:42.774362] [info] 1 rows returned.
+[2015-12-02 15:46:42.774410] [info] Results: 1
+[2015-12-02 15:46:42.774456] [info] beanPhotos->dxHashToClass
+    photo_id: '52'
+    thumb: 'images/imggal/301CoteRoyale/thumb/8.jpg'
+    med: 'images/imggal/301CoteRoyale/med/8.jpg'
+    full: '/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/8.jpg'
+[2015-12-02 15:46:42.774595] [info] tblName [Photos]
+tblIndex [Array]
+schema [senatorapts]
+photo_id [52]
+thumb [images/imggal/301CoteRoyale/thumb/8.jpg]
+med [images/imggal/301CoteRoyale/med/8.jpg]
+full [/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/8.jpg]
+exists [1]
+
+[2015-12-02 15:46:42.853001] [info] Running query: DELETE FROM senatorapts.Photos WHERE photo_id='52'
+[2015-12-02 15:46:42.853099] [info]  rows returned.
+[2015-12-02 15:46:42.854944] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 15:46:42.855001] [info] 1 rows returned.
+[2015-12-02 15:46:42.855041] [info] Results: 1
+[2015-12-02 15:46:42.855087] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 15:46:42.855206] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 15:46:42.855890] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 15:46:42.855940] [info] 7 rows returned.
+[2015-12-02 15:46:42.855984] [info] Results: 7
+[2015-12-02 15:47:21.523699] [info] Running query: SELECT * FROM senatorapts.House WHERE house_id=1
+[2015-12-02 15:47:21.523804] [info] 1 rows returned.
+[2015-12-02 15:47:21.523845] [info] Results: 1
+[2015-12-02 15:47:21.523895] [info] beanHouse->dxHashToClass
+    house_id: '1'
+    house_num: '301'
+    street: 'Cote Royal'
+    city: 'Ottawa'
+    prov: 'BC'
+    postal_code: 'K1E 3L8'
+    description: '3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+    
+    Another paragraph.'
+    bathrooms: '1'
+    bedrooms: '3'
+    size: ''
+[2015-12-02 15:47:21.524097] [info] tblName [House]
+tblIndex [Array]
+schema [senatorapts]
+house_id [1]
+house_num [301]
+street [Cote Royal]
+city [Ottawa]
+prov [BC]
+postal_code [K1E 3L8]
+bedrooms [3]
+bathrooms [1]
+description [3 Bedroom single house, 1.5 bathrooms, 5 appliances, storage, fireplace, yard, deck, garage.
+
+Another paragraph.]
+size []
+exists [1]
+
+[2015-12-02 15:47:21.524477] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=1
+[2015-12-02 15:47:21.524529] [info] 1 rows returned.
+[2015-12-02 15:47:21.525352] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 15:47:21.525415] [info] 1 rows returned.
+[2015-12-02 15:47:21.525454] [info] Results: 1
+[2015-12-02 15:47:21.525496] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 15:47:21.525610] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 15:47:21.525998] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 15:47:21.526061] [info] 7 rows returned.
+[2015-12-02 15:47:21.526107] [info] Results: 7
+[2015-12-02 15:50:33.942084] [info] delete_photo.php
+[2015-12-02 15:50:33.942188] [info] Attempting to remove Photo 50 from Gallery 12
+[2015-12-02 15:50:33.999552] [info] Running query: DELETE FROM senatorapts.GalleryPhotos WHERE gallery_id='12' and photo_id='50'
+[2015-12-02 15:50:33.999633] [info]  rows returned.
+[2015-12-02 15:50:34.036549] [info] Running query: SELECT * FROM senatorapts.Gallery WHERE gallery_id='12'
+[2015-12-02 15:50:34.036652] [info] 1 rows returned.
+[2015-12-02 15:50:34.036691] [info] Results: 1
+[2015-12-02 15:50:34.036741] [info] beanGallery->dxHashToClass
+    gallery_id: '12'
+    code: '301CoteRoyale'
+    description: '301 Cote Royale'
+[2015-12-02 15:50:34.036879] [info] tblName [Gallery]
+tblIndex [Array]
+schema [senatorapts]
+gallery_id [12]
+code [301CoteRoyale]
+description [301 Cote Royale]
+exists [1]
+
+[2015-12-02 15:50:34.040779] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 12 and gp.photo_id = p.photo_id
+[2015-12-02 15:50:34.040832] [info] 6 rows returned.
+[2015-12-02 15:50:34.040870] [info] Results: 6
+[2015-12-02 15:50:34.146003] [info] Running query: SELECT * FROM senatorapts.Photos WHERE photo_id='50'
+[2015-12-02 15:50:34.146147] [info] 1 rows returned.
+[2015-12-02 15:50:34.146193] [info] Results: 1
+[2015-12-02 15:50:34.146248] [info] beanPhotos->dxHashToClass
+    photo_id: '50'
+    thumb: 'images/imggal/301CoteRoyale/thumb/7.jpg'
+    med: 'images/imggal/301CoteRoyale/med/7.jpg'
+    full: '/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/7.jpg'
+[2015-12-02 15:50:34.146400] [info] tblName [Photos]
+tblIndex [Array]
+schema [senatorapts]
+photo_id [50]
+thumb [images/imggal/301CoteRoyale/thumb/7.jpg]
+med [images/imggal/301CoteRoyale/med/7.jpg]
+full [/var/chroot/home/content/15/8376915/html/cambridgerealty/images/imggal/301CoteRoyale/full/7.jpg]
+exists [1]
+
+[2015-12-02 15:50:34.487323] [info] Running query: DELETE FROM senatorapts.Photos WHERE photo_id='50'
+[2015-12-02 15:50:34.487438] [info]  rows returned.
