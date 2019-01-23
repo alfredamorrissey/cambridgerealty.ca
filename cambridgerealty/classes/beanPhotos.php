@@ -7,8 +7,7 @@ class beanPhotos extends classObject
 
     protected $photo_id = -1;
     protected $thumb = null;
-    protected $med = null;
     protected $full = null;
-		
+		protected $photo_order = 0;
 }
 ?>

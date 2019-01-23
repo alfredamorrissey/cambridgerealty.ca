@@ -17,19 +17,19 @@
 		<link rel="stylesheet" href="css/font-awesome.css">
 		<link rel="stylesheet" href="css/responsiveGrid/col.css">
 		<link rel="stylesheet" href="css/responsiveGrid/2cols.css">
-		<script src="//ca.classistatic.com/static/V/1723.2/dependencies/jquery/jquery.min.js"></script>
-		<script src="//ca.classistatic.com/static/V/1723.2/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/jquery-ui.min.css" />
 		<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-		<script src="js/main.js"></script>
+    
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-                
+
         <div class="header-container">
-			
+
             <header class="wrapper clearfix">
 				<h1 class="title">Update Availability</h1>
                 <nav>
@@ -47,16 +47,15 @@
 	<section >
 <?php if(isset($_SESSION['err']) ){ ?>
 	<div class="error"><div class="msg_content"><?=$_SESSION['err'];?></div></div>
-<?php	
+<?php
 	unset($_SESSION['err']);
- } 
+ }
 ?>
 
 <?php if(isset($_SESSION['info']) ){ ?>
 	<div class="info"><div class="msg_content"><?=$_SESSION['info'];?></div></div>
-<?php	
+<?php
 	unset($_SESSION['info']);
- } 
+ }
 ?>
 </section>
- 

@@ -11,17 +11,19 @@ require_once '../common.inc.php';
 
 $action = $_REQUEST["action"];
 $photo_id = $_REQUEST["photo_id"];
+$photo_order = $_REQUEST["photo_order"];
 $gallery_id = $_REQUEST["gallery_id"];
 $gallery_code = $_REQUEST["gallery_code"];
 $gallery = null;
 
-$_SESSION["logger"]->info("{$action} {$photo_id} {$gallery_id} {$gallery_code}");
+$_SESSION["logger"]->info("admin_photo -> ".print_r($_REQUEST, true));
+$_SESSION["logger"]->info("admin_photo -> ".print_r($_FILES, true));
 
 //If we were not given a gallery_id, but we were given a gallery code,
 //look up the id from the code
 if($gallery_id == null || $gallery_id == "")
 {
-	
+
 	$_SESSION["logger"]->info("Entering edit_suite_photos.php: ");
 	$_SESSION["logger"]->info("-->gallery_code: $gallery_code");
 	if ($gallery_code != null && $gallery_code != "")
@@ -35,7 +37,7 @@ if($gallery_id == null || $gallery_id == "")
 	{
 		echo "You must specify a gallery code or gallery id to perform any gallery admin tasks";
 	}
-}	
+}
 
 $_SESSION["logger"]->info("{$action} {$photo_id} {$gallery_id} {$gallery_code}");
 
@@ -43,22 +45,18 @@ if ($gallery_id != null && $gallery_id != "")
 {
 	$gallery = new classGalleryPhotos($conn);
 	$gallery->setgallery($gallery_id);
-	
-	if ($action != null && $action == "delete_photo" && $photo_id != null && $photo_id != "")
+
+	if ($action != null && $action == "delete_photo" && !empty($photo_id))
 	{
 		$gallery->__removePhoto($photo_id);
 	}
-	else if ($action == 'rotate_photo'  && $photo_id != null && $photo_id != "")
+	else if ($action == 'upload_photos'  && $gallery->__exists() && !empty($_REQUEST["files"]))
 	{
-		$gallery->__rotatePhoto($photo_id);
+		$gallery->__addFullPhotos($_REQUEST["files"]);
 	}
-
-   
-	$gallery->__doLoadPhotos();
-	echo $gallery->buildImageUpload();	
+	else if ($action == 'reorder_photo'  && $gallery->__exists() && !empty($photo_id))
+	{
+		$gallery->__reorderPhotos($photo_id, $photo_order);
+	}
 }
-?>
-
-
-
-
+include("templates/owl-gallery.inc.php");
