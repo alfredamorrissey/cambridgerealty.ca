@@ -1,35 +1,70 @@
-<!-- Start of Image Gallery -->
-<table width="100%" class="gallery viewad_frame_brand2 tbleColpse viewadimgcontr ">
-	<tr>
-		<td  align="middle" class="imageStack border_none" imggal='main'>
-			<a name="show_full" id="show_full" href="<?php echo $gallery->__getPhotoPath(0, 'fulls') ?>" rel="prettyPhoto" title='Zoom' onclick="set_selected_image(); return;">
-				<img name="selected_image" id="selected_image" class="view" src="<?php echo $gallery->__getPhotoPath(0, 'meds') ?>" border="0"/>
-			</a>
-		</td>
-	</tr>
-</table>
+<div class="container" data-lightgallery="group">
+    <h2 class="line-3"><?php echo $options["title"] ?></h2>
+    <p class="text-default-2 inset-1 letter-spacing-1"><?php echo $options["description"] ?></p>
+    <div class="row row-30">
 
-<table class="border_none img-next-prev tbleColpse ">
-	<tr>
-		<td class="jsonly border_none">
-			<div class="prev" imggal='prev'>&nbsp;  </div> 
-		</td>
-		<td style="padding:0px 10px 0px 10px" class="border_none"> 
-				
-			<a href='<?php echo $gallery->__getPhotoPath(0, 'fulls') ?>' title='Zoom' imggal='viewimg'>
-				<div class="view-large">
-					<div> View larger image </div>
-				</div>
-			</a>
-				
-		</td>
-		<td class="jsonly border_none">
-			<div class="next" imggal='next'>&nbsp;  </div> 
-		</td>
-	</tr>
-</table>
+<?php
+$paths = array();
+$grid_column = "";
+$grid_close_div = "";
+$flow_column = "";
+$flow_close_div = "";
 
-<table class='navs'  cellpadding="0" cellspacing="0" border="0">
-	<?php echo $gallery->buildImageNavs() ?>
-</table>
-<!-- End of Image Gallery -->
+//If a path is not specified, return an error
+if (!empty($options["path"])) {
+//If they have specified an array, then it is a gallery with columns and the subfolders will provide the images for each column
+  if (is_array($options["path"])) {
+    $flow_column = "<div class=\"col-lg-".$options["size"]." col-md-".$options["size"]."\">";
+    $flow_close_div = "</div>";
+
+    foreach($options["path"] as $key => $columns) {
+      foreach($columns as $column) {
+        if (is_dir("images/" . $key . "/" . $column)) {
+          $paths[] = "images/" . $key . "/" . $column;
+        }
+      }
+    }
+  } else {
+    $grid_column = "<div class=\"col-lg-".$options["size"]." col-md-".$options["size"]."\">";
+    $grid_close_div = "</div>";
+
+    if (is_dir("images/" . $options["path"])) {
+      $paths[] = "images/" . $options["path"];
+    }
+  }
+}
+
+foreach($paths as $path)  {
+  echo $flow_column;
+  //Get all the files in the swiper images folder
+  //$files = scandir($path);
+  $files = glob($path.'/*.{jpeg,gif,png,jpg}', GLOB_BRACE);
+  //If it was unsuccessful, scandir returns false
+  if (!empty($files) && is_array($files)) {
+      //For every file or directory in the column image folder
+      foreach ($files as $key => $value) {
+        //If it is not a directory (filters out . and ..)
+        if (!is_dir($value) ) {
+          //Add it to the gallery $value will be the name of the file, append the full path
+          echo $grid_column;
+          $thumb_path = (!empty($options["thumbs"]) ? str_replace("full", $options["thumbs"], $value) : $value);
+          ?>
+
+            <div class="thumb thumb1">
+                <a href="<?php echo $value ?>" data-lightgallery='item'>
+                    <img src="<?php echo $thumb_path ?>" />
+                    <div class="thumb__overlay"></div>
+
+                </a>
+            </div> <!-- thumb -->
+        <?php
+        echo $grid_close_div;
+      } //if (!is_dir($path."/".$value))
+    } // foreach ($files as $key => $value)
+  } // if ($files)
+  echo($flow_close_div);
+} //foreach($paths as $path)
+
+?>
+  </div> <!-- row -->
+</div> <!-- container -->

@@ -6,36 +6,37 @@
 class classObject extends classSql
 {
 	private $exists = false;
-	
+
 	/**************************************************************************
      * __doLoad
      * Load a record from database
      *************************************************************************/
     public function __doLoad()
     {
-		$strSQL = $this->getSelectSql();
-		
-        $result = $this->query($strSQL);
-		$_SESSION["logger"]->info("Results: " . $this->rowCount($result)); 
-		if ($result && $this->rowCount($result) > 0) 
-		{
-			$this->exists = true;
-			$this->dxHashToClass( $this->torecord( $result ) );
-		}
-		else
-		{
-			$this->exists = false;
-		}
+			$strSQL = $this->getSelectSql();
+			$_SESSION["logger"]->info("__doLoad: " . $strSQL);
+
+	    $result = $this->query($strSQL);
+			$_SESSION["logger"]->info("Results: " . $this->rowCount($result));
+			if ($result && $this->rowCount($result) > 0)
+			{
+				$this->exists = true;
+				$this->dxHashToClass( $this->torecord( $result ) );
+			}
+			else
+			{
+				$this->exists = false;
+			}
     }
-	
+
 	public function __doLoadBy()
 	{
 		$strSQL = "SELECT * FROM ";
 		if (isset($this->schema))
 			$strSQL = $strSQL . $this->schema . ".";
-		
+
 		$strSQL = $strSQL . $this->tblName;
-		
+
 		if (func_num_args() > 0)
 		{
 			$args = func_get_args();
@@ -46,7 +47,7 @@ class classObject extends classSql
 			$strSQL = $strSQL  . " WHERE ". $this->getWhereCondition($this->tblIndex);
 		}
 		$result = $this->query($strSQL);
-		if ($result && $this->rowCount($result) > 0) 
+		if ($result && $this->rowCount($result) > 0)
 		{
 			$this->exists = true;
 			$this->dxHashToClass( $this->torecord( $result ) );
@@ -55,8 +56,8 @@ class classObject extends classSql
 		{
 			$this->exists = false;
 		}
-		
-		
+
+
 	}
 
     /**************************************************************************
@@ -65,18 +66,18 @@ class classObject extends classSql
      *************************************************************************/
     public function __doSave()
     {
-		$_SESSION["logger"]->info(get_class( $this ) . '->__doSave'); 
-		$_SESSION["logger"]->info($this->toDebugStr()); 
-		
-        if(!$this->__exists())
-        {
-            $strSQL = $this->getInsertSql($params);
-		}else{
-            $strSQL = $this->getUpdateSql($params);
-		}
-		$result = $this->query($strSQL);
-		return $result;
-        
+			$_SESSION["logger"]->info(get_class( $this ) . '->__doSave');
+			$_SESSION["logger"]->info($this->toDebugStr());
+
+      if(!$this->__exists())
+      {
+        $strSQL = $this->getInsertSql($params);
+			}else{
+        $strSQL = $this->getUpdateSql($params);
+			}
+			$result = $this->query($strSQL);
+
+			return $result;
     }
 
     /**************************************************************************
@@ -86,10 +87,8 @@ class classObject extends classSql
     public function __doDelete()
     {
         $strSQL = $this->getDeleteSql($params);
-		
         $result = $this->query($strSQL);
-		
-	}
+		}
 
     /**************************************************************************
      * __get
@@ -115,12 +114,12 @@ class classObject extends classSql
         }
         return $this;
     }
-	
+
 	public function __exists()
 	{
 		return $this->exists;
 	}
-	
+
 
     /**************************************************************************
      * dxHashToClass
@@ -129,22 +128,22 @@ class classObject extends classSql
      *************************************************************************/
     function dxHashToClass( $hash = "" )
     {
-		//$_SESSION["logger"]->logInfo(get_class( $this ) . '->dxHashToClass', $hash); 
+		//$_SESSION["logger"]->logInfo(get_class( $this ) . '->dxHashToClass', $hash);
 		if (is_array( $hash ))
         {
-			$_SESSION["logger"]->info(get_class( $this ) . '->dxHashToClass', $hash); 
+			$_SESSION["logger"]->info(get_class( $this ) . '->dxHashToClass', $hash);
 		    foreach( array_keys( get_class_vars( get_class( $this ) ) ) as $k )
             {
 				if( isset( $hash[$k] ) )
                 {
-					
+
                     $this->__set($k, trim( $hash[$k] ));
-					
+
                 }
             }
         }
-		$_SESSION["logger"]->info($this->toDebugStr()); 
-		    
+		$_SESSION["logger"]->info($this->toDebugStr());
+
     }
 
     /**************************************************************************
@@ -158,7 +157,7 @@ class classObject extends classSql
             echo "$k [" . $this->$k . "]{$nl}";
         }
     }
-	
+
 	/**************************************************************************
      * toDebug
      * Used to output class properties to debug purposes
@@ -172,7 +171,7 @@ class classObject extends classSql
 			{
 				$str = $str . "$k [" . $this->$k . "]\n";
 			}
-            
+
         }
 		return $str;
     }
@@ -186,7 +185,7 @@ class classObject extends classSql
         $str = 'UPDATE ';
 		if (isset($this->schema))
 			$str = $str . $this->schema . ".";
-		
+
 		$str = $str . $this->tblName . ' SET ';
         $n = 0;
         foreach( array_keys( get_class_vars( get_class( $this ) ) ) as $k )
@@ -199,7 +198,7 @@ class classObject extends classSql
                 }
 				$str = $str . " " . $k . "=" . $this->prepareForQuery( $this->$k) ;
 
-                
+
             }
         }
         $str .= " WHERE " . $this->getWhereCondition($this->tblIndex);
@@ -225,14 +224,14 @@ class classObject extends classSql
                     $str2 .= ',';
                 }
 
-                
+
                 $str1 .= $k . " ";
                 $str2 .= $this->prepareForQuery($this->$k) . " ";
 
-                
+
             }
         }
-        $str = 'INSERT INTO '; 
+        $str = 'INSERT INTO ';
 		if (isset($this->schema))
 			$str = $str . $this->schema . ".";
 		$str = $str . $this->tblName . ' ( ';
@@ -252,7 +251,7 @@ class classObject extends classSql
         $str = "SELECT * FROM ";
 		if (isset($this->schema))
 			$str = $str . $this->schema . ".";
-		
+
 		$str = $str . $this->tblName . " WHERE " . $this->getWhereCondition($this->tblIndex);
         return $str;
     }
@@ -266,17 +265,17 @@ class classObject extends classSql
         $str = "DELETE FROM ";
 		if (isset($this->schema))
 			$str = $str . $this->schema . ".";
-		
+
 		$str = $str . $this->tblName ." WHERE " . $this->getWhereCondition($this->tblIndex);
         return $str;
     }
-	
+
 	function getWhereCondition($params)
 	{
 		$str = "";
 		$n = 0;
 		//$_SESSION["params"] = $params;
-		
+
 		foreach ($params as $v)
 		{
 			if ($v != null)
@@ -287,10 +286,10 @@ class classObject extends classSql
 				}
 				$str = $str . $v . "=" . $this->prepareForQuery($this->__get($v));
 			}
-			
+
 		}
-		
-   
+
+
 		return $str;
 	}
 }

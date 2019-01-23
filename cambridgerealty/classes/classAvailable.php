@@ -4,34 +4,35 @@ class classAvailable extends classSql
 {
     private $available = null;
 	private $suite = null;
-	
+  private $layout = null;
+
 	protected $results = null;
 	protected $totalRows = 0;
 	protected $currRow = 0;
-	
+
 	public function __construct($con)
     {
         parent::__construct($con);
 		$this->available = new beanAvailable($this->con, 'Available', array("suite_id"));
 		$this->suite = new beanSuite($this->con);
-		
+
     }
-   
+
     public function getAvailableSuites()
     {
         $sql =  "select * " .
-				"from senatorapts.Suite s, senatorapts.Available a " .
-				"where s.suite_id = a.suite_id  " .
+				"from senatorapts.Suite s, senatorapts.Available a, senatorapts.SuiteLayout sl " .
+				"where s.suite_id = a.suite_id  and sl.layout_id = s.layout_id " .
 				"order by a.year, LPAD(a.month,2,'0'), s.suite_order";
-	
+
 		$this->results = $this->query($sql);
 		$this->totalRows = $this->rowCount($this->results);
 		return $this->results;
     }
-	
+
 	public function fetch()
 	{
-		
+
 		if ($row = $this->results->fetch_assoc())
 		{
 			//Fill objects with current result
@@ -46,13 +47,13 @@ class classAvailable extends classSql
 				{
 					$_SESSION["logger"]->info("$k is not a member of classObject");
 				}
-				
+
 			}
 			$this->currRow ++;
 		}
 		return $row;
 	}
-	
+
 	/**************************************************************************
      * __get
      * Get a property value of the object
@@ -64,7 +65,7 @@ class classAvailable extends classSql
             return $this->$object->__get($property);
         }
     }
-	
+
 	public function totalRows()
 	{
 		return $this->totalRows;
