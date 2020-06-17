@@ -84,7 +84,7 @@ function upload_photos() {
 
 function init_bindings() {
 	$("#edit_photos").on("click", function(){
-	  location.href = $(this).form().attr('action')+"?action=edit_gallery&house_id=" + $(this).data("house_id")+"&layout_id=" + $(this).data("layout_id");
+	  location.href = $(this).form().attr('action')+"?action=edit_gallery&suite_id="+$(this).data("suite_id")+"&house_id=" + $(this).data("house_id")+"&layout_id=" + $(this).data("layout_id");
 	});
 /*
 	$("#add_photos").on("click", function(){

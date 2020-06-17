@@ -1,6 +1,4 @@
-
-
-    <!--========================================================
+<!--========================================================
                               HEADER
     =========================================================-->
 
@@ -15,7 +13,6 @@
     <main class="page-content">
       <?php
       include("templates/availability.inc.php");
-      include("templates/apartment_styles.inc.php");
       ?>
     </main>
     <?php

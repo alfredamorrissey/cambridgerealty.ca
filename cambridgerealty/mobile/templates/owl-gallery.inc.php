@@ -1,5 +1,4 @@
-
-    <div class="owl-carousel" >
+<div class="owl-carousel" >
 
 <?php
 $photos = array();

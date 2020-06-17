@@ -1,10 +1,7 @@
 <?php
 session_start();
 
-    if (!$_SESSION["access"])
-    {
-    	header('Location: 2-availability.php');
-    }
+
       require_once 'dbconfigs.inc.php';
       require_once 'common.inc.php';
       define("IN_AVAILABILITY", 1);
@@ -80,11 +77,3 @@ session_start();
     <?php
     include("templates/footer.inc.php");
     ?>
-</div>
-<div class="snackbars" id="form-output-global"></div>
-<!-- Core Scripts -->
-<script src="js/core.min.js"></script>
-<!-- Additional Functionality Scripts -->
-<script src="js/script.js"></script>
-</body>
-</html>

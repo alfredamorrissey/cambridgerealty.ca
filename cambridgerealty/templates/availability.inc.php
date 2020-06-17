@@ -14,7 +14,7 @@ require_once 'common.inc.php';
       </div>
   </div>
     <div class="container" id="sct-availability">
-      <div class="row row-60">
+      <div class="row row-0">
         <div class="col-lg-6">
           <?php
           include("templates/apartment_availability.inc.php");

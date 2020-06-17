@@ -6,7 +6,7 @@
 function __autoload($class)
 {
 	//require_once("classes/" . $class . ".php") ;
-	require_once($_SERVER["DOCUMENT_ROOT"] . "/cambridgerealty/classes/"  . str_replace("\\", "/", $class) . ".php") ;
+	require_once($_SERVER["DOCUMENT_ROOT"] . "/classes/"  . str_replace("\\", "/", $class) . ".php") ;
 	return true;
 }
 
@@ -52,40 +52,40 @@ $arrOccupancy = array (
 	'B'	=> 'Bachelor'
 );
 
-$arrProvinces = array( 
-    "BC" => "British Columbia", 
-    "ON" => "Ontario", 
-    "NL" => "Newfoundland and Labrador", 
-    "NS" => "Nova Scotia", 
-    "PE" => "Prince Edward Island", 
-    "NB" => "New Brunswick", 
-    "QC" => "Quebec", 
-    "MB" => "Manitoba", 
-    "SK" => "Saskatchewan", 
-    "AB" => "Alberta", 
-    "NT" => "Northwest Territories", 
+$arrProvinces = array(
+    "BC" => "British Columbia",
+    "ON" => "Ontario",
+    "NL" => "Newfoundland and Labrador",
+    "NS" => "Nova Scotia",
+    "PE" => "Prince Edward Island",
+    "NB" => "New Brunswick",
+    "QC" => "Quebec",
+    "MB" => "Manitoba",
+    "SK" => "Saskatchewan",
+    "AB" => "Alberta",
+    "NT" => "Northwest Territories",
     "NU" => "Nunavut",
     "YT" => "Yukon Territory"
 );
 
-$arrSuiteLayouts = array( 
-    "01" => "01", 
-    "02" => "02", 
-    "03" => "03", 
-    "04" => "04", 
-    "05" => "05", 
-    "06" => "06", 
-    "07" => "07", 
-    "08" => "08", 
+$arrSuiteLayouts = array(
+    "01" => "01",
+    "02" => "02",
+    "03" => "03",
+    "04" => "04",
+    "05" => "05",
+    "06" => "06",
+    "07" => "07",
+    "08" => "08",
     "B-1" => "B-1",
 	"B-2" => "B-2"
-    
+
 );
 
-$arrHouseTypes = array( 
-    "DETACHED" => "Single Family", 
+$arrHouseTypes = array(
+    "DETACHED" => "Single Family",
     "SEMI-DETACHED" => "Townhome"
-    
+
 );
 
 $arrFeatures = array(
@@ -101,14 +101,14 @@ $arrFeatures = array(
 	"PARKING" => "parking",
 	"ENSUITE" => "ensuite bathroom",
 	"WALK_IN_CLOSET" => "walk in closet"
-	
+
 );
 
 
 
 
 function test_input($data) {
-   	
+
    if ($data == null) $data = "";
    $data = trim($data);
    $data = stripslashes($data);
@@ -142,9 +142,9 @@ function buildSelect($name, $hash, $selected_key, $js_code="")
 	{
 		$selected = "";
 		if ($key == $selected_key) {$selected = "selected";}
-		$html = $html . "<option value=\"{$key}\" {$selected}>{$value}</option>"; 
+		$html = $html . "<option value=\"{$key}\" {$selected}>{$value}</option>";
 	}
-		
+
 	$html = $html . "</select>";
 	return $html;
 }
@@ -152,7 +152,7 @@ function buildSelect($name, $hash, $selected_key, $js_code="")
 function buildFieldset($name, $hash, $checked_keys, $js_code="")
 {
 	$html = "<fieldset><div class=\"section group\">";
-	
+
 	$i=0;
 	$num_per_col = 4;
 	$span_class = "span_2_of_2";
@@ -160,7 +160,7 @@ function buildFieldset($name, $hash, $checked_keys, $js_code="")
 	if ($num_items > 4)
 	{
 		$span_class = "span_1_of_2";
-		$num_per_col = ceil($num_items / 2); 
+		$num_per_col = ceil($num_items / 2);
 	}
 	$html = $html . "<div class='col {$span_class}'>";
 	foreach($hash as $key => $value)
@@ -174,9 +174,9 @@ function buildFieldset($name, $hash, $checked_keys, $js_code="")
 		$html = $html . "<input type='checkbox' name='{$name}' value='{$key}' {$selected}/>";
 		$html = $html . $value . "<br/>\n";
 		$i++;
-		
+
 	}
-		
+
 	$html = $html . "</fieldset>";
 	return $html;
 }

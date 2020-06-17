@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} ^(www\.)?cambridgerealty\.ca$ [NC]
+RewriteRule ^(.*)$ https://cambridgerealty.ca/$1 [L,R=301]
+</IfModule>

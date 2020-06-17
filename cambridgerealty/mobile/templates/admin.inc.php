@@ -1,7 +1,4 @@
-
-
- 
-    	<article>
+<article>
     		<section class="head">
 				<h3>Available Units</h3>
 			</section>

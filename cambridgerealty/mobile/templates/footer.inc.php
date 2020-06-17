@@ -1,4 +1,4 @@
-       	</div> <!-- #main -->
+</div> <!-- #main -->
 </div> <!-- #main-container -->
 	   <div class="footer-container">
             <footer class="wrapper">
@@ -7,6 +7,7 @@
 				<div class="footer_address">470 Cambridge St South Ottawa. Ontario K1S 4H8 613-232-2396</div>
 
 				<div class="footer_links" name="footer_links">&copy; Copyright 2015</div>
+<span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=qmZ7LbPiN7j4edUBMAihkCsM40oG2EfZTvy4VoMAdEXFF05AEEup5ymaZokM"></script></span>
             </footer>
         </div>
 

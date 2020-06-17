@@ -1,5 +1,4 @@
- 
-    	<article>
+<article>
     		<section class="head">
 				<h3>Edit the availability</h3>
 			</section>

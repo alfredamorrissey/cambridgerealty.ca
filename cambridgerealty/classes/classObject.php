@@ -98,7 +98,7 @@ class classObject extends classSql
     {
         if( property_exists( $this, $property ) )
         {
-            return $this->$property;
+            return html_entity_decode($this->$property);
         }
     }
 
@@ -110,7 +110,7 @@ class classObject extends classSql
     {
         if( property_exists( $this, $property ) )
         {
-            $this->$property = $value;
+            $this->$property = htmlentities(trim( $value));
         }
         return $this;
     }
@@ -137,7 +137,7 @@ class classObject extends classSql
 				if( isset( $hash[$k] ) )
                 {
 
-                    $this->__set($k, trim( $hash[$k] ));
+                    $this->__set($k, $hash[$k] );
 
                 }
             }

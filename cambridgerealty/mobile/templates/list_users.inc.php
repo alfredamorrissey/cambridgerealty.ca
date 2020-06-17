@@ -1,6 +1,4 @@
-
-
-    <div class="content">
+<div class="content">
     	<article>
     		<section class="head">
 				<h3>Users</h3>

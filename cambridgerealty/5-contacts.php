@@ -1,22 +1,28 @@
 ﻿
 
       <?php
-      require_once 'common.inc.php';
+     # require_once 'common.inc.php';
       define("IN_CONTACTS", 1);
       include("templates/header.inc.php");
       ?>
     <!--========================================================
                               CONTENT
     =========================================================-->
-
     <!-- Contacts -->
     <section class="well-sm-2">
         <div class="container" data-lightbox="gallery">
+            
             <h2 class="line-3">Contacts</h2>
             <p class="text-default-2 inset-1 letter-spacing-1">How to find us</p>
+            
             <div class="row justify-content-lg-between">
                 <div class="col-xl-4 col-lg-5 address text-center text-md-left">
                     <h2 class="text-primary">Cambridge Realty (Ottawa) Limited</h2>
+                    
+                    <br/><h2>COVID-19</h2>
+        <a href="docs/Covid19-23March202.pdf">Changes to our service due to COVID-19</a>
+        
+                    
                     <div class="row offset-20">
                         <div class="col-lg-7 ">
                             <dl class="contact_list">

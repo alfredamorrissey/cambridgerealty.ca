@@ -31,12 +31,13 @@ echo "<h3>" . $month . "</h3>\n";
   <th>Bedrooms</th>
   <th>Bathrooms</th>
   <th>Monthly<br>Rent</th>
-  <th>Promotion</th>
+  <th></th>
 </tr>
 <thead>
 
 <?php }
-$half_text = (!empty($clAvailable->__getProp('house','powder_rooms'))) ? " FULL<br>" . $clAvailable->__getProp('house','powder_rooms') . " HALF" : "";
+$powder_rooms = $clAvailable->__getProp('house','powder_rooms');
+$half_text = (!empty($powder_rooms)) ? " FULL<br>" . $clAvailable->__getProp('house','powder_rooms') . " HALF" : "";
 ?>
 <tr>
 <td><a href="house-gallery.php?house_id=<?php echo $clAvailable->__getProp('house', 'house_id') ?>"> <?php echo $clAvailable->__getProp('house','house_num') . " " . $clAvailable->__getProp('house','street')?> </a></td>
@@ -55,12 +56,9 @@ $half_text = (!empty($clAvailable->__getProp('house','powder_rooms'))) ? " FULL<
 <?php
 
 }
-else //Number of records is 0
+else
 {
-?>
-<div class=""><p class="single" >
-There are currently no available homes for rent. Check back later.
-</p>
-<?php
+    echo "<h5 class=\"text-primary\">
+      Sorry, there are currently no available houses for rent. <br>Please check back later.</h5>";
 }
 ?>

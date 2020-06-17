@@ -1,5 +1,4 @@
- 
-    	<article>
+<article>
     		<section class="head"><h3>
 				<?php 
 				if (!$house->__exists()) 

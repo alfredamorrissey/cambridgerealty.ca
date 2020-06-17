@@ -10,7 +10,7 @@ class classGalleryPhotos extends classObject
 	protected $num_photos = 0;
 	protected $photos = array();
 	protected $root_path = "";
-	protected $root_url = "http://cambridgerealty.ca/";
+	protected $root_url = "https://cambridgerealty.ca/";
 
 	//height for the different orientations
 	protected $photo_geometry = array(
@@ -300,15 +300,13 @@ class classGalleryPhotos extends classObject
 		$photos->__set("photo_id", $photo_id);
 		$photos->__doLoad();
 
-		$_SESSION["logger"]->info("Attempting to delete the following files: ");
-		$_SESSION["logger"]->info($this->root_path . $photos->__get("thumb"));
-		$_SESSION["logger"]->info($this->root_path . $photos->__get("med"));
-		$_SESSION["logger"]->info($this->root_path . $photos->__get("full"));
-		if (!empty($photos->__get("thumb"))) {
-			$this->unlinkSafe($this->root_path . $photos->__get("thumb"));
+		$thumb = $photos->__get("thumb");
+		if (!empty($thumb)) {
+			$this->unlinkSafe($this->root_path . $thumb);
 		}
-		if (!empty($photos->__get("full"))) {
-			$this->unlinkSafe($this->root_path . $photos->__get("full"));
+		$full= $photos->__get("full");
+		if (!empty($full)) {
+			$this->unlinkSafe($this->root_path . $full);
 		}
 		$photos->__doDelete();
 

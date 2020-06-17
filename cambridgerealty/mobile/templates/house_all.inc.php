@@ -1,4 +1,4 @@
-    	<article>
+<article>
     		<section class="head">
 				<h3>Edit Houses</h3>
 			</section>

@@ -1,7 +1,7 @@
 <div class="container" data-lightgallery="group">
     <h2 class="line-3"><?php echo $options["title"] ?></h2>
     <p class="text-default-2 inset-1 letter-spacing-1"><?php echo $options["description"] ?></p>
-    <div class="row row-30">
+    <div class="row row-0">
 
 <?php
 $paths = array();
@@ -19,8 +19,8 @@ if (!empty($options["path"])) {
 
     foreach($options["path"] as $key => $columns) {
       foreach($columns as $column) {
-        if (is_dir("images/" . $key . "/" . $column)) {
-          $paths[] = "images/" . $key . "/" . $column;
+        if (is_dir("images/" . $key . "/" . $column."/full")) {
+          $paths[] = "images/" . $key . "/" . $column."/full";
         }
       }
     }
@@ -28,8 +28,8 @@ if (!empty($options["path"])) {
     $grid_column = "<div class=\"col-lg-".$options["size"]." col-md-".$options["size"]."\">";
     $grid_close_div = "</div>";
 
-    if (is_dir("images/" . $options["path"])) {
-      $paths[] = "images/" . $options["path"];
+    if (is_dir("images/" . $options["path"] . "/full")) {
+      $paths[] = "images/" . $options["path"]. "/full";
     }
   }
 }
@@ -47,7 +47,14 @@ foreach($paths as $path)  {
         if (!is_dir($value) ) {
           //Add it to the gallery $value will be the name of the file, append the full path
           echo $grid_column;
-          $thumb_path = (!empty($options["thumbs"]) ? str_replace("full", $options["thumbs"], $value) : $value);
+
+          $thumb_path = str_replace("full", "thumbs", $value);
+          if (!is_file($thumb_path)) {
+            $thumb_path = $value;
+            
+          }
+
+
           ?>
 
             <div class="thumb thumb1">

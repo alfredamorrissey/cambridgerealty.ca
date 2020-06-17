@@ -16,6 +16,7 @@
 
 				$photos = $gallery->getPhotos();
 		  	foreach ($photos as $photo) {
+					if (empty($photo["thumb"])) {
 		?>
 
 			<div class="image-editor" data-src="<?php echo "../".$photo["full"] ?>" data-photo-id="<?php echo $photo["photo_id"]?>">
@@ -29,6 +30,7 @@
       </div>
 
 		<?php
+	}
 				}
 		?>
 		<input type="submit" name="edit_photos" value="Save Thumbnails">

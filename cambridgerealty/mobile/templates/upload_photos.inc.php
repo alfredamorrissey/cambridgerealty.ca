@@ -16,6 +16,7 @@
     <input type="submit" name="add_photos" value="Add Photos">
     <input type="button" id="edit_photos" name="edit_photos" value="Edit Thumbnails"
       data-house_id="<?php echo $house_id ?>"
+      data-suite_id="<?php echo $suite_id ?>"
       data-layout_id="<?php echo $layout_id ?>"/>
     </div>
   </form>

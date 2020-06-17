@@ -1,4 +1,4 @@
-      <?php
+<?php
       define("IN_APPLY_NOW", 1);
       include("templates/header.inc.php");
       ?>
@@ -19,15 +19,13 @@
                           <div class="col-lg-12">
                               <p class="text-default-3">
                                 <ol class="marked-list">
-                                  <li>Fill out an <a href="docs/Rental_Application.pdf">application</a></li>
-                                  <li>Sign application</li>
-                                  <li>Obtain certified funds (Certified Cheque, Money Order or Cash)
-                                    for the Last Month's Rent dated today.</li>
-                                  <li>Prepare a Cheque for the First Month's Rent
+                                  <li>Fill out and sign an <a href="docs/Rental_Application.pdf">application</a></li>
+                                  <li>Provide Last Month's Rent as a deposit in cash, certified cheque or money order.</li>
+                                  <li>Include a post-dated Cheque for the First Month's Rent
                                     dated for the first of the month of rental.</li>
-                                  <li>Submit the completed application along with payment and post
-                                    dated cheque to our rental office by Fax, Mail or in person.</li>
-                                  <li>The rental agent will forward your application to
+                                  <li>Submit the completed application along with the payments to our Rental Office
+                                    by mail or in person.</li>
+                                  <li>The Rental Agent will forward your application to
                 										head office for consideration. The application will be
                 										approved or declined within 2 to 4 business days.</li>
                 									<li>If your application is declined your Last Month's Rent

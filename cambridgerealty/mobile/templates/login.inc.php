@@ -1,7 +1,4 @@
-
-
-
-    	<article>
+<article>
     		<section class="head">
 				<h3>Please Login</h3>
 			</section>

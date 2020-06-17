@@ -15,11 +15,10 @@
                 </div>
                 <!-- END RD Navbar Brand -->
                 <div class="copyright">
-                    Copyright &#169; <span class="copyright-year"></span> |
-                    <a href='index-6.html'>Privacy Policy</a>
+                    470 Cambridge St South Ottawa. Ontario K1S 4H8 <br><a href="tel:#">613-232-2396</a>
                 </div>
                 <div >
-                <span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=fJtTNtMI5XvtXE7jBxso1gVytKIW4gIct9zgOYCg5CerOnM8mHE4PQOzlQhQ"></script></span>
+                  <span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=qmZ7LbPiN7j4edUBMAihkCsM40oG2EfZTvy4VoMAdEXFF05AEEup5ymaZokM"></script></span>
                 </div>
             </div>
         </div>
@@ -44,7 +43,15 @@
       ga.src = ('https:' == document.location.protocol ? 'https://ssl': 'http://www') + '.google-analytics.com/ga.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
+
+  $(function() {
+      $(".href-button").on("click", function(){
+          location.href = $(this).data("url");
+      })
+  });
+
 </script>
+
 
 <div class="hidden" itemscope="itemscope" itemtype="http://schema.org/LocalBusiness"><span itemprop="name">Cambridge Realty Ottawa Limited</span>
 
@@ -53,7 +60,7 @@
 		<span itemprop="addressLocality">Ottawa</span>, <span itemprop="addressRegion">Ontario</span> <span itemprop="postalCode">K1S 4H8</span>
 		<span itemprop="addressCountry">CA</span>
 	</div>
-	Phone: <span itemprop="telephone">613-232-2396</span> Website: <a itemprop="URL">http://www.cambridgerealty.ca/</a>
+	Phone: <span itemprop="telephone">613-232-2396</span> Website: <a itemprop="URL">https://cambridgerealty.ca/</a>
 </div>
 </body>
 </html>
