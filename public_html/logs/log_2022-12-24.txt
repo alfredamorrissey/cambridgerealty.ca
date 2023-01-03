@@ -1,0 +1,131 @@
+[2022-12-24 12:58:58.540604] [info] __doLoad: SELECT * FROM cambridg_old.House WHERE house_id='16'
+[2022-12-24 12:58:58.541440] [info] Running query: SELECT * FROM cambridg_old.House WHERE house_id='16'
+[2022-12-24 12:58:58.541922] [info] 1 rows returned.
+[2022-12-24 12:58:58.542431] [info] Results: 1
+[2022-12-24 12:58:58.543057] [info] beanHouse->dxHashToClass
+    house_id: '16'
+    house_num: '1803'
+    street: 'Radway Terrace'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 5J1'
+    description: 'Immediate availability
+    
+    613-232-2396 
+    
+    &bull;	3 Bedroom detached home 
+    &bull;	2 &frac12; bathrooms
+    &bull;	5 appliances
+    &bull;	A/C
+    &bull;	Eat-in kitchen with quartz countertops
+    &bull;	Large dining room
+    &bull;	Living room with fireplace overlooking the raised deck and yard
+    &bull;	Large master bedroom with a walk-in closet and an ensuite bathroom
+    &bull;	Large rec room
+    &bull;	Deck
+    &bull;	Fenced yard
+    &bull;	One car garage and room for a second car on the driveway
+    
+    $2,450.00 plus utilities.
+    
+    This beautiful family home has a great location, only minutes from schools, parks, major shopping, public transport, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+     
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2022-12-24 12:58:58.543773] [info] tblName [House]
+tblIndex [Array]
+schema [cambridg_old]
+house_id [16]
+house_num [1803]
+street [Radway Terrace]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 5J1]
+bedrooms [3]
+bathrooms [2]
+powder_rooms [1]
+description [Immediate availability
+
+613-232-2396 
+
+&amp;bull;	3 Bedroom detached home 
+&amp;bull;	2 &amp;frac12; bathrooms
+&amp;bull;	5 appliances
+&amp;bull;	A/C
+&amp;bull;	Eat-in kitchen with quartz countertops
+&amp;bull;	Large dining room
+&amp;bull;	Living room with fireplace overlooking the raised deck and yard
+&amp;bull;	Large master bedroom with a walk-in closet and an ensuite bathroom
+&amp;bull;	Large rec room
+&amp;bull;	Deck
+&amp;bull;	Fenced yard
+&amp;bull;	One car garage and room for a second car on the driveway
+
+$2,450.00 plus utilities.
+
+This beautiful family home has a great location, only minutes from schools, parks, major shopping, public transport, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+ 
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [DETACHED]
+exists [1]
+
+[2022-12-24 12:58:58.544857] [info] __doLoad: SELECT * FROM cambridg_old.HouseAvailable WHERE house_id='16'
+[2022-12-24 12:58:58.545521] [info] Running query: SELECT * FROM cambridg_old.HouseAvailable WHERE house_id='16'
+[2022-12-24 12:58:58.546010] [info] 1 rows returned.
+[2022-12-24 12:58:58.546514] [info] Results: 1
+[2022-12-24 12:58:58.546978] [info] beanAvailable->dxHashToClass
+    house_id: '16'
+    rent: '2450'
+    month: '12'
+    year: '2022'
+    promotion: ''
+[2022-12-24 12:58:58.547497] [info] tblName [HouseAvailable]
+tblIndex [Array]
+schema [cambridg_old]
+suite_id []
+house_id [16]
+month [12]
+year [2022]
+rent [2450]
+promotion []
+exists [1]
+
+[2022-12-24 12:58:58.549293] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=16
+[2022-12-24 12:58:58.549742] [info] 1 rows returned.
+[2022-12-24 12:58:58.551415] [info] Gallery exists 839
+[2022-12-24 12:58:58.551898] [info] __doLoad: SELECT * FROM cambridg_old.Gallery WHERE gallery_id='839'
+[2022-12-24 12:58:58.552611] [info] Running query: SELECT * FROM cambridg_old.Gallery WHERE gallery_id='839'
+[2022-12-24 12:58:58.553152] [info] 1 rows returned.
+[2022-12-24 12:58:58.553652] [info] Results: 1
+[2022-12-24 12:58:58.554141] [info] beanGallery->dxHashToClass
+    gallery_id: '839'
+    code: '183RadwayTerrace'
+    description: '1803 Radway Terrace'
+[2022-12-24 12:58:58.554713] [info] tblName [Gallery]
+tblIndex [Array]
+schema [cambridg_old]
+gallery_id [839]
+code [183RadwayTerrace]
+description [1803 Radway Terrace]
+exists [1]
+
+[2022-12-24 12:58:58.556256] [info] __doLoadPhotos
+[2022-12-24 12:58:58.556839] [info] -->this: 1
+[2022-12-24 12:58:58.557389] [info] -->gallery: 1
+[2022-12-24 12:58:58.558137] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 839 and gp.photo_id = p.photo_id ORDER BY p.photo_order
+[2022-12-24 12:58:58.558686] [info] 18 rows returned.
+[2022-12-24 12:58:58.559204] [info] Results: 0
+[2022-12-24 12:58:58.559729] [info] gallery: 1
+[2022-12-24 12:58:58.560273] [info] __doLoadPhotos
+[2022-12-24 12:58:58.560708] [info] -->this: 1
+[2022-12-24 12:58:58.561189] [info] -->gallery: 1
+[2022-12-24 12:58:58.561935] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 839 and gp.photo_id = p.photo_id ORDER BY p.photo_order
+[2022-12-24 12:58:58.562439] [info] 18 rows returned.
+[2022-12-24 12:58:58.562990] [info] Results: 0
+[2022-12-24 12:58:58.563568] [info] -->num_photos: 0

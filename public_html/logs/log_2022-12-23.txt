@@ -1,0 +1,1126 @@
+[2022-12-23 14:10:49.248243] [info] Running query: select * from cambridg_old.Suite s, cambridg_old.Available a, cambridg_old.SuiteLayout sl where s.suite_id = a.suite_id  and sl.layout_id = s.layout_id order by a.year, LPAD(a.month,2,'0'), s.suite_order
+[2022-12-23 14:10:49.255506] [info] 1 rows returned.
+[2022-12-23 14:10:49.257846] [info] beanAvailable->dxHashToClass
+    suite_id: '802'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&amp;suite_id=02'
+    suite_order: '59'
+    layout_id: '903'
+    description: 'Our central location, only minutes from popular parks, restaurants and coffee shops, provides young professionals with an affordable urban lifestyle. The building is quiet and well maintained with the following features: 
+    
+    * Balcony
+    * Hardwood Floors
+    * Heat and Hot Water Included
+    * Individual Unit Thermostats
+    * Surface Parking
+    * Cable / Internet Ready
+    * Coin-Op Laundry Facilities
+    * Onsite Superintendent
+    * Storage Available
+    * Controlled Access
+    * 24-Hour Emergency Service'
+    rent: '1460.00'
+    promotion: ''
+    month: '1'
+    year: '2021'
+    code: '02'
+    gallery_id: '3'
+    floorplan: 'images/gallery-floor-plans/full/0 - 03.jpg'
+[2022-12-23 14:10:49.262695] [info] tblName []
+tblIndex [Available]
+schema [cambridg_old]
+suite_id [802]
+house_id []
+month [1]
+year [2021]
+rent [1460.00]
+promotion []
+exists []
+
+[2022-12-23 14:10:49.263147] [info] Populating available
+[2022-12-23 14:10:49.263520] [info] beanSuite->dxHashToClass
+    suite_id: '802'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&amp;suite_id=02'
+    suite_order: '59'
+    layout_id: '903'
+    description: 'Our central location, only minutes from popular parks, restaurants and coffee shops, provides young professionals with an affordable urban lifestyle. The building is quiet and well maintained with the following features: 
+    
+    * Balcony
+    * Hardwood Floors
+    * Heat and Hot Water Included
+    * Individual Unit Thermostats
+    * Surface Parking
+    * Cable / Internet Ready
+    * Coin-Op Laundry Facilities
+    * Onsite Superintendent
+    * Storage Available
+    * Controlled Access
+    * 24-Hour Emergency Service'
+    rent: '1460.00'
+    promotion: ''
+    month: '1'
+    year: '2021'
+    code: '02'
+    gallery_id: '3'
+    floorplan: 'images/gallery-floor-plans/full/0 - 03.jpg'
+[2022-12-23 14:10:49.264398] [info] tblName [Suite]
+tblIndex [Array]
+schema [cambridg_old]
+suite_id [802]
+bedrooms [1]
+suite_order [59]
+floor_plan [index.php?action=floor_plan&amp;amp;suite_id=02]
+layout_id [903]
+description [Our central location, only minutes from popular parks, restaurants and coffee shops, provides young professionals with an affordable urban lifestyle. The building is quiet and well maintained with the following features: 
+
+* Balcony
+* Hardwood Floors
+* Heat and Hot Water Included
+* Individual Unit Thermostats
+* Surface Parking
+* Cable / Internet Ready
+* Coin-Op Laundry Facilities
+* Onsite Superintendent
+* Storage Available
+* Controlled Access
+* 24-Hour Emergency Service]
+exists []
+
+[2022-12-23 14:10:49.264787] [info] Populating suite
+[2022-12-23 14:10:49.265408] [info] layout is not a member of classObject
+[2022-12-23 14:10:49.265983] [info] results is not a member of classObject
+[2022-12-23 14:10:49.266396] [info] totalRows is not a member of classObject
+[2022-12-23 14:10:49.266896] [info] currRow is not a member of classObject
+[2022-12-23 14:10:49.277457] [info] Running query: select * from cambridg_old.House h, cambridg_old.HouseAvailable a where h.house_id = a.house_id  and h.deleted != 1 order by a.year,  lpad(a.month, 2, 0)
+[2022-12-23 14:10:49.277854] [info] 1 rows returned.
+[2022-12-23 14:10:49.278240] [info] beanAvailable->dxHashToClass
+    house_id: '16'
+    house_num: '1803'
+    street: 'Radway Terrace'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 5J1'
+    description: 'Immediate availability
+    
+    613-232-2396 
+    
+    &bull;	3 Bedroom detached home 
+    &bull;	2 &frac12; bathrooms
+    &bull;	5 appliances
+    &bull;	A/C
+    &bull;	Eat-in kitchen with quartz countertops
+    &bull;	Large dining room
+    &bull;	Living room with fireplace overlooking the raised deck and yard
+    &bull;	Large master bedroom with a walk-in closet and an ensuite bathroom
+    &bull;	Large rec room
+    &bull;	Deck
+    &bull;	Fenced yard
+    &bull;	One car garage and room for a second car on the driveway
+    
+    $2,450.00 plus utilities.
+    
+    This beautiful family home has a great location, only minutes from schools, parks, major shopping, public transport, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+     
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '2450'
+    month: '12'
+    year: '2022'
+    promotion: ''
+[2022-12-23 14:10:49.279573] [info] tblName []
+tblIndex [Available]
+schema [cambridg_old]
+suite_id []
+house_id [16]
+month [12]
+year [2022]
+rent [2450]
+promotion []
+exists []
+
+[2022-12-23 14:10:49.279942] [info] Populating available
+[2022-12-23 14:10:49.280339] [info] beanHouse->dxHashToClass
+    house_id: '16'
+    house_num: '1803'
+    street: 'Radway Terrace'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 5J1'
+    description: 'Immediate availability
+    
+    613-232-2396 
+    
+    &bull;	3 Bedroom detached home 
+    &bull;	2 &frac12; bathrooms
+    &bull;	5 appliances
+    &bull;	A/C
+    &bull;	Eat-in kitchen with quartz countertops
+    &bull;	Large dining room
+    &bull;	Living room with fireplace overlooking the raised deck and yard
+    &bull;	Large master bedroom with a walk-in closet and an ensuite bathroom
+    &bull;	Large rec room
+    &bull;	Deck
+    &bull;	Fenced yard
+    &bull;	One car garage and room for a second car on the driveway
+    
+    $2,450.00 plus utilities.
+    
+    This beautiful family home has a great location, only minutes from schools, parks, major shopping, public transport, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+     
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '2450'
+    month: '12'
+    year: '2022'
+    promotion: ''
+[2022-12-23 14:10:49.281393] [info] tblName [House]
+tblIndex [Array]
+schema [cambridg_old]
+house_id [16]
+house_num [1803]
+street [Radway Terrace]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 5J1]
+bedrooms [3]
+bathrooms [2]
+powder_rooms [1]
+description [Immediate availability
+
+613-232-2396 
+
+&amp;bull;	3 Bedroom detached home 
+&amp;bull;	2 &amp;frac12; bathrooms
+&amp;bull;	5 appliances
+&amp;bull;	A/C
+&amp;bull;	Eat-in kitchen with quartz countertops
+&amp;bull;	Large dining room
+&amp;bull;	Living room with fireplace overlooking the raised deck and yard
+&amp;bull;	Large master bedroom with a walk-in closet and an ensuite bathroom
+&amp;bull;	Large rec room
+&amp;bull;	Deck
+&amp;bull;	Fenced yard
+&amp;bull;	One car garage and room for a second car on the driveway
+
+$2,450.00 plus utilities.
+
+This beautiful family home has a great location, only minutes from schools, parks, major shopping, public transport, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+ 
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [DETACHED]
+exists []
+
+[2022-12-23 14:10:49.281809] [info] Populating house
+[2022-12-23 14:10:49.282181] [info] beanSuite->dxHashToClass
+    house_id: '16'
+    house_num: '1803'
+    street: 'Radway Terrace'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 5J1'
+    description: 'Immediate availability
+    
+    613-232-2396 
+    
+    &bull;	3 Bedroom detached home 
+    &bull;	2 &frac12; bathrooms
+    &bull;	5 appliances
+    &bull;	A/C
+    &bull;	Eat-in kitchen with quartz countertops
+    &bull;	Large dining room
+    &bull;	Living room with fireplace overlooking the raised deck and yard
+    &bull;	Large master bedroom with a walk-in closet and an ensuite bathroom
+    &bull;	Large rec room
+    &bull;	Deck
+    &bull;	Fenced yard
+    &bull;	One car garage and room for a second car on the driveway
+    
+    $2,450.00 plus utilities.
+    
+    This beautiful family home has a great location, only minutes from schools, parks, major shopping, public transport, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+     
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '2450'
+    month: '12'
+    year: '2022'
+    promotion: ''
+[2022-12-23 14:10:49.283044] [info] tblName [Suite]
+tblIndex [Array]
+schema [cambridg_old]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+layout_id []
+description [Immediate availability
+
+613-232-2396 
+
+&amp;bull;	3 Bedroom detached home 
+&amp;bull;	2 &amp;frac12; bathrooms
+&amp;bull;	5 appliances
+&amp;bull;	A/C
+&amp;bull;	Eat-in kitchen with quartz countertops
+&amp;bull;	Large dining room
+&amp;bull;	Living room with fireplace overlooking the raised deck and yard
+&amp;bull;	Large master bedroom with a walk-in closet and an ensuite bathroom
+&amp;bull;	Large rec room
+&amp;bull;	Deck
+&amp;bull;	Fenced yard
+&amp;bull;	One car garage and room for a second car on the driveway
+
+$2,450.00 plus utilities.
+
+This beautiful family home has a great location, only minutes from schools, parks, major shopping, public transport, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+ 
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+exists []
+
+[2022-12-23 14:10:49.283433] [info] Populating suite
+[2022-12-23 14:10:49.283803] [info] layout is not a member of classObject
+[2022-12-23 14:10:49.284204] [info] results is not a member of classObject
+[2022-12-23 14:10:49.284590] [info] totalRows is not a member of classObject
+[2022-12-23 14:10:49.284964] [info] currRow is not a member of classObject
+[2022-12-23 14:22:01.486922] [info] Running query: select * from cambridg_old.Suite s, cambridg_old.Available a, cambridg_old.SuiteLayout sl where s.suite_id = a.suite_id  and sl.layout_id = s.layout_id order by a.year, LPAD(a.month,2,'0'), s.suite_order
+[2022-12-23 14:22:01.487792] [info] 1 rows returned.
+[2022-12-23 14:22:01.488289] [info] beanAvailable->dxHashToClass
+    suite_id: '802'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&amp;suite_id=02'
+    suite_order: '59'
+    layout_id: '903'
+    description: 'Our central location, only minutes from popular parks, restaurants and coffee shops, provides young professionals with an affordable urban lifestyle. The building is quiet and well maintained with the following features: 
+    
+    * Balcony
+    * Hardwood Floors
+    * Heat and Hot Water Included
+    * Individual Unit Thermostats
+    * Surface Parking
+    * Cable / Internet Ready
+    * Coin-Op Laundry Facilities
+    * Onsite Superintendent
+    * Storage Available
+    * Controlled Access
+    * 24-Hour Emergency Service'
+    rent: '1460.00'
+    promotion: ''
+    month: '1'
+    year: '2021'
+    code: '02'
+    gallery_id: '3'
+    floorplan: 'images/gallery-floor-plans/full/0 - 03.jpg'
+[2022-12-23 14:22:01.488962] [info] tblName []
+tblIndex [Available]
+schema [cambridg_old]
+suite_id [802]
+house_id []
+month [1]
+year [2021]
+rent [1460.00]
+promotion []
+exists []
+
+[2022-12-23 14:22:01.489406] [info] Populating available
+[2022-12-23 14:22:01.489994] [info] beanSuite->dxHashToClass
+    suite_id: '802'
+    bedrooms: '1'
+    floor_plan: 'index.php?action=floor_plan&amp;suite_id=02'
+    suite_order: '59'
+    layout_id: '903'
+    description: 'Our central location, only minutes from popular parks, restaurants and coffee shops, provides young professionals with an affordable urban lifestyle. The building is quiet and well maintained with the following features: 
+    
+    * Balcony
+    * Hardwood Floors
+    * Heat and Hot Water Included
+    * Individual Unit Thermostats
+    * Surface Parking
+    * Cable / Internet Ready
+    * Coin-Op Laundry Facilities
+    * Onsite Superintendent
+    * Storage Available
+    * Controlled Access
+    * 24-Hour Emergency Service'
+    rent: '1460.00'
+    promotion: ''
+    month: '1'
+    year: '2021'
+    code: '02'
+    gallery_id: '3'
+    floorplan: 'images/gallery-floor-plans/full/0 - 03.jpg'
+[2022-12-23 14:22:01.491133] [info] tblName [Suite]
+tblIndex [Array]
+schema [cambridg_old]
+suite_id [802]
+bedrooms [1]
+suite_order [59]
+floor_plan [index.php?action=floor_plan&amp;amp;suite_id=02]
+layout_id [903]
+description [Our central location, only minutes from popular parks, restaurants and coffee shops, provides young professionals with an affordable urban lifestyle. The building is quiet and well maintained with the following features: 
+
+* Balcony
+* Hardwood Floors
+* Heat and Hot Water Included
+* Individual Unit Thermostats
+* Surface Parking
+* Cable / Internet Ready
+* Coin-Op Laundry Facilities
+* Onsite Superintendent
+* Storage Available
+* Controlled Access
+* 24-Hour Emergency Service]
+exists []
+
+[2022-12-23 14:22:01.491615] [info] Populating suite
+[2022-12-23 14:22:01.492080] [info] layout is not a member of classObject
+[2022-12-23 14:22:01.492537] [info] results is not a member of classObject
+[2022-12-23 14:22:01.492980] [info] totalRows is not a member of classObject
+[2022-12-23 14:22:01.493524] [info] currRow is not a member of classObject
+[2022-12-23 14:22:01.496238] [info] Running query: select * from cambridg_old.House h, cambridg_old.HouseAvailable a where h.house_id = a.house_id  and h.deleted != 1 order by a.year,  lpad(a.month, 2, 0)
+[2022-12-23 14:22:01.496731] [info] 1 rows returned.
+[2022-12-23 14:22:01.497226] [info] beanAvailable->dxHashToClass
+    house_id: '16'
+    house_num: '1803'
+    street: 'Radway Terrace'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 5J1'
+    description: 'Immediate availability
+    
+    613-232-2396 
+    
+    &bull;	3 Bedroom detached home 
+    &bull;	2 &frac12; bathrooms
+    &bull;	5 appliances
+    &bull;	A/C
+    &bull;	Eat-in kitchen with quartz countertops
+    &bull;	Large dining room
+    &bull;	Living room with fireplace overlooking the raised deck and yard
+    &bull;	Large master bedroom with a walk-in closet and an ensuite bathroom
+    &bull;	Large rec room
+    &bull;	Deck
+    &bull;	Fenced yard
+    &bull;	One car garage and room for a second car on the driveway
+    
+    $2,450.00 plus utilities.
+    
+    This beautiful family home has a great location, only minutes from schools, parks, major shopping, public transport, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+     
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '2450'
+    month: '12'
+    year: '2022'
+    promotion: ''
+[2022-12-23 14:22:01.497927] [info] tblName []
+tblIndex [Available]
+schema [cambridg_old]
+suite_id []
+house_id [16]
+month [12]
+year [2022]
+rent [2450]
+promotion []
+exists []
+
+[2022-12-23 14:22:01.498400] [info] Populating available
+[2022-12-23 14:22:01.498891] [info] beanHouse->dxHashToClass
+    house_id: '16'
+    house_num: '1803'
+    street: 'Radway Terrace'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 5J1'
+    description: 'Immediate availability
+    
+    613-232-2396 
+    
+    &bull;	3 Bedroom detached home 
+    &bull;	2 &frac12; bathrooms
+    &bull;	5 appliances
+    &bull;	A/C
+    &bull;	Eat-in kitchen with quartz countertops
+    &bull;	Large dining room
+    &bull;	Living room with fireplace overlooking the raised deck and yard
+    &bull;	Large master bedroom with a walk-in closet and an ensuite bathroom
+    &bull;	Large rec room
+    &bull;	Deck
+    &bull;	Fenced yard
+    &bull;	One car garage and room for a second car on the driveway
+    
+    $2,450.00 plus utilities.
+    
+    This beautiful family home has a great location, only minutes from schools, parks, major shopping, public transport, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+     
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '2450'
+    month: '12'
+    year: '2022'
+    promotion: ''
+[2022-12-23 14:22:01.499977] [info] tblName [House]
+tblIndex [Array]
+schema [cambridg_old]
+house_id [16]
+house_num [1803]
+street [Radway Terrace]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 5J1]
+bedrooms [3]
+bathrooms [2]
+powder_rooms [1]
+description [Immediate availability
+
+613-232-2396 
+
+&amp;bull;	3 Bedroom detached home 
+&amp;bull;	2 &amp;frac12; bathrooms
+&amp;bull;	5 appliances
+&amp;bull;	A/C
+&amp;bull;	Eat-in kitchen with quartz countertops
+&amp;bull;	Large dining room
+&amp;bull;	Living room with fireplace overlooking the raised deck and yard
+&amp;bull;	Large master bedroom with a walk-in closet and an ensuite bathroom
+&amp;bull;	Large rec room
+&amp;bull;	Deck
+&amp;bull;	Fenced yard
+&amp;bull;	One car garage and room for a second car on the driveway
+
+$2,450.00 plus utilities.
+
+This beautiful family home has a great location, only minutes from schools, parks, major shopping, public transport, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+ 
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [DETACHED]
+exists []
+
+[2022-12-23 14:22:01.500488] [info] Populating house
+[2022-12-23 14:22:01.500910] [info] beanSuite->dxHashToClass
+    house_id: '16'
+    house_num: '1803'
+    street: 'Radway Terrace'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 5J1'
+    description: 'Immediate availability
+    
+    613-232-2396 
+    
+    &bull;	3 Bedroom detached home 
+    &bull;	2 &frac12; bathrooms
+    &bull;	5 appliances
+    &bull;	A/C
+    &bull;	Eat-in kitchen with quartz countertops
+    &bull;	Large dining room
+    &bull;	Living room with fireplace overlooking the raised deck and yard
+    &bull;	Large master bedroom with a walk-in closet and an ensuite bathroom
+    &bull;	Large rec room
+    &bull;	Deck
+    &bull;	Fenced yard
+    &bull;	One car garage and room for a second car on the driveway
+    
+    $2,450.00 plus utilities.
+    
+    This beautiful family home has a great location, only minutes from schools, parks, major shopping, public transport, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+     
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+    rent: '2450'
+    month: '12'
+    year: '2022'
+    promotion: ''
+[2022-12-23 14:22:01.501660] [info] tblName [Suite]
+tblIndex [Array]
+schema [cambridg_old]
+suite_id []
+bedrooms [3]
+suite_order []
+floor_plan []
+layout_id []
+description [Immediate availability
+
+613-232-2396 
+
+&amp;bull;	3 Bedroom detached home 
+&amp;bull;	2 &amp;frac12; bathrooms
+&amp;bull;	5 appliances
+&amp;bull;	A/C
+&amp;bull;	Eat-in kitchen with quartz countertops
+&amp;bull;	Large dining room
+&amp;bull;	Living room with fireplace overlooking the raised deck and yard
+&amp;bull;	Large master bedroom with a walk-in closet and an ensuite bathroom
+&amp;bull;	Large rec room
+&amp;bull;	Deck
+&amp;bull;	Fenced yard
+&amp;bull;	One car garage and room for a second car on the driveway
+
+$2,450.00 plus utilities.
+
+This beautiful family home has a great location, only minutes from schools, parks, major shopping, public transport, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+ 
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+exists []
+
+[2022-12-23 14:22:01.502562] [info] Populating suite
+[2022-12-23 14:22:01.503036] [info] layout is not a member of classObject
+[2022-12-23 14:22:01.503504] [info] results is not a member of classObject
+[2022-12-23 14:22:01.503927] [info] totalRows is not a member of classObject
+[2022-12-23 14:22:01.504400] [info] currRow is not a member of classObject
+[2022-12-23 14:22:08.140253] [info] __doLoad: SELECT * FROM cambridg_old.House WHERE house_id='16'
+[2022-12-23 14:22:08.141829] [info] Running query: SELECT * FROM cambridg_old.House WHERE house_id='16'
+[2022-12-23 14:22:08.142621] [info] 1 rows returned.
+[2022-12-23 14:22:08.143338] [info] Results: 1
+[2022-12-23 14:22:08.144115] [info] beanHouse->dxHashToClass
+    house_id: '16'
+    house_num: '1803'
+    street: 'Radway Terrace'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 5J1'
+    description: 'Immediate availability
+    
+    613-232-2396 
+    
+    &bull;	3 Bedroom detached home 
+    &bull;	2 &frac12; bathrooms
+    &bull;	5 appliances
+    &bull;	A/C
+    &bull;	Eat-in kitchen with quartz countertops
+    &bull;	Large dining room
+    &bull;	Living room with fireplace overlooking the raised deck and yard
+    &bull;	Large master bedroom with a walk-in closet and an ensuite bathroom
+    &bull;	Large rec room
+    &bull;	Deck
+    &bull;	Fenced yard
+    &bull;	One car garage and room for a second car on the driveway
+    
+    $2,450.00 plus utilities.
+    
+    This beautiful family home has a great location, only minutes from schools, parks, major shopping, public transport, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+     
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2022-12-23 14:22:08.145312] [info] tblName [House]
+tblIndex [Array]
+schema [cambridg_old]
+house_id [16]
+house_num [1803]
+street [Radway Terrace]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 5J1]
+bedrooms [3]
+bathrooms [2]
+powder_rooms [1]
+description [Immediate availability
+
+613-232-2396 
+
+&amp;bull;	3 Bedroom detached home 
+&amp;bull;	2 &amp;frac12; bathrooms
+&amp;bull;	5 appliances
+&amp;bull;	A/C
+&amp;bull;	Eat-in kitchen with quartz countertops
+&amp;bull;	Large dining room
+&amp;bull;	Living room with fireplace overlooking the raised deck and yard
+&amp;bull;	Large master bedroom with a walk-in closet and an ensuite bathroom
+&amp;bull;	Large rec room
+&amp;bull;	Deck
+&amp;bull;	Fenced yard
+&amp;bull;	One car garage and room for a second car on the driveway
+
+$2,450.00 plus utilities.
+
+This beautiful family home has a great location, only minutes from schools, parks, major shopping, public transport, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+ 
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [DETACHED]
+exists [1]
+
+[2022-12-23 14:22:08.146159] [info] __doLoad: SELECT * FROM cambridg_old.HouseAvailable WHERE house_id='16'
+[2022-12-23 14:22:08.147187] [info] Running query: SELECT * FROM cambridg_old.HouseAvailable WHERE house_id='16'
+[2022-12-23 14:22:08.147753] [info] 1 rows returned.
+[2022-12-23 14:22:08.148374] [info] Results: 1
+[2022-12-23 14:22:08.149014] [info] beanAvailable->dxHashToClass
+    house_id: '16'
+    rent: '2450'
+    month: '12'
+    year: '2022'
+    promotion: ''
+[2022-12-23 14:22:08.149789] [info] tblName [HouseAvailable]
+tblIndex [Array]
+schema [cambridg_old]
+suite_id []
+house_id [16]
+month [12]
+year [2022]
+rent [2450]
+promotion []
+exists [1]
+
+[2022-12-23 14:22:08.155989] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=16
+[2022-12-23 14:22:08.156538] [info] 1 rows returned.
+[2022-12-23 14:22:08.162658] [info] Gallery exists 839
+[2022-12-23 14:22:08.163167] [info] __doLoad: SELECT * FROM cambridg_old.Gallery WHERE gallery_id='839'
+[2022-12-23 14:22:08.164505] [info] Running query: SELECT * FROM cambridg_old.Gallery WHERE gallery_id='839'
+[2022-12-23 14:22:08.164957] [info] 1 rows returned.
+[2022-12-23 14:22:08.165406] [info] Results: 1
+[2022-12-23 14:22:08.165879] [info] beanGallery->dxHashToClass
+    gallery_id: '839'
+    code: '183RadwayTerrace'
+    description: '1803 Radway Terrace'
+[2022-12-23 14:22:08.166543] [info] tblName [Gallery]
+tblIndex [Array]
+schema [cambridg_old]
+gallery_id [839]
+code [183RadwayTerrace]
+description [1803 Radway Terrace]
+exists [1]
+
+[2022-12-23 14:22:08.167036] [info] __doLoadPhotos
+[2022-12-23 14:22:08.167577] [info] -->this: 1
+[2022-12-23 14:22:08.168034] [info] -->gallery: 1
+[2022-12-23 14:22:08.176388] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 839 and gp.photo_id = p.photo_id ORDER BY p.photo_order
+[2022-12-23 14:22:08.177014] [info] 18 rows returned.
+[2022-12-23 14:22:08.177501] [info] Results: 0
+[2022-12-23 14:22:08.178615] [info] gallery: 1
+[2022-12-23 14:22:08.179064] [info] __doLoadPhotos
+[2022-12-23 14:22:08.179526] [info] -->this: 1
+[2022-12-23 14:22:08.180008] [info] -->gallery: 1
+[2022-12-23 14:22:08.180654] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 839 and gp.photo_id = p.photo_id ORDER BY p.photo_order
+[2022-12-23 14:22:08.181159] [info] 18 rows returned.
+[2022-12-23 14:22:08.181611] [info] Results: 0
+[2022-12-23 14:22:08.182121] [info] -->num_photos: 0
+[2022-12-23 14:31:04.241821] [info] __doLoad: SELECT * FROM cambridg_old.House WHERE house_id='16'
+[2022-12-23 14:31:04.242774] [info] Running query: SELECT * FROM cambridg_old.House WHERE house_id='16'
+[2022-12-23 14:31:04.243333] [info] 1 rows returned.
+[2022-12-23 14:31:04.243839] [info] Results: 1
+[2022-12-23 14:31:04.244316] [info] beanHouse->dxHashToClass
+    house_id: '16'
+    house_num: '1803'
+    street: 'Radway Terrace'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 5J1'
+    description: 'Immediate availability
+    
+    613-232-2396 
+    
+    &bull;	3 Bedroom detached home 
+    &bull;	2 &frac12; bathrooms
+    &bull;	5 appliances
+    &bull;	A/C
+    &bull;	Eat-in kitchen with quartz countertops
+    &bull;	Large dining room
+    &bull;	Living room with fireplace overlooking the raised deck and yard
+    &bull;	Large master bedroom with a walk-in closet and an ensuite bathroom
+    &bull;	Large rec room
+    &bull;	Deck
+    &bull;	Fenced yard
+    &bull;	One car garage and room for a second car on the driveway
+    
+    $2,450.00 plus utilities.
+    
+    This beautiful family home has a great location, only minutes from schools, parks, major shopping, public transport, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+     
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2022-12-23 14:31:04.245122] [info] tblName [House]
+tblIndex [Array]
+schema [cambridg_old]
+house_id [16]
+house_num [1803]
+street [Radway Terrace]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 5J1]
+bedrooms [3]
+bathrooms [2]
+powder_rooms [1]
+description [Immediate availability
+
+613-232-2396 
+
+&amp;bull;	3 Bedroom detached home 
+&amp;bull;	2 &amp;frac12; bathrooms
+&amp;bull;	5 appliances
+&amp;bull;	A/C
+&amp;bull;	Eat-in kitchen with quartz countertops
+&amp;bull;	Large dining room
+&amp;bull;	Living room with fireplace overlooking the raised deck and yard
+&amp;bull;	Large master bedroom with a walk-in closet and an ensuite bathroom
+&amp;bull;	Large rec room
+&amp;bull;	Deck
+&amp;bull;	Fenced yard
+&amp;bull;	One car garage and room for a second car on the driveway
+
+$2,450.00 plus utilities.
+
+This beautiful family home has a great location, only minutes from schools, parks, major shopping, public transport, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+ 
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [DETACHED]
+exists [1]
+
+[2022-12-23 14:31:04.246159] [info] __doLoad: SELECT * FROM cambridg_old.HouseAvailable WHERE house_id='16'
+[2022-12-23 14:31:04.246772] [info] Running query: SELECT * FROM cambridg_old.HouseAvailable WHERE house_id='16'
+[2022-12-23 14:31:04.247263] [info] 1 rows returned.
+[2022-12-23 14:31:04.247745] [info] Results: 1
+[2022-12-23 14:31:04.248217] [info] beanAvailable->dxHashToClass
+    house_id: '16'
+    rent: '2450'
+    month: '12'
+    year: '2022'
+    promotion: ''
+[2022-12-23 14:31:04.248868] [info] tblName [HouseAvailable]
+tblIndex [Array]
+schema [cambridg_old]
+suite_id []
+house_id [16]
+month [12]
+year [2022]
+rent [2450]
+promotion []
+exists [1]
+
+[2022-12-23 14:31:04.252943] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=16
+[2022-12-23 14:31:04.253463] [info] 1 rows returned.
+[2022-12-23 14:31:04.255177] [info] Gallery exists 839
+[2022-12-23 14:31:04.255724] [info] __doLoad: SELECT * FROM cambridg_old.Gallery WHERE gallery_id='839'
+[2022-12-23 14:31:04.256273] [info] Running query: SELECT * FROM cambridg_old.Gallery WHERE gallery_id='839'
+[2022-12-23 14:31:04.256697] [info] 1 rows returned.
+[2022-12-23 14:31:04.257141] [info] Results: 1
+[2022-12-23 14:31:04.257565] [info] beanGallery->dxHashToClass
+    gallery_id: '839'
+    code: '183RadwayTerrace'
+    description: '1803 Radway Terrace'
+[2022-12-23 14:31:04.258136] [info] tblName [Gallery]
+tblIndex [Array]
+schema [cambridg_old]
+gallery_id [839]
+code [183RadwayTerrace]
+description [1803 Radway Terrace]
+exists [1]
+
+[2022-12-23 14:31:04.258598] [info] __doLoadPhotos
+[2022-12-23 14:31:04.259085] [info] -->this: 1
+[2022-12-23 14:31:04.259696] [info] -->gallery: 1
+[2022-12-23 14:31:04.260345] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 839 and gp.photo_id = p.photo_id ORDER BY p.photo_order
+[2022-12-23 14:31:04.260880] [info] 18 rows returned.
+[2022-12-23 14:31:04.261465] [info] Results: 0
+[2022-12-23 14:31:04.262002] [info] gallery: 1
+[2022-12-23 14:31:04.262571] [info] __doLoadPhotos
+[2022-12-23 14:31:04.263102] [info] -->this: 1
+[2022-12-23 14:31:04.263540] [info] -->gallery: 1
+[2022-12-23 14:31:04.264142] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 839 and gp.photo_id = p.photo_id ORDER BY p.photo_order
+[2022-12-23 14:31:04.264611] [info] 18 rows returned.
+[2022-12-23 14:31:04.264998] [info] Results: 0
+[2022-12-23 14:31:04.265597] [info] -->num_photos: 0
+[2022-12-23 14:32:00.244991] [info] __doLoad: SELECT * FROM cambridg_old.House WHERE house_id='16'
+[2022-12-23 14:32:00.245821] [info] Running query: SELECT * FROM cambridg_old.House WHERE house_id='16'
+[2022-12-23 14:32:00.246414] [info] 1 rows returned.
+[2022-12-23 14:32:00.247488] [info] Results: 1
+[2022-12-23 14:32:00.248035] [info] beanHouse->dxHashToClass
+    house_id: '16'
+    house_num: '1803'
+    street: 'Radway Terrace'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 5J1'
+    description: 'Immediate availability
+    
+    613-232-2396 
+    
+    &bull;	3 Bedroom detached home 
+    &bull;	2 &frac12; bathrooms
+    &bull;	5 appliances
+    &bull;	A/C
+    &bull;	Eat-in kitchen with quartz countertops
+    &bull;	Large dining room
+    &bull;	Living room with fireplace overlooking the raised deck and yard
+    &bull;	Large master bedroom with a walk-in closet and an ensuite bathroom
+    &bull;	Large rec room
+    &bull;	Deck
+    &bull;	Fenced yard
+    &bull;	One car garage and room for a second car on the driveway
+    
+    $2,450.00 plus utilities.
+    
+    This beautiful family home has a great location, only minutes from schools, parks, major shopping, public transport, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+     
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2022-12-23 14:32:00.250202] [info] tblName [House]
+tblIndex [Array]
+schema [cambridg_old]
+house_id [16]
+house_num [1803]
+street [Radway Terrace]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 5J1]
+bedrooms [3]
+bathrooms [2]
+powder_rooms [1]
+description [Immediate availability
+
+613-232-2396 
+
+&amp;bull;	3 Bedroom detached home 
+&amp;bull;	2 &amp;frac12; bathrooms
+&amp;bull;	5 appliances
+&amp;bull;	A/C
+&amp;bull;	Eat-in kitchen with quartz countertops
+&amp;bull;	Large dining room
+&amp;bull;	Living room with fireplace overlooking the raised deck and yard
+&amp;bull;	Large master bedroom with a walk-in closet and an ensuite bathroom
+&amp;bull;	Large rec room
+&amp;bull;	Deck
+&amp;bull;	Fenced yard
+&amp;bull;	One car garage and room for a second car on the driveway
+
+$2,450.00 plus utilities.
+
+This beautiful family home has a great location, only minutes from schools, parks, major shopping, public transport, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+ 
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [DETACHED]
+exists [1]
+
+[2022-12-23 14:32:00.250915] [info] __doLoad: SELECT * FROM cambridg_old.HouseAvailable WHERE house_id='16'
+[2022-12-23 14:32:00.251590] [info] Running query: SELECT * FROM cambridg_old.HouseAvailable WHERE house_id='16'
+[2022-12-23 14:32:00.252063] [info] 1 rows returned.
+[2022-12-23 14:32:00.252583] [info] Results: 1
+[2022-12-23 14:32:00.253091] [info] beanAvailable->dxHashToClass
+    house_id: '16'
+    rent: '2450'
+    month: '12'
+    year: '2022'
+    promotion: ''
+[2022-12-23 14:32:00.253948] [info] tblName [HouseAvailable]
+tblIndex [Array]
+schema [cambridg_old]
+suite_id []
+house_id [16]
+month [12]
+year [2022]
+rent [2450]
+promotion []
+exists [1]
+
+[2022-12-23 14:32:53.277679] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=16
+[2022-12-23 14:32:53.278423] [info] 1 rows returned.
+[2022-12-23 14:32:53.279059] [info] Gallery exists 839
+[2022-12-23 14:32:53.279611] [info] __doLoad: SELECT * FROM cambridg_old.Gallery WHERE gallery_id='839'
+[2022-12-23 14:32:53.280164] [info] Running query: SELECT * FROM cambridg_old.Gallery WHERE gallery_id='839'
+[2022-12-23 14:32:53.280647] [info] 1 rows returned.
+[2022-12-23 14:32:53.281167] [info] Results: 1
+[2022-12-23 14:32:53.281687] [info] beanGallery->dxHashToClass
+    gallery_id: '839'
+    code: '183RadwayTerrace'
+    description: '1803 Radway Terrace'
+[2022-12-23 14:32:53.282296] [info] tblName [Gallery]
+tblIndex [Array]
+schema [cambridg_old]
+gallery_id [839]
+code [183RadwayTerrace]
+description [1803 Radway Terrace]
+exists [1]
+
+[2022-12-23 14:32:53.282867] [info] __doLoadPhotos
+[2022-12-23 14:32:53.283339] [info] -->this: 1
+[2022-12-23 14:32:53.283832] [info] -->gallery: 1
+[2022-12-23 14:32:53.284420] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 839 and gp.photo_id = p.photo_id ORDER BY p.photo_order
+[2022-12-23 14:32:53.284934] [info] 18 rows returned.
+[2022-12-23 14:32:53.285418] [info] Results: 0
+[2022-12-23 14:32:53.285989] [info] gallery: 1
+[2022-12-23 14:32:53.286447] [info] __doLoadPhotos
+[2022-12-23 14:32:53.286968] [info] -->this: 1
+[2022-12-23 14:32:53.287458] [info] -->gallery: 1
+[2022-12-23 14:32:53.288033] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 839 and gp.photo_id = p.photo_id ORDER BY p.photo_order
+[2022-12-23 14:32:53.288527] [info] 18 rows returned.
+[2022-12-23 14:32:53.289040] [info] Results: 0
+[2022-12-23 14:32:53.289598] [info] -->num_photos: 0
+[2022-12-23 14:43:19.311613] [info] __doLoad: SELECT * FROM cambridg_old.House WHERE house_id='16'
+[2022-12-23 14:43:19.312832] [info] Running query: SELECT * FROM cambridg_old.House WHERE house_id='16'
+[2022-12-23 14:43:19.313528] [info] 1 rows returned.
+[2022-12-23 14:43:19.314132] [info] Results: 1
+[2022-12-23 14:43:19.315128] [info] beanHouse->dxHashToClass
+    house_id: '16'
+    house_num: '1803'
+    street: 'Radway Terrace'
+    city: 'Ottawa'
+    prov: 'ON'
+    postal_code: 'K1C 5J1'
+    description: 'Immediate availability
+    
+    613-232-2396 
+    
+    &bull;	3 Bedroom detached home 
+    &bull;	2 &frac12; bathrooms
+    &bull;	5 appliances
+    &bull;	A/C
+    &bull;	Eat-in kitchen with quartz countertops
+    &bull;	Large dining room
+    &bull;	Living room with fireplace overlooking the raised deck and yard
+    &bull;	Large master bedroom with a walk-in closet and an ensuite bathroom
+    &bull;	Large rec room
+    &bull;	Deck
+    &bull;	Fenced yard
+    &bull;	One car garage and room for a second car on the driveway
+    
+    $2,450.00 plus utilities.
+    
+    This beautiful family home has a great location, only minutes from schools, parks, major shopping, public transport, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+     
+    For more information or to arrange a showing please contact our Rental Agent at 613-232-2396'
+    type: 'DETACHED'
+    bathrooms: '2'
+    powder_rooms: '1'
+    bedrooms: '3'
+    size: NULL
+    deleted: '0'
+[2022-12-23 14:43:19.316190] [info] tblName [House]
+tblIndex [Array]
+schema [cambridg_old]
+house_id [16]
+house_num [1803]
+street [Radway Terrace]
+city [Ottawa]
+prov [ON]
+postal_code [K1C 5J1]
+bedrooms [3]
+bathrooms [2]
+powder_rooms [1]
+description [Immediate availability
+
+613-232-2396 
+
+&amp;bull;	3 Bedroom detached home 
+&amp;bull;	2 &amp;frac12; bathrooms
+&amp;bull;	5 appliances
+&amp;bull;	A/C
+&amp;bull;	Eat-in kitchen with quartz countertops
+&amp;bull;	Large dining room
+&amp;bull;	Living room with fireplace overlooking the raised deck and yard
+&amp;bull;	Large master bedroom with a walk-in closet and an ensuite bathroom
+&amp;bull;	Large rec room
+&amp;bull;	Deck
+&amp;bull;	Fenced yard
+&amp;bull;	One car garage and room for a second car on the driveway
+
+$2,450.00 plus utilities.
+
+This beautiful family home has a great location, only minutes from schools, parks, major shopping, public transport, restaurants and coffee shops, provides young families or professionals with an affordable suburban lifestyle.
+ 
+For more information or to arrange a showing please contact our Rental Agent at 613-232-2396]
+size []
+type [DETACHED]
+exists [1]
+
+[2022-12-23 14:43:19.316865] [info] __doLoad: SELECT * FROM cambridg_old.HouseAvailable WHERE house_id='16'
+[2022-12-23 14:43:19.317544] [info] Running query: SELECT * FROM cambridg_old.HouseAvailable WHERE house_id='16'
+[2022-12-23 14:43:19.318016] [info] 1 rows returned.
+[2022-12-23 14:43:19.318515] [info] Results: 1
+[2022-12-23 14:43:19.318954] [info] beanAvailable->dxHashToClass
+    house_id: '16'
+    rent: '2450'
+    month: '12'
+    year: '2022'
+    promotion: ''
+[2022-12-23 14:43:19.319679] [info] tblName [HouseAvailable]
+tblIndex [Array]
+schema [cambridg_old]
+suite_id []
+house_id [16]
+month [12]
+year [2022]
+rent [2450]
+promotion []
+exists [1]
+
+[2022-12-23 14:43:19.322951] [info] Running query: SELECT * FROM HouseGallery WHERE house_id=16
+[2022-12-23 14:43:19.323446] [info] 1 rows returned.
+[2022-12-23 14:43:19.324208] [info] Gallery exists 839
+[2022-12-23 14:43:19.324692] [info] __doLoad: SELECT * FROM cambridg_old.Gallery WHERE gallery_id='839'
+[2022-12-23 14:43:19.325176] [info] Running query: SELECT * FROM cambridg_old.Gallery WHERE gallery_id='839'
+[2022-12-23 14:43:19.325625] [info] 1 rows returned.
+[2022-12-23 14:43:19.326100] [info] Results: 1
+[2022-12-23 14:43:19.326479] [info] beanGallery->dxHashToClass
+    gallery_id: '839'
+    code: '183RadwayTerrace'
+    description: '1803 Radway Terrace'
+[2022-12-23 14:43:19.327527] [info] tblName [Gallery]
+tblIndex [Array]
+schema [cambridg_old]
+gallery_id [839]
+code [183RadwayTerrace]
+description [1803 Radway Terrace]
+exists [1]
+
+[2022-12-23 14:43:19.328030] [info] __doLoadPhotos
+[2022-12-23 14:43:19.328516] [info] -->this: 1
+[2022-12-23 14:43:19.328975] [info] -->gallery: 1
+[2022-12-23 14:43:19.329545] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 839 and gp.photo_id = p.photo_id ORDER BY p.photo_order
+[2022-12-23 14:43:19.330430] [info] 18 rows returned.
+[2022-12-23 14:43:19.330873] [info] Results: 0
+[2022-12-23 14:43:19.331367] [info] gallery: 1
+[2022-12-23 14:43:19.331948] [info] __doLoadPhotos
+[2022-12-23 14:43:19.332365] [info] -->this: 1
+[2022-12-23 14:43:19.332784] [info] -->gallery: 1
+[2022-12-23 14:43:19.333384] [info] Running query: SELECT * FROM Photos p, GalleryPhotos gp WHERE gp.gallery_id = 839 and gp.photo_id = p.photo_id ORDER BY p.photo_order
+[2022-12-23 14:43:19.333765] [info] 18 rows returned.
+[2022-12-23 14:43:19.334223] [info] Results: 0
+[2022-12-23 14:43:19.334680] [info] -->num_photos: 0
